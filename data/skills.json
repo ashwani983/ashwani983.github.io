@@ -1,0 +1,147 @@
+{
+  "skills": [
+    {
+      "id": "docker",
+      "name": "Docker",
+      "icon": "🐳",
+      "category": "DevOps",
+      "level": 90,
+      "description": "Container orchestration and deployment"
+    },
+    {
+      "id": "kubernetes",
+      "name": "Kubernetes",
+      "icon": "☸️",
+      "category": "DevOps",
+      "level": 85,
+      "description": "Container orchestration platform"
+    },
+    {
+      "id": "jenkins",
+      "name": "Jenkins",
+      "icon": "🔧",
+      "category": "CI/CD",
+      "level": 88,
+      "description": "Continuous integration and deployment"
+    },
+    {
+      "id": "linux",
+      "name": "Linux",
+      "icon": "🐧",
+      "category": "Operating Systems",
+      "level": 92,
+      "description": "System administration and scripting"
+    },
+    {
+      "id": "aws",
+      "name": "AWS",
+      "icon": "☁️",
+      "category": "Cloud",
+      "level": 87,
+      "description": "Amazon Web Services cloud platform"
+    },
+    {
+      "id": "python",
+      "name": "Python",
+      "icon": "🐍",
+      "category": "Programming",
+      "level": 85,
+      "description": "Automation and scripting language"
+    },
+    {
+      "id": "ansible",
+      "name": "Ansible",
+      "icon": "⚙️",
+      "category": "DevOps",
+      "level": 83,
+      "description": "Configuration management and automation"
+    },
+    {
+      "id": "java",
+      "name": "Java",
+      "icon": "☕",
+      "category": "Programming",
+      "level": 80,
+      "description": "Enterprise application development"
+    },
+    {
+      "id": "selenium",
+      "name": "Selenium",
+      "icon": "🔍",
+      "category": "Testing",
+      "level": 88,
+      "description": "Web application test automation"
+    },
+    {
+      "id": "git",
+      "name": "Git",
+      "icon": "📝",
+      "category": "Version Control",
+      "level": 90,
+      "description": "Distributed version control system"
+    },
+    {
+      "id": "terraform",
+      "name": "Terraform",
+      "icon": "🏗️",
+      "category": "Infrastructure",
+      "level": 78,
+      "description": "Infrastructure as Code"
+    },
+    {
+      "id": "mysql",
+      "name": "MySQL",
+      "icon": "🗄️",
+      "category": "Database",
+      "level": 75,
+      "description": "Relational database management"
+    }
+  ],
+  "categories": [
+    {
+      "name": "DevOps",
+      "color": "#58a6ff",
+      "description": "DevOps tools and practices"
+    },
+    {
+      "name": "Programming",
+      "color": "#3fb950",
+      "description": "Programming languages and frameworks"
+    },
+    {
+      "name": "Cloud",
+      "color": "#a5a5ff",
+      "description": "Cloud platforms and services"
+    },
+    {
+      "name": "Testing",
+      "color": "#f85149",
+      "description": "Testing frameworks and tools"
+    },
+    {
+      "name": "CI/CD",
+      "color": "#58a6ff",
+      "description": "Continuous Integration and Deployment"
+    },
+    {
+      "name": "Operating Systems",
+      "color": "#8b949e",
+      "description": "Operating systems and administration"
+    },
+    {
+      "name": "Version Control",
+      "color": "#3fb950",
+      "description": "Version control systems"
+    },
+    {
+      "name": "Infrastructure",
+      "color": "#a5a5ff",
+      "description": "Infrastructure management tools"
+    },
+    {
+      "name": "Database",
+      "color": "#f85149",
+      "description": "Database systems and management"
+    }
+  ]
+}
