@@ -284,12 +284,12 @@ const dataManager = {
             <p class="timeline-summary">${item.summary || ''}</p>
             ${item.highlights && item.highlights.length ? `
               <ul class="timeline-highlights">
-                ${item.highlights.map(h => `<li>${h}</li>`).join('')}
+                ${item.highlights.slice(0, 4).map(h => `<li>${h}</li>`).join('')}
               </ul>
             ` : ''}
             ${item.technologies && item.technologies.length ? `
               <div class="timeline-tech">
-                ${item.technologies.map(t => `<span class="tech-tag">${t}</span>`).join('')}
+                ${item.technologies.slice(0, 6).map(t => `<span class="tech-tag">${t}</span>`).join('')}
               </div>
             ` : ''}
           </div>

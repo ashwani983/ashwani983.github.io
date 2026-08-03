@@ -2,9 +2,9 @@
   "posts": [
     {
       "id": "getting-the-start-ansible",
-      "title": "Getting the start : Ansible",
+      "title": "Getting Started with Ansible",
       "slug": "getting-the-start-ansible",
-      "excerpt": "Ansible is a straightforward open-source IT engine that automates cloud provisioning, in-service orchestration, application deployment, and many other IT technologies. Control machine: A system that serves as a hub for managing other machines. Remote machine: Machines that the control machine manages and controls.",
+      "excerpt": "A practical introduction to Ansible, the open-source automation engine for cloud provisioning, application deployment, and IT orchestration. Learn how control and remote machines work together in a typical Ansible setup.",
       "content": "https://atlcodify.wordpress.com/2023/12/02/getting-the-start-ansible/",
       "author": "Ashwani Kumar",
       "date": "2023-12-02",
@@ -26,9 +26,9 @@
     },
     {
       "id": "all-about-git-github",
-      "title": "All about Git & GitHub",
+      "title": "All About Git & GitHub",
       "slug": "all-about-git-github",
-      "excerpt": "What is Git ? Git is an open source version control system. Git aids in the tracking of code changes. Git is used for programming collaboration. Git and GitHub are not the same thing. Why Git? Git is used by almost 70% of developers! Developers may collaborate from anywhere in the world.",
+      "excerpt": "An introduction to Git, the open-source version control system used by most developers worldwide. Learn how Git tracks code changes, supports collaboration, and how it differs from GitHub.",
       "content": "https://atlcodify.wordpress.com/2023/12/16/all-about-git-github/",
       "author": "Ashwani Kumar",
       "date": "2023-12-16",
@@ -50,9 +50,9 @@
     },
     {
       "id": "automation-testing-frameworks",
-      "title": "Automation Testing Framework's",
+      "title": "Automation Testing Frameworks",
       "slug": "automation-testing-frameworks",
-      "excerpt": "An automation testing framework serves as a sophisticated tool or software designed to adhere to established guidelines and industry best practices in order to streamline the automation process. This framework comprises a wide array of object details, test data sources, functional libraries, methods, and reusable models that work together harmoniously to enhance the efficiency and effectiveness of automated testing.",
+      "excerpt": "An automation testing framework provides the structure, reusable libraries, and best practices that make automated testing efficient and maintainable. Explore the core components that power robust test automation suites.",
       "content": "https://atlcodify.wordpress.com/2024/04/19/automation-testing-frameworks/",
       "author": "Ashwani Kumar",
       "date": "2024-04-19",

@@ -12,12 +12,10 @@
       "current": true,
       "summary": "System Development Engineer on the Amazon Appstore team — the app store for Android devices, Amazon Fire tablets, and Windows 11. Design, build, and operate reliable infrastructure supporting scalable system architecture and operational requirements.",
       "highlights": [
-        "Deploy and configure bare metal servers, network switches, routers, and core infrastructure components",
-        "Diagnose and resolve hardware/software issues, perform root cause analysis, and implement preventive measures to ensure 99.9% system uptime and stability",
-        "Design, configure, and optimize network topologies, routing protocols, and switching infrastructure for high-performance operations",
-        "Implement monitoring solutions and automated deployment processes following engineering best practices",
-        "Participate in technical design reviews, scoping discussions, and prioritization meetings to deliver cost-effective solutions",
-        "Support intern training programs, contribute to hiring processes, and evaluate operational risks"
+        "Deploy and configure bare metal servers, network switches, and core infrastructure components",
+        "Resolve hardware and software issues with root cause analysis, maintaining 99.9% uptime",
+        "Design and optimize network topologies, routing protocols, and switching infrastructure",
+        "Implement monitoring and automated deployment solutions following engineering best practices"
       ],
       "technologies": ["AWS", "Docker", "Kubernetes", "Ansible", "Jenkins", "Linux", "Python", "Java", "Shell Scripting", "Android ADB"]
     },
@@ -33,11 +31,10 @@
       "current": false,
       "summary": "Software Tester on the Royal Bank of Canada (RBC) insurance account — responsible for functional and automation testing of insurance web and mobile applications.",
       "highlights": [
-        "Understood business requirements and authored system test cases in HP ALM/QC",
-        "Created manual test cases and automation scripts for web and mobile applications",
-        "Converted manual test cases into automation scripts using Robot Framework, Selenium, and Appium",
-        "Reported and tracked defects periodically to resolution",
-        "Debugged and executed automation test cases across regression cycles"
+        "Author system test cases in HP ALM/QC from business requirements",
+        "Create manual and automation test cases for web and mobile applications",
+        "Automate test cases with Robot Framework, Selenium, and Appium",
+        "Report and track defects through to resolution and execute regression cycles"
       ],
       "technologies": ["Python", "Java", "Robot Framework", "Selenium", "Appium", "Cucumber", "HP ALM"]
     },
@@ -52,10 +49,10 @@
       "current": false,
       "summary": "Full-time Software Engineer developing Java-based enterprise web applications.",
       "highlights": [
-        "Developed and maintained J2EE-based enterprise web applications following MVC architecture",
-        "Built responsive user interfaces using Bootstrap, HTML5, CSS, and JavaScript",
-        "Implemented server-side components with Servlets, JSP, and JDBC backed by MySQL databases",
-        "Participated in code reviews, bug fixing, and feature delivery within agile sprints"
+        "Develop J2EE enterprise web applications following MVC architecture",
+        "Build responsive user interfaces with Bootstrap, HTML5, CSS, and JavaScript",
+        "Implement server-side components using Servlets, JSP, and JDBC on MySQL",
+        "Deliver features and fixes through code reviews in agile sprints"
       ],
       "technologies": ["Java", "J2EE", "JSP", "Servlets", "Bootstrap", "MySQL", "JavaScript"]
     },
@@ -70,10 +67,10 @@
       "current": false,
       "summary": "Internship focused on network and application security with hands-on experience in penetration testing and vulnerability assessment.",
       "highlights": [
-        "Performed network scanning and vulnerability assessments using Nmap and Nessus",
-        "Conducted security analysis and penetration testing exercises in lab environments with Kali Linux",
-        "Analyzed network traffic and packet captures with Wireshark to identify security issues",
-        "Studied security fundamentals including cryptography, firewalls, and incident response"
+        "Perform network scanning and vulnerability assessments with Nmap and Nessus",
+        "Run penetration testing and security analysis exercises using Kali Linux",
+        "Analyze packet captures with Wireshark to identify security issues",
+        "Study security fundamentals: cryptography, firewalls, and incident response"
       ],
       "technologies": ["Kali Linux", "Nmap", "Wireshark", "Nessus", "Metasploit", "Cryptography"]
     }

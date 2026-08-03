@@ -3,7 +3,7 @@
     {
       "id": "ai-chatbot-ollama",
       "title": "AI Chatbot using Ollama Model",
-      "description": "This project implements an AI-powered chatbot using the Ollama model 'llama3.2:1b.' The chatbot features a modern and responsive UI built with Flask, HTML, CSS, and JavaScript.",
+      "description": "A conversational AI chatbot powered by the Ollama 'llama3.2:1b' model, featuring a modern, responsive interface built with Flask, HTML, CSS, and JavaScript.",
       "longDescription": "An advanced AI chatbot implementation leveraging the Ollama framework with the llama3.2:1b model. The project showcases modern web development practices with a Flask backend and responsive frontend design, providing an intuitive conversational interface for users.",
       "technologies": [
         "Python",
@@ -95,7 +95,7 @@
     {
       "id": "diabetic-retinopathy-detection",
       "title": "Diabetic Retinopathy Detection and OCR Application",
-      "description": "This project is a web application built with Flask that allows users to upload images for Optical Character Recognition (OCR) and Diabetic Retinopathy detection. The application processes the uploaded images and provides results based on the analysis.",
+      "description": "A Flask-based web application for image uploads that combines Optical Character Recognition (OCR) with AI-powered diabetic retinopathy detection and returns analysis results in real time.",
       "longDescription": "A comprehensive medical image analysis web application that combines OCR capabilities with AI-powered diabetic retinopathy detection. The Flask-based application provides healthcare professionals and researchers with tools for automated medical image analysis and text extraction from medical documents.",
       "technologies": [
         "Python",
