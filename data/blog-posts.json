@@ -12,7 +12,7 @@
       "readTime": "6 min read",
       "tags": ["Ansible", "Automation", "DevOps", "Configuration Management"],
       "category": "Automation",
-      "image": null,
+      "image": "assets/images/blog/blog1.png",
       "published": true,
       "featured": true,
       "views": 850,
@@ -36,7 +36,7 @@
       "readTime": "8 min read",
       "tags": ["Git", "GitHub", "Version Control", "Collaboration"],
       "category": "DevOps",
-      "image": null,
+      "image": "assets/images/blog/blog2.png",
       "published": true,
       "featured": true,
       "views": 1200,
@@ -60,7 +60,7 @@
       "readTime": "10 min read",
       "tags": ["Testing", "Automation", "Framework", "Quality Assurance"],
       "category": "Test Automation",
-      "image": null,
+      "image": "assets/images/blog/blog3.png",
       "published": true,
       "featured": true,
       "views": 980,
@@ -313,6 +313,12 @@
       "description": "Automation tools and practices",
       "color": "#58a6ff",
       "slug": "automation"
+    },
+    {
+      "name": "Test Automation",
+      "description": "Test automation frameworks and quality assurance",
+      "color": "#f85149",
+      "slug": "test-automation"
     }
   ],
   "tags": [

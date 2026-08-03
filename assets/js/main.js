@@ -17,12 +17,8 @@ const siteConfig = {
 
 // DOM Elements
 const elements = {
-  navbar: document.getElementById('navbar'),
-  navToggle: document.getElementById('nav-toggle'),
-  navMenu: document.getElementById('nav-menu'),
   themeToggle: document.getElementById('theme-toggle'),
   typewriter: document.getElementById('typewriter'),
-  particles: document.getElementById('particles'),
   skillsGrid: document.getElementById('skills-grid'),
   featuredProjectsGrid: document.getElementById('featured-projects-grid'),
   blogGrid: document.getElementById('blog-grid')
@@ -31,9 +27,7 @@ const elements = {
 // State Management
 const state = {
   currentTheme: localStorage.getItem('theme') || 'dark',
-  isMenuOpen: false,
   isLoading: true,
-  scrollPosition: 0,
   typewriterIndex: 0,
   typewriterText: ['Ashwani Kumar', 'System Developer', 'DevOps Engineer', 'Cloud Specialist']
 };
@@ -123,111 +117,18 @@ const themeManager = {
     localStorage.setItem('theme', theme);
     
     if (elements.themeToggle) {
+      const isDark = theme === 'dark';
       const icon = elements.themeToggle.querySelector('.theme-icon');
       if (icon) {
-        icon.textContent = theme === 'dark' ? '☀️' : '🌙';
+        icon.textContent = isDark ? '☀️' : '🌙';
       }
+      elements.themeToggle.setAttribute('aria-checked', String(isDark));
     }
   },
 
   toggle: () => {
     const newTheme = state.currentTheme === 'dark' ? 'light' : 'dark';
     themeManager.setTheme(newTheme);
-  }
-};
-
-// Navigation Management
-const navigationManager = {
-  init: () => {
-    navigationManager.setupEventListeners();
-    navigationManager.setupSmoothScrolling();
-    navigationManager.updateActiveLink();
-  },
-
-  setupEventListeners: () => {
-    // Mobile menu toggle
-    elements.navToggle?.addEventListener('click', navigationManager.toggleMobileMenu);
-    
-    // Close mobile menu when clicking on links
-    const navLinks = document.querySelectorAll('.nav-link');
-    navLinks.forEach(link => {
-      link.addEventListener('click', () => {
-        if (state.isMenuOpen) {
-          navigationManager.toggleMobileMenu();
-        }
-      });
-    });
-
-    // Handle scroll for navbar background
-    window.addEventListener('scroll', utils.throttle(navigationManager.handleScroll, 10));
-  },
-
-  toggleMobileMenu: () => {
-    state.isMenuOpen = !state.isMenuOpen;
-    elements.navMenu?.classList.toggle('active');
-    elements.navToggle?.classList.toggle('active');
-    
-    // Prevent body scroll when menu is open
-    document.body.style.overflow = state.isMenuOpen ? 'hidden' : '';
-  },
-
-  setupSmoothScrolling: () => {
-    const navLinks = document.querySelectorAll('a[href^="#"]');
-    navLinks.forEach(link => {
-      link.addEventListener('click', (e) => {
-        e.preventDefault();
-        const targetId = link.getAttribute('href');
-        const targetElement = document.querySelector(targetId);
-        
-        if (targetElement) {
-          const offsetTop = targetElement.offsetTop - 70; // Account for fixed navbar
-          window.scrollTo({
-            top: offsetTop,
-            behavior: 'smooth'
-          });
-        }
-      });
-    });
-  },
-
-  handleScroll: () => {
-    const scrolled = window.pageYOffset;
-    state.scrollPosition = scrolled;
-    
-    // Add/remove navbar background
-    if (elements.navbar) {
-      if (scrolled > 50) {
-        elements.navbar.classList.add('scrolled');
-      } else {
-        elements.navbar.classList.remove('scrolled');
-      }
-    }
-    
-    // Update active navigation link
-    navigationManager.updateActiveLink();
-  },
-
-  updateActiveLink: () => {
-    const sections = document.querySelectorAll('section[id]');
-    const navLinks = document.querySelectorAll('.nav-link');
-    
-    let currentSection = '';
-    
-    sections.forEach(section => {
-      const sectionTop = section.offsetTop - 100;
-      const sectionHeight = section.clientHeight;
-      
-      if (state.scrollPosition >= sectionTop && state.scrollPosition < sectionTop + sectionHeight) {
-        currentSection = section.getAttribute('id');
-      }
-    });
-    
-    navLinks.forEach(link => {
-      link.classList.remove('active');
-      if (link.getAttribute('href') === `#${currentSection}`) {
-        link.classList.add('active');
-      }
-    });
   }
 };
 
@@ -389,7 +290,7 @@ const dataManager = {
     elements.blogGrid.innerHTML = posts.map(post => `
       <a href="${post.content || 'https://atlcodify.wordpress.com'}" class="blog-card hover-lift" target="_blank" rel="noopener">
         <div class="blog-image">
-          ${post.image ? `<img src="${post.image}" alt="${post.title}">` : '📝 Blog Post'}
+          ${post.image ? `<img src="${post.image}" alt="${post.title}" loading="lazy" decoding="async" width="400" height="150">` : '📝 Blog Post'}
         </div>
         <div class="blog-content">
           <div class="blog-meta">
@@ -552,7 +453,6 @@ const app = {
     try {
       // Initialize core systems
       themeManager.init();
-      navigationManager.init();
       typewriterEffect.init();
       counterAnimation.init();
       scrollReveal.init();
@@ -591,6 +491,5 @@ window.portfolioApp = {
   state,
   utils,
   themeManager,
-  navigationManager,
   dataManager
 };

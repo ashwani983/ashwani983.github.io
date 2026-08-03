@@ -108,6 +108,21 @@
 
     resizeCanvas();
     animate();
+
+    // Pause animation when the hero is scrolled out of view
+    const visibilityObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          if (!animationFrameId) {
+            animate();
+          }
+        } else if (animationFrameId) {
+          cleanup();
+        }
+      });
+    }, { threshold: 0 });
+
+    visibilityObserver.observe(particleContainer);
   }
 
   class Particle {
@@ -346,6 +361,7 @@
   function cleanup() {
     if (animationFrameId) {
       cancelAnimationFrame(animationFrameId);
+      animationFrameId = null;
     }
   }
 

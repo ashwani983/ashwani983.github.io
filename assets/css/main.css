@@ -23,7 +23,7 @@
   /* Font Stack */
   --font-primary: 'Inter', 'Segoe UI', system-ui, sans-serif;
   --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
-  --font-heading: 'Poppins', sans-serif;
+  --font-heading: 'Inter', 'Segoe UI', system-ui, sans-serif;
   
   /* Font Sizes */
   --fs-xs: 0.75rem;
@@ -127,6 +127,23 @@ a:hover {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 var(--spacing-md);
+}
+
+/* Skip Link */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: var(--spacing-sm);
+  z-index: 2000;
+  padding: var(--spacing-xs) var(--spacing-md);
+  background: var(--accent-bg);
+  color: var(--text-primary);
+  border-radius: 0 0 var(--radius-sm) var(--radius-sm);
+  transition: top var(--transition-fast);
+}
+
+.skip-link:focus {
+  top: 0;
 }
 
 /* Buttons */

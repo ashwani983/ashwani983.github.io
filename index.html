@@ -6,19 +6,59 @@
     <meta name="description" content="Ashwani Kumar - System Developer Engineer specializing in DevOps, Cloud Technologies, and Test Automation">
     <meta name="keywords" content="System Developer Engineer, DevOps, AWS, Docker, Kubernetes, Test Automation, Software Engineer">
     <meta name="author" content="Ashwani Kumar">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://ashwani983.github.io/">
     
     <!-- Open Graph Tags -->
     <meta property="og:title" content="Ashwani Kumar - System Developer Engineer">
     <meta property="og:description" content="Experienced SysDev Engineer specializing in DevOps, Cloud Technologies, and Test Automation">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://ashwani983.github.io">
+    <meta property="og:site_name" content="Ashwani Kumar">
+    <meta property="og:image" content="https://ashwani983.github.io/assets/images/profile/profile-hero.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ashwani Kumar - System Developer Engineer">
+    <meta name="twitter:description" content="Experienced SysDev Engineer specializing in DevOps, Cloud Technologies, and Test Automation">
+    <meta name="twitter:image" content="https://ashwani983.github.io/assets/images/profile/profile-hero.jpg">
+    <meta name="twitter:creator" content="@ashwani_kumar">
     
     <title>Ashwani Kumar - System Developer Engineer</title>
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Ashwani Kumar",
+      "url": "https://ashwani983.github.io",
+      "image": "https://ashwani983.github.io/assets/images/profile/profile-hero.jpg",
+      "jobTitle": "System Developer Engineer",
+      "worksFor": { "@type": "Organization", "name": "Amazon" },
+      "email": "mailto:ashwanig983@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Bangalore",
+        "addressRegion": "Karnataka",
+        "addressCountry": "IN"
+      },
+      "sameAs": [
+        "https://github.com/ashwani983",
+        "https://www.linkedin.com/in/ashwani-kumar-699788146/",
+        "https://atlcodify.wordpress.com"
+      ],
+      "knowsAbout": ["DevOps", "Cloud Technologies", "Test Automation", "CI/CD", "Kubernetes", "Docker", "AWS"]
+    }
+    </script>
     
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
     
     <!-- CSS Files -->
     <link rel="stylesheet" href="assets/css/main.css">
@@ -29,8 +69,10 @@
     <link rel="icon" type="image/svg+xml" href="assets/images/icons/favicon.svg">
 </head>
 <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
     <!-- Navigation -->
-    <nav class="navbar" id="navbar">
+    <nav class="navbar" id="navbar" aria-label="Main navigation">
         <div class="nav-container">
             <div class="nav-logo">
                 <a href="#home" class="nav-logo-link">
@@ -42,7 +84,7 @@
             <div class="nav-menu" id="nav-menu">
                 <ul class="nav-list">
                     <li class="nav-item">
-                        <a href="#home" class="nav-link active">Home</a>
+                        <a href="#home" class="nav-link active" aria-current="page">Home</a>
                     </li>
                     <li class="nav-item">
                         <a href="#about" class="nav-link">About</a>
@@ -59,18 +101,19 @@
                 </ul>
             </div>
             
-            <div class="nav-toggle" id="nav-toggle">
+            <button type="button" class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
-            </div>
+            </button>
             
-            <div class="theme-toggle" id="theme-toggle">
-                <i class="theme-icon">🌙</i>
-            </div>
+            <button type="button" class="theme-toggle" id="theme-toggle" role="switch" aria-checked="true" aria-label="Toggle dark/light theme">
+                <i class="theme-icon" aria-hidden="true">🌙</i>
+            </button>
         </div>
     </nav>
 
+    <main id="main">
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-background">
@@ -112,7 +155,10 @@
                 
                 <div class="hero-image">
                     <div class="image-container">
-                        <img src="assets/images/profile/profile-hero.jpg" alt="Ashwani Kumar" class="profile-img">
+                        <picture>
+                            <source type="image/webp" srcset="assets/images/profile/profile-hero.webp">
+                            <img src="assets/images/profile/profile-hero.jpg" alt="Ashwani Kumar" class="profile-img" width="350" height="350" fetchpriority="high" decoding="async">
+                        </picture>
                         <div class="image-overlay"></div>
                     </div>
                 </div>
@@ -263,6 +309,7 @@
             </div>
         </div>
     </section>
+    </main>
 
     <!-- Footer -->
     <footer class="footer">

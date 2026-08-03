@@ -75,6 +75,7 @@
     function openMobileMenu() {
       navMenu.classList.add('active');
       navToggle.classList.add('active');
+      navToggle.setAttribute('aria-expanded', 'true');
       body.style.overflow = 'hidden';
       
       // Focus first nav link for accessibility
@@ -87,6 +88,7 @@
     function closeMobileMenu() {
       navMenu.classList.remove('active');
       navToggle.classList.remove('active');
+      navToggle.setAttribute('aria-expanded', 'false');
       body.style.overflow = '';
       
       // Return focus to toggle button
@@ -185,11 +187,12 @@
 
       // Update active nav link
       navLinks.forEach(link => {
-        link.classList.remove('active');
-        const href = link.getAttribute('href');
-        
-        if (href === `#${currentSection}`) {
-          link.classList.add('active');
+        const isActive = link.getAttribute('href') === `#${currentSection}`;
+        link.classList.toggle('active', isActive);
+        if (isActive) {
+          link.setAttribute('aria-current', 'page');
+        } else {
+          link.removeAttribute('aria-current');
         }
       });
     }
