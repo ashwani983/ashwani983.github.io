@@ -38,6 +38,42 @@
         "Debugged and executed automation test cases across regression cycles"
       ],
       "technologies": ["Python", "Java", "Robot Framework", "Selenium", "Appium", "Cucumber", "HP ALM"]
+    },
+    {
+      "id": "worldsoft-software-engineer",
+      "role": "Software Engineer",
+      "company": "Worldsoft Technologies Pvt. Ltd",
+      "companyUrl": null,
+      "location": "Bhopal, Madhya Pradesh, India",
+      "startDate": "Jan 2019",
+      "endDate": "Jun 2019",
+      "current": false,
+      "summary": "Full-time Software Engineer developing Java-based enterprise web applications.",
+      "highlights": [
+        "Developed and maintained J2EE-based enterprise web applications following MVC architecture",
+        "Built responsive user interfaces using Bootstrap, HTML5, CSS, and JavaScript",
+        "Implemented server-side components with Servlets, JSP, and JDBC backed by MySQL databases",
+        "Participated in code reviews, bug fixing, and feature delivery within agile sprints"
+      ],
+      "technologies": ["Java", "J2EE", "JSP", "Servlets", "Bootstrap", "MySQL", "JavaScript"]
+    },
+    {
+      "id": "cybrom-cyber-security-intern",
+      "role": "Cyber Security Specialist",
+      "company": "Cybrom Technology Pvt. Ltd",
+      "companyUrl": null,
+      "location": "Bhopal, Madhya Pradesh, India",
+      "startDate": "Jun 2018",
+      "endDate": "Jun 2019",
+      "current": false,
+      "summary": "Internship focused on network and application security with hands-on experience in penetration testing and vulnerability assessment.",
+      "highlights": [
+        "Performed network scanning and vulnerability assessments using Nmap and Nessus",
+        "Conducted security analysis and penetration testing exercises in lab environments with Kali Linux",
+        "Analyzed network traffic and packet captures with Wireshark to identify security issues",
+        "Studied security fundamentals including cryptography, firewalls, and incident response"
+      ],
+      "technologies": ["Kali Linux", "Nmap", "Wireshark", "Nessus", "Metasploit", "Cryptography"]
     }
   ]
 }
