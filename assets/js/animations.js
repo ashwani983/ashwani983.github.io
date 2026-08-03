@@ -8,6 +8,7 @@
   // Animation state
   let animationFrameId;
   let isReducedMotion = false;
+  const particleState = { canvas: null, ctx: null, particles: [] };
 
   // Initialize animations when DOM is loaded
   document.addEventListener('DOMContentLoaded', function() {
@@ -28,8 +29,6 @@
 
     setupScrollReveal();
     setupParticleSystem();
-    setupCounterAnimations();
-    setupTypewriterEffect();
     setupHoverEffects();
     setupLoadingAnimations();
     setupProgressBars();
@@ -79,52 +78,18 @@
     const particleContainer = document.getElementById('particles');
     if (!particleContainer) return;
 
-    const particles = [];
-    const particleCount = window.innerWidth < 768 ? 30 : 50;
-    
-    class Particle {
-      constructor() {
-        this.reset();
-        this.y = Math.random() * window.innerHeight;
-        this.opacity = Math.random() * 0.5 + 0.3;
+    // Reuse existing canvas to avoid stacking canvases on resize/tab-switch
+    if (particleState.canvas) {
+      if (!animationFrameId) {
+        animate();
       }
-      
-      reset() {
-        this.x = Math.random() * window.innerWidth;
-        this.y = -10;
-        this.vx = (Math.random() - 0.5) * 0.5;
-        this.vy = Math.random() * 1 + 0.5;
-        this.size = Math.random() * 3 + 1;
-        this.opacity = Math.random() * 0.5 + 0.3;
-        this.hue = Math.random() * 60 + 200; // Blue to purple range
-      }
-      
-      update() {
-        this.x += this.vx;
-        this.y += this.vy;
-        
-        // Reset particle when it goes off screen
-        if (this.y > window.innerHeight + 10 || 
-            this.x < -10 || 
-            this.x > window.innerWidth + 10) {
-          this.reset();
-        }
-      }
-      
-      draw(ctx) {
-        ctx.save();
-        ctx.globalAlpha = this.opacity;
-        ctx.fillStyle = `hsl(${this.hue}, 70%, 60%)`;
-        ctx.beginPath();
-        ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
-        ctx.fill();
-        ctx.restore();
-      }
+      return;
     }
 
     // Create canvas
     const canvas = document.createElement('canvas');
-    const ctx = canvas.getContext('2d');
+    particleState.canvas = canvas;
+    particleState.ctx = canvas.getContext('2d');
     canvas.style.position = 'absolute';
     canvas.style.top = '0';
     canvas.style.left = '0';
@@ -136,51 +101,73 @@
     particleContainer.appendChild(canvas);
 
     // Initialize particles
+    const particleCount = window.innerWidth < 768 ? 30 : 50;
     for (let i = 0; i < particleCount; i++) {
-      particles.push(new Particle());
+      particleState.particles.push(new Particle());
     }
 
-    function resizeCanvas() {
-      canvas.width = window.innerWidth;
-      canvas.height = window.innerHeight;
-    }
-
-    function animate() {
-      ctx.clearRect(0, 0, canvas.width, canvas.height);
-      
-      particles.forEach(particle => {
-        particle.update();
-        particle.draw(ctx);
-      });
-      
-      animationFrameId = requestAnimationFrame(animate);
-    }
-
-    // Handle resize
-    window.addEventListener('resize', resizeCanvas);
     resizeCanvas();
     animate();
   }
 
-  // Counter animations
-  function setupCounterAnimations() {
-    const counters = document.querySelectorAll('.stat-number, .counter');
+  class Particle {
+    constructor() {
+      this.reset();
+      this.y = Math.random() * window.innerHeight;
+      this.opacity = Math.random() * 0.5 + 0.3;
+    }
     
-    const counterObserver = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          const counter = entry.target;
-          const target = parseInt(counter.dataset.target) || parseInt(counter.textContent);
-          
-          animateCounter(counter, target);
-          counterObserver.unobserve(counter);
-        }
-      });
-    }, { threshold: 0.5 });
+    reset() {
+      this.x = Math.random() * window.innerWidth;
+      this.y = -10;
+      this.vx = (Math.random() - 0.5) * 0.5;
+      this.vy = Math.random() * 1 + 0.5;
+      this.size = Math.random() * 3 + 1;
+      this.opacity = Math.random() * 0.5 + 0.3;
+      this.hue = Math.random() * 60 + 200; // Blue to purple range
+    }
+    
+    update() {
+      this.x += this.vx;
+      this.y += this.vy;
+      
+      // Reset particle when it goes off screen
+      if (this.y > window.innerHeight + 10 || 
+          this.x < -10 || 
+          this.x > window.innerWidth + 10) {
+        this.reset();
+      }
+    }
+    
+    draw(ctx) {
+      ctx.save();
+      ctx.globalAlpha = this.opacity;
+      ctx.fillStyle = `hsl(${this.hue}, 70%, 60%)`;
+      ctx.beginPath();
+      ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+      ctx.fill();
+      ctx.restore();
+    }
+  }
 
-    counters.forEach(counter => {
-      counterObserver.observe(counter);
+  function resizeCanvas() {
+    if (!particleState.canvas) return;
+    particleState.canvas.width = window.innerWidth;
+    particleState.canvas.height = window.innerHeight;
+  }
+
+  function animate() {
+    const ctx = particleState.ctx;
+    if (!ctx || !particleState.canvas) return;
+    
+    ctx.clearRect(0, 0, particleState.canvas.width, particleState.canvas.height);
+    
+    particleState.particles.forEach(particle => {
+      particle.update();
+      particle.draw(ctx);
     });
+    
+    animationFrameId = requestAnimationFrame(animate);
   }
 
   function animateCounter(element, target, duration = 2000) {
@@ -197,70 +184,6 @@
         clearInterval(timer);
       }
     }, 16);
-  }
-
-  // Typewriter effect
-  function setupTypewriterEffect() {
-    const typewriterElements = document.querySelectorAll('.typewriter, .text-typewriter');
-    
-    typewriterElements.forEach(element => {
-      const text = element.textContent;
-      const words = element.dataset.words ? element.dataset.words.split(',') : [text];
-      
-      if (words.length > 1) {
-        startTypewriterLoop(element, words);
-      } else {
-        startSingleTypewriter(element, text);
-      }
-    });
-  }
-
-  function startTypewriterLoop(element, words) {
-    let wordIndex = 0;
-    let charIndex = 0;
-    let isDeleting = false;
-    
-    function type() {
-      const currentWord = words[wordIndex];
-      
-      if (isDeleting) {
-        element.textContent = currentWord.substring(0, charIndex - 1);
-        charIndex--;
-      } else {
-        element.textContent = currentWord.substring(0, charIndex + 1);
-        charIndex++;
-      }
-      
-      let typeSpeed = isDeleting ? 50 : 100;
-      
-      if (!isDeleting && charIndex === currentWord.length) {
-        typeSpeed = 2000; // Pause at end
-        isDeleting = true;
-      } else if (isDeleting && charIndex === 0) {
-        isDeleting = false;
-        wordIndex = (wordIndex + 1) % words.length;
-        typeSpeed = 500; // Pause before next word
-      }
-      
-      setTimeout(type, typeSpeed);
-    }
-    
-    type();
-  }
-
-  function startSingleTypewriter(element, text) {
-    element.textContent = '';
-    let charIndex = 0;
-    
-    function type() {
-      if (charIndex < text.length) {
-        element.textContent += text.charAt(charIndex);
-        charIndex++;
-        setTimeout(type, 100);
-      }
-    }
-    
-    type();
   }
 
   // Hover effects
@@ -430,20 +353,21 @@
   document.addEventListener('visibilitychange', function() {
     if (document.hidden) {
       cleanup();
-    } else if (!isReducedMotion) {
-      // Restart animations when page becomes visible
-      setupParticleSystem();
+    } else if (!isReducedMotion && particleState.canvas) {
+      // Resume the existing animation loop without creating a new canvas
+      animate();
     }
   });
 
   // Handle window resize
   window.addEventListener('resize', function() {
-    // Debounce resize events
     clearTimeout(window.resizeTimeout);
     window.resizeTimeout = setTimeout(() => {
       if (!isReducedMotion) {
-        cleanup();
-        setupParticleSystem();
+        resizeCanvas();
+        if (!animationFrameId) {
+          animate();
+        }
       }
     }, 250);
   });

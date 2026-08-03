@@ -93,7 +93,7 @@
       "images": [],
       "icon": "🏥",
       "liveUrl": null,
-      "githubUrl": "https://github.com/ashwani983/Post-Surgery-Check-and-Diabetic-Retinopathy-Detection",
+      "githubUrl": null,
       "demoUrl": null,
       "keyFeatures": [
         "AI-powered diabetic retinopathy detection",
@@ -132,7 +132,7 @@
       "images": [],
       "icon": "⚙️",
       "liveUrl": null,
-      "githubUrl": "https://github.com/ashwani983/devops-pipeline",
+      "githubUrl": null,
       "demoUrl": null,
       "keyFeatures": [
         "Automated CI/CD pipeline with Jenkins",
@@ -170,7 +170,7 @@
       "image": null,
       "images": [],
       "liveUrl": null,
-      "githubUrl": "https://github.com/ashwani983/cloud-infrastructure",
+      "githubUrl": null,
       "demoUrl": null,
       "keyFeatures": [
         "Terraform modules for reusable infrastructure components",
@@ -208,7 +208,7 @@
       "image": null,
       "images": [],
       "liveUrl": null,
-      "githubUrl": "https://github.com/ashwani983/test-automation-framework",
+      "githubUrl": null,
       "demoUrl": null,
       "keyFeatures": [
         "Cross-browser testing support",
@@ -246,7 +246,7 @@
       "image": null,
       "images": [],
       "liveUrl": null,
-      "githubUrl": "https://github.com/ashwani983/monitoring-system",
+      "githubUrl": null,
       "demoUrl": null,
       "keyFeatures": [
         "Real-time metrics collection with Prometheus",
@@ -284,7 +284,7 @@
       "image": null,
       "images": [],
       "liveUrl": null,
-      "githubUrl": "https://github.com/ashwani983/microservices-platform",
+      "githubUrl": null,
       "demoUrl": null,
       "keyFeatures": [
         "Service mesh with Istio",
@@ -322,7 +322,7 @@
       "image": null,
       "images": [],
       "liveUrl": null,
-      "githubUrl": "https://github.com/ashwani983/security-automation",
+      "githubUrl": null,
       "demoUrl": null,
       "keyFeatures": [
         "Automated code security scanning",

@@ -7,10 +7,10 @@ const siteConfig = {
   siteName: "Ashwani Kumar - System Developer Engineer",
   siteUrl: "https://ashwani983.github.io",
   author: "Ashwani Kumar",
-  email: "ashwani.kumar@example.com",
+  email: "ashwanig983@gmail.com",
   social: {
     github: "ashwani983",
-    linkedin: "ashwani-kumar",
+    linkedin: "ashwani-kumar-699788146",
     twitter: "ashwani_kumar"
   }
 };
@@ -273,31 +273,6 @@ const typewriterEffect = {
   }
 };
 
-// Particle System
-const particleSystem = {
-  init: () => {
-    if (elements.particles) {
-      particleSystem.createParticles();
-    }
-  },
-
-  createParticles: () => {
-    const particleCount = window.innerWidth < 768 ? 30 : 50;
-    
-    for (let i = 0; i < particleCount; i++) {
-      const particle = document.createElement('div');
-      particle.className = 'particle';
-      
-      // Random position
-      particle.style.left = Math.random() * 100 + '%';
-      particle.style.animationDelay = Math.random() * 20 + 's';
-      particle.style.animationDuration = (Math.random() * 10 + 10) + 's';
-      
-      elements.particles.appendChild(particle);
-    }
-  }
-};
-
 // Counter Animation
 const counterAnimation = {
   init: () => {
@@ -412,7 +387,7 @@ const dataManager = {
     if (!elements.blogGrid) return;
     
     elements.blogGrid.innerHTML = posts.map(post => `
-      <div class="blog-card hover-lift">
+      <a href="${post.content || 'https://atlcodify.wordpress.com'}" class="blog-card hover-lift" target="_blank" rel="noopener">
         <div class="blog-image">
           ${post.image ? `<img src="${post.image}" alt="${post.title}">` : '📝 Blog Post'}
         </div>
@@ -427,7 +402,7 @@ const dataManager = {
             ${post.tags.map(tag => `<span class="blog-tag">${tag}</span>`).join('')}
           </div>
         </div>
-      </div>
+      </a>
     `).join('');
   },
 
@@ -579,7 +554,6 @@ const app = {
       themeManager.init();
       navigationManager.init();
       typewriterEffect.init();
-      particleSystem.init();
       counterAnimation.init();
       scrollReveal.init();
       performanceOptimizer.init();
