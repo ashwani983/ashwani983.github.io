@@ -325,7 +325,9 @@ const dataManager = {
           ${items.map(skill => `
             <div class="skill-bar">
               <div class="skill-bar-header">
-                <span class="skill-bar-name">${skill.icon} ${skill.name}</span>
+                <span class="skill-bar-name">${skill.logo
+                  ? `<img src="assets/icons/${skill.logo}" alt="${skill.name}" class="skill-logo" loading="lazy" decoding="async">`
+                  : `<span class="skill-emoji">${skill.icon || ''}</span>`} ${skill.name}</span>
                 <span class="skill-bar-level">${skill.level || 0}%</span>
               </div>
               <div class="skill-bar-track">

@@ -1099,9 +1099,23 @@ section {
 }
 
 .skill-bar-name {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
   font-size: var(--fs-sm);
   font-weight: 500;
   color: var(--text-primary);
+}
+
+.skill-logo {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
+.skill-emoji {
+  line-height: 1;
 }
 
 .skill-bar-level {

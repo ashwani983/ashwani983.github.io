@@ -3,98 +3,98 @@
     {
       "id": "docker",
       "name": "Docker",
-      "icon": "🐳",
       "category": "DevOps",
       "level": 90,
-      "description": "Container orchestration and deployment"
+      "description": "Container orchestration and deployment",
+      "logo": "docker.svg"
     },
     {
       "id": "kubernetes",
       "name": "Kubernetes",
-      "icon": "☸️",
       "category": "DevOps",
       "level": 85,
-      "description": "Container orchestration platform"
+      "description": "Container orchestration platform",
+      "logo": "kubernetes.svg"
     },
     {
       "id": "jenkins",
       "name": "Jenkins",
-      "icon": "🔧",
       "category": "CI/CD",
       "level": 88,
-      "description": "Continuous integration and deployment"
+      "description": "Continuous integration and deployment",
+      "logo": "jenkins.svg"
     },
     {
       "id": "linux",
       "name": "Linux",
-      "icon": "🐧",
       "category": "Operating Systems",
       "level": 92,
-      "description": "System administration and scripting"
+      "description": "System administration and scripting",
+      "logo": "linux.svg"
     },
     {
       "id": "aws",
       "name": "AWS",
-      "icon": "☁️",
       "category": "Cloud",
       "level": 87,
-      "description": "Amazon Web Services cloud platform"
+      "description": "Amazon Web Services cloud platform",
+      "logo": "aws.svg"
     },
     {
       "id": "python",
       "name": "Python",
-      "icon": "🐍",
       "category": "Programming",
       "level": 85,
-      "description": "Automation and scripting language"
+      "description": "Automation and scripting language",
+      "logo": "python.svg"
     },
     {
       "id": "ansible",
       "name": "Ansible",
-      "icon": "⚙️",
       "category": "DevOps",
       "level": 83,
-      "description": "Configuration management and automation"
+      "description": "Configuration management and automation",
+      "logo": "ansible.svg"
     },
     {
       "id": "java",
       "name": "Java",
-      "icon": "☕",
       "category": "Programming",
       "level": 80,
-      "description": "Enterprise application development"
+      "description": "Enterprise application development",
+      "logo": "java.svg"
     },
     {
       "id": "selenium",
       "name": "Selenium",
-      "icon": "🔍",
       "category": "Testing",
       "level": 88,
-      "description": "Web application test automation"
+      "description": "Web application test automation",
+      "logo": "selenium.svg"
     },
     {
       "id": "git",
       "name": "Git",
-      "icon": "📝",
       "category": "Version Control",
       "level": 90,
-      "description": "Distributed version control system"
+      "description": "Distributed version control system",
+      "logo": "git.svg"
     },
     {
       "id": "terraform",
       "name": "Terraform",
-      "icon": "🏗️",
       "category": "Infrastructure",
       "level": 78,
-      "description": "Infrastructure as Code"
+      "description": "Infrastructure as Code",
+      "logo": "terraform.svg"
     },
     {
       "id": "mysql",
       "name": "MySQL",
-      "icon": "🗄️",
       "category": "Database",
       "level": 75,
-      "description": "Relational database management"
+      "description": "Relational database management",
+      "logo": "mysql.svg"
     }
   ],
   "categories": [
