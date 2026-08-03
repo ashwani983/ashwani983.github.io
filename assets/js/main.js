@@ -602,7 +602,7 @@ const errorHandler = {
 const carousel = {
   init() {
     document.querySelectorAll('.carousel').forEach(wrap => {
-      const viewport = wrap.querySelector('.carousel-viewport');
+      const viewport = wrap.querySelector('.carousel-viewport') || wrap.querySelector('[data-carousel]');
       const prev = wrap.querySelector('.carousel-prev');
       const next = wrap.querySelector('.carousel-next');
       if (!viewport) return;

@@ -228,7 +228,7 @@
   }
   
   .section-header {
-    margin-bottom: var(--spacing-xl);
+    margin-bottom: var(--spacing-lg);
   }
   
   .section-title {
@@ -272,55 +272,79 @@
   
   /* Projects */
   .projects-grid {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
     gap: var(--spacing-md);
+    padding-bottom: var(--spacing-sm);
   }
-  
+
+  .projects-grid::-webkit-scrollbar {
+    display: none;
+  }
+
   .project-card {
-    margin: 0 auto;
-    max-width: 400px;
+    flex: 0 0 82vw;
+    max-width: 82vw;
+    margin: 0;
+    scroll-snap-align: start;
   }
-  
-  .project-image {
-    height: 150px;
+
+  .project-icon {
+    height: 130px;
   }
-  
+
   .project-content {
     padding: var(--spacing-md);
   }
-  
+
   .project-title {
     font-size: var(--fs-lg);
   }
-  
+
   .project-tech {
     gap: 4px;
   }
-  
+
   .tech-tag {
     padding: 2px 6px;
   }
-  
+
   .project-links {
     flex-direction: column;
     gap: var(--spacing-xs);
   }
-  
+
   /* Blog */
   .blog-grid {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
     gap: var(--spacing-md);
+    padding-bottom: var(--spacing-sm);
   }
-  
+
+  .blog-grid::-webkit-scrollbar {
+    display: none;
+  }
+
   .blog-card {
-    margin: 0 auto;
-    max-width: 400px;
+    flex: 0 0 82vw;
+    max-width: 82vw;
+    margin: 0;
+    scroll-snap-align: start;
   }
-  
+
   .blog-image {
-    height: 120px;
+    height: 110px;
   }
-  
+
   .blog-content {
     padding: var(--spacing-md);
   }
@@ -338,18 +362,25 @@
   /* Contact */
   .contact-item {
     padding: var(--spacing-md);
+    flex-direction: row;
+    text-align: left;
   }
-  
+
   .contact-icon {
     width: 40px;
     height: 40px;
     font-size: var(--fs-lg);
   }
-  
-  .social-link {
-    width: 100%;
-    max-width: 280px;
+
+  .social-links {
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
+  }
+
+  .social-link {
+    width: auto;
+    max-width: none;
   }
   
   /* Footer */
@@ -649,6 +680,22 @@
   /* Hide carousel arrows on touch (native swipe instead) */
   .carousel-btn {
     display: none;
+  }
+
+  /* Projects & blog carousels show arrows on mobile */
+  .projects-carousel .carousel-btn,
+  .blog-carousel .carousel-btn {
+    display: flex;
+  }
+
+  .projects-carousel .carousel-prev,
+  .blog-carousel .carousel-prev {
+    left: 4px;
+  }
+
+  .projects-carousel .carousel-next,
+  .blog-carousel .carousel-next {
+    right: 4px;
   }
 }
 
