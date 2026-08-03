@@ -568,3 +568,61 @@
     justify-content: center;
   }
 }
+
+/* Hero refinements - mobile */
+@media (max-width: 768px) {
+  .hero-eyebrow {
+    font-size: var(--fs-xs);
+    margin-bottom: var(--spacing-sm);
+  }
+
+  .hero-chips {
+    justify-content: center;
+    gap: 6px;
+    margin-bottom: var(--spacing-md);
+  }
+
+  .hero-socials {
+    justify-content: center;
+    margin-top: var(--spacing-md);
+  }
+
+  /* Skills */
+  .skills-list {
+    gap: var(--spacing-md);
+  }
+
+  .skill-group {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-xs);
+  }
+
+  /* Timeline */
+  .timeline {
+    padding-left: var(--spacing-lg);
+  }
+
+  .timeline-marker {
+    left: calc(-1 * var(--spacing-lg));
+  }
+
+  .timeline-card {
+    padding: var(--spacing-md);
+  }
+
+  .timeline-meta {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-xs);
+  }
+}
+
+@media (max-width: 480px) {
+  .timeline {
+    padding-left: var(--spacing-md);
+  }
+
+  .timeline-marker {
+    left: calc(-1 * var(--spacing-md));
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "experience": [
+    {
+      "id": "amazon-sysdev-engineer",
+      "role": "System Developer Engineer I",
+      "company": "Amazon",
+      "companyUrl": "https://www.amazon.com",
+      "location": "Bangalore, Karnataka, India",
+      "startDate": "2021",
+      "endDate": null,
+      "current": true,
+      "summary": "Design, build, and operate reliable systems across DevOps, cloud infrastructure, and test automation. Drive improvements to deployment workflows, system reliability, and release quality.",
+      "highlights": [
+        "Build and maintain automated CI/CD pipelines for fast, reliable releases",
+        "Provision and manage cloud infrastructure using Infrastructure as Code",
+        "Implement test automation frameworks to improve regression coverage",
+        "Monitor system health and drive reliability improvements"
+      ],
+      "technologies": ["AWS", "Docker", "Kubernetes", "Jenkins", "Python", "Terraform"]
+    }
+  ]
+}

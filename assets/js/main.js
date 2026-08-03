@@ -21,7 +21,8 @@ const elements = {
   typewriter: document.getElementById('typewriter'),
   skillsGrid: document.getElementById('skills-grid'),
   featuredProjectsGrid: document.getElementById('featured-projects-grid'),
-  blogGrid: document.getElementById('blog-grid')
+  blogGrid: document.getElementById('blog-grid'),
+  timeline: document.getElementById('timeline')
 };
 
 // State Management
@@ -226,6 +227,54 @@ const dataManager = {
     }
   },
 
+  async loadExperience() {
+    try {
+      const response = await fetch('data/experience.json');
+      const data = await response.json();
+      dataManager.renderExperience(data.experience);
+    } catch (error) {
+      console.error('Error loading experience:', error);
+    }
+  },
+
+  renderExperience(experience) {
+    if (!elements.timeline) return;
+
+    elements.timeline.innerHTML = experience.map(item => {
+      const dateLabel = item.current
+        ? `${item.startDate} — Present`
+        : `${item.startDate} — ${item.endDate || 'Present'}`;
+      const companyLink = item.companyUrl && item.companyUrl !== '#'
+        ? `<a href="${item.companyUrl}" class="timeline-company" target="_blank" rel="noopener">${item.company}</a>`
+        : `<span class="timeline-company">${item.company}</span>`;
+
+      return `
+        <div class="timeline-item">
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <div class="timeline-card">
+            <div class="timeline-meta">
+              ${companyLink}
+              <span class="timeline-date">${dateLabel}</span>
+            </div>
+            <h3 class="timeline-role">${item.role}</h3>
+            <p class="timeline-location">${item.location || ''}</p>
+            <p class="timeline-summary">${item.summary || ''}</p>
+            ${item.highlights && item.highlights.length ? `
+              <ul class="timeline-highlights">
+                ${item.highlights.map(h => `<li>${h}</li>`).join('')}
+              </ul>
+            ` : ''}
+            ${item.technologies && item.technologies.length ? `
+              <div class="timeline-tech">
+                ${item.technologies.map(t => `<span class="tech-tag">${t}</span>`).join('')}
+              </div>
+            ` : ''}
+          </div>
+        </div>
+      `;
+    }).join('');
+  },
+
   async loadProjects() {
     try {
       const response = await fetch('data/projects.json');
@@ -252,22 +301,53 @@ const dataManager = {
 
   renderSkills(skills) {
     if (!elements.skillsGrid) return;
-    
-    elements.skillsGrid.innerHTML = skills.map(skill => `
-      <div class="skill-item hover-lift">
-        <div class="skill-icon">${skill.icon}</div>
-        <div class="skill-name">${skill.name}</div>
-      </div>
-    `).join('');
+
+    const categoryOrder = [
+      'DevOps', 'Cloud', 'Programming', 'CI/CD', 'Testing',
+      'Operating Systems', 'Infrastructure', 'Version Control', 'Database'
+    ];
+
+    const grouped = skills.reduce((acc, skill) => {
+      const key = skill.category || 'Other';
+      (acc[key] = acc[key] || []).push(skill);
+      return acc;
+    }, {});
+
+    elements.skillsGrid.innerHTML = Object.entries(grouped)
+      .sort((a, b) => {
+        const ia = categoryOrder.indexOf(a[0]);
+        const ib = categoryOrder.indexOf(b[0]);
+        return (ia === -1 ? 99 : ia) - (ib === -1 ? 99 : ib);
+      })
+      .map(([category, items]) => `
+        <div class="skill-group">
+          <h4 class="skill-category">${category}</h4>
+          ${items.map(skill => `
+            <div class="skill-bar">
+              <div class="skill-bar-header">
+                <span class="skill-bar-name">${skill.icon} ${skill.name}</span>
+                <span class="skill-bar-level">${skill.level || 0}%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-progress" style="--skill-level: ${skill.level || 0}%"></div>
+              </div>
+            </div>
+          `).join('')}
+        </div>
+      `).join('');
+
+    window.animationUtils?.observeProgressBars?.();
   },
 
   renderProjects(projects) {
     if (!elements.featuredProjectsGrid) return;
     
     elements.featuredProjectsGrid.innerHTML = projects.map(project => `
-      <div class="project-card hover-lift">
+      <article class="project-card hover-lift">
         <div class="project-icon">
-          <span class="project-emoji">${project.icon || '🚀'}</span>
+          ${project.image
+            ? `<img src="${project.image}" alt="${project.title}" class="project-banner" loading="lazy" decoding="async" width="800" height="400">`
+            : `<span class="project-emoji">${project.icon || '🚀'}</span>`}
         </div>
         <div class="project-content">
           <h3 class="project-title">${project.title}</h3>
@@ -276,11 +356,11 @@ const dataManager = {
             ${project.technologies.map(tech => `<span class="tech-tag">${tech}</span>`).join('')}
           </div>
           <div class="project-links">
-            ${project.liveUrl ? `<a href="${project.liveUrl}" class="project-link" target="_blank">Live Demo</a>` : ''}
-            ${project.githubUrl ? `<a href="${project.githubUrl}" class="project-link" target="_blank">GitHub</a>` : ''}
+            ${project.liveUrl ? `<a href="${project.liveUrl}" class="project-link" target="_blank" rel="noopener">Live Demo</a>` : ''}
+            ${project.githubUrl ? `<a href="${project.githubUrl}" class="project-link" target="_blank" rel="noopener">GitHub</a>` : ''}
           </div>
         </div>
-      </div>
+      </article>
     `).join('');
   },
 
@@ -311,12 +391,12 @@ const dataManager = {
     if (!elements.skillsGrid) return;
     
     const placeholderSkills = [
-      { icon: '🐳', name: 'Docker' },
-      { icon: '☸️', name: 'Kubernetes' },
-      { icon: '🔧', name: 'Jenkins' },
-      { icon: '🐧', name: 'Linux' },
-      { icon: '☁️', name: 'AWS' },
-      { icon: '🐍', name: 'Python' }
+      { icon: '🐳', name: 'Docker', category: 'DevOps', level: 90 },
+      { icon: '☸️', name: 'Kubernetes', category: 'DevOps', level: 85 },
+      { icon: '🔧', name: 'Jenkins', category: 'CI/CD', level: 88 },
+      { icon: '🐧', name: 'Linux', category: 'Operating Systems', level: 92 },
+      { icon: '☁️', name: 'AWS', category: 'Cloud', level: 87 },
+      { icon: '🐍', name: 'Python', category: 'Programming', level: 85 }
     ];
     
     dataManager.renderSkills(placeholderSkills);
@@ -416,6 +496,7 @@ const performanceOptimizer = {
   preloadCriticalResources: () => {
     const criticalResources = [
       'data/skills.json',
+      'data/experience.json',
       'data/projects.json',
       'data/blog-posts.json'
     ];
@@ -462,6 +543,7 @@ const app = {
       // Load and render data
       await Promise.all([
         dataManager.loadSkills(),
+        dataManager.loadExperience(),
         dataManager.loadProjects(),
         dataManager.loadBlogPosts()
       ]);

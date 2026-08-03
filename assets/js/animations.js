@@ -262,26 +262,22 @@
 
   // Progress bars
   function setupProgressBars() {
-    const progressBars = document.querySelectorAll('.progress-bar, .skill-progress');
+    const skillBars = document.querySelectorAll('.skill-bar');
     
     const progressObserver = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
-          const progressBar = entry.target;
-          const progress = progressBar.querySelector('.progress-fill, .skill-progress');
-          
+          const bar = entry.target;
+          const progress = bar.querySelector('.skill-progress');
           if (progress) {
-            const percentage = progress.dataset.percentage || '100';
-            progress.style.width = percentage + '%';
             progress.classList.add('animate');
           }
-          
-          progressObserver.unobserve(progressBar);
+          progressObserver.unobserve(bar);
         }
       });
-    }, { threshold: 0.5 });
+    }, { threshold: 0.3 });
 
-    progressBars.forEach(bar => {
+    skillBars.forEach(bar => {
       progressObserver.observe(bar);
     });
   }
@@ -392,6 +388,7 @@
   window.animationUtils = {
     animateCounter,
     triggerStaggeredAnimation,
+    observeProgressBars: setupProgressBars,
     cleanup
   };
 
