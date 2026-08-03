@@ -127,11 +127,6 @@ const themeManager = {
       }
       elements.themeToggle.setAttribute('aria-checked', String(isDark));
     }
-
-    const graph = document.getElementById('contribution-graph');
-    if (graph) {
-      graph.src = graph.src.replace(/theme=[a-zA-Z0-9_-]+/, `theme=${theme === 'dark' ? 'github-dark' : 'github-light'}`);
-    }
   },
 
   toggle: () => {
@@ -223,6 +218,22 @@ const scrollReveal = {
 
 // Data Loading and Rendering
 const dataManager = {
+  projectData: [],
+  activeProjectFilter: 'All',
+  visibleProjectCount: 6,
+
+  loadMoreProjects() {
+    const filtered = dataManager.activeProjectFilter === 'All'
+      ? dataManager.projectData
+      : dataManager.projectData.filter(p => p.category === dataManager.activeProjectFilter);
+    if (dataManager.visibleProjectCount >= filtered.length) {
+      dataManager.visibleProjectCount = 6;
+    } else {
+      dataManager.visibleProjectCount += 6;
+    }
+    dataManager.renderProjects();
+  },
+
   async loadSkills() {
     try {
       const response = await fetch('data/skills.json');
@@ -286,16 +297,87 @@ const dataManager = {
     try {
       const response = await fetch('data/projects.json');
       const data = await response.json();
-      const sorted = [...data.projects].sort((a, b) => {
+      dataManager.projectData = [...data.projects].sort((a, b) => {
         if (a.featured !== b.featured) return a.featured ? -1 : 1;
         return (b.startDate || '').localeCompare(a.startDate || '');
       });
-      dataManager.renderProjects(sorted);
-      dataManager.renderProjectFilters(data.projects);
+      dataManager.activeProjectFilter = 'All';
+      dataManager.visibleProjectCount = 6;
+      dataManager.renderProjects();
+      dataManager.renderProjectFilters(dataManager.projectData);
     } catch (error) {
       console.error('Error loading projects:', error);
       dataManager.renderProjectsPlaceholder();
     }
+  },
+
+  renderProjects() {
+    if (!elements.featuredProjectsGrid) return;
+
+    const filtered = dataManager.activeProjectFilter === 'All'
+      ? dataManager.projectData
+      : dataManager.projectData.filter(p => p.category === dataManager.activeProjectFilter);
+    const visible = filtered.slice(0, dataManager.visibleProjectCount);
+
+    elements.featuredProjectsGrid.innerHTML = visible.map(project => `
+      <article class="project-card hover-lift" data-category="${project.category}">
+        <div class="project-icon">
+          ${project.image
+            ? `<img src="${project.image}" alt="${project.title}" class="project-banner" loading="lazy" decoding="async" width="800" height="400">`
+            : `<span class="project-emoji">${project.icon || '🚀'}</span>`}
+          ${project.featured ? `<span class="project-badge">Featured</span>` : ''}
+        </div>
+        <div class="project-content">
+          <div class="project-meta">
+            <span class="project-category">${project.category}</span>
+            ${project.githubUrl ? `<a href="${project.githubUrl}" class="project-source" target="_blank" rel="noopener">GitHub ↗</a>` : ''}
+          </div>
+          <h3 class="project-title">${project.title}</h3>
+          <p class="project-description">${project.description}</p>
+          <div class="project-tech">
+            ${project.technologies.map(tech => `<span class="tech-tag">${tech}</span>`).join('')}
+          </div>
+          <div class="project-links">
+            ${project.liveUrl ? `<a href="${project.liveUrl}" class="project-link" target="_blank" rel="noopener">Live Demo</a>` : ''}
+            ${project.githubUrl ? `<a href="${project.githubUrl}" class="project-link" target="_blank" rel="noopener">GitHub</a>` : ''}
+          </div>
+        </div>
+      </article>
+    `).join('');
+
+    const loadMoreBtn = document.getElementById('projects-load-more');
+    if (loadMoreBtn) {
+      const remaining = filtered.length - visible.length;
+      const paginated = filtered.length > 6;
+      loadMoreBtn.style.display = remaining > 0 || paginated ? '' : 'none';
+      loadMoreBtn.textContent = remaining > 0 ? `Load More (${remaining} more)` : 'Show Less';
+      loadMoreBtn.classList.toggle('collapsed', remaining === 0 && paginated);
+    }
+  },
+
+  renderProjectFilters(projects) {
+    if (!elements.projectFilters) return;
+
+    const counts = projects.reduce((acc, p) => {
+      acc[p.category] = (acc[p.category] || 0) + 1;
+      return acc;
+    }, {});
+    const categories = ['All', ...Object.keys(counts)];
+
+    elements.projectFilters.innerHTML = categories.map(cat => `
+      <button type="button" class="filter-btn${cat === 'All' ? ' active' : ''}" data-filter="${cat}">
+        ${cat}${cat !== 'All' ? `<span class="filter-count">${counts[cat]}</span>` : ''}
+      </button>
+    `).join('');
+
+    elements.projectFilters.addEventListener('click', (e) => {
+      const btn = e.target.closest('.filter-btn');
+      if (!btn) return;
+      elements.projectFilters.querySelectorAll('.filter-btn').forEach(b => b.classList.toggle('active', b === btn));
+      dataManager.activeProjectFilter = btn.dataset.filter;
+      dataManager.visibleProjectCount = 6;
+      dataManager.renderProjects();
+    });
   },
 
   async loadBlogPosts() {
@@ -350,63 +432,6 @@ const dataManager = {
       `).join('');
 
     window.animationUtils?.observeProgressBars?.();
-  },
-
-  renderProjects(projects) {
-    if (!elements.featuredProjectsGrid) return;
-
-    elements.featuredProjectsGrid.innerHTML = projects.map(project => `
-      <article class="project-card hover-lift" data-category="${project.category}">
-        <div class="project-icon">
-          ${project.image
-            ? `<img src="${project.image}" alt="${project.title}" class="project-banner" loading="lazy" decoding="async" width="800" height="400">`
-            : `<span class="project-emoji">${project.icon || '🚀'}</span>`}
-          ${project.featured ? `<span class="project-badge">Featured</span>` : ''}
-        </div>
-        <div class="project-content">
-          <div class="project-meta">
-            <span class="project-category">${project.category}</span>
-            ${project.githubUrl ? `<a href="${project.githubUrl}" class="project-source" target="_blank" rel="noopener">GitHub ↗</a>` : ''}
-          </div>
-          <h3 class="project-title">${project.title}</h3>
-          <p class="project-description">${project.description}</p>
-          <div class="project-tech">
-            ${project.technologies.map(tech => `<span class="tech-tag">${tech}</span>`).join('')}
-          </div>
-          <div class="project-links">
-            ${project.liveUrl ? `<a href="${project.liveUrl}" class="project-link" target="_blank" rel="noopener">Live Demo</a>` : ''}
-            ${project.githubUrl ? `<a href="${project.githubUrl}" class="project-link" target="_blank" rel="noopener">GitHub</a>` : ''}
-          </div>
-        </div>
-      </article>
-    `).join('');
-  },
-
-  renderProjectFilters(projects) {
-    if (!elements.projectFilters) return;
-
-    const counts = projects.reduce((acc, p) => {
-      acc[p.category] = (acc[p.category] || 0) + 1;
-      return acc;
-    }, {});
-    const categories = ['All', ...Object.keys(counts)];
-
-    elements.projectFilters.innerHTML = categories.map(cat => `
-      <button type="button" class="filter-btn${cat === 'All' ? ' active' : ''}" data-filter="${cat}">
-        ${cat}${cat !== 'All' ? `<span class="filter-count">${counts[cat]}</span>` : ''}
-      </button>
-    `).join('');
-
-    elements.projectFilters.addEventListener('click', (e) => {
-      const btn = e.target.closest('.filter-btn');
-      if (!btn) return;
-      const filter = btn.dataset.filter;
-      elements.projectFilters.querySelectorAll('.filter-btn').forEach(b => b.classList.toggle('active', b === btn));
-      const cards = elements.featuredProjectsGrid.querySelectorAll('.project-card');
-      cards.forEach(card => {
-        card.style.display = filter === 'All' || card.dataset.category === filter ? '' : 'none';
-      });
-    });
   },
 
   renderBlogPosts(posts) {
@@ -573,6 +598,199 @@ const errorHandler = {
   }
 };
 
+// Horizontal Carousel
+const carousel = {
+  init() {
+    document.querySelectorAll('.carousel').forEach(wrap => {
+      const viewport = wrap.querySelector('.carousel-viewport');
+      const prev = wrap.querySelector('.carousel-prev');
+      const next = wrap.querySelector('.carousel-next');
+      if (!viewport) return;
+
+      const step = () => {
+        const card = viewport.querySelector(':scope > *');
+        const gap = parseFloat(getComputedStyle(viewport).columnGap) || 0;
+        return card ? card.getBoundingClientRect().width + gap : Math.round(viewport.clientWidth * 0.8);
+      };
+
+      const scrollBy = (dir) => viewport.scrollBy({ left: dir * step(), behavior: 'smooth' });
+      prev?.addEventListener('click', () => scrollBy(-1));
+      next?.addEventListener('click', () => scrollBy(1));
+
+      let isDown = false;
+      let startX = 0;
+      let startScroll = 0;
+      viewport.addEventListener('pointerdown', (e) => {
+        if (e.pointerType !== 'mouse') return;
+        isDown = true;
+        startX = e.pageX;
+        startScroll = viewport.scrollLeft;
+        viewport.classList.add('dragging');
+      });
+      viewport.addEventListener('pointermove', (e) => {
+        if (!isDown || e.pointerType !== 'mouse') return;
+        e.preventDefault();
+        viewport.scrollLeft = startScroll - (e.pageX - startX);
+      });
+      ['pointerup', 'pointercancel', 'pointerleave'].forEach(ev =>
+        viewport.addEventListener(ev, () => {
+          isDown = false;
+          viewport.classList.remove('dragging');
+        })
+      );
+
+      const updateArrows = () => {
+        const max = viewport.scrollWidth - viewport.clientWidth;
+        prev.style.opacity = viewport.scrollLeft <= 2 ? 0.25 : 1;
+        next.style.opacity = viewport.scrollLeft >= max - 2 ? 0.25 : 1;
+      };
+      viewport.addEventListener('scroll', updateArrows, { passive: true });
+      window.addEventListener('resize', updateArrows);
+      updateArrows();
+    });
+  }
+};
+
+// GitHub Contribution Calendar (rendered natively, theme-aware)
+const contributionCalendar = {
+  username: 'ashwani983',
+
+  async init() {
+    const container = document.getElementById('contribution-calendar');
+    if (!container) return;
+
+    const html = await contributionCalendar.fetchContributions();
+    if (html) {
+      try {
+        const data = contributionCalendar.parse(html);
+        if (data && data.days.length) {
+          container.innerHTML = contributionCalendar.render(data);
+          return;
+        }
+      } catch (e) {
+        console.error('Error parsing contributions:', e);
+      }
+    }
+
+    container.innerHTML = contributionCalendar.renderImageFallback();
+  },
+
+  async fetchContributions() {
+    const url = `https://github.com/users/${contributionCalendar.username}/contributions`;
+    const sources = [
+      url,
+      `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,
+      `https://corsproxy.io/?url=${encodeURIComponent(url)}`
+    ];
+    for (const src of sources) {
+      try {
+        const res = await fetch(src, { signal: AbortSignal.timeout(15000) });
+        if (!res.ok) continue;
+        const text = await res.text();
+        if (text.includes('contribution-day-component')) return text;
+      } catch (e) {
+        // try next source
+      }
+    }
+    return null;
+  },
+
+  parse(html) {
+    const totalMatch = html.match(/([\d,]+)\s+contributions\s+in the last year/);
+    const total = totalMatch ? parseInt(totalMatch[1].replace(/,/g, ''), 10) : null;
+
+    const days = [...html.matchAll(/<td[^>]*data-date="([^"]+)"[^>]*id="contribution-day-component-(\d)-(\d+)"[^>]*data-level="([0-9])"[^>]*>/g)]
+      .map(m => ({ date: m[1], row: +m[2], col: +m[3], level: +m[4] }));
+
+    const counts = new Map();
+    for (const m of html.matchAll(/for="contribution-day-component-(\d)-(\d+)"[^>]*>\s*([\d,]+)\s+contributions?/g)) {
+      counts.set(`${m[1]}-${m[2]}`, parseInt(m[3].replace(/,/g, ''), 10));
+    }
+    for (const m of html.matchAll(/for="contribution-day-component-(\d)-(\d+)"[^>]*>\s*No contributions/g)) {
+      counts.set(`${m[1]}-${m[2]}`, 0);
+    }
+
+    const weekdays = [
+      { row: 0, label: 'Sun' },
+      { row: 1, label: 'Mon' },
+      { row: 3, label: 'Wed' },
+      { row: 5, label: 'Fri' }
+    ];
+
+    return {
+      total,
+      days: days.map(d => ({ ...d, count: counts.get(`${d.row}-${d.col}`) ?? 0 })),
+      weekdays,
+      cols: days.length ? Math.max(...days.map(d => d.col)) + 1 : 0
+    };
+  },
+
+  render(data) {
+    const months = [];
+    for (const d of data.days) {
+      const key = d.date.slice(0, 7);
+      const month = months.find(m => m.key === key);
+      if (month) {
+        month.end = Math.max(month.end, d.col);
+      } else {
+        months.push({ key, start: d.col, end: d.col, name: new Date(d.date + 'T00:00:00Z').toLocaleDateString('en-US', { month: 'short', timeZone: 'UTC' }) });
+      }
+    }
+    if (months.length > 1 && months[months.length - 1].end === months[months.length - 1].start) {
+      months.pop();
+    }
+    const monthSpans = months.map((m, i) => {
+      const span = Math.max(1, ((months[i + 1] ? months[i + 1].start : data.cols) - m.start));
+      return { name: m.name, start: m.start, span };
+    });
+
+    const monthLabels = monthSpans.map(m =>
+      `<span class="cal-month" style="grid-column: ${m.start + 2} / span ${m.span}">${m.name}</span>`
+    ).join('');
+
+    const weekdayLabels = data.weekdays.map(w =>
+      `<span class="cal-weekday" style="grid-row: ${w.row + 3}">${w.label}</span>`
+    ).join('');
+
+    const dayCells = data.days.map(d => {
+      const pretty = new Date(d.date + 'T00:00:00Z').toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
+      const label = d.count === 0 ? `No contributions on ${pretty}` : `${d.count} contribution${d.count === 1 ? '' : 's'} on ${pretty}`;
+      return `<span class="cal-day cal-l${d.level}" style="grid-column: ${d.col + 2}; grid-row: ${d.row + 3}" role="img" aria-label="${label}" title="${label}" data-date="${d.date}"></span>`;
+    }).join('');
+
+    const total = data.total === null
+      ? `<a class="cal-total" href="https://github.com/${contributionCalendar.username}" target="_blank" rel="noopener">View GitHub profile →</a>`
+      : `<a class="cal-total" href="https://github.com/${contributionCalendar.username}" target="_blank" rel="noopener"><strong>${data.total.toLocaleString()}</strong> contributions in the last year</a>`;
+
+    return `
+      <div class="cal-head">${total}</div>
+      <div class="cal-scroll">
+        <div class="cal-grid" style="--cols: ${data.cols}">
+          ${monthLabels}
+          ${weekdayLabels}
+          ${dayCells}
+        </div>
+      </div>
+      <div class="cal-legend">
+        <span class="cal-legend-label">Less</span>
+        <span class="cal-day cal-l0" aria-hidden="true"></span>
+        <span class="cal-day cal-l1" aria-hidden="true"></span>
+        <span class="cal-day cal-l2" aria-hidden="true"></span>
+        <span class="cal-day cal-l3" aria-hidden="true"></span>
+        <span class="cal-day cal-l4" aria-hidden="true"></span>
+        <span class="cal-legend-label">More</span>
+      </div>
+    `;
+  },
+
+  renderImageFallback() {
+    return `
+      <p class="cal-total"><a class="cal-total-link" href="https://github.com/${contributionCalendar.username}" target="_blank" rel="noopener">GitHub profile</a></p>
+      <img src="https://ghchart.rshah.org/${contributionCalendar.username}" alt="GitHub contribution calendar for ${contributionCalendar.username}" loading="lazy" decoding="async" class="ghchart-img">
+    `;
+  }
+};
+
 // GitHub Stats
 const githubStats = {
   username: 'ashwani983',
@@ -660,6 +878,9 @@ const app = {
       performanceOptimizer.init();
       errorHandler.init();
       githubStats.init();
+      contributionCalendar.init();
+      carousel.init();
+      document.getElementById('projects-load-more')?.addEventListener('click', () => dataManager.loadMoreProjects());
       
       // Load and render data
       await Promise.all([

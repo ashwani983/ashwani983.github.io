@@ -606,13 +606,29 @@
     gap: var(--spacing-xs);
   }
 
+  .skills-carousel .skill-group {
+    flex-basis: 90vw;
+  }
+
   /* Timeline */
   .timeline {
     padding-left: var(--spacing-lg);
   }
 
+  .experience-carousel .carousel-viewport.timeline {
+    padding-left: 0;
+  }
+
   .timeline-marker {
     left: calc(-1 * var(--spacing-lg));
+  }
+
+  .experience-carousel .timeline-marker {
+    left: 0;
+  }
+
+  .experience-carousel .timeline-item {
+    flex-basis: 85vw;
   }
 
   .timeline-card {
@@ -624,6 +640,29 @@
     align-items: flex-start;
     gap: var(--spacing-xs);
   }
+
+  /* GitHub stats stack on mobile */
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Hide carousel arrows on touch (native swipe instead) */
+  .carousel-btn {
+    display: none;
+  }
+}
+
+/* Contribution calendar: hide weekday labels, scroll horizontally */
+@media (max-width: 640px) {
+  .cal-weekday {
+    display: none;
+  }
+
+  .cal-grid {
+    grid-template-columns: 0 repeat(var(--cols), 1fr);
+    min-width: 740px;
+    width: max-content;
+  }
 }
 
 @media (max-width: 480px) {
@@ -631,7 +670,15 @@
     padding-left: var(--spacing-md);
   }
 
+  .experience-carousel .carousel-viewport.timeline {
+    padding-left: 0;
+  }
+
   .timeline-marker {
     left: calc(-1 * var(--spacing-md));
+  }
+
+  .experience-carousel .timeline-marker {
+    left: 0;
   }
 }
