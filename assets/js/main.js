@@ -270,6 +270,11 @@ const dataManager = {
         <div class="timeline-item">
           <div class="timeline-marker" aria-hidden="true"></div>
           <div class="timeline-card">
+            ${item.logo ? `
+              <div class="timeline-logo">
+                <img src="${item.logo}" alt="${item.company} logo" loading="lazy" decoding="async">
+              </div>
+            ` : ''}
             <div class="timeline-meta">
               ${companyLink}
               <span class="timeline-date">${dateLabel}</span>
