@@ -5,18 +5,39 @@
       "role": "System Developer Engineer I",
       "company": "Amazon",
       "companyUrl": "https://www.amazon.com",
-      "location": "Bangalore, Karnataka, India",
-      "startDate": "2021",
+      "location": "Bengaluru, Karnataka, India",
+      "startDate": "Feb 2022",
       "endDate": null,
       "current": true,
-      "summary": "Design, build, and operate reliable systems across DevOps, cloud infrastructure, and test automation. Drive improvements to deployment workflows, system reliability, and release quality.",
+      "summary": "System Development Engineer on the Amazon Appstore team — the app store for Android devices, Amazon Fire tablets, and Windows 11. Design, build, and operate reliable infrastructure supporting scalable system architecture and operational requirements.",
       "highlights": [
-        "Build and maintain automated CI/CD pipelines for fast, reliable releases",
-        "Provision and manage cloud infrastructure using Infrastructure as Code",
-        "Implement test automation frameworks to improve regression coverage",
-        "Monitor system health and drive reliability improvements"
+        "Deploy and configure bare metal servers, network switches, routers, and core infrastructure components",
+        "Diagnose and resolve hardware/software issues, perform root cause analysis, and implement preventive measures to ensure 99.9% system uptime and stability",
+        "Design, configure, and optimize network topologies, routing protocols, and switching infrastructure for high-performance operations",
+        "Implement monitoring solutions and automated deployment processes following engineering best practices",
+        "Participate in technical design reviews, scoping discussions, and prioritization meetings to deliver cost-effective solutions",
+        "Support intern training programs, contribute to hiring processes, and evaluate operational risks"
       ],
-      "technologies": ["AWS", "Docker", "Kubernetes", "Jenkins", "Python", "Terraform"]
+      "technologies": ["AWS", "Docker", "Kubernetes", "Ansible", "Jenkins", "Linux", "Python", "Java", "Shell Scripting", "Android ADB"]
+    },
+    {
+      "id": "capgemini-software-tester",
+      "role": "Software Tester",
+      "company": "Capgemini",
+      "companyUrl": "https://www.capgemini.com",
+      "location": "India",
+      "startDate": "Jul 2019",
+      "endDate": "Feb 2022",
+      "current": false,
+      "summary": "Software Tester on the Royal Bank of Canada (RBC) insurance account — responsible for functional and automation testing of insurance web and mobile applications.",
+      "highlights": [
+        "Understood business requirements and authored system test cases in HP ALM/QC",
+        "Created manual test cases and automation scripts for web and mobile applications",
+        "Converted manual test cases into automation scripts using Robot Framework, Selenium, and Appium",
+        "Reported and tracked defects periodically to resolution",
+        "Debugged and executed automation test cases across regression cycles"
+      ],
+      "technologies": ["Python", "Java", "Robot Framework", "Selenium", "Appium", "Cucumber", "HP ALM"]
     }
   ]
 }
