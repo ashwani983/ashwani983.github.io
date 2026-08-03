@@ -602,6 +602,7 @@ section {
 }
 
 .project-icon {
+  position: relative;
   width: 100%;
   height: 180px;
   background: var(--secondary-bg);
@@ -1278,4 +1279,235 @@ a.timeline-company:hover {
 
 [data-theme="light"] .project-icon {
   border-bottom-color: #d0d7de;
+}
+
+/* ============================================
+   Project filters
+   ============================================ */
+
+.project-filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--spacing-xs);
+  margin-bottom: var(--spacing-xl);
+}
+
+.filter-btn {
+  padding: 0.4rem 0.9rem;
+  font-family: var(--font-primary);
+  font-size: var(--fs-sm);
+  font-weight: 500;
+  color: var(--text-secondary);
+  background: var(--accent-bg);
+  border: 1px solid transparent;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: var(--transition-fast);
+}
+
+.filter-btn:hover {
+  color: var(--text-accent);
+  border-color: var(--text-accent);
+}
+
+.filter-btn.active {
+  color: white;
+  background: var(--gradient-primary);
+  border-color: transparent;
+}
+
+.filter-count {
+  font-size: var(--fs-xs);
+  opacity: 0.8;
+  margin-left: 4px;
+}
+
+.project-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-xs);
+}
+
+.project-category {
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-accent);
+}
+
+.project-source {
+  font-size: var(--fs-xs);
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: var(--transition-fast);
+}
+
+.project-source:hover {
+  color: var(--text-accent);
+}
+
+.project-badge {
+  position: absolute;
+  top: var(--spacing-sm);
+  right: var(--spacing-sm);
+  padding: 0.2rem 0.6rem;
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  color: white;
+  background: var(--gradient-primary);
+  border-radius: 999px;
+  box-shadow: var(--shadow-sm);
+}
+
+/* ============================================
+   GitHub Stats
+   ============================================ */
+
+.github-stats {
+  background: var(--secondary-bg);
+}
+
+.stats-grid {
+  display: grid;
+  gap: var(--spacing-lg);
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.stats-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: var(--spacing-md);
+}
+
+.stat-card {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  padding: var(--spacing-lg);
+  background: var(--accent-bg);
+  border: 1px solid transparent;
+  border-radius: var(--radius-lg);
+  transition: var(--transition-normal);
+}
+
+.stat-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.stat-icon {
+  font-size: var(--fs-2xl);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--gradient-primary);
+  border-radius: 50%;
+}
+
+.stat-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-value {
+  font-size: var(--fs-2xl);
+  font-weight: 700;
+  color: var(--text-primary);
+  font-family: var(--font-mono);
+}
+
+.stat-label {
+  font-size: var(--fs-sm);
+  color: var(--text-secondary);
+}
+
+.lang-card {
+  padding: var(--spacing-lg);
+  background: var(--accent-bg);
+  border: 1px solid transparent;
+  border-radius: var(--radius-lg);
+}
+
+.lang-title {
+  font-size: var(--fs-base);
+  color: var(--text-primary);
+  margin-bottom: var(--spacing-md);
+}
+
+.lang-bars {
+  display: grid;
+  gap: var(--spacing-sm);
+}
+
+.lang-row {
+  display: grid;
+  grid-template-columns: 90px 1fr 44px;
+  align-items: center;
+  gap: var(--spacing-sm);
+}
+
+.lang-name {
+  font-size: var(--fs-sm);
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.lang-track {
+  height: 8px;
+  background: var(--secondary-bg);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.lang-fill {
+  height: 100%;
+  background: var(--gradient-primary);
+  border-radius: 999px;
+  transition: width var(--transition-normal);
+}
+
+.lang-pct {
+  font-size: var(--fs-sm);
+  font-family: var(--font-mono);
+  color: var(--text-secondary);
+  text-align: right;
+}
+
+.contribution-card {
+  max-width: 900px;
+  margin: var(--spacing-xl) auto 0;
+  padding: var(--spacing-lg);
+  background: var(--accent-bg);
+  border: 1px solid transparent;
+  border-radius: var(--radius-lg);
+  text-align: center;
+}
+
+.contribution-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.stats-fallback {
+  color: var(--text-secondary);
+  text-align: center;
+}
+
+.stats-fallback a {
+  color: var(--text-accent);
+}
+
+[data-theme="light"] .stat-card,
+[data-theme="light"] .lang-card,
+[data-theme="light"] .contribution-card {
+  border-color: #d0d7de;
+  box-shadow: 0 1px 3px rgba(31, 35, 40, 0.04);
 }

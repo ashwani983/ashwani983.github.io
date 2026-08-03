@@ -99,6 +99,9 @@
                         <a href="#projects" class="nav-link">Projects</a>
                     </li>
                     <li class="nav-item">
+                        <a href="#github" class="nav-link">GitHub</a>
+                    </li>
+                    <li class="nav-item">
                         <a href="#blog" class="nav-link">Blog</a>
                     </li>
                     <li class="nav-item">
@@ -257,20 +260,44 @@
         </div>
     </section>
 
-    <!-- Featured Projects Section -->
+    <!-- Projects Section -->
     <section id="projects" class="featured-projects">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Featured Projects</h2>
-                <p class="section-subtitle">Some of my recent work and contributions</p>
+                <h2 class="section-title">Projects</h2>
+                <p class="section-subtitle">AI tools, applications, and infrastructure I've built</p>
             </div>
-            
+
+            <div class="project-filters" id="project-filters" role="tablist" aria-label="Filter projects by category">
+                <!-- Filters will be loaded dynamically -->
+            </div>
+
             <div class="projects-grid" id="featured-projects-grid">
                 <!-- Projects will be loaded dynamically -->
             </div>
-            
+
             <div class="section-footer">
                 <a href="https://github.com/ashwani983?tab=repositories" class="btn btn-primary">View All Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- GitHub Stats Section -->
+    <section id="github" class="github-stats">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">GitHub Stats</h2>
+                <p class="section-subtitle">My activity, contributions, and open-source work</p>
+            </div>
+
+            <div class="stats-grid" id="github-stats-grid">
+                <!-- Stats will be loaded dynamically -->
+            </div>
+
+            <div class="contribution-card">
+                <a href="https://github.com/ashwani983" target="_blank" rel="noopener">
+                    <img id="contribution-graph" src="https://github-readme-activity-graph.vercel.app/graph?username=ashwani983&amp;theme=github-dark" alt="GitHub contribution graph for ashwani983" loading="lazy" decoding="async">
+                </a>
             </div>
         </div>
     </section>
@@ -360,6 +387,7 @@
                     <a href="#about">About</a>
                     <a href="#skills">Skills</a>
                     <a href="#projects">Projects</a>
+                    <a href="#github">GitHub</a>
                     <a href="#blog">Blog</a>
                     <a href="#contact">Contact</a>
                 </div>

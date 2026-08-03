@@ -21,6 +21,8 @@ const elements = {
   typewriter: document.getElementById('typewriter'),
   skillsGrid: document.getElementById('skills-grid'),
   featuredProjectsGrid: document.getElementById('featured-projects-grid'),
+  projectFilters: document.getElementById('project-filters'),
+  githubStatsGrid: document.getElementById('github-stats-grid'),
   blogGrid: document.getElementById('blog-grid'),
   timeline: document.getElementById('timeline')
 };
@@ -124,6 +126,11 @@ const themeManager = {
         icon.textContent = isDark ? '☀️' : '🌙';
       }
       elements.themeToggle.setAttribute('aria-checked', String(isDark));
+    }
+
+    const graph = document.getElementById('contribution-graph');
+    if (graph) {
+      graph.src = graph.src.replace(/theme=[a-zA-Z0-9_-]+/, `theme=${theme === 'dark' ? 'github-dark' : 'github-light'}`);
     }
   },
 
@@ -279,8 +286,12 @@ const dataManager = {
     try {
       const response = await fetch('data/projects.json');
       const data = await response.json();
-      const featuredProjects = data.projects.filter(project => project.featured).slice(0, 3);
-      dataManager.renderProjects(featuredProjects);
+      const sorted = [...data.projects].sort((a, b) => {
+        if (a.featured !== b.featured) return a.featured ? -1 : 1;
+        return (b.startDate || '').localeCompare(a.startDate || '');
+      });
+      dataManager.renderProjects(sorted);
+      dataManager.renderProjectFilters(data.projects);
     } catch (error) {
       console.error('Error loading projects:', error);
       dataManager.renderProjectsPlaceholder();
@@ -303,7 +314,7 @@ const dataManager = {
     if (!elements.skillsGrid) return;
 
     const categoryOrder = [
-      'DevOps', 'Cloud', 'Programming', 'CI/CD', 'Testing',
+      'DevOps', 'AI/ML', 'Cloud', 'Programming', 'CI/CD', 'Testing',
       'Operating Systems', 'Infrastructure', 'Version Control', 'Database'
     ];
 
@@ -343,15 +354,20 @@ const dataManager = {
 
   renderProjects(projects) {
     if (!elements.featuredProjectsGrid) return;
-    
+
     elements.featuredProjectsGrid.innerHTML = projects.map(project => `
-      <article class="project-card hover-lift">
+      <article class="project-card hover-lift" data-category="${project.category}">
         <div class="project-icon">
           ${project.image
             ? `<img src="${project.image}" alt="${project.title}" class="project-banner" loading="lazy" decoding="async" width="800" height="400">`
             : `<span class="project-emoji">${project.icon || '🚀'}</span>`}
+          ${project.featured ? `<span class="project-badge">Featured</span>` : ''}
         </div>
         <div class="project-content">
+          <div class="project-meta">
+            <span class="project-category">${project.category}</span>
+            ${project.githubUrl ? `<a href="${project.githubUrl}" class="project-source" target="_blank" rel="noopener">GitHub ↗</a>` : ''}
+          </div>
           <h3 class="project-title">${project.title}</h3>
           <p class="project-description">${project.description}</p>
           <div class="project-tech">
@@ -364,6 +380,33 @@ const dataManager = {
         </div>
       </article>
     `).join('');
+  },
+
+  renderProjectFilters(projects) {
+    if (!elements.projectFilters) return;
+
+    const counts = projects.reduce((acc, p) => {
+      acc[p.category] = (acc[p.category] || 0) + 1;
+      return acc;
+    }, {});
+    const categories = ['All', ...Object.keys(counts)];
+
+    elements.projectFilters.innerHTML = categories.map(cat => `
+      <button type="button" class="filter-btn${cat === 'All' ? ' active' : ''}" data-filter="${cat}">
+        ${cat}${cat !== 'All' ? `<span class="filter-count">${counts[cat]}</span>` : ''}
+      </button>
+    `).join('');
+
+    elements.projectFilters.addEventListener('click', (e) => {
+      const btn = e.target.closest('.filter-btn');
+      if (!btn) return;
+      const filter = btn.dataset.filter;
+      elements.projectFilters.querySelectorAll('.filter-btn').forEach(b => b.classList.toggle('active', b === btn));
+      const cards = elements.featuredProjectsGrid.querySelectorAll('.project-card');
+      cards.forEach(card => {
+        card.style.display = filter === 'All' || card.dataset.category === filter ? '' : 'none';
+      });
+    });
   },
 
   renderBlogPosts(posts) {
@@ -530,6 +573,81 @@ const errorHandler = {
   }
 };
 
+// GitHub Stats
+const githubStats = {
+  username: 'ashwani983',
+
+  async init() {
+    if (!elements.githubStatsGrid) return;
+    try {
+      const [userRes, reposRes] = await Promise.all([
+        fetch(`https://api.github.com/users/${githubStats.username}`),
+        fetch(`https://api.github.com/users/${githubStats.username}/repos?per_page=100&sort=updated`)
+      ]);
+      if (!userRes.ok || !reposRes.ok) throw new Error('GitHub API request failed');
+      const [user, repos] = await Promise.all([userRes.json(), reposRes.json()]);
+      githubStats.render(user, repos);
+    } catch (error) {
+      console.error('Error loading GitHub stats:', error);
+      githubStats.renderFallback();
+    }
+  },
+
+  render(user, repos) {
+    const stars = repos.reduce((sum, r) => sum + (r.stargazers_count || 0), 0);
+
+    const langSizes = {};
+    repos.forEach(r => {
+      if (!r.language) return;
+      langSizes[r.language] = (langSizes[r.language] || 0) + (r.size || 0);
+    });
+    const totalSize = Object.values(langSizes).reduce((sum, v) => sum + v, 0);
+    const topLangs = Object.entries(langSizes).sort((a, b) => b[1] - a[1]).slice(0, 6);
+    const langBars = topLangs.map(([lang, size]) => {
+      const pct = Math.round((size / Math.max(totalSize, 1)) * 100);
+      return `
+        <div class="lang-row">
+          <span class="lang-name">${lang}</span>
+          <div class="lang-track"><div class="lang-fill" style="width:${pct}%"></div></div>
+          <span class="lang-pct">${pct}%</span>
+        </div>`;
+    }).join('');
+
+    const stats = [
+      { icon: '🗂️', value: user.public_repos ?? 0, label: 'Public Repos' },
+      { icon: '⭐', value: stars, label: 'Total Stars' },
+      { icon: '👥', value: user.followers ?? 0, label: 'Followers' },
+      { icon: '🤝', value: user.following ?? 0, label: 'Following' }
+    ];
+
+    elements.githubStatsGrid.innerHTML = `
+      <div class="stats-cards">
+        ${stats.map(stat => `
+          <div class="stat-card">
+            <span class="stat-icon">${stat.icon}</span>
+            <div class="stat-details">
+              <span class="stat-value">${stat.value}</span>
+              <span class="stat-label">${stat.label}</span>
+            </div>
+          </div>
+        `).join('')}
+      </div>
+      <div class="lang-card">
+        <h3 class="lang-title">Top Languages</h3>
+        <div class="lang-bars">${langBars || '<p class="stats-fallback">No language data available.</p>'}</div>
+      </div>
+    `;
+  },
+
+  renderFallback() {
+    if (!elements.githubStatsGrid) return;
+    elements.githubStatsGrid.innerHTML = `
+      <p class="stats-fallback">GitHub stats are temporarily unavailable. Visit
+      <a href="https://github.com/ashwani983" target="_blank" rel="noopener">my GitHub profile</a> to see my work.</p>
+    `;
+  }
+};
+
 // Main Application Initialization
 const app = {
   async init() {
@@ -541,6 +659,7 @@ const app = {
       scrollReveal.init();
       performanceOptimizer.init();
       errorHandler.init();
+      githubStats.init();
       
       // Load and render data
       await Promise.all([

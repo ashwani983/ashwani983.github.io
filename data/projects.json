@@ -60,7 +60,7 @@
         "Wireless"
       ],
       "category": "Security",
-      "featured": true,
+      "featured": false,
       "status": "completed",
       "startDate": "2023-08-01",
       "endDate": "2023-09-30",
@@ -415,6 +415,459 @@
       "impact": "Reduced security vulnerabilities by 90% and improved compliance score to 98%.",
       "teamSize": 3,
       "role": "Security Engineer"
+    },
+    {
+      "id": "diff-explainer",
+      "title": "AI Diff Explainer",
+      "description": "An AI-powered skill that turns raw git diffs into human-readable explanations with risk flags, helping teams review changes faster.",
+      "longDescription": "An AI-powered skill that turns raw git diffs into human-readable explanations with risk flags, helping teams review changes faster.",
+      "technologies": [
+        "Python",
+        "OpenAI API",
+        "Git",
+        "AI/ML"
+      ],
+      "category": "AI/ML",
+      "featured": true,
+      "status": "completed",
+      "startDate": "2026-06-24",
+      "endDate": null,
+      "image": "assets/images/projects/diff-explainer.svg",
+      "images": [],
+      "icon": "🧾",
+      "liveUrl": null,
+      "githubUrl": "https://github.com/ashwani983/diff-explainer",
+      "demoUrl": null,
+      "keyFeatures": [
+        "Human-readable diff explanations",
+        "Automated risk flagging",
+        "CLI and skill-based usage",
+        "OpenAI-powered analysis"
+      ],
+      "impact": "",
+      "teamSize": 1,
+      "role": "AI Engineer"
+    },
+    {
+      "id": "incident-postmortem-agent",
+      "title": "Incident Postmortem Agent",
+      "description": "An AI agent that ingests raw incident data (timeline, logs, alerts) and generates structured postmortems with root-cause analysis and action items.",
+      "longDescription": "An AI agent that ingests raw incident data (timeline, logs, alerts) and generates structured postmortems with root-cause analysis and action items.",
+      "technologies": [
+        "Python",
+        "LLM",
+        "Incident Response",
+        "AI/ML"
+      ],
+      "category": "AI/ML",
+      "featured": true,
+      "status": "completed",
+      "startDate": "2026-06-24",
+      "endDate": null,
+      "image": "assets/images/projects/incident-postmortem-agent.svg",
+      "images": [],
+      "icon": "🚨",
+      "liveUrl": null,
+      "githubUrl": "https://github.com/ashwani983/incident-postmortem-agent",
+      "demoUrl": null,
+      "keyFeatures": [
+        "Structured postmortem generation",
+        "Root-cause analysis from logs",
+        "Action item extraction",
+        "Timeline reconstruction"
+      ],
+      "impact": "",
+      "teamSize": 1,
+      "role": "AI Engineer"
+    },
+    {
+      "id": "infra-diagnostics-mcp",
+      "title": "Infra Diagnostics MCP Server",
+      "description": "A Model Context Protocol (MCP) server exposing system and infrastructure diagnostics tools to any AI assistant, enabling LLMs to inspect live environments.",
+      "longDescription": "A Model Context Protocol (MCP) server exposing system and infrastructure diagnostics tools to any AI assistant, enabling LLMs to inspect live environments.",
+      "technologies": [
+        "Python",
+        "MCP",
+        "Infrastructure",
+        "AI/ML"
+      ],
+      "category": "AI/ML",
+      "featured": true,
+      "status": "completed",
+      "startDate": "2026-06-24",
+      "endDate": null,
+      "image": "assets/images/projects/infra-diagnostics-mcp.svg",
+      "images": [],
+      "icon": "🛠️",
+      "liveUrl": null,
+      "githubUrl": "https://github.com/ashwani983/infra-diagnostics-mcp",
+      "demoUrl": null,
+      "keyFeatures": [
+        "MCP server implementation",
+        "System diagnostics tools",
+        "LLM assistant integration",
+        "Live environment inspection"
+      ],
+      "impact": "",
+      "teamSize": 1,
+      "role": "AI Platform Engineer"
+    },
+    {
+      "id": "enterprise-rag",
+      "title": "Enterprise RAG",
+      "description": "Retrieval-augmented generation pipeline for grounding LLM answers in enterprise documents and knowledge bases, reducing hallucinations.",
+      "longDescription": "Retrieval-augmented generation pipeline for grounding LLM answers in enterprise documents and knowledge bases, reducing hallucinations.",
+      "technologies": [
+        "Python",
+        "RAG",
+        "Vector Databases",
+        "LLM",
+        "AI/ML"
+      ],
+      "category": "AI/ML",
+      "featured": true,
+      "status": "completed",
+      "startDate": "2026-06-12",
+      "endDate": null,
+      "image": "assets/images/projects/enterprise-rag.svg",
+      "images": [],
+      "icon": "📚",
+      "liveUrl": null,
+      "githubUrl": "https://github.com/ashwani983/enterprise-rag",
+      "demoUrl": null,
+      "keyFeatures": [
+        "Document ingestion and chunking",
+        "Vector embedding and retrieval",
+        "Grounded LLM answers",
+        "Enterprise knowledge integration"
+      ],
+      "impact": "",
+      "teamSize": 1,
+      "role": "AI Engineer"
+    },
+    {
+      "id": "news-sentiment-analysis",
+      "title": "News Headline Sentiment Analysis",
+      "description": "Analyzes news headlines to determine sentiment (positive, negative, neutral) using NLP techniques and visualizes trends over time.",
+      "longDescription": "Analyzes news headlines to determine sentiment (positive, negative, neutral) using NLP techniques and visualizes trends over time.",
+      "technologies": [
+        "Python",
+        "NLP",
+        "Pandas",
+        "Jupyter",
+        "AI/ML"
+      ],
+      "category": "AI/ML",
+      "featured": false,
+      "status": "completed",
+      "startDate": "2022-01-08",
+      "endDate": null,
+      "image": "assets/images/projects/sentiment-analysis.svg",
+      "images": [],
+      "icon": "📊",
+      "liveUrl": null,
+      "githubUrl": "https://github.com/ashwani983/Sentimental-Analysis-News-Headlines",
+      "demoUrl": null,
+      "keyFeatures": [
+        "Headline sentiment classification",
+        "Trend visualization",
+        "Dataset preprocessing",
+        "NLP model evaluation"
+      ],
+      "impact": "",
+      "teamSize": 1,
+      "role": "Data Scientist"
+    },
+    {
+      "id": "android-log-analysis-chatgpt",
+      "title": "Android Log Analysis with ChatGPT",
+      "description": "A web application that analyzes Android device logs using OpenAI GPT API to surface errors, warnings, and likely root causes.",
+      "longDescription": "A web application that analyzes Android device logs using OpenAI GPT API to surface errors, warnings, and likely root causes.",
+      "technologies": [
+        "Python",
+        "Flask",
+        "OpenAI API",
+        "Android ADB",
+        "AI/ML"
+      ],
+      "category": "AI/ML",
+      "featured": false,
+      "status": "completed",
+      "startDate": "2024-12-25",
+      "endDate": null,
+      "image": "assets/images/projects/android-log-analysis-chatgpt.svg",
+      "images": [],
+      "icon": "📱",
+      "liveUrl": null,
+      "githubUrl": "https://github.com/ashwani983/android-log-analysis-using-chatgpt",
+      "demoUrl": null,
+      "keyFeatures": [
+        "Android log parsing",
+        "GPT-powered error analysis",
+        "Web dashboard",
+        "Root cause suggestions"
+      ],
+      "impact": "",
+      "teamSize": 1,
+      "role": "Full Stack Developer"
+    },
+    {
+      "id": "ai-chat-openrouter",
+      "title": "AI Chat Interface (OpenRouter)",
+      "description": "A responsive, full-stack AI chat interface similar to ChatGPT, built with React and TypeScript and powered by the OpenRouter API.",
+      "longDescription": "A responsive, full-stack AI chat interface similar to ChatGPT, built with React and TypeScript and powered by the OpenRouter API.",
+      "technologies": [
+        "React",
+        "TypeScript",
+        "OpenRouter API",
+        "Node.js",
+        "AI/ML"
+      ],
+      "category": "AI/ML",
+      "featured": false,
+      "status": "completed",
+      "startDate": "2026-03-17",
+      "endDate": null,
+      "image": "assets/images/projects/chatbot-openrouter.svg",
+      "images": [],
+      "icon": "💬",
+      "liveUrl": null,
+      "githubUrl": "https://github.com/ashwani983/ChatBotUsingOpenRouterAPI",
+      "demoUrl": null,
+      "keyFeatures": [
+        "ChatGPT-style UI",
+        "Multi-model support",
+        "Streaming responses",
+        "Responsive design"
+      ],
+      "impact": "",
+      "teamSize": 1,
+      "role": "Full Stack Developer"
+    },
+    {
+      "id": "myrevisor",
+      "title": "MyRevisor",
+      "description": "An interactive CLI/UI study application for DevOps interview preparation with practice questions, hints, and progress tracking.",
+      "longDescription": "An interactive CLI/UI study application for DevOps interview preparation with practice questions, hints, and progress tracking.",
+      "technologies": [
+        "TypeScript",
+        "Node.js",
+        "CLI",
+        "Education"
+      ],
+      "category": "Education",
+      "featured": false,
+      "status": "completed",
+      "startDate": "2026-04-01",
+      "endDate": null,
+      "image": "assets/images/projects/myrevisor.svg",
+      "images": [],
+      "icon": "🎓",
+      "liveUrl": null,
+      "githubUrl": "https://github.com/ashwani983/myrevisor",
+      "demoUrl": null,
+      "keyFeatures": [
+        "DevOps interview questions",
+        "Interactive practice mode",
+        "Progress tracking",
+        "CLI and UI interfaces"
+      ],
+      "impact": "",
+      "teamSize": 1,
+      "role": "Developer"
+    },
+    {
+      "id": "lost-and-found",
+      "title": "Lost & Found",
+      "description": "A web application that helps users report and track lost and found items, with search and matching capabilities.",
+      "longDescription": "A web application that helps users report and track lost and found items, with search and matching capabilities.",
+      "technologies": [
+        "Java",
+        "JSP",
+        "Servlet",
+        "MySQL",
+        "HTML",
+        "CSS"
+      ],
+      "category": "Full Stack",
+      "featured": false,
+      "status": "completed",
+      "startDate": "2021-09-01",
+      "endDate": null,
+      "image": "assets/images/projects/lost-and-found.svg",
+      "images": [],
+      "icon": "🔍",
+      "liveUrl": null,
+      "githubUrl": "https://github.com/ashwani983/Lost_and_Found",
+      "demoUrl": null,
+      "keyFeatures": [
+        "Report lost/found items",
+        "Search and matching",
+        "User management",
+        "Web interface"
+      ],
+      "impact": "",
+      "teamSize": 1,
+      "role": "Full Stack Developer"
+    },
+    {
+      "id": "hobby-tracker",
+      "title": "Hobby Tracker",
+      "description": "A mobile app that helps users track, manage, and visualize their hobbies, log activities, and build streaks.",
+      "longDescription": "A mobile app that helps users track, manage, and visualize their hobbies, log activities, and build streaks.",
+      "technologies": [
+        "Dart",
+        "Flutter",
+        "Mobile"
+      ],
+      "category": "Mobile",
+      "featured": false,
+      "status": "completed",
+      "startDate": "2026-03-11",
+      "endDate": null,
+      "image": "assets/images/projects/hobbytracker.svg",
+      "images": [],
+      "icon": "🎯",
+      "liveUrl": null,
+      "githubUrl": "https://github.com/ashwani983/HobbyTracker",
+      "demoUrl": null,
+      "keyFeatures": [
+        "Activity logging",
+        "Streak tracking",
+        "Visualization dashboards",
+        "Cross-platform mobile"
+      ],
+      "impact": "",
+      "teamSize": 1,
+      "role": "Mobile Developer"
+    },
+    {
+      "id": "stf-automation",
+      "title": "STF Automation",
+      "description": "Automated and simplified installation scripts for Smartphone Test Farm (STF), letting teams stand up device farms quickly.",
+      "longDescription": "Automated and simplified installation scripts for Smartphone Test Farm (STF), letting teams stand up device farms quickly.",
+      "technologies": [
+        "Shell",
+        "STF",
+        "Docker",
+        "DevOps"
+      ],
+      "category": "DevOps",
+      "featured": false,
+      "status": "completed",
+      "startDate": "2026-02-11",
+      "endDate": null,
+      "image": "assets/images/projects/stf-automation.svg",
+      "images": [],
+      "icon": "🖥️",
+      "liveUrl": null,
+      "githubUrl": "https://github.com/ashwani983/stf-automation",
+      "demoUrl": null,
+      "keyFeatures": [
+        "One-command STF setup",
+        "Docker-based deployment",
+        "Device farm provisioning",
+        "Installation automation"
+      ],
+      "impact": "",
+      "teamSize": 1,
+      "role": "DevOps Engineer"
+    },
+    {
+      "id": "selenium-automation-framework",
+      "title": "Selenium Automation Framework",
+      "description": "A Selenium test automation framework for web application testing, structured for learning and production use.",
+      "longDescription": "A Selenium test automation framework for web application testing, structured for learning and production use.",
+      "technologies": [
+        "Selenium",
+        "Python",
+        "WebDriver",
+        "Test Automation"
+      ],
+      "category": "Test Automation",
+      "featured": false,
+      "status": "completed",
+      "startDate": "2020-10-16",
+      "endDate": null,
+      "image": "assets/images/projects/selenium-automation-framework.svg",
+      "images": [],
+      "icon": "🧪",
+      "liveUrl": null,
+      "githubUrl": "https://github.com/ashwani983/Selenium_Automation_framework",
+      "demoUrl": null,
+      "keyFeatures": [
+        "Page object model",
+        "Cross-browser testing",
+        "Reusable test utilities",
+        "Clear reporting"
+      ],
+      "impact": "",
+      "teamSize": 1,
+      "role": "Test Automation Engineer"
+    },
+    {
+      "id": "setup-my-system",
+      "title": "SetupMySystem",
+      "description": "Automated system setup scripts for fresh OS installations — installs tools, configures environments, and saves hours of manual setup.",
+      "longDescription": "Automated system setup scripts for fresh OS installations — installs tools, configures environments, and saves hours of manual setup.",
+      "technologies": [
+        "Shell",
+        "Linux",
+        "Automation",
+        "DevOps"
+      ],
+      "category": "DevOps",
+      "featured": false,
+      "status": "completed",
+      "startDate": "2026-04-06",
+      "endDate": null,
+      "image": "assets/images/projects/setup-my-system.svg",
+      "images": [],
+      "icon": "⚙️",
+      "liveUrl": null,
+      "githubUrl": "https://github.com/ashwani983/SetupMySystem",
+      "demoUrl": null,
+      "keyFeatures": [
+        "One-command environment setup",
+        "Tool installation automation",
+        "Customizable configs",
+        "Supports fresh installs"
+      ],
+      "impact": "",
+      "teamSize": 1,
+      "role": "DevOps Engineer"
+    },
+    {
+      "id": "loss-assessment-processing",
+      "title": "Loss Assessment Processing",
+      "description": "A tool to assess losses and generate structured reports based on user input, streamlining claims and assessment workflows.",
+      "longDescription": "A tool to assess losses and generate structured reports based on user input, streamlining claims and assessment workflows.",
+      "technologies": [
+        "Python",
+        "Flask",
+        "Data Processing",
+        "Reporting"
+      ],
+      "category": "Data Processing",
+      "featured": false,
+      "status": "completed",
+      "startDate": "2022-04-09",
+      "endDate": null,
+      "image": "assets/images/projects/loss-assessment.svg",
+      "images": [],
+      "icon": "📝",
+      "liveUrl": null,
+      "githubUrl": "https://github.com/ashwani983/Loss_Assessment_Processing",
+      "demoUrl": null,
+      "keyFeatures": [
+        "Loss assessment logic",
+        "Structured report generation",
+        "Web interface",
+        "Streamlined workflows"
+      ],
+      "impact": "",
+      "teamSize": 1,
+      "role": "Python Developer"
     }
   ],
   "categories": [
@@ -457,14 +910,34 @@
       "name": "Microservices",
       "description": "Microservices architecture and deployment",
       "color": "#58a6ff"
+    },
+    {
+      "name": "Education",
+      "color": "#ffd21e",
+      "description": "Education and learning projects"
+    },
+    {
+      "name": "Full Stack",
+      "color": "#58a6ff",
+      "description": "Full stack web applications"
+    },
+    {
+      "name": "Mobile",
+      "color": "#d2a8ff",
+      "description": "Mobile applications"
+    },
+    {
+      "name": "Data Processing",
+      "color": "#f0883e",
+      "description": "Data processing and reporting tools"
     }
   ],
   "stats": {
-    "totalProjects": 9,
-    "completedProjects": 8,
+    "totalProjects": 23,
+    "completedProjects": 22,
     "inProgressProjects": 1,
-    "featuredProjects": 5,
-    "technologiesUsed": 35,
-    "totalTeamSize": 26
+    "featuredProjects": 8,
+    "technologiesUsed": 74,
+    "totalTeamSize": 40
   }
 }

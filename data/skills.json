@@ -95,9 +95,70 @@
       "level": 75,
       "description": "Relational database management",
       "logo": "mysql.svg"
+    },
+    {
+      "id": "machine-learning",
+      "name": "Machine Learning",
+      "category": "AI/ML",
+      "level": 78,
+      "description": "Model training, evaluation, and deployment",
+      "logo": "scikitlearn.svg"
+    },
+    {
+      "id": "deep-learning",
+      "name": "Deep Learning",
+      "category": "AI/ML",
+      "level": 72,
+      "description": "Neural networks and deep learning frameworks",
+      "logo": "tensorflow.svg"
+    },
+    {
+      "id": "llm-integration",
+      "name": "LLM Integration",
+      "category": "AI/ML",
+      "level": 80,
+      "description": "Large language models and Hugging Face ecosystem",
+      "logo": "huggingface.svg"
+    },
+    {
+      "id": "prompt-engineering",
+      "name": "Prompt Engineering",
+      "category": "AI/ML",
+      "level": 85,
+      "description": "Designing effective prompts and AI tooling",
+      "icon": "✨"
+    },
+    {
+      "id": "rag-pipelines",
+      "name": "RAG Pipelines",
+      "category": "AI/ML",
+      "level": 70,
+      "description": "Retrieval-augmented generation for grounded answers",
+      "icon": "🔗"
+    },
+    {
+      "id": "mcp-agents",
+      "name": "MCP & AI Agents",
+      "category": "AI/ML",
+      "level": 68,
+      "description": "Model Context Protocol servers and agent tooling",
+      "icon": "🔌"
+    },
+    {
+      "id": "openai-api",
+      "name": "OpenAI / LLM APIs",
+      "category": "AI/ML",
+      "level": 75,
+      "description": "OpenAI, OpenRouter, and other LLM API integration",
+      "icon": "🤖"
     }
   ],
   "categories": [
+    {
+      "name": "AI/ML",
+      "color": "#ff6b6b",
+      "description": "Artificial intelligence and machine learning"
+    },
     {
       "name": "DevOps",
       "color": "#58a6ff",
