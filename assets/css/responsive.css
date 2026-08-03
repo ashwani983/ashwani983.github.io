@@ -245,6 +245,7 @@
   }
   
   .about-highlights {
+    grid-template-columns: 1fr;
     gap: var(--spacing-sm);
   }
   
@@ -596,6 +597,7 @@
 
   /* Skills */
   .skills-list {
+    grid-template-columns: 1fr;
     gap: var(--spacing-md);
   }
 
