@@ -36,11 +36,13 @@
     width: 100%;
     height: calc(100vh - 70px);
     background: var(--primary-bg);
+    display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     transition: var(--transition-normal);
     padding-top: var(--spacing-xl);
+    z-index: 999;
   }
   
   .nav-menu.active {
@@ -49,6 +51,7 @@
   
   .nav-list {
     flex-direction: column;
+    align-items: center;
     gap: var(--spacing-xl);
   }
   
@@ -571,6 +574,10 @@
 
 /* Hero refinements - mobile */
 @media (max-width: 768px) {
+  .scroll-indicator {
+    display: none;
+  }
+
   .hero-eyebrow {
     font-size: var(--fs-xs);
     margin-bottom: var(--spacing-sm);
