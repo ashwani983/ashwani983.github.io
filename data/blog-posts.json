@@ -1,6 +1,26 @@
 {
   "posts": [
     {
+      "id": "system-design-handbook-scalable-architectures",
+      "title": "System Design Handbook: A Practical Guide to Scalable Architectures",
+      "slug": "system-design-handbook-scalable-architectures",
+      "file": "2026-08-04-system-design-handbook-scalable-architectures.md",
+      "date": "2026-08-04",
+      "excerpt": "A practical guide to system design fundamentals: load balancing, caching, CAP theorem, sharding, consistent hashing, queues, and more.",
+      "content": "blog.html?post=system-design-handbook-scalable-architectures",
+      "readTime": "20 min read",
+      "tags": [
+        "System Design",
+        "Distributed Systems",
+        "Scalability"
+      ],
+      "category": "Technology",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 4577
+    },
+    {
       "id": "mastering-docker-complete-guide",
       "title": "Mastering Docker: A Complete Guide to Containers, Networking, Storage, Registry and Security",
       "slug": "mastering-docker-complete-guide",
@@ -363,6 +383,9 @@
   ],
   "categories": [],
   "tags": [
+    "System Design",
+    "Distributed Systems",
+    "Scalability",
     "Docker",
     "DevOps",
     "Containers",
@@ -434,15 +457,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 16,
-    "publishedPosts": 16,
+    "totalPosts": 17,
+    "publishedPosts": 17,
     "draftPosts": 0,
-    "featuredPosts": 16,
+    "featuredPosts": 17,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
-    "categoriesCount": 3,
-    "tagsCount": 69
+    "categoriesCount": 4,
+    "tagsCount": 72
   },
   "settings": {
     "postsPerPage": 12,
@@ -453,5 +476,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-08-04T09:51:55.089Z"
+  "generatedAt": "2026-08-04T09:56:40.621Z"
 }
