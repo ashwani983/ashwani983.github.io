@@ -1,6 +1,27 @@
 {
   "posts": [
     {
+      "id": "sql-guide-database-communication",
+      "title": "A Comprehensive Guide to SQL: The Language for Database Communication",
+      "slug": "sql-guide-database-communication",
+      "file": "developer/2026-08-04-sql-guide-database-communication.md",
+      "date": "2026-08-04",
+      "excerpt": "Discover SQL, the standard language for database communication. Learn its history, syntax, and key concepts with practical examples and a Mermaid diagram.",
+      "content": "blog.html?post=sql-guide-database-communication",
+      "readTime": "2 min read",
+      "tags": [
+        "sql",
+        "database",
+        "rdbms",
+        "query-language"
+      ],
+      "category": "Developer",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 757
+    },
+    {
       "id": "system-design-handbook-scalable-architectures",
       "title": "System Design Handbook: A Practical Guide to Scalable Architectures",
       "slug": "system-design-handbook-scalable-architectures",
@@ -383,6 +404,10 @@
   ],
   "categories": [],
   "tags": [
+    "sql",
+    "database",
+    "rdbms",
+    "query-language",
     "System Design",
     "Distributed Systems",
     "Scalability",
@@ -457,15 +482,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 17,
-    "publishedPosts": 17,
+    "totalPosts": 18,
+    "publishedPosts": 18,
     "draftPosts": 0,
-    "featuredPosts": 17,
+    "featuredPosts": 18,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 3,
-    "tagsCount": 72
+    "tagsCount": 76
   },
   "settings": {
     "postsPerPage": 12,
@@ -476,5 +501,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-08-04T10:17:26.194Z"
+  "generatedAt": "2026-08-04T10:27:23.448Z"
 }
