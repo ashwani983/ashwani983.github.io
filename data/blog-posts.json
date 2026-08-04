@@ -63,6 +63,27 @@
       "_wordCount": 1630
     },
     {
+      "id": "aws-security-best-practices-checklist",
+      "title": "AWS Security Best Practices: A Practical Checklist for Protecting Your Cloud Environment",
+      "slug": "aws-security-best-practices-checklist",
+      "file": "devops/2026-08-04-aws-security-best-practices-checklist.md",
+      "date": "2026-08-04",
+      "excerpt": "A practical AWS security checklist covering IAM least privilege, MFA, encryption, secrets management, monitoring, and shared responsibility.",
+      "content": "blog.html?post=aws-security-best-practices-checklist",
+      "readTime": "8 min read",
+      "tags": [
+        "AWS",
+        "Cloud Security",
+        "DevOps",
+        "IAM"
+      ],
+      "category": "DevOps",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2615
+    },
+    {
       "id": "ci-cd-devops-pipeline-kubernetes-jenkins",
       "title": "Building an End-to-End CI/CD DevOps Pipeline with Kubernetes and Jenkins",
       "slug": "ci-cd-devops-pipeline-kubernetes-jenkins",
@@ -632,6 +653,9 @@
     "Linux",
     "DevOps",
     "System Administration",
+    "AWS",
+    "Cloud Security",
+    "IAM",
     "CI/CD",
     "Kubernetes",
     "Jenkins",
@@ -731,15 +755,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 28,
-    "publishedPosts": 28,
+    "totalPosts": 29,
+    "publishedPosts": 29,
     "draftPosts": 0,
-    "featuredPosts": 28,
+    "featuredPosts": 29,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 108
+    "tagsCount": 111
   },
   "settings": {
     "postsPerPage": 12,
@@ -750,5 +774,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-08-04T17:06:03.168Z"
+  "generatedAt": "2026-08-04T17:11:08.074Z"
 }
