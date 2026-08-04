@@ -320,6 +320,28 @@
       "_wordCount": 1058
     },
     {
+      "id": "tcp-three-way-handshake-explained",
+      "title": "Understanding the TCP Three-Way Handshake: A Comprehensive Guide",
+      "slug": "tcp-three-way-handshake-explained",
+      "file": "others/2026-08-04-tcp-three-way-handshake-explained.md",
+      "date": "2026-08-04",
+      "excerpt": "Learn what the TCP Three-Way Handshake is, how it works, and its importance in network communication for SOC Analysts and cybersecurity professionals.",
+      "content": "blog.html?post=tcp-three-way-handshake-explained",
+      "readTime": "2 min read",
+      "tags": [
+        "tcp",
+        "networking",
+        "soc",
+        "cybersecurity",
+        "handshake"
+      ],
+      "category": "Others",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 683
+    },
+    {
       "id": "essential-ports-every-devops-engineer-should-know",
       "title": "Essential Ports Every DevOps Engineer Should Know",
       "slug": "essential-ports-every-devops-engineer-should-know",
@@ -693,6 +715,10 @@
     "projects",
     "serverless",
     "terraform",
+    "tcp",
+    "networking",
+    "soc",
+    "handshake",
     "ITInfrastructure",
     "Networking",
     "NetworkSecurity",
@@ -755,15 +781,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 29,
-    "publishedPosts": 29,
+    "totalPosts": 30,
+    "publishedPosts": 30,
     "draftPosts": 0,
-    "featuredPosts": 29,
+    "featuredPosts": 30,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 111
+    "tagsCount": 115
   },
   "settings": {
     "postsPerPage": 12,
@@ -774,5 +800,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-08-04T17:11:08.074Z"
+  "generatedAt": "2026-08-04T17:12:55.739Z"
 }
