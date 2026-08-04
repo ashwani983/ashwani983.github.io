@@ -15,6 +15,16 @@
     return String(str || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
   }
 
+  function setSectionTitleLevel(level) {
+    const el = document.getElementById('projects-title');
+    if (!el || el.tagName.toLowerCase() === level) return;
+    const next = document.createElement(level);
+    next.id = el.id;
+    next.className = el.className;
+    next.textContent = el.textContent;
+    el.replaceWith(next);
+  }
+
   function setTheme(theme) {
     document.documentElement.setAttribute('data-theme', theme);
     state.currentTheme = theme;
@@ -141,6 +151,7 @@
 
   async function loadArchive() {
     const archive = document.getElementById('project-archive');
+    setSectionTitleLevel('h1');
     try {
       const response = await fetch('data/projects.json');
       const data = await response.json();
@@ -179,6 +190,7 @@
 
     if (!detail || !titleEl || !metaEl || !linksEl || !contentEl) return;
 
+    setSectionTitleLevel('h2');
     document.title = `${project.title} - Ashwani Kumar`;
     archive?.setAttribute('hidden', '');
     document.getElementById('project-categories')?.setAttribute('hidden', '');

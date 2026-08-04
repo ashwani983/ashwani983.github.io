@@ -872,6 +872,16 @@ a.contact-item {
   color: var(--text-secondary);
 }
 
+.contact-details .contact-mail {
+  color: var(--text-accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.contact-details .contact-mail:hover {
+  color: var(--text-primary);
+}
+
 .social-links {
   display: flex;
   justify-content: center;

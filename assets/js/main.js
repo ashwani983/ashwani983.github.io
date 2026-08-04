@@ -32,7 +32,7 @@ const state = {
   currentTheme: localStorage.getItem('theme') || 'dark',
   isLoading: true,
   typewriterIndex: 0,
-  typewriterText: ['Ashwani Kumar', 'System Developer', 'DevOps Engineer', 'Cloud Specialist']
+  typewriterText: ['Ashwani Kumar', 'System Developer Engineer', 'DevOps Engineer']
 };
 
 // Utility Functions
@@ -683,9 +683,9 @@ const contributionCalendar = {
   async fetchContributions() {
     const url = `https://github.com/users/${contributionCalendar.username}/contributions`;
     const sources = [
-      url,
       `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,
-      `https://corsproxy.io/?url=${encodeURIComponent(url)}`
+      `https://corsproxy.io/?url=${encodeURIComponent(url)}`,
+      url
     ];
     for (const src of sources) {
       try {

@@ -15,6 +15,16 @@
     return String(str || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
   }
 
+  function setSectionTitleLevel(level) {
+    const el = document.getElementById('blog-title');
+    if (!el || el.tagName.toLowerCase() === level) return;
+    const next = document.createElement(level);
+    next.id = el.id;
+    next.className = el.className;
+    next.textContent = el.textContent;
+    el.replaceWith(next);
+  }
+
   function setTheme(theme) {
     document.documentElement.setAttribute('data-theme', theme);
     blogState.currentTheme = theme;
@@ -169,6 +179,7 @@
 
   async function loadArchive() {
     const archive = document.getElementById('blog-archive');
+    setSectionTitleLevel('h1');
     try {
       const response = await fetch('data/blog-posts.json');
       const data = await response.json();
@@ -207,6 +218,7 @@
 
     if (!postEl || !titleEl || !metaEl || !contentEl) return;
 
+    setSectionTitleLevel('h2');
     document.title = 'Post - Ashwani Kumar';
     archive?.setAttribute('hidden', '');
     postEl.removeAttribute('hidden');
@@ -232,6 +244,11 @@
       `;
       const renderer = window.marked && window.marked.parse ? window.marked.parse.bind(window.marked) : (typeof window.marked === 'function' ? window.marked : null);
       contentEl.innerHTML = (renderer || fallbackMarked)(content);
+
+      const firstH1 = contentEl.querySelector('h1');
+      if (firstH1 && firstH1.textContent.trim() === (meta.title || '').trim()) {
+        firstH1.remove();
+      }
 
       document.title = `${meta.title || slug} - Ashwani Kumar`;
       const subtitle = document.getElementById('blog-subtitle');
