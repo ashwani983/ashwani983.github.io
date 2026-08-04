@@ -1,6 +1,6 @@
 ---
 title: Ultimate Guide to AWS Projects for Cloud Engineers
-date: 2026-08-04
+date: 2022-09-16
 slug: aws-projects-guide
 tags: [aws, cloud, devops, projects, serverless, terraform]
 category: DevOps

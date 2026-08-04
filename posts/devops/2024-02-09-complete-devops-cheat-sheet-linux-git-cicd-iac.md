@@ -1,6 +1,6 @@
 ---
 title: The Complete DevOps Cheat Sheet: Linux, Git, CI/CD, IaC and Beyond
-date: 2026-08-04
+date: 2024-02-09
 slug: complete-devops-cheat-sheet-linux-git-cicd-iac
 tags: [DevOps, Linux, CI/CD, Terraform, Ansible]
 category: DevOps

@@ -1,6 +1,6 @@
 ---
 title: Mastering Docker: A Complete Guide to Containers, Networking, Storage, Registry and Security
-date: 2026-08-04
+date: 2024-06-28
 slug: mastering-docker-complete-guide
 tags: [Docker, DevOps, Containers]
 category: Technology

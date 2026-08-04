@@ -1,6 +1,6 @@
 ---
 title: Terraform Basics for DevOps Engineers: A Practical Introduction
-date: 2026-08-04
+date: 2022-03-18
 slug: terraform-basics-for-devops-engineers
 tags: [Terraform, DevOps, Infrastructure as Code]
 category: Technology

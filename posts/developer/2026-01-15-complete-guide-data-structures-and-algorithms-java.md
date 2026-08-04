@@ -1,6 +1,6 @@
 ---
 title: The Complete Guide to Data Structures and Algorithms in Java
-date: 2026-08-04
+date: 2026-01-15
 slug: complete-guide-data-structures-and-algorithms-java
 tags: [Data Structures, Algorithms, Java]
 category: Developer

@@ -1,6 +1,6 @@
 ---
 title: Building an End-to-End CI/CD DevOps Pipeline with Kubernetes and Jenkins
-date: 2026-08-04
+date: 2023-07-14
 slug: ci-cd-devops-pipeline-kubernetes-jenkins
 tags: [CI/CD, Kubernetes, Jenkins, Docker, Monitoring]
 category: DevOps

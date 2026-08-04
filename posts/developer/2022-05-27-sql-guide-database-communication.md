@@ -1,6 +1,6 @@
 ---
 title: A Comprehensive Guide to SQL: The Language for Database Communication
-date: 2026-08-04
+date: 2022-05-27
 slug: sql-guide-database-communication
 tags: [sql, database, rdbms, query-language]
 category: Developer

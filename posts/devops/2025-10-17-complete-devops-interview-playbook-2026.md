@@ -1,6 +1,6 @@
 ---
 title: The Complete DevOps Interview Playbook for 2026
-date: 2026-08-04
+date: 2025-10-17
 slug: complete-devops-interview-playbook-2026
 tags: [DevOps, Kubernetes, Cloud, CI/CD]
 category: DevOps

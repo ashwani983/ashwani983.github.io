@@ -1,6 +1,6 @@
 ---
 title: Push vs Pull Deployment Models - Understanding GitOps and Continuous Delivery
-date: 2026-08-04
+date: 2025-06-20
 slug: push-vs-pull-gitops-deployment-models
 tags: [GitOps, CI/CD, Kubernetes, Argo CD, Flux]
 category: DevOps

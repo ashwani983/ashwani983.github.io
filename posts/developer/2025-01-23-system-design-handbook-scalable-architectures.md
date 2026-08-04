@@ -1,6 +1,6 @@
 ---
 title: System Design Handbook: A Practical Guide to Scalable Architectures
-date: 2026-08-04
+date: 2025-01-23
 slug: system-design-handbook-scalable-architectures
 tags: [System Design, Distributed Systems, Scalability]
 category: Technology
