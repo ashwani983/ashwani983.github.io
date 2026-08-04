@@ -952,6 +952,7 @@ a.contact-item {
 
 .hidden { display: none; }
 .visible { display: block; }
+[hidden] { display: none !important; }
 
 /* Loading States */
 .loading {
