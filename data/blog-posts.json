@@ -42,6 +42,29 @@
       "_wordCount": 4577
     },
     {
+      "id": "aws-projects-guide",
+      "title": "Ultimate Guide to AWS Projects for Cloud Engineers",
+      "slug": "aws-projects-guide",
+      "file": "devops/2026-08-04-aws-projects-guide.md",
+      "date": "2026-08-04",
+      "excerpt": "Comprehensive guide to 50+ AWS projects covering web hosting, serverless apps, security, CI/CD, and IaC. Perfect for cloud engineers and developers.",
+      "content": "blog.html?post=aws-projects-guide",
+      "readTime": "3 min read",
+      "tags": [
+        "aws",
+        "cloud",
+        "devops",
+        "projects",
+        "serverless",
+        "terraform"
+      ],
+      "category": "DevOps",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 1058
+    },
+    {
       "id": "mastering-docker-complete-guide",
       "title": "Mastering Docker: A Complete Guide to Containers, Networking, Storage, Registry and Security",
       "slug": "mastering-docker-complete-guide",
@@ -411,6 +434,12 @@
     "System Design",
     "Distributed Systems",
     "Scalability",
+    "aws",
+    "cloud",
+    "devops",
+    "projects",
+    "serverless",
+    "terraform",
     "Docker",
     "DevOps",
     "Containers",
@@ -482,15 +511,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 18,
-    "publishedPosts": 18,
+    "totalPosts": 19,
+    "publishedPosts": 19,
     "draftPosts": 0,
-    "featuredPosts": 18,
+    "featuredPosts": 19,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 3,
-    "tagsCount": 76
+    "tagsCount": 82
   },
   "settings": {
     "postsPerPage": 12,
@@ -501,5 +530,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-08-04T10:27:23.448Z"
+  "generatedAt": "2026-08-04T10:32:17.306Z"
 }
