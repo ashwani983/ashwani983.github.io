@@ -1,6 +1,26 @@
 {
   "posts": [
     {
+      "id": "mastering-docker-complete-guide",
+      "title": "Mastering Docker: A Complete Guide to Containers, Networking, Storage, Registry and Security",
+      "slug": "mastering-docker-complete-guide",
+      "file": "2026-08-04-mastering-docker-complete-guide.md",
+      "date": "2026-08-04",
+      "excerpt": "A comprehensive walkthrough of Docker covering containers, images, networking, storage, registries, security, orchestration, and the operational practices teams need in production.",
+      "content": "blog.html?post=mastering-docker-complete-guide",
+      "readTime": "16 min read",
+      "tags": [
+        "Docker",
+        "DevOps",
+        "Containers"
+      ],
+      "category": "Technology",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 5276
+    },
+    {
       "id": "terraform-basics-for-devops-engineers",
       "title": "Terraform Basics for DevOps Engineers: A Practical Introduction",
       "slug": "terraform-basics-for-devops-engineers",
@@ -86,8 +106,10 @@
   ],
   "categories": [],
   "tags": [
-    "Terraform",
+    "Docker",
     "DevOps",
+    "Containers",
+    "Terraform",
     "Infrastructure as Code",
     "Testing",
     "Automation",
@@ -101,15 +123,15 @@
     "Configuration Management"
   ],
   "stats": {
-    "totalPosts": 4,
-    "publishedPosts": 4,
+    "totalPosts": 5,
+    "publishedPosts": 5,
     "draftPosts": 0,
-    "featuredPosts": 4,
+    "featuredPosts": 5,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 13
+    "tagsCount": 15
   },
   "settings": {
     "postsPerPage": 6,
@@ -120,5 +142,5 @@
     "enableCategoryFiltering": false,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-08-04T09:05:47.417Z"
+  "generatedAt": "2026-08-04T09:25:53.262Z"
 }
