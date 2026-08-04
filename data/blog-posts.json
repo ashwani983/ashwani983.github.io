@@ -1,6 +1,26 @@
 {
   "posts": [
     {
+      "id": "complete-guide-data-structures-and-algorithms-java",
+      "title": "The Complete Guide to Data Structures and Algorithms in Java",
+      "slug": "complete-guide-data-structures-and-algorithms-java",
+      "file": "developer/2026-08-04-complete-guide-data-structures-and-algorithms-java.md",
+      "date": "2026-08-04",
+      "excerpt": "A practical Java guide covering sorting, searching, dynamic programming, graph, greedy, backtracking, tree and math algorithms with complexity analysis.",
+      "content": "blog.html?post=complete-guide-data-structures-and-algorithms-java",
+      "readTime": "14 min read",
+      "tags": [
+        "Data Structures",
+        "Algorithms",
+        "Java"
+      ],
+      "category": "Developer",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 4336
+    },
+    {
       "id": "sql-guide-database-communication",
       "title": "A Comprehensive Guide to SQL: The Language for Database Communication",
       "slug": "sql-guide-database-communication",
@@ -449,6 +469,9 @@
   ],
   "categories": [],
   "tags": [
+    "Data Structures",
+    "Algorithms",
+    "Java",
     "sql",
     "database",
     "rdbms",
@@ -534,15 +557,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 20,
-    "publishedPosts": 20,
+    "totalPosts": 21,
+    "publishedPosts": 21,
     "draftPosts": 0,
-    "featuredPosts": 20,
+    "featuredPosts": 21,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 3,
-    "tagsCount": 83
+    "tagsCount": 86
   },
   "settings": {
     "postsPerPage": 12,
@@ -553,5 +576,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-08-04T10:48:56.094Z"
+  "generatedAt": "2026-08-04T10:58:28.925Z"
 }
