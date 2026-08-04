@@ -22,6 +22,26 @@
       "_wordCount": 757
     },
     {
+      "id": "linux-foundation-for-devops",
+      "title": "A Strong Foundation for DevOps: Mastering Linux Fundamentals",
+      "slug": "linux-foundation-for-devops",
+      "file": "devops/2026-08-04-linux-foundation-for-devops.md",
+      "date": "2026-08-04",
+      "excerpt": "Linux is the backbone of modern DevOps. Learn why it matters, essential commands, the filesystem hierarchy, and file permissions to build a strong foundation.",
+      "content": "blog.html?post=linux-foundation-for-devops",
+      "readTime": "8 min read",
+      "tags": [
+        "Linux",
+        "DevOps",
+        "System Administration"
+      ],
+      "category": "DevOps",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 1630
+    },
+    {
       "id": "ci-cd-devops-pipeline-kubernetes-jenkins",
       "title": "Building an End-to-End CI/CD DevOps Pipeline with Kubernetes and Jenkins",
       "slug": "ci-cd-devops-pipeline-kubernetes-jenkins",
@@ -584,6 +604,9 @@
     "database",
     "rdbms",
     "query-language",
+    "Linux",
+    "DevOps",
+    "System Administration",
     "CI/CD",
     "Kubernetes",
     "Jenkins",
@@ -595,7 +618,6 @@
     "Azure AD",
     "Exchange Online",
     "Service Desk",
-    "DevOps",
     "Containers",
     "security",
     "cybersecurity",
@@ -608,7 +630,6 @@
     "Scalability",
     "Terraform",
     "Infrastructure as Code",
-    "Linux",
     "Ansible",
     "Cloud",
     "Data Structures",
@@ -685,15 +706,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 26,
-    "publishedPosts": 26,
+    "totalPosts": 27,
+    "publishedPosts": 27,
     "draftPosts": 0,
-    "featuredPosts": 26,
+    "featuredPosts": 27,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 103
+    "tagsCount": 104
   },
   "settings": {
     "postsPerPage": 12,
@@ -704,5 +725,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-08-04T13:44:28.050Z"
+  "generatedAt": "2026-08-04T17:04:32.182Z"
 }
