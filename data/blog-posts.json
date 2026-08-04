@@ -65,6 +65,28 @@
       "_wordCount": 1058
     },
     {
+      "id": "complete-devops-cheat-sheet-linux-git-cicd-iac",
+      "title": "The Complete DevOps Cheat Sheet: Linux, Git, CI/CD, IaC and Beyond",
+      "slug": "complete-devops-cheat-sheet-linux-git-cicd-iac",
+      "file": "devops/2026-08-04-complete-devops-cheat-sheet-linux-git-cicd-iac.md",
+      "date": "2026-08-04",
+      "excerpt": "A practical DevOps cheat sheet covering Linux commands, shell scripting, Python automation, Git, CI/CD tools, Terraform, Ansible, and container orchestration.",
+      "content": "blog.html?post=complete-devops-cheat-sheet-linux-git-cicd-iac",
+      "readTime": "15 min read",
+      "tags": [
+        "DevOps",
+        "Linux",
+        "CI/CD",
+        "Terraform",
+        "Ansible"
+      ],
+      "category": "DevOps",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 5101
+    },
+    {
       "id": "mastering-docker-complete-guide",
       "title": "Mastering Docker: A Complete Guide to Containers, Networking, Storage, Registry and Security",
       "slug": "mastering-docker-complete-guide",
@@ -440,14 +462,16 @@
     "projects",
     "serverless",
     "terraform",
-    "Docker",
     "DevOps",
-    "Containers",
+    "Linux",
+    "CI/CD",
     "Terraform",
+    "Ansible",
+    "Docker",
+    "Containers",
     "Infrastructure as Code",
     "ITInfrastructure",
     "Kubernetes",
-    "Linux",
     "Networking",
     "NetworkSecurity",
     "port number",
@@ -465,7 +489,6 @@
     "GitHub",
     "Version Control",
     "Collaboration",
-    "Ansible",
     "Configuration Management",
     "Agile",
     "Product Owner",
@@ -511,15 +534,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 19,
-    "publishedPosts": 19,
+    "totalPosts": 20,
+    "publishedPosts": 20,
     "draftPosts": 0,
-    "featuredPosts": 19,
+    "featuredPosts": 20,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 3,
-    "tagsCount": 82
+    "tagsCount": 83
   },
   "settings": {
     "postsPerPage": 12,
@@ -530,5 +553,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-08-04T10:32:17.306Z"
+  "generatedAt": "2026-08-04T10:48:56.094Z"
 }
