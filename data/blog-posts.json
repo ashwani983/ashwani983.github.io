@@ -172,6 +172,28 @@
       "_wordCount": 1302
     },
     {
+      "id": "push-vs-pull-gitops-deployment-models",
+      "title": "Push vs Pull Deployment Models - Understanding GitOps and Continuous Delivery",
+      "slug": "push-vs-pull-gitops-deployment-models",
+      "file": "devops/2026-08-04-push-vs-pull-gitops-deployment-models.md",
+      "date": "2026-08-04",
+      "excerpt": "Compare push and pull deployment models in CI/CD. Learn why GitOps controllers like Argo CD and Flux make Git the single source of truth through drift detection.",
+      "content": "blog.html?post=push-vs-pull-gitops-deployment-models",
+      "readTime": "8 min read",
+      "tags": [
+        "GitOps",
+        "CI/CD",
+        "Kubernetes",
+        "Argo CD",
+        "Flux"
+      ],
+      "category": "DevOps",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 1773
+    },
+    {
       "id": "system-design-handbook-scalable-architectures",
       "title": "System Design Handbook: A Practical Guide to Scalable Architectures",
       "slug": "system-design-handbook-scalable-architectures",
@@ -696,6 +718,9 @@
     "cia-triad",
     "authentication",
     "malware",
+    "GitOps",
+    "Argo CD",
+    "Flux",
     "System Design",
     "Distributed Systems",
     "Scalability",
@@ -781,15 +806,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 30,
-    "publishedPosts": 30,
+    "totalPosts": 31,
+    "publishedPosts": 31,
     "draftPosts": 0,
-    "featuredPosts": 30,
+    "featuredPosts": 31,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 115
+    "tagsCount": 118
   },
   "settings": {
     "postsPerPage": 12,
@@ -800,5 +825,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-08-04T17:12:55.739Z"
+  "generatedAt": "2026-08-04T17:14:20.646Z"
 }
