@@ -3,41 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Ashwani Kumar's blog - daily notes on DevOps, cloud engineering, test automation, and system engineering.">
+    <meta name="description" content="Ashwani Kumar's projects - AI tools, applications, and infrastructure.">
     <meta name="author" content="Ashwani Kumar">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://ashwani983.github.io/blog.html">
-    
+    <link rel="canonical" href="https://ashwani983.github.io/projects.html">
+
     <!-- Open Graph Tags -->
-    <meta property="og:title" content="Blog - Ashwani Kumar">
-    <meta property="og:description" content="Daily notes on DevOps, cloud engineering, test automation, and system engineering.">
+    <meta property="og:title" content="Projects - Ashwani Kumar">
+    <meta property="og:description" content="AI tools, applications, and infrastructure I've built.">
     <meta property="og:type" content="article">
-    <meta property="og:url" content="https://ashwani983.github.io/blog.html">
+    <meta property="og:url" content="https://ashwani983.github.io/projects.html">
     <meta property="og:site_name" content="Ashwani Kumar">
     <meta property="og:locale" content="en_US">
-    
+
     <!-- Twitter Card Tags -->
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Blog - Ashwani Kumar">
-    <meta name="twitter:description" content="Daily notes on DevOps, cloud engineering, test automation, and system engineering.">
-    
-    <title>Blog - Ashwani Kumar</title>
+    <meta name="twitter:title" content="Projects - Ashwani Kumar">
+    <meta name="twitter:description" content="AI tools, applications, and infrastructure I've built.">
+
+    <title>Projects - Ashwani Kumar</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-    
+
     <!-- CSS Files -->
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
     <link rel="stylesheet" href="assets/css/animations.css">
-    
+
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="assets/images/icons/favicon.svg">
 </head>
-<body class="blog-page">
-    <a class="skip-link" href="#blog-main">Skip to content</a>
+<body class="projects-page">
+    <a class="skip-link" href="#projects-main">Skip to content</a>
 
     <!-- Navigation -->
     <nav class="navbar" id="navbar" aria-label="Main navigation">
@@ -48,7 +48,7 @@
                     <span class="logo-accent">Kumar</span>
                 </a>
             </div>
-            
+
             <div class="nav-menu" id="nav-menu">
                 <ul class="nav-list">
                     <li class="nav-item">
@@ -64,65 +64,67 @@
                         <a href="index.html#experience" class="nav-link">Experience</a>
                     </li>
                     <li class="nav-item">
-                        <a href="projects.html" class="nav-link">Projects</a>
+                        <a href="projects.html" class="nav-link active" aria-current="page">Projects</a>
                     </li>
                     <li class="nav-item">
                         <a href="index.html#github" class="nav-link">GitHub</a>
                     </li>
                     <li class="nav-item">
-                        <a href="blog.html" class="nav-link active" aria-current="page">Blog</a>
+                        <a href="blog.html" class="nav-link">Blog</a>
                     </li>
                     <li class="nav-item">
                         <a href="index.html#contact" class="nav-link">Contact</a>
                     </li>
                 </ul>
             </div>
-            
+
             <button type="button" class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
             </button>
-            
+
             <button type="button" class="theme-toggle" id="theme-toggle" role="switch" aria-checked="true" aria-label="Toggle dark/light theme">
                 <i class="theme-icon" aria-hidden="true">🌙</i>
             </button>
         </div>
     </nav>
 
-    <main id="blog-main">
-        <section class="blog-section" id="blog">
+    <main id="projects-main">
+        <section class="blog-section" id="projects">
             <div class="container">
                 <div class="section-header">
-                    <h2 class="section-title" id="blog-title">Blog</h2>
-                    <p class="section-subtitle" id="blog-subtitle">Notes on DevOps, cloud engineering, and learning in public</p>
+                    <h2 class="section-title" id="projects-title">Projects</h2>
+                    <p class="section-subtitle" id="projects-subtitle">AI tools, applications, and infrastructure I've built</p>
                 </div>
 
                 <div class="blog-toolbar">
-                    <div class="blog-categories" id="blog-categories" role="tablist" aria-label="Filter posts by category">
-                        <button type="button" class="blog-cat-btn active" data-cat="all" role="tab" aria-selected="true">All</button>
+                    <div class="blog-categories" id="project-categories" role="tablist" aria-label="Filter projects by category">
+                        <button type="button" class="blog-cat-btn active" data-cat="All" role="tab" aria-selected="true">All</button>
                     </div>
                     <div class="blog-toolbar-right">
-                        <input type="search" id="blog-search" class="blog-search" placeholder="Search posts…" aria-label="Search posts">
-                        <span class="blog-count" id="blog-count" aria-live="polite"></span>
+                        <input type="search" id="project-search" class="blog-search" placeholder="Search projects…" aria-label="Search projects">
+                        <span class="blog-count" id="project-count" aria-live="polite"></span>
                     </div>
                 </div>
 
-                <div id="blog-archive" class="blog-archive">
-                    <p class="stats-fallback">Loading posts…</p>
+                <div id="project-archive" class="project-archive">
+                    <p class="stats-fallback">Loading projects…</p>
                 </div>
 
-                <nav class="blog-pagination" id="blog-pagination" aria-label="Pagination"></nav>
+                <nav class="blog-pagination" id="project-pagination" aria-label="Pagination"></nav>
 
-                <article id="blog-post" class="blog-post" hidden>
-                    <a href="blog.html" class="btn btn-outline btn-sm" id="blog-back">← Back to all posts</a>
-                    <header class="blog-post-header">
-                        <h1 id="post-title" class="post-title"></h1>
-                        <div class="blog-post-meta" id="post-meta"></div>
+                <article id="project-detail" class="project-detail" hidden>
+                    <a href="projects.html" class="btn btn-outline btn-sm" id="project-back">← Back to all projects</a>
+                    <header class="project-detail-header">
+                        <div class="project-detail-icon" id="project-detail-icon"></div>
+                        <h1 id="project-title" class="post-title"></h1>
+                        <div class="project-detail-meta" id="project-detail-meta"></div>
+                        <div class="project-detail-links" id="project-detail-links"></div>
                     </header>
-                    <div id="post-content" class="post-content markdown-body"></div>
+                    <div id="project-content" class="post-content markdown-body"></div>
                     <div class="blog-post-footer">
-                        <a href="blog.html" class="btn btn-primary">← Back to all posts</a>
+                        <a href="projects.html" class="btn btn-primary">← Back to all projects</a>
                     </div>
                 </article>
             </div>
@@ -157,7 +159,7 @@
                     <a href="index.html#home">Home</a>
                     <a href="index.html#about">About</a>
                     <a href="index.html#skills">Skills</a>
-                    <a href="index.html#projects">Projects</a>
+                    <a href="projects.html">Projects</a>
                     <a href="index.html#github">GitHub</a>
                     <a href="blog.html">Blog</a>
                     <a href="index.html#contact">Contact</a>
@@ -168,7 +170,7 @@
 
     <!-- JavaScript Files -->
     <script src="assets/js/vendor/marked.min.js"></script>
-    <script src="assets/js/blog.js"></script>
+    <script src="assets/js/projects.js"></script>
     <script src="assets/js/navigation.js"></script>
 </body>
 </html>

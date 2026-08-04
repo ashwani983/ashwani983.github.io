@@ -1,6 +1,143 @@
 {
   "projects": [
     {
+      "id": "diff-explainer",
+      "title": "AI Diff Explainer",
+      "description": "An AI-powered skill that turns raw git diffs into human-readable explanations with risk flags, helping teams review changes faster.",
+      "longDescription": "An AI-powered skill that turns raw git diffs into human-readable explanations with risk flags, helping teams review changes faster.",
+      "technologies": [
+        "Python",
+        "OpenAI API",
+        "Git",
+        "AI/ML"
+      ],
+      "category": "AI/ML",
+      "featured": true,
+      "status": "completed",
+      "startDate": "2026-06-24",
+      "endDate": null,
+      "image": "assets/images/projects/diff-explainer.svg",
+      "images": [],
+      "icon": "🧾",
+      "liveUrl": null,
+      "githubUrl": "https://github.com/ashwani983/diff-explainer",
+      "demoUrl": null,
+      "keyFeatures": [
+        "Human-readable diff explanations",
+        "Automated risk flagging",
+        "CLI and skill-based usage",
+        "OpenAI-powered analysis"
+      ],
+      "challenges": [],
+      "solutions": [],
+      "impact": "",
+      "teamSize": 1,
+      "role": "AI Engineer"
+    },
+    {
+      "id": "incident-postmortem-agent",
+      "title": "Incident Postmortem Agent",
+      "description": "An AI agent that ingests raw incident data (timeline, logs, alerts) and generates structured postmortems with root-cause analysis and action items.",
+      "longDescription": "An AI agent that ingests raw incident data (timeline, logs, alerts) and generates structured postmortems with root-cause analysis and action items.",
+      "technologies": [
+        "Python",
+        "LLM",
+        "Incident Response",
+        "AI/ML"
+      ],
+      "category": "AI/ML",
+      "featured": true,
+      "status": "completed",
+      "startDate": "2026-06-24",
+      "endDate": null,
+      "image": "assets/images/projects/incident-postmortem-agent.svg",
+      "images": [],
+      "icon": "🚨",
+      "liveUrl": null,
+      "githubUrl": "https://github.com/ashwani983/incident-postmortem-agent",
+      "demoUrl": null,
+      "keyFeatures": [
+        "Structured postmortem generation",
+        "Root-cause analysis from logs",
+        "Action item extraction",
+        "Timeline reconstruction"
+      ],
+      "challenges": [],
+      "solutions": [],
+      "impact": "",
+      "teamSize": 1,
+      "role": "AI Engineer"
+    },
+    {
+      "id": "infra-diagnostics-mcp",
+      "title": "Infra Diagnostics MCP Server",
+      "description": "A Model Context Protocol (MCP) server exposing system and infrastructure diagnostics tools to any AI assistant, enabling LLMs to inspect live environments.",
+      "longDescription": "A Model Context Protocol (MCP) server exposing system and infrastructure diagnostics tools to any AI assistant, enabling LLMs to inspect live environments.",
+      "technologies": [
+        "Python",
+        "MCP",
+        "Infrastructure",
+        "AI/ML"
+      ],
+      "category": "AI/ML",
+      "featured": true,
+      "status": "completed",
+      "startDate": "2026-06-24",
+      "endDate": null,
+      "image": "assets/images/projects/infra-diagnostics-mcp.svg",
+      "images": [],
+      "icon": "🛠️",
+      "liveUrl": null,
+      "githubUrl": "https://github.com/ashwani983/infra-diagnostics-mcp",
+      "demoUrl": null,
+      "keyFeatures": [
+        "MCP server implementation",
+        "System diagnostics tools",
+        "LLM assistant integration",
+        "Live environment inspection"
+      ],
+      "challenges": [],
+      "solutions": [],
+      "impact": "",
+      "teamSize": 1,
+      "role": "AI Platform Engineer"
+    },
+    {
+      "id": "enterprise-rag",
+      "title": "Enterprise RAG",
+      "description": "Retrieval-augmented generation pipeline for grounding LLM answers in enterprise documents and knowledge bases, reducing hallucinations.",
+      "longDescription": "Retrieval-augmented generation pipeline for grounding LLM answers in enterprise documents and knowledge bases, reducing hallucinations.",
+      "technologies": [
+        "Python",
+        "RAG",
+        "Vector Databases",
+        "LLM",
+        "AI/ML"
+      ],
+      "category": "AI/ML",
+      "featured": true,
+      "status": "completed",
+      "startDate": "2026-06-12",
+      "endDate": null,
+      "image": "assets/images/projects/enterprise-rag.svg",
+      "images": [],
+      "icon": "📚",
+      "liveUrl": null,
+      "githubUrl": "https://github.com/ashwani983/enterprise-rag",
+      "demoUrl": null,
+      "keyFeatures": [
+        "Document ingestion and chunking",
+        "Vector embedding and retrieval",
+        "Grounded LLM answers",
+        "Enterprise knowledge integration"
+      ],
+      "challenges": [],
+      "solutions": [],
+      "impact": "",
+      "teamSize": 1,
+      "role": "AI Engineer"
+    },
+    {
       "id": "ai-chatbot-ollama",
       "title": "AI Chatbot using Ollama Model",
       "description": "A conversational AI chatbot powered by the Ollama 'llama3.2:1b' model, featuring a modern, responsive interface built with Flask, HTML, CSS, and JavaScript.",
@@ -46,51 +183,6 @@
       "impact": "Demonstrates practical AI integration in web applications with modern UI/UX principles.",
       "teamSize": 1,
       "role": "Full Stack Developer"
-    },
-    {
-      "id": "wifi-bruteforce-tool",
-      "title": "Wi-Fi Bruteforce Tool",
-      "description": "The use of this tool is strictly limited to educational purposes or for security testing on networks you own or have explicit permission to test. Unauthorized use on networks without permission is illegal and unethical.",
-      "longDescription": "An educational cybersecurity tool designed for authorized penetration testing and security research. This tool demonstrates various Wi-Fi security testing techniques and serves as a learning resource for cybersecurity professionals and students studying network security.",
-      "technologies": [
-        "Python",
-        "Networking",
-        "Security",
-        "Linux",
-        "Wireless"
-      ],
-      "category": "Security",
-      "featured": false,
-      "status": "completed",
-      "startDate": "2023-08-01",
-      "endDate": "2023-09-30",
-      "image": "assets/images/projects/wifi-bruteforce-tool.svg",
-      "images": [],
-      "icon": "🔒",
-      "liveUrl": null,
-      "githubUrl": "https://github.com/ashwani983/Wi-Fi-Bruteforce",
-      "demoUrl": null,
-      "keyFeatures": [
-        "Educational security testing tool",
-        "Multiple attack vector demonstrations",
-        "Network security assessment capabilities",
-        "Command-line interface",
-        "Comprehensive logging system",
-        "Cross-platform compatibility"
-      ],
-      "challenges": [
-        "Ensuring ethical use guidelines",
-        "Implementing various security testing methods",
-        "Creating educational documentation"
-      ],
-      "solutions": [
-        "Clear ethical guidelines and warnings",
-        "Modular architecture for different techniques",
-        "Comprehensive documentation and examples"
-      ],
-      "impact": "Educational tool for cybersecurity learning and authorized penetration testing.",
-      "teamSize": 1,
-      "role": "Security Researcher"
     },
     {
       "id": "diabetic-retinopathy-detection",
@@ -141,6 +233,528 @@
       "role": "AI/ML Developer"
     },
     {
+      "id": "cloud-infrastructure-management",
+      "title": "Cloud Infrastructure Management",
+      "description": "Infrastructure as Code solution using Terraform and Ansible for scalable AWS cloud deployments with automated monitoring and alerting.",
+      "longDescription": "Developed a comprehensive cloud infrastructure management solution that provisions, configures, and monitors AWS resources using Infrastructure as Code principles. The solution ensures consistency, scalability, and cost optimization across multiple environments.",
+      "technologies": [
+        "Terraform",
+        "Ansible",
+        "AWS",
+        "CloudWatch",
+        "Python",
+        "Bash"
+      ],
+      "category": "Cloud Infrastructure",
+      "featured": true,
+      "status": "completed",
+      "startDate": "2022-08-01",
+      "endDate": "2023-02-28",
+      "image": "assets/images/projects/cloud-infrastructure-management.svg",
+      "images": [],
+      "icon": "🚀",
+      "liveUrl": null,
+      "githubUrl": null,
+      "demoUrl": null,
+      "keyFeatures": [
+        "Terraform modules for reusable infrastructure components",
+        "Ansible playbooks for configuration management",
+        "Automated AWS resource provisioning",
+        "CloudWatch monitoring and alerting",
+        "Cost optimization and resource tagging",
+        "Multi-region deployment support"
+      ],
+      "challenges": [
+        "Managing state files across multiple environments",
+        "Implementing proper IAM policies and security",
+        "Handling infrastructure drift and compliance"
+      ],
+      "solutions": [
+        "Remote state management with S3 and DynamoDB",
+        "Least privilege IAM policies with regular audits",
+        "Automated compliance checks and drift detection"
+      ],
+      "impact": "Reduced infrastructure provisioning time by 60% and improved resource utilization by 40%.",
+      "teamSize": 3,
+      "role": "Senior Infrastructure Engineer"
+    },
+    {
+      "id": "test-automation-framework",
+      "title": "Test Automation Framework",
+      "description": "Comprehensive test automation framework using Selenium, Robot Framework, and TestNG for web application testing with parallel execution and detailed reporting.",
+      "longDescription": "Built a robust test automation framework that supports multiple testing types including functional, regression, and API testing. The framework provides parallel execution capabilities, detailed reporting, and integration with CI/CD pipelines.",
+      "technologies": [
+        "Selenium",
+        "Robot Framework",
+        "TestNG",
+        "Python",
+        "Java",
+        "Jenkins",
+        "Allure"
+      ],
+      "category": "Test Automation",
+      "featured": true,
+      "status": "completed",
+      "startDate": "2022-03-01",
+      "endDate": "2022-10-15",
+      "image": "assets/images/projects/test-automation-framework.svg",
+      "images": [],
+      "icon": "🚀",
+      "liveUrl": null,
+      "githubUrl": null,
+      "demoUrl": null,
+      "keyFeatures": [
+        "Cross-browser testing support",
+        "Parallel test execution",
+        "Data-driven testing capabilities",
+        "API testing integration",
+        "Detailed test reporting with Allure",
+        "CI/CD pipeline integration"
+      ],
+      "challenges": [
+        "Managing test data across different environments",
+        "Handling dynamic web elements and timing issues",
+        "Scaling test execution for large test suites"
+      ],
+      "solutions": [
+        "Environment-specific test data management",
+        "Smart wait strategies and element locators",
+        "Docker-based test execution grid"
+      ],
+      "impact": "Increased test coverage by 80% and reduced manual testing effort by 70%.",
+      "teamSize": 5,
+      "role": "Test Automation Lead"
+    },
+    {
+      "id": "study-pdf-blog-bot",
+      "title": "Study PDF Blog Bot",
+      "description": "An automated pipeline that ingests study-material PDFs and turns them into ready-to-publish markdown blog posts.",
+      "longDescription": "An automated pipeline that ingests study-material PDFs and converts them into structured, ready-to-publish markdown blog posts, making it easy to publish learning notes regularly.\n\n*(Draft — update the description, repo link, dates, and feature list when ready.)*",
+      "technologies": [
+        "Python",
+        "PDF Processing",
+        "AI",
+        "Markdown"
+      ],
+      "category": "AI/ML",
+      "featured": false,
+      "status": "in-progress",
+      "startDate": "2026-07-01",
+      "endDate": null,
+      "image": null,
+      "images": [],
+      "icon": "📚",
+      "liveUrl": null,
+      "githubUrl": "https://github.com/ashwani983/study-pdf-blog-bot",
+      "demoUrl": null,
+      "keyFeatures": [
+        "PDF ingestion and text extraction",
+        "AI-assisted content drafting",
+        "Markdown blog post output",
+        "Bulk study-material processing"
+      ],
+      "challenges": [
+        "Structuring extracted PDF text into coherent posts"
+      ],
+      "solutions": [
+        "AI summarization and section rewriting with markdown formatting"
+      ],
+      "impact": "Speeds up turning study notes and PDF material into blog posts.",
+      "teamSize": 1,
+      "role": "Developer"
+    },
+    {
+      "id": "setup-my-system",
+      "title": "SetupMySystem",
+      "description": "Automated system setup scripts for fresh OS installations — installs tools, configures environments, and saves hours of manual setup.",
+      "longDescription": "Automated system setup scripts for fresh OS installations — installs tools, configures environments, and saves hours of manual setup.",
+      "technologies": [
+        "Shell",
+        "Linux",
+        "Automation",
+        "DevOps"
+      ],
+      "category": "DevOps",
+      "featured": false,
+      "status": "completed",
+      "startDate": "2026-04-06",
+      "endDate": null,
+      "image": "assets/images/projects/setup-my-system.svg",
+      "images": [],
+      "icon": "⚙️",
+      "liveUrl": null,
+      "githubUrl": "https://github.com/ashwani983/SetupMySystem",
+      "demoUrl": null,
+      "keyFeatures": [
+        "One-command environment setup",
+        "Tool installation automation",
+        "Customizable configs",
+        "Supports fresh installs"
+      ],
+      "challenges": [],
+      "solutions": [],
+      "impact": "",
+      "teamSize": 1,
+      "role": "DevOps Engineer"
+    },
+    {
+      "id": "myrevisor",
+      "title": "MyRevisor",
+      "description": "An interactive CLI/UI study application for DevOps interview preparation with practice questions, hints, and progress tracking.",
+      "longDescription": "An interactive CLI/UI study application for DevOps interview preparation with practice questions, hints, and progress tracking.",
+      "technologies": [
+        "TypeScript",
+        "Node.js",
+        "CLI",
+        "Education"
+      ],
+      "category": "Education",
+      "featured": false,
+      "status": "completed",
+      "startDate": "2026-04-01",
+      "endDate": null,
+      "image": "assets/images/projects/myrevisor.svg",
+      "images": [],
+      "icon": "🎓",
+      "liveUrl": null,
+      "githubUrl": "https://github.com/ashwani983/myrevisor",
+      "demoUrl": null,
+      "keyFeatures": [
+        "DevOps interview questions",
+        "Interactive practice mode",
+        "Progress tracking",
+        "CLI and UI interfaces"
+      ],
+      "challenges": [],
+      "solutions": [],
+      "impact": "",
+      "teamSize": 1,
+      "role": "Developer"
+    },
+    {
+      "id": "ai-chat-openrouter",
+      "title": "AI Chat Interface (OpenRouter)",
+      "description": "A responsive, full-stack AI chat interface similar to ChatGPT, built with React and TypeScript and powered by the OpenRouter API.",
+      "longDescription": "A responsive, full-stack AI chat interface similar to ChatGPT, built with React and TypeScript and powered by the OpenRouter API.",
+      "technologies": [
+        "React",
+        "TypeScript",
+        "OpenRouter API",
+        "Node.js",
+        "AI/ML"
+      ],
+      "category": "AI/ML",
+      "featured": false,
+      "status": "completed",
+      "startDate": "2026-03-17",
+      "endDate": null,
+      "image": "assets/images/projects/chatbot-openrouter.svg",
+      "images": [],
+      "icon": "💬",
+      "liveUrl": null,
+      "githubUrl": "https://github.com/ashwani983/ChatBotUsingOpenRouterAPI",
+      "demoUrl": null,
+      "keyFeatures": [
+        "ChatGPT-style UI",
+        "Multi-model support",
+        "Streaming responses",
+        "Responsive design"
+      ],
+      "challenges": [],
+      "solutions": [],
+      "impact": "",
+      "teamSize": 1,
+      "role": "Full Stack Developer"
+    },
+    {
+      "id": "hobby-tracker",
+      "title": "Hobby Tracker",
+      "description": "A mobile app that helps users track, manage, and visualize their hobbies, log activities, and build streaks.",
+      "longDescription": "A mobile app that helps users track, manage, and visualize their hobbies, log activities, and build streaks.",
+      "technologies": [
+        "Dart",
+        "Flutter",
+        "Mobile"
+      ],
+      "category": "Mobile",
+      "featured": false,
+      "status": "completed",
+      "startDate": "2026-03-11",
+      "endDate": null,
+      "image": "assets/images/projects/hobbytracker.svg",
+      "images": [],
+      "icon": "🎯",
+      "liveUrl": null,
+      "githubUrl": "https://github.com/ashwani983/HobbyTracker",
+      "demoUrl": null,
+      "keyFeatures": [
+        "Activity logging",
+        "Streak tracking",
+        "Visualization dashboards",
+        "Cross-platform mobile"
+      ],
+      "challenges": [],
+      "solutions": [],
+      "impact": "",
+      "teamSize": 1,
+      "role": "Mobile Developer"
+    },
+    {
+      "id": "stf-automation",
+      "title": "STF Automation",
+      "description": "Automated and simplified installation scripts for Smartphone Test Farm (STF), letting teams stand up device farms quickly.",
+      "longDescription": "Automated and simplified installation scripts for Smartphone Test Farm (STF), letting teams stand up device farms quickly.",
+      "technologies": [
+        "Shell",
+        "STF",
+        "Docker",
+        "DevOps"
+      ],
+      "category": "DevOps",
+      "featured": false,
+      "status": "completed",
+      "startDate": "2026-02-11",
+      "endDate": null,
+      "image": "assets/images/projects/stf-automation.svg",
+      "images": [],
+      "icon": "🖥️",
+      "liveUrl": null,
+      "githubUrl": "https://github.com/ashwani983/stf-automation",
+      "demoUrl": null,
+      "keyFeatures": [
+        "One-command STF setup",
+        "Docker-based deployment",
+        "Device farm provisioning",
+        "Installation automation"
+      ],
+      "challenges": [],
+      "solutions": [],
+      "impact": "",
+      "teamSize": 1,
+      "role": "DevOps Engineer"
+    },
+    {
+      "id": "android-log-analysis-chatgpt",
+      "title": "Android Log Analysis with ChatGPT",
+      "description": "A web application that analyzes Android device logs using OpenAI GPT API to surface errors, warnings, and likely root causes.",
+      "longDescription": "A web application that analyzes Android device logs using OpenAI GPT API to surface errors, warnings, and likely root causes.",
+      "technologies": [
+        "Python",
+        "Flask",
+        "OpenAI API",
+        "Android ADB",
+        "AI/ML"
+      ],
+      "category": "AI/ML",
+      "featured": false,
+      "status": "completed",
+      "startDate": "2024-12-25",
+      "endDate": null,
+      "image": "assets/images/projects/android-log-analysis-chatgpt.svg",
+      "images": [],
+      "icon": "📱",
+      "liveUrl": null,
+      "githubUrl": "https://github.com/ashwani983/android-log-analysis-using-chatgpt",
+      "demoUrl": null,
+      "keyFeatures": [
+        "Android log parsing",
+        "GPT-powered error analysis",
+        "Web dashboard",
+        "Root cause suggestions"
+      ],
+      "challenges": [],
+      "solutions": [],
+      "impact": "",
+      "teamSize": 1,
+      "role": "Full Stack Developer"
+    },
+    {
+      "id": "microservices-deployment",
+      "title": "Microservices Deployment Platform",
+      "description": "Kubernetes-based microservices deployment platform with service mesh, automated scaling, and comprehensive observability.",
+      "longDescription": "Designed and implemented a production-ready microservices deployment platform that handles service discovery, load balancing, security, and observability for containerized applications.",
+      "technologies": [
+        "Kubernetes",
+        "Istio",
+        "Docker",
+        "Helm",
+        "Prometheus",
+        "Jaeger",
+        "AWS EKS"
+      ],
+      "category": "Microservices",
+      "featured": false,
+      "status": "in-progress",
+      "startDate": "2024-01-01",
+      "endDate": null,
+      "image": "assets/images/projects/microservices-deployment.svg",
+      "images": [],
+      "icon": "🚀",
+      "liveUrl": null,
+      "githubUrl": null,
+      "demoUrl": null,
+      "keyFeatures": [
+        "Service mesh with Istio",
+        "Automated horizontal pod scaling",
+        "Distributed tracing with Jaeger",
+        "Helm charts for application deployment",
+        "Network policies and security",
+        "Multi-cluster deployment support"
+      ],
+      "challenges": [
+        "Managing service-to-service communication",
+        "Implementing proper security policies",
+        "Handling distributed system complexity"
+      ],
+      "solutions": [
+        "Service mesh for traffic management",
+        "mTLS and RBAC implementation",
+        "Comprehensive monitoring and tracing"
+      ],
+      "impact": "Currently in development - Expected to improve deployment efficiency by 50%.",
+      "teamSize": 6,
+      "role": "Platform Engineer"
+    },
+    {
+      "id": "wifi-bruteforce-tool",
+      "title": "Wi-Fi Bruteforce Tool",
+      "description": "The use of this tool is strictly limited to educational purposes or for security testing on networks you own or have explicit permission to test. Unauthorized use on networks without permission is illegal and unethical.",
+      "longDescription": "An educational cybersecurity tool designed for authorized penetration testing and security research. This tool demonstrates various Wi-Fi security testing techniques and serves as a learning resource for cybersecurity professionals and students studying network security.",
+      "technologies": [
+        "Python",
+        "Networking",
+        "Security",
+        "Linux",
+        "Wireless"
+      ],
+      "category": "Security",
+      "featured": false,
+      "status": "completed",
+      "startDate": "2023-08-01",
+      "endDate": "2023-09-30",
+      "image": "assets/images/projects/wifi-bruteforce-tool.svg",
+      "images": [],
+      "icon": "🔒",
+      "liveUrl": null,
+      "githubUrl": "https://github.com/ashwani983/Wi-Fi-Bruteforce",
+      "demoUrl": null,
+      "keyFeatures": [
+        "Educational security testing tool",
+        "Multiple attack vector demonstrations",
+        "Network security assessment capabilities",
+        "Command-line interface",
+        "Comprehensive logging system",
+        "Cross-platform compatibility"
+      ],
+      "challenges": [
+        "Ensuring ethical use guidelines",
+        "Implementing various security testing methods",
+        "Creating educational documentation"
+      ],
+      "solutions": [
+        "Clear ethical guidelines and warnings",
+        "Modular architecture for different techniques",
+        "Comprehensive documentation and examples"
+      ],
+      "impact": "Educational tool for cybersecurity learning and authorized penetration testing.",
+      "teamSize": 1,
+      "role": "Security Researcher"
+    },
+    {
+      "id": "monitoring-alerting-system",
+      "title": "Monitoring & Alerting System",
+      "description": "Comprehensive monitoring and alerting solution using Prometheus, Grafana, and ELK stack for real-time application and infrastructure monitoring.",
+      "longDescription": "Implemented a complete monitoring and observability solution that provides real-time insights into application performance, infrastructure health, and business metrics. The system includes automated alerting, log aggregation, and custom dashboards.",
+      "technologies": [
+        "Prometheus",
+        "Grafana",
+        "Elasticsearch",
+        "Logstash",
+        "Kibana",
+        "AlertManager",
+        "Docker"
+      ],
+      "category": "Monitoring",
+      "featured": false,
+      "status": "completed",
+      "startDate": "2023-07-01",
+      "endDate": "2023-11-30",
+      "image": "assets/images/projects/monitoring-alerting-system.svg",
+      "images": [],
+      "icon": "🚀",
+      "liveUrl": null,
+      "githubUrl": null,
+      "demoUrl": null,
+      "keyFeatures": [
+        "Real-time metrics collection with Prometheus",
+        "Custom Grafana dashboards",
+        "Centralized log management with ELK stack",
+        "Automated alerting and notifications",
+        "Application performance monitoring",
+        "Infrastructure health monitoring"
+      ],
+      "challenges": [
+        "Managing high-volume log data",
+        "Creating meaningful alerts without noise",
+        "Ensuring monitoring system reliability"
+      ],
+      "solutions": [
+        "Log retention policies and data lifecycle management",
+        "Smart alerting rules with proper thresholds",
+        "High availability monitoring setup"
+      ],
+      "impact": "Reduced mean time to detection (MTTD) by 85% and improved system reliability.",
+      "teamSize": 2,
+      "role": "Monitoring Engineer"
+    },
+    {
+      "id": "security-compliance-automation",
+      "title": "Security & Compliance Automation",
+      "description": "Automated security scanning and compliance checking system integrated into CI/CD pipelines for continuous security monitoring.",
+      "longDescription": "Developed an automated security and compliance system that integrates security scanning, vulnerability assessment, and compliance checking into the development workflow.",
+      "technologies": [
+        "SonarQube",
+        "OWASP ZAP",
+        "Trivy",
+        "Ansible",
+        "Python",
+        "Jenkins",
+        "AWS Security Hub"
+      ],
+      "category": "Security",
+      "featured": false,
+      "status": "completed",
+      "startDate": "2023-03-01",
+      "endDate": "2023-08-15",
+      "image": "assets/images/projects/security-compliance-automation.svg",
+      "images": [],
+      "icon": "🚀",
+      "liveUrl": null,
+      "githubUrl": null,
+      "demoUrl": null,
+      "keyFeatures": [
+        "Automated code security scanning",
+        "Container vulnerability assessment",
+        "Infrastructure compliance checking",
+        "Security policy as code",
+        "Automated remediation workflows",
+        "Security metrics and reporting"
+      ],
+      "challenges": [
+        "Integrating multiple security tools",
+        "Managing false positives",
+        "Ensuring compliance across environments"
+      ],
+      "solutions": [
+        "Unified security dashboard and reporting",
+        "Machine learning for false positive reduction",
+        "Automated compliance validation"
+      ],
+      "impact": "Reduced security vulnerabilities by 90% and improved compliance score to 98%.",
+      "teamSize": 3,
+      "role": "Security Engineer"
+    },
+    {
       "id": "devops-pipeline-automation",
       "title": "DevOps Pipeline Automation",
       "description": "Comprehensive CI/CD pipeline automation using Jenkins, Docker, and Kubernetes for seamless application deployment across multiple environments.",
@@ -188,362 +802,38 @@
       "role": "Lead DevOps Engineer"
     },
     {
-      "id": "cloud-infrastructure-management",
-      "title": "Cloud Infrastructure Management",
-      "description": "Infrastructure as Code solution using Terraform and Ansible for scalable AWS cloud deployments with automated monitoring and alerting.",
-      "longDescription": "Developed a comprehensive cloud infrastructure management solution that provisions, configures, and monitors AWS resources using Infrastructure as Code principles. The solution ensures consistency, scalability, and cost optimization across multiple environments.",
+      "id": "loss-assessment-processing",
+      "title": "Loss Assessment Processing",
+      "description": "A tool to assess losses and generate structured reports based on user input, streamlining claims and assessment workflows.",
+      "longDescription": "A tool to assess losses and generate structured reports based on user input, streamlining claims and assessment workflows.",
       "technologies": [
-        "Terraform",
-        "Ansible",
-        "AWS",
-        "CloudWatch",
         "Python",
-        "Bash"
+        "Flask",
+        "Data Processing",
+        "Reporting"
       ],
-      "category": "Cloud Infrastructure",
-      "featured": true,
-      "status": "completed",
-      "startDate": "2022-08-01",
-      "endDate": "2023-02-28",
-      "image": "assets/images/projects/cloud-infrastructure-management.svg",
-      "images": [],
-      "liveUrl": null,
-      "githubUrl": null,
-      "demoUrl": null,
-      "keyFeatures": [
-        "Terraform modules for reusable infrastructure components",
-        "Ansible playbooks for configuration management",
-        "Automated AWS resource provisioning",
-        "CloudWatch monitoring and alerting",
-        "Cost optimization and resource tagging",
-        "Multi-region deployment support"
-      ],
-      "challenges": [
-        "Managing state files across multiple environments",
-        "Implementing proper IAM policies and security",
-        "Handling infrastructure drift and compliance"
-      ],
-      "solutions": [
-        "Remote state management with S3 and DynamoDB",
-        "Least privilege IAM policies with regular audits",
-        "Automated compliance checks and drift detection"
-      ],
-      "impact": "Reduced infrastructure provisioning time by 60% and improved resource utilization by 40%.",
-      "teamSize": 3,
-      "role": "Senior Infrastructure Engineer"
-    },
-    {
-      "id": "test-automation-framework",
-      "title": "Test Automation Framework",
-      "description": "Comprehensive test automation framework using Selenium, Robot Framework, and TestNG for web application testing with parallel execution and detailed reporting.",
-      "longDescription": "Built a robust test automation framework that supports multiple testing types including functional, regression, and API testing. The framework provides parallel execution capabilities, detailed reporting, and integration with CI/CD pipelines.",
-      "technologies": [
-        "Selenium",
-        "Robot Framework",
-        "TestNG",
-        "Python",
-        "Java",
-        "Jenkins",
-        "Allure"
-      ],
-      "category": "Test Automation",
-      "featured": true,
-      "status": "completed",
-      "startDate": "2022-03-01",
-      "endDate": "2022-10-15",
-      "image": "assets/images/projects/test-automation-framework.svg",
-      "images": [],
-      "liveUrl": null,
-      "githubUrl": null,
-      "demoUrl": null,
-      "keyFeatures": [
-        "Cross-browser testing support",
-        "Parallel test execution",
-        "Data-driven testing capabilities",
-        "API testing integration",
-        "Detailed test reporting with Allure",
-        "CI/CD pipeline integration"
-      ],
-      "challenges": [
-        "Managing test data across different environments",
-        "Handling dynamic web elements and timing issues",
-        "Scaling test execution for large test suites"
-      ],
-      "solutions": [
-        "Environment-specific test data management",
-        "Smart wait strategies and element locators",
-        "Docker-based test execution grid"
-      ],
-      "impact": "Increased test coverage by 80% and reduced manual testing effort by 70%.",
-      "teamSize": 5,
-      "role": "Test Automation Lead"
-    },
-    {
-      "id": "monitoring-alerting-system",
-      "title": "Monitoring & Alerting System",
-      "description": "Comprehensive monitoring and alerting solution using Prometheus, Grafana, and ELK stack for real-time application and infrastructure monitoring.",
-      "longDescription": "Implemented a complete monitoring and observability solution that provides real-time insights into application performance, infrastructure health, and business metrics. The system includes automated alerting, log aggregation, and custom dashboards.",
-      "technologies": [
-        "Prometheus",
-        "Grafana",
-        "Elasticsearch",
-        "Logstash",
-        "Kibana",
-        "AlertManager",
-        "Docker"
-      ],
-      "category": "Monitoring",
+      "category": "Data Processing",
       "featured": false,
       "status": "completed",
-      "startDate": "2023-07-01",
-      "endDate": "2023-11-30",
-      "image": "assets/images/projects/monitoring-alerting-system.svg",
-      "images": [],
-      "liveUrl": null,
-      "githubUrl": null,
-      "demoUrl": null,
-      "keyFeatures": [
-        "Real-time metrics collection with Prometheus",
-        "Custom Grafana dashboards",
-        "Centralized log management with ELK stack",
-        "Automated alerting and notifications",
-        "Application performance monitoring",
-        "Infrastructure health monitoring"
-      ],
-      "challenges": [
-        "Managing high-volume log data",
-        "Creating meaningful alerts without noise",
-        "Ensuring monitoring system reliability"
-      ],
-      "solutions": [
-        "Log retention policies and data lifecycle management",
-        "Smart alerting rules with proper thresholds",
-        "High availability monitoring setup"
-      ],
-      "impact": "Reduced mean time to detection (MTTD) by 85% and improved system reliability.",
-      "teamSize": 2,
-      "role": "Monitoring Engineer"
-    },
-    {
-      "id": "microservices-deployment",
-      "title": "Microservices Deployment Platform",
-      "description": "Kubernetes-based microservices deployment platform with service mesh, automated scaling, and comprehensive observability.",
-      "longDescription": "Designed and implemented a production-ready microservices deployment platform that handles service discovery, load balancing, security, and observability for containerized applications.",
-      "technologies": [
-        "Kubernetes",
-        "Istio",
-        "Docker",
-        "Helm",
-        "Prometheus",
-        "Jaeger",
-        "AWS EKS"
-      ],
-      "category": "Microservices",
-      "featured": false,
-      "status": "in-progress",
-      "startDate": "2024-01-01",
+      "startDate": "2022-04-09",
       "endDate": null,
-      "image": "assets/images/projects/microservices-deployment.svg",
+      "image": "assets/images/projects/loss-assessment.svg",
       "images": [],
+      "icon": "📝",
       "liveUrl": null,
-      "githubUrl": null,
+      "githubUrl": "https://github.com/ashwani983/Loss_Assessment_Processing",
       "demoUrl": null,
       "keyFeatures": [
-        "Service mesh with Istio",
-        "Automated horizontal pod scaling",
-        "Distributed tracing with Jaeger",
-        "Helm charts for application deployment",
-        "Network policies and security",
-        "Multi-cluster deployment support"
+        "Loss assessment logic",
+        "Structured report generation",
+        "Web interface",
+        "Streamlined workflows"
       ],
-      "challenges": [
-        "Managing service-to-service communication",
-        "Implementing proper security policies",
-        "Handling distributed system complexity"
-      ],
-      "solutions": [
-        "Service mesh for traffic management",
-        "mTLS and RBAC implementation",
-        "Comprehensive monitoring and tracing"
-      ],
-      "impact": "Currently in development - Expected to improve deployment efficiency by 50%.",
-      "teamSize": 6,
-      "role": "Platform Engineer"
-    },
-    {
-      "id": "security-compliance-automation",
-      "title": "Security & Compliance Automation",
-      "description": "Automated security scanning and compliance checking system integrated into CI/CD pipelines for continuous security monitoring.",
-      "longDescription": "Developed an automated security and compliance system that integrates security scanning, vulnerability assessment, and compliance checking into the development workflow.",
-      "technologies": [
-        "SonarQube",
-        "OWASP ZAP",
-        "Trivy",
-        "Ansible",
-        "Python",
-        "Jenkins",
-        "AWS Security Hub"
-      ],
-      "category": "Security",
-      "featured": false,
-      "status": "completed",
-      "startDate": "2023-03-01",
-      "endDate": "2023-08-15",
-      "image": "assets/images/projects/security-compliance-automation.svg",
-      "images": [],
-      "liveUrl": null,
-      "githubUrl": null,
-      "demoUrl": null,
-      "keyFeatures": [
-        "Automated code security scanning",
-        "Container vulnerability assessment",
-        "Infrastructure compliance checking",
-        "Security policy as code",
-        "Automated remediation workflows",
-        "Security metrics and reporting"
-      ],
-      "challenges": [
-        "Integrating multiple security tools",
-        "Managing false positives",
-        "Ensuring compliance across environments"
-      ],
-      "solutions": [
-        "Unified security dashboard and reporting",
-        "Machine learning for false positive reduction",
-        "Automated compliance validation"
-      ],
-      "impact": "Reduced security vulnerabilities by 90% and improved compliance score to 98%.",
-      "teamSize": 3,
-      "role": "Security Engineer"
-    },
-    {
-      "id": "diff-explainer",
-      "title": "AI Diff Explainer",
-      "description": "An AI-powered skill that turns raw git diffs into human-readable explanations with risk flags, helping teams review changes faster.",
-      "longDescription": "An AI-powered skill that turns raw git diffs into human-readable explanations with risk flags, helping teams review changes faster.",
-      "technologies": [
-        "Python",
-        "OpenAI API",
-        "Git",
-        "AI/ML"
-      ],
-      "category": "AI/ML",
-      "featured": true,
-      "status": "completed",
-      "startDate": "2026-06-24",
-      "endDate": null,
-      "image": "assets/images/projects/diff-explainer.svg",
-      "images": [],
-      "icon": "🧾",
-      "liveUrl": null,
-      "githubUrl": "https://github.com/ashwani983/diff-explainer",
-      "demoUrl": null,
-      "keyFeatures": [
-        "Human-readable diff explanations",
-        "Automated risk flagging",
-        "CLI and skill-based usage",
-        "OpenAI-powered analysis"
-      ],
+      "challenges": [],
+      "solutions": [],
       "impact": "",
       "teamSize": 1,
-      "role": "AI Engineer"
-    },
-    {
-      "id": "incident-postmortem-agent",
-      "title": "Incident Postmortem Agent",
-      "description": "An AI agent that ingests raw incident data (timeline, logs, alerts) and generates structured postmortems with root-cause analysis and action items.",
-      "longDescription": "An AI agent that ingests raw incident data (timeline, logs, alerts) and generates structured postmortems with root-cause analysis and action items.",
-      "technologies": [
-        "Python",
-        "LLM",
-        "Incident Response",
-        "AI/ML"
-      ],
-      "category": "AI/ML",
-      "featured": true,
-      "status": "completed",
-      "startDate": "2026-06-24",
-      "endDate": null,
-      "image": "assets/images/projects/incident-postmortem-agent.svg",
-      "images": [],
-      "icon": "🚨",
-      "liveUrl": null,
-      "githubUrl": "https://github.com/ashwani983/incident-postmortem-agent",
-      "demoUrl": null,
-      "keyFeatures": [
-        "Structured postmortem generation",
-        "Root-cause analysis from logs",
-        "Action item extraction",
-        "Timeline reconstruction"
-      ],
-      "impact": "",
-      "teamSize": 1,
-      "role": "AI Engineer"
-    },
-    {
-      "id": "infra-diagnostics-mcp",
-      "title": "Infra Diagnostics MCP Server",
-      "description": "A Model Context Protocol (MCP) server exposing system and infrastructure diagnostics tools to any AI assistant, enabling LLMs to inspect live environments.",
-      "longDescription": "A Model Context Protocol (MCP) server exposing system and infrastructure diagnostics tools to any AI assistant, enabling LLMs to inspect live environments.",
-      "technologies": [
-        "Python",
-        "MCP",
-        "Infrastructure",
-        "AI/ML"
-      ],
-      "category": "AI/ML",
-      "featured": true,
-      "status": "completed",
-      "startDate": "2026-06-24",
-      "endDate": null,
-      "image": "assets/images/projects/infra-diagnostics-mcp.svg",
-      "images": [],
-      "icon": "🛠️",
-      "liveUrl": null,
-      "githubUrl": "https://github.com/ashwani983/infra-diagnostics-mcp",
-      "demoUrl": null,
-      "keyFeatures": [
-        "MCP server implementation",
-        "System diagnostics tools",
-        "LLM assistant integration",
-        "Live environment inspection"
-      ],
-      "impact": "",
-      "teamSize": 1,
-      "role": "AI Platform Engineer"
-    },
-    {
-      "id": "enterprise-rag",
-      "title": "Enterprise RAG",
-      "description": "Retrieval-augmented generation pipeline for grounding LLM answers in enterprise documents and knowledge bases, reducing hallucinations.",
-      "longDescription": "Retrieval-augmented generation pipeline for grounding LLM answers in enterprise documents and knowledge bases, reducing hallucinations.",
-      "technologies": [
-        "Python",
-        "RAG",
-        "Vector Databases",
-        "LLM",
-        "AI/ML"
-      ],
-      "category": "AI/ML",
-      "featured": true,
-      "status": "completed",
-      "startDate": "2026-06-12",
-      "endDate": null,
-      "image": "assets/images/projects/enterprise-rag.svg",
-      "images": [],
-      "icon": "📚",
-      "liveUrl": null,
-      "githubUrl": "https://github.com/ashwani983/enterprise-rag",
-      "demoUrl": null,
-      "keyFeatures": [
-        "Document ingestion and chunking",
-        "Vector embedding and retrieval",
-        "Grounded LLM answers",
-        "Enterprise knowledge integration"
-      ],
-      "impact": "",
-      "teamSize": 1,
-      "role": "AI Engineer"
+      "role": "Python Developer"
     },
     {
       "id": "news-sentiment-analysis",
@@ -574,107 +864,11 @@
         "Dataset preprocessing",
         "NLP model evaluation"
       ],
+      "challenges": [],
+      "solutions": [],
       "impact": "",
       "teamSize": 1,
       "role": "Data Scientist"
-    },
-    {
-      "id": "android-log-analysis-chatgpt",
-      "title": "Android Log Analysis with ChatGPT",
-      "description": "A web application that analyzes Android device logs using OpenAI GPT API to surface errors, warnings, and likely root causes.",
-      "longDescription": "A web application that analyzes Android device logs using OpenAI GPT API to surface errors, warnings, and likely root causes.",
-      "technologies": [
-        "Python",
-        "Flask",
-        "OpenAI API",
-        "Android ADB",
-        "AI/ML"
-      ],
-      "category": "AI/ML",
-      "featured": false,
-      "status": "completed",
-      "startDate": "2024-12-25",
-      "endDate": null,
-      "image": "assets/images/projects/android-log-analysis-chatgpt.svg",
-      "images": [],
-      "icon": "📱",
-      "liveUrl": null,
-      "githubUrl": "https://github.com/ashwani983/android-log-analysis-using-chatgpt",
-      "demoUrl": null,
-      "keyFeatures": [
-        "Android log parsing",
-        "GPT-powered error analysis",
-        "Web dashboard",
-        "Root cause suggestions"
-      ],
-      "impact": "",
-      "teamSize": 1,
-      "role": "Full Stack Developer"
-    },
-    {
-      "id": "ai-chat-openrouter",
-      "title": "AI Chat Interface (OpenRouter)",
-      "description": "A responsive, full-stack AI chat interface similar to ChatGPT, built with React and TypeScript and powered by the OpenRouter API.",
-      "longDescription": "A responsive, full-stack AI chat interface similar to ChatGPT, built with React and TypeScript and powered by the OpenRouter API.",
-      "technologies": [
-        "React",
-        "TypeScript",
-        "OpenRouter API",
-        "Node.js",
-        "AI/ML"
-      ],
-      "category": "AI/ML",
-      "featured": false,
-      "status": "completed",
-      "startDate": "2026-03-17",
-      "endDate": null,
-      "image": "assets/images/projects/chatbot-openrouter.svg",
-      "images": [],
-      "icon": "💬",
-      "liveUrl": null,
-      "githubUrl": "https://github.com/ashwani983/ChatBotUsingOpenRouterAPI",
-      "demoUrl": null,
-      "keyFeatures": [
-        "ChatGPT-style UI",
-        "Multi-model support",
-        "Streaming responses",
-        "Responsive design"
-      ],
-      "impact": "",
-      "teamSize": 1,
-      "role": "Full Stack Developer"
-    },
-    {
-      "id": "myrevisor",
-      "title": "MyRevisor",
-      "description": "An interactive CLI/UI study application for DevOps interview preparation with practice questions, hints, and progress tracking.",
-      "longDescription": "An interactive CLI/UI study application for DevOps interview preparation with practice questions, hints, and progress tracking.",
-      "technologies": [
-        "TypeScript",
-        "Node.js",
-        "CLI",
-        "Education"
-      ],
-      "category": "Education",
-      "featured": false,
-      "status": "completed",
-      "startDate": "2026-04-01",
-      "endDate": null,
-      "image": "assets/images/projects/myrevisor.svg",
-      "images": [],
-      "icon": "🎓",
-      "liveUrl": null,
-      "githubUrl": "https://github.com/ashwani983/myrevisor",
-      "demoUrl": null,
-      "keyFeatures": [
-        "DevOps interview questions",
-        "Interactive practice mode",
-        "Progress tracking",
-        "CLI and UI interfaces"
-      ],
-      "impact": "",
-      "teamSize": 1,
-      "role": "Developer"
     },
     {
       "id": "lost-and-found",
@@ -706,72 +900,11 @@
         "User management",
         "Web interface"
       ],
+      "challenges": [],
+      "solutions": [],
       "impact": "",
       "teamSize": 1,
       "role": "Full Stack Developer"
-    },
-    {
-      "id": "hobby-tracker",
-      "title": "Hobby Tracker",
-      "description": "A mobile app that helps users track, manage, and visualize their hobbies, log activities, and build streaks.",
-      "longDescription": "A mobile app that helps users track, manage, and visualize their hobbies, log activities, and build streaks.",
-      "technologies": [
-        "Dart",
-        "Flutter",
-        "Mobile"
-      ],
-      "category": "Mobile",
-      "featured": false,
-      "status": "completed",
-      "startDate": "2026-03-11",
-      "endDate": null,
-      "image": "assets/images/projects/hobbytracker.svg",
-      "images": [],
-      "icon": "🎯",
-      "liveUrl": null,
-      "githubUrl": "https://github.com/ashwani983/HobbyTracker",
-      "demoUrl": null,
-      "keyFeatures": [
-        "Activity logging",
-        "Streak tracking",
-        "Visualization dashboards",
-        "Cross-platform mobile"
-      ],
-      "impact": "",
-      "teamSize": 1,
-      "role": "Mobile Developer"
-    },
-    {
-      "id": "stf-automation",
-      "title": "STF Automation",
-      "description": "Automated and simplified installation scripts for Smartphone Test Farm (STF), letting teams stand up device farms quickly.",
-      "longDescription": "Automated and simplified installation scripts for Smartphone Test Farm (STF), letting teams stand up device farms quickly.",
-      "technologies": [
-        "Shell",
-        "STF",
-        "Docker",
-        "DevOps"
-      ],
-      "category": "DevOps",
-      "featured": false,
-      "status": "completed",
-      "startDate": "2026-02-11",
-      "endDate": null,
-      "image": "assets/images/projects/stf-automation.svg",
-      "images": [],
-      "icon": "🖥️",
-      "liveUrl": null,
-      "githubUrl": "https://github.com/ashwani983/stf-automation",
-      "demoUrl": null,
-      "keyFeatures": [
-        "One-command STF setup",
-        "Docker-based deployment",
-        "Device farm provisioning",
-        "Installation automation"
-      ],
-      "impact": "",
-      "teamSize": 1,
-      "role": "DevOps Engineer"
     },
     {
       "id": "selenium-automation-framework",
@@ -801,143 +934,33 @@
         "Reusable test utilities",
         "Clear reporting"
       ],
+      "challenges": [],
+      "solutions": [],
       "impact": "",
       "teamSize": 1,
       "role": "Test Automation Engineer"
-    },
-    {
-      "id": "setup-my-system",
-      "title": "SetupMySystem",
-      "description": "Automated system setup scripts for fresh OS installations — installs tools, configures environments, and saves hours of manual setup.",
-      "longDescription": "Automated system setup scripts for fresh OS installations — installs tools, configures environments, and saves hours of manual setup.",
-      "technologies": [
-        "Shell",
-        "Linux",
-        "Automation",
-        "DevOps"
-      ],
-      "category": "DevOps",
-      "featured": false,
-      "status": "completed",
-      "startDate": "2026-04-06",
-      "endDate": null,
-      "image": "assets/images/projects/setup-my-system.svg",
-      "images": [],
-      "icon": "⚙️",
-      "liveUrl": null,
-      "githubUrl": "https://github.com/ashwani983/SetupMySystem",
-      "demoUrl": null,
-      "keyFeatures": [
-        "One-command environment setup",
-        "Tool installation automation",
-        "Customizable configs",
-        "Supports fresh installs"
-      ],
-      "impact": "",
-      "teamSize": 1,
-      "role": "DevOps Engineer"
-    },
-    {
-      "id": "loss-assessment-processing",
-      "title": "Loss Assessment Processing",
-      "description": "A tool to assess losses and generate structured reports based on user input, streamlining claims and assessment workflows.",
-      "longDescription": "A tool to assess losses and generate structured reports based on user input, streamlining claims and assessment workflows.",
-      "technologies": [
-        "Python",
-        "Flask",
-        "Data Processing",
-        "Reporting"
-      ],
-      "category": "Data Processing",
-      "featured": false,
-      "status": "completed",
-      "startDate": "2022-04-09",
-      "endDate": null,
-      "image": "assets/images/projects/loss-assessment.svg",
-      "images": [],
-      "icon": "📝",
-      "liveUrl": null,
-      "githubUrl": "https://github.com/ashwani983/Loss_Assessment_Processing",
-      "demoUrl": null,
-      "keyFeatures": [
-        "Loss assessment logic",
-        "Structured report generation",
-        "Web interface",
-        "Streamlined workflows"
-      ],
-      "impact": "",
-      "teamSize": 1,
-      "role": "Python Developer"
     }
   ],
   "categories": [
-    {
-      "name": "AI/ML",
-      "description": "Artificial Intelligence and Machine Learning projects",
-      "color": "#ff6b6b"
-    },
-    {
-      "name": "Security",
-      "description": "Security and compliance automation",
-      "color": "#f85149"
-    },
-    {
-      "name": "Healthcare AI",
-      "description": "AI applications in healthcare and medical imaging",
-      "color": "#4ecdc4"
-    },
-    {
-      "name": "DevOps",
-      "description": "DevOps and CI/CD related projects",
-      "color": "#58a6ff"
-    },
-    {
-      "name": "Cloud Infrastructure",
-      "description": "Cloud infrastructure and platform projects",
-      "color": "#a5a5ff"
-    },
-    {
-      "name": "Test Automation",
-      "description": "Test automation and quality assurance projects",
-      "color": "#f85149"
-    },
-    {
-      "name": "Monitoring",
-      "description": "Monitoring and observability projects",
-      "color": "#3fb950"
-    },
-    {
-      "name": "Microservices",
-      "description": "Microservices architecture and deployment",
-      "color": "#58a6ff"
-    },
-    {
-      "name": "Education",
-      "color": "#ffd21e",
-      "description": "Education and learning projects"
-    },
-    {
-      "name": "Full Stack",
-      "color": "#58a6ff",
-      "description": "Full stack web applications"
-    },
-    {
-      "name": "Mobile",
-      "color": "#d2a8ff",
-      "description": "Mobile applications"
-    },
-    {
-      "name": "Data Processing",
-      "color": "#f0883e",
-      "description": "Data processing and reporting tools"
-    }
+    "AI/ML",
+    "Cloud Infrastructure",
+    "Data Processing",
+    "DevOps",
+    "Education",
+    "Full Stack",
+    "Healthcare AI",
+    "Microservices",
+    "Mobile",
+    "Monitoring",
+    "Security",
+    "Test Automation"
   ],
   "stats": {
-    "totalProjects": 23,
-    "completedProjects": 22,
-    "inProgressProjects": 1,
-    "featuredProjects": 8,
-    "technologiesUsed": 74,
-    "totalTeamSize": 40
-  }
+    "totalProjects": 24,
+    "categoriesCount": 12,
+    "featuredCount": 8,
+    "completedCount": 22,
+    "inProgressCount": 2
+  },
+  "generatedAt": "2026-08-04T10:11:23.421Z"
 }
