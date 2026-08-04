@@ -1,6 +1,26 @@
 {
   "posts": [
     {
+      "id": "terraform-basics-for-devops-engineers",
+      "title": "Terraform Basics for DevOps Engineers: A Practical Introduction",
+      "slug": "terraform-basics-for-devops-engineers",
+      "file": "2026-08-04-terraform-basics-for-devops-engineers.md",
+      "date": "2026-08-04",
+      "excerpt": "Learn Terraform basics for DevOps: IaC, providers, variables, the terraform workflow, state management, remote backends, provisioners, and SSH key handling.",
+      "content": "blog.html?post=terraform-basics-for-devops-engineers",
+      "readTime": "10 min read",
+      "tags": [
+        "Terraform",
+        "DevOps",
+        "Infrastructure as Code"
+      ],
+      "category": "Technology",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2712
+    },
+    {
       "id": "automation-testing-frameworks",
       "title": "Automation Testing Frameworks",
       "slug": "automation-testing-frameworks",
@@ -66,6 +86,9 @@
   ],
   "categories": [],
   "tags": [
+    "Terraform",
+    "DevOps",
+    "Infrastructure as Code",
     "Testing",
     "Automation",
     "Framework",
@@ -75,19 +98,18 @@
     "Version Control",
     "Collaboration",
     "Ansible",
-    "DevOps",
     "Configuration Management"
   ],
   "stats": {
-    "totalPosts": 3,
-    "publishedPosts": 3,
+    "totalPosts": 4,
+    "publishedPosts": 4,
     "draftPosts": 0,
-    "featuredPosts": 3,
+    "featuredPosts": 4,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
-    "categoriesCount": 3,
-    "tagsCount": 11
+    "categoriesCount": 4,
+    "tagsCount": 13
   },
   "settings": {
     "postsPerPage": 6,
@@ -98,5 +120,5 @@
     "enableCategoryFiltering": false,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-08-04T08:06:17.753Z"
+  "generatedAt": "2026-08-04T09:05:47.417Z"
 }
