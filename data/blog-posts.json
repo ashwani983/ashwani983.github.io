@@ -1,6 +1,27 @@
 {
   "posts": [
     {
+      "id": "ai-tools-testers-should-learn-2026",
+      "title": "4 AI Tools Every Manual and Automation Tester Should Learn in 2026",
+      "slug": "ai-tools-testers-should-learn-2026",
+      "file": "tester/2026-08-04-ai-tools-testers-should-learn-2026.md",
+      "date": "2026-08-04",
+      "excerpt": "Discover the AI tools every QA professional should master in 2026, from ChatGPT and Claude for test design to Postman AI, Cursor and GitHub Copilot, plus a clear learning path.",
+      "content": "blog.html?post=ai-tools-testers-should-learn-2026",
+      "readTime": "8 min read",
+      "tags": [
+        "AI Tools",
+        "Test Automation",
+        "QA",
+        "Software Testing"
+      ],
+      "category": "Tester",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 1984
+    },
+    {
       "id": "sql-guide-database-communication",
       "title": "A Comprehensive Guide to SQL: The Language for Database Communication",
       "slug": "sql-guide-database-communication",
@@ -600,6 +621,10 @@
   ],
   "categories": [],
   "tags": [
+    "AI Tools",
+    "Test Automation",
+    "QA",
+    "Software Testing",
     "sql",
     "database",
     "rdbms",
@@ -706,15 +731,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 27,
-    "publishedPosts": 27,
+    "totalPosts": 28,
+    "publishedPosts": 28,
     "draftPosts": 0,
-    "featuredPosts": 27,
+    "featuredPosts": 28,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 104
+    "tagsCount": 108
   },
   "settings": {
     "postsPerPage": 12,
@@ -725,5 +750,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-08-04T17:04:32.182Z"
+  "generatedAt": "2026-08-04T17:06:03.168Z"
 }
