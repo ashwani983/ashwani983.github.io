@@ -1,6 +1,6 @@
 ---
 title: 4 AI Tools Every Manual and Automation Tester Should Learn in 2026
-date: 2026-08-04
+date: 2022-11-08
 slug: ai-tools-testers-should-learn-2026
 tags: [AI Tools, Test Automation, QA, Software Testing]
 category: Tester

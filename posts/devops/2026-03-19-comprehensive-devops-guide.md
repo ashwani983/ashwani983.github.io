@@ -1,6 +1,6 @@
 ---
 title: The Comprehensive Guide to DevOps: Principles, Practices, and Tools
-date: 2026-08-04
+date: 2026-03-19
 slug: comprehensive-devops-guide
 tags: [devops, ci-cd, kubernetes, automation, cloud]
 category: DevOps

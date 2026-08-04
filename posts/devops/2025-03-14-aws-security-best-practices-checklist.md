@@ -1,6 +1,6 @@
 ---
 title: AWS Security Best Practices: A Practical Checklist for Protecting Your Cloud Environment
-date: 2026-08-04
+date: 2025-03-14
 slug: aws-security-best-practices-checklist
 tags: [AWS, Cloud Security, DevOps, IAM]
 category: DevOps

@@ -1,6 +1,6 @@
 ---
 title: A Strong Foundation for DevOps: Mastering Linux Fundamentals
-date: 2026-08-04
+date: 2023-10-12
 slug: linux-foundation-for-devops
 tags: [Linux, DevOps, System Administration]
 category: DevOps

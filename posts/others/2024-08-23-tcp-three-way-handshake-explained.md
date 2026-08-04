@@ -1,6 +1,6 @@
 ---
 title: Understanding the TCP Three-Way Handshake: A Comprehensive Guide
-date: 2026-08-04
+date: 2024-08-23
 slug: tcp-three-way-handshake-explained
 tags: [tcp, networking, soc, cybersecurity, handshake]
 category: Others

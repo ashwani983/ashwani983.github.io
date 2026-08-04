@@ -1,6 +1,6 @@
 ---
 title: Mastering Security Fundamentals: A Comprehensive Guide to Cybersecurity Basics
-date: 2026-08-04
+date: 2025-08-05
 slug: cybersecurity-fundamentals-guide
 tags: [security, cybersecurity, fundamentals, cia-triad, authentication, malware]
 category: Others
