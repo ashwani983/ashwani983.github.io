@@ -190,6 +190,28 @@
       "_wordCount": 4336
     },
     {
+      "id": "comprehensive-devops-guide",
+      "title": "The Comprehensive Guide to DevOps: Principles, Practices, and Tools",
+      "slug": "comprehensive-devops-guide",
+      "file": "devops/2026-08-04-comprehensive-devops-guide.md",
+      "date": "2026-08-04",
+      "excerpt": "Master DevOps with this complete guide covering core principles, CI/CD pipelines, Kubernetes orchestration, monitoring tools, and best practices for modern software delivery.",
+      "content": "blog.html?post=comprehensive-devops-guide",
+      "readTime": "2 min read",
+      "tags": [
+        "devops",
+        "ci-cd",
+        "kubernetes",
+        "automation",
+        "cloud"
+      ],
+      "category": "DevOps",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 816
+    },
+    {
       "id": "aws-projects-guide",
       "title": "Ultimate Guide to AWS Projects for Cloud Engineers",
       "slug": "aws-projects-guide",
@@ -563,9 +585,12 @@
     "Data Structures",
     "Algorithms",
     "Java",
-    "aws",
-    "cloud",
     "devops",
+    "ci-cd",
+    "kubernetes",
+    "automation",
+    "cloud",
+    "aws",
     "projects",
     "serverless",
     "terraform",
@@ -632,15 +657,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 24,
-    "publishedPosts": 24,
+    "totalPosts": 25,
+    "publishedPosts": 25,
     "draftPosts": 0,
-    "featuredPosts": 24,
+    "featuredPosts": 25,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 3,
-    "tagsCount": 95
+    "tagsCount": 98
   },
   "settings": {
     "postsPerPage": 12,
@@ -651,5 +676,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-08-04T12:47:48.565Z"
+  "generatedAt": "2026-08-04T13:30:57.656Z"
 }
