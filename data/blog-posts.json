@@ -87,6 +87,29 @@
       "_wordCount": 5276
     },
     {
+      "id": "cybersecurity-fundamentals-guide",
+      "title": "Mastering Security Fundamentals: A Comprehensive Guide to Cybersecurity Basics",
+      "slug": "cybersecurity-fundamentals-guide",
+      "file": "others/2026-08-04-cybersecurity-fundamentals-guide.md",
+      "date": "2026-08-04",
+      "excerpt": "Learn essential cybersecurity concepts including the CIA triad, threat vs vulnerability, authentication vs authorization, malware types, and defense strategies in this comprehensive guide.",
+      "content": "blog.html?post=cybersecurity-fundamentals-guide",
+      "readTime": "4 min read",
+      "tags": [
+        "security",
+        "cybersecurity",
+        "fundamentals",
+        "cia-triad",
+        "authentication",
+        "malware"
+      ],
+      "category": "Others",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 1302
+    },
+    {
       "id": "system-design-handbook-scalable-architectures",
       "title": "System Design Handbook: A Practical Guide to Scalable Architectures",
       "slug": "system-design-handbook-scalable-architectures",
@@ -574,6 +597,12 @@
     "Service Desk",
     "DevOps",
     "Containers",
+    "security",
+    "cybersecurity",
+    "fundamentals",
+    "cia-triad",
+    "authentication",
+    "malware",
     "System Design",
     "Distributed Systems",
     "Scalability",
@@ -598,7 +627,6 @@
     "Networking",
     "NetworkSecurity",
     "port number",
-    "security",
     "SSH",
     "sysdev",
     "system program",
@@ -657,15 +685,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 25,
-    "publishedPosts": 25,
+    "totalPosts": 26,
+    "publishedPosts": 26,
     "draftPosts": 0,
-    "featuredPosts": 25,
+    "featuredPosts": 26,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
-    "categoriesCount": 3,
-    "tagsCount": 98
+    "categoriesCount": 4,
+    "tagsCount": 103
   },
   "settings": {
     "postsPerPage": 12,
@@ -676,5 +704,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-08-04T13:30:57.656Z"
+  "generatedAt": "2026-08-04T13:44:28.050Z"
 }
