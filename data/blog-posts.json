@@ -1,6 +1,26 @@
 {
   "posts": [
     {
+      "id": "playwright-core-methods-commands",
+      "title": "Playwright Core Methods & Commands: A Complete Test Automation Cheat Sheet",
+      "slug": "playwright-core-methods-commands",
+      "file": "tester/2026-08-04-playwright-core-methods-commands.md",
+      "date": "2026-08-04",
+      "excerpt": "A hands-on guide to Playwright's core methods and commands: locators, actions, assertions, running and debugging tests with codegen and UI mode, plus best practices.",
+      "content": "blog.html?post=playwright-core-methods-commands",
+      "readTime": "9 min read",
+      "tags": [
+        "Playwright",
+        "Test Automation",
+        "Web Testing"
+      ],
+      "category": "Tester",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2650
+    },
+    {
       "id": "comprehensive-devops-guide",
       "title": "The Comprehensive Guide to DevOps: Principles, Practices, and Tools",
       "slug": "comprehensive-devops-guide",
@@ -686,6 +706,9 @@
   ],
   "categories": [],
   "tags": [
+    "Playwright",
+    "Test Automation",
+    "Web Testing",
     "devops",
     "ci-cd",
     "kubernetes",
@@ -769,7 +792,6 @@
     "URI",
     "URL",
     "AI Tools",
-    "Test Automation",
     "QA",
     "Software Testing",
     "aws",
@@ -806,15 +828,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 31,
-    "publishedPosts": 31,
+    "totalPosts": 32,
+    "publishedPosts": 32,
     "draftPosts": 0,
-    "featuredPosts": 31,
+    "featuredPosts": 32,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 118
+    "tagsCount": 120
   },
   "settings": {
     "postsPerPage": 12,
@@ -825,5 +847,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-08-04T17:23:01.673Z"
+  "generatedAt": "2026-08-04T17:36:40.268Z"
 }
