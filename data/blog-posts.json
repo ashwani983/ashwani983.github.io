@@ -107,6 +107,27 @@
       "_wordCount": 5101
     },
     {
+      "id": "complete-devops-interview-playbook-2026",
+      "title": "The Complete DevOps Interview Playbook for 2026",
+      "slug": "complete-devops-interview-playbook-2026",
+      "file": "devops/2026-08-04-complete-devops-interview-playbook-2026.md",
+      "date": "2026-08-04",
+      "excerpt": "A practical guide to DevOps interview success — covering DevOps Engineer, SRE, Cloud DevOps, and Kubernetes roles, career paths, certifications, salaries, and the interview process.",
+      "content": "blog.html?post=complete-devops-interview-playbook-2026",
+      "readTime": "14 min read",
+      "tags": [
+        "DevOps",
+        "Kubernetes",
+        "Cloud",
+        "CI/CD"
+      ],
+      "category": "DevOps",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 3675
+    },
+    {
       "id": "it-support-administration-interview-guide",
       "title": "IT Support & Administration: The Complete Interview Preparation Guide",
       "slug": "it-support-administration-interview-guide",
@@ -513,6 +534,8 @@
     "CI/CD",
     "Terraform",
     "Ansible",
+    "Kubernetes",
+    "Cloud",
     "IT Support",
     "Active Directory",
     "Microsoft 365",
@@ -523,7 +546,6 @@
     "Containers",
     "Infrastructure as Code",
     "ITInfrastructure",
-    "Kubernetes",
     "Networking",
     "NetworkSecurity",
     "port number",
@@ -586,15 +608,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 22,
-    "publishedPosts": 22,
+    "totalPosts": 23,
+    "publishedPosts": 23,
     "draftPosts": 0,
-    "featuredPosts": 22,
+    "featuredPosts": 23,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 3,
-    "tagsCount": 92
+    "tagsCount": 93
   },
   "settings": {
     "postsPerPage": 12,
@@ -605,5 +627,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-08-04T11:19:26.721Z"
+  "generatedAt": "2026-08-04T11:23:55.608Z"
 }
