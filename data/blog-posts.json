@@ -1,349 +1,102 @@
 {
   "posts": [
     {
-      "id": "getting-the-start-ansible",
-      "title": "Getting Started with Ansible",
-      "slug": "getting-the-start-ansible",
-      "excerpt": "A practical introduction to Ansible, the open-source automation engine for cloud provisioning, application deployment, and IT orchestration. Learn how control and remote machines work together in a typical Ansible setup.",
-      "content": "https://atlcodify.wordpress.com/2023/12/02/getting-the-start-ansible/",
-      "author": "Ashwani Kumar",
-      "date": "2023-12-02",
-      "lastModified": "2023-12-02",
-      "readTime": "6 min read",
-      "tags": ["Ansible", "Automation", "DevOps", "Configuration Management"],
-      "category": "Automation",
-      "image": "assets/images/blog/blog1.png",
+      "id": "automation-testing-frameworks",
+      "title": "Automation Testing Frameworks",
+      "slug": "automation-testing-frameworks",
+      "file": "2024-04-19-automation-testing-frameworks.md",
+      "date": "2024-04-19",
+      "excerpt": "An automation testing framework provides the structure, reusable libraries, and best practices that make automated testing efficient and maintainable. Explore the core components that power robust test automation suites.",
+      "content": "blog.html?post=automation-testing-frameworks",
+      "readTime": "10 min read",
+      "tags": [
+        "Testing",
+        "Automation",
+        "Framework",
+        "Quality Assurance"
+      ],
+      "category": "Test Automation",
+      "image": null,
       "published": true,
-      "featured": true,
-      "views": 850,
-      "likes": 65,
-      "comments": 8,
-      "seo": {
-        "metaTitle": "Getting Started with Ansible: Automation Made Simple",
-        "metaDescription": "Learn Ansible basics for IT automation, cloud provisioning, and application deployment. Complete guide to control and remote machine management.",
-        "keywords": ["Ansible", "automation", "DevOps", "configuration management", "IT orchestration"]
-      }
+      "source": "native",
+      "_wordCount": 689
     },
     {
       "id": "all-about-git-github",
       "title": "All About Git & GitHub",
       "slug": "all-about-git-github",
-      "excerpt": "An introduction to Git, the open-source version control system used by most developers worldwide. Learn how Git tracks code changes, supports collaboration, and how it differs from GitHub.",
-      "content": "https://atlcodify.wordpress.com/2023/12/16/all-about-git-github/",
-      "author": "Ashwani Kumar",
+      "file": "2023-12-16-all-about-git-github.md",
       "date": "2023-12-16",
-      "lastModified": "2023-12-16",
+      "excerpt": "An introduction to Git, the open-source version control system used by most developers worldwide. Learn how Git tracks code changes, supports collaboration, and how it differs from GitHub.",
+      "content": "blog.html?post=all-about-git-github",
       "readTime": "8 min read",
-      "tags": ["Git", "GitHub", "Version Control", "Collaboration"],
-      "category": "DevOps",
-      "image": "assets/images/blog/blog2.png",
-      "published": true,
-      "featured": true,
-      "views": 1200,
-      "likes": 95,
-      "comments": 15,
-      "seo": {
-        "metaTitle": "Complete Guide to Git & GitHub: Version Control Mastery",
-        "metaDescription": "Master Git and GitHub for version control and collaboration. Learn the differences, best practices, and why 70% of developers use Git.",
-        "keywords": ["Git", "GitHub", "version control", "collaboration", "programming"]
-      }
-    },
-    {
-      "id": "automation-testing-frameworks",
-      "title": "Automation Testing Frameworks",
-      "slug": "automation-testing-frameworks",
-      "excerpt": "An automation testing framework provides the structure, reusable libraries, and best practices that make automated testing efficient and maintainable. Explore the core components that power robust test automation suites.",
-      "content": "https://atlcodify.wordpress.com/2024/04/19/automation-testing-frameworks/",
-      "author": "Ashwani Kumar",
-      "date": "2024-04-19",
-      "lastModified": "2024-04-19",
-      "readTime": "10 min read",
-      "tags": ["Testing", "Automation", "Framework", "Quality Assurance"],
-      "category": "Test Automation",
-      "image": "assets/images/blog/blog3.png",
-      "published": true,
-      "featured": true,
-      "views": 980,
-      "likes": 78,
-      "comments": 12,
-      "seo": {
-        "metaTitle": "Automation Testing Frameworks: Complete Guide to Test Automation",
-        "metaDescription": "Learn about automation testing frameworks, best practices, and tools for efficient test automation. Comprehensive guide to testing methodologies.",
-        "keywords": ["automation testing", "testing framework", "quality assurance", "test automation", "software testing"]
-      }
-    },
-    {
-      "id": "getting-started-with-devops",
-      "title": "Getting Started with DevOps: A Comprehensive Guide",
-      "slug": "getting-started-with-devops",
-      "excerpt": "A comprehensive guide to understanding DevOps principles, practices, and tools. Learn how to implement DevOps culture in your organization and improve software delivery.",
-      "content": "pages/blog-posts/getting-started-with-devops.html",
-      "author": "Ashwani Kumar",
-      "date": "2024-01-15",
-      "lastModified": "2024-01-15",
-      "readTime": "8 min read",
-      "tags": ["DevOps", "CI/CD", "Culture", "Tutorial"],
+      "tags": [
+        "Git",
+        "GitHub",
+        "Version Control",
+        "Collaboration"
+      ],
       "category": "DevOps",
       "image": null,
       "published": true,
-      "featured": false,
-      "views": 1250,
-      "likes": 89,
-      "comments": 12,
-      "seo": {
-        "metaTitle": "Getting Started with DevOps: Complete Beginner's Guide",
-        "metaDescription": "Learn DevOps fundamentals, best practices, and implementation strategies. Complete guide for beginners to understand DevOps culture and tools.",
-        "keywords": ["DevOps", "CI/CD", "automation", "software delivery", "culture"]
-      }
+      "source": "native",
+      "_wordCount": 1389
     },
     {
-      "id": "docker-best-practices",
-      "title": "Docker Best Practices for Production Environments",
-      "slug": "docker-best-practices",
-      "excerpt": "Essential Docker practices for building efficient, secure, and maintainable containers. Learn optimization techniques and security considerations for production deployments.",
-      "content": "pages/blog-posts/docker-best-practices.html",
-      "author": "Ashwani Kumar",
-      "date": "2024-01-10",
-      "lastModified": "2024-01-12",
-      "readTime": "12 min read",
-      "tags": ["Docker", "Containers", "Security", "Optimization"],
-      "category": "Containerization",
-      "image": null,
-      "published": true,
-      "featured": true,
-      "views": 2100,
-      "likes": 156,
-      "comments": 23,
-      "seo": {
-        "metaTitle": "Docker Best Practices: Production-Ready Container Guide",
-        "metaDescription": "Master Docker best practices for production environments. Learn security, optimization, and maintenance strategies for containerized applications.",
-        "keywords": ["Docker", "containers", "production", "security", "optimization"]
-      }
-    },
-    {
-      "id": "kubernetes-deployment-strategies",
-      "title": "Kubernetes Deployment Strategies: Rolling, Blue-Green, and Canary",
-      "slug": "kubernetes-deployment-strategies",
-      "excerpt": "Explore different Kubernetes deployment strategies including rolling updates, blue-green deployments, and canary releases. Learn when and how to use each approach.",
-      "content": "pages/blog-posts/kubernetes-deployment-strategies.html",
-      "author": "Ashwani Kumar",
-      "date": "2024-01-05",
-      "lastModified": "2024-01-05",
-      "readTime": "10 min read",
-      "tags": ["Kubernetes", "Deployment", "DevOps", "Strategy"],
-      "category": "Kubernetes",
-      "image": null,
-      "published": true,
-      "featured": true,
-      "views": 1800,
-      "likes": 134,
-      "comments": 18,
-      "seo": {
-        "metaTitle": "Kubernetes Deployment Strategies: Complete Guide",
-        "metaDescription": "Learn Kubernetes deployment strategies: rolling updates, blue-green, and canary deployments. Choose the right strategy for your applications.",
-        "keywords": ["Kubernetes", "deployment", "rolling update", "blue-green", "canary"]
-      }
-    },
-    {
-      "id": "aws-security-best-practices",
-      "title": "AWS Cloud Security: Essential Best Practices",
-      "slug": "aws-security-best-practices",
-      "excerpt": "Key security considerations and best practices when deploying applications on AWS cloud. Learn about IAM, VPC security, encryption, and monitoring.",
-      "content": "pages/blog-posts/aws-security-best-practices.html",
-      "author": "Ashwani Kumar",
-      "date": "2023-12-28",
-      "lastModified": "2023-12-30",
-      "readTime": "15 min read",
-      "tags": ["AWS", "Security", "Cloud", "IAM", "Encryption"],
-      "category": "Cloud Security",
-      "image": null,
-      "published": true,
-      "featured": false,
-      "views": 1650,
-      "likes": 112,
-      "comments": 15,
-      "seo": {
-        "metaTitle": "AWS Security Best Practices: Complete Cloud Security Guide",
-        "metaDescription": "Master AWS security with essential best practices. Learn IAM, VPC security, encryption, and monitoring for secure cloud deployments.",
-        "keywords": ["AWS security", "cloud security", "IAM", "VPC", "encryption"]
-      }
-    },
-    {
-      "id": "jenkins-pipeline-automation",
-      "title": "Building Robust CI/CD Pipelines with Jenkins",
-      "slug": "jenkins-pipeline-automation",
-      "excerpt": "Learn how to create efficient and maintainable CI/CD pipelines using Jenkins. Covers pipeline as code, best practices, and integration with other tools.",
-      "content": "pages/blog-posts/jenkins-pipeline-automation.html",
-      "author": "Ashwani Kumar",
-      "date": "2023-12-20",
-      "lastModified": "2023-12-22",
-      "readTime": "11 min read",
-      "tags": ["Jenkins", "CI/CD", "Pipeline", "Automation"],
-      "category": "CI/CD",
-      "image": null,
-      "published": true,
-      "featured": false,
-      "views": 1420,
-      "likes": 98,
-      "comments": 14,
-      "seo": {
-        "metaTitle": "Jenkins CI/CD Pipelines: Complete Automation Guide",
-        "metaDescription": "Build robust CI/CD pipelines with Jenkins. Learn pipeline as code, best practices, and tool integrations for automated software delivery.",
-        "keywords": ["Jenkins", "CI/CD", "pipeline", "automation", "DevOps"]
-      }
-    },
-    {
-      "id": "terraform-infrastructure-as-code",
-      "title": "Infrastructure as Code with Terraform: From Basics to Advanced",
-      "slug": "terraform-infrastructure-as-code",
-      "excerpt": "Master Infrastructure as Code using Terraform. Learn modules, state management, best practices, and advanced techniques for scalable infrastructure.",
-      "content": "pages/blog-posts/terraform-infrastructure-as-code.html",
-      "author": "Ashwani Kumar",
-      "date": "2023-12-15",
-      "lastModified": "2023-12-18",
-      "readTime": "14 min read",
-      "tags": ["Terraform", "Infrastructure", "IaC", "AWS", "Automation"],
-      "category": "Infrastructure",
-      "image": null,
-      "published": true,
-      "featured": false,
-      "views": 1890,
-      "likes": 145,
-      "comments": 21,
-      "seo": {
-        "metaTitle": "Terraform Infrastructure as Code: Complete Guide",
-        "metaDescription": "Master Terraform for Infrastructure as Code. Learn modules, state management, and best practices for scalable cloud infrastructure.",
-        "keywords": ["Terraform", "Infrastructure as Code", "IaC", "cloud", "automation"]
-      }
-    },
-    {
-      "id": "monitoring-observability-guide",
-      "title": "Complete Guide to Monitoring and Observability",
-      "slug": "monitoring-observability-guide",
-      "excerpt": "Comprehensive guide to implementing monitoring and observability in modern applications. Learn about metrics, logs, traces, and alerting strategies.",
-      "content": "pages/blog-posts/monitoring-observability-guide.html",
-      "author": "Ashwani Kumar",
-      "date": "2023-12-10",
-      "lastModified": "2023-12-12",
-      "readTime": "13 min read",
-      "tags": ["Monitoring", "Observability", "Prometheus", "Grafana", "Logging"],
-      "category": "Monitoring",
-      "image": null,
-      "published": true,
-      "featured": false,
-      "views": 1320,
-      "likes": 87,
-      "comments": 11,
-      "seo": {
-        "metaTitle": "Monitoring and Observability: Complete Implementation Guide",
-        "metaDescription": "Implement comprehensive monitoring and observability. Learn metrics, logs, traces, and alerting for modern applications.",
-        "keywords": ["monitoring", "observability", "Prometheus", "Grafana", "metrics"]
-      }
-    },
-    {
-      "id": "ansible-automation-guide",
-      "title": "Ansible Automation: Configuration Management Made Simple",
-      "slug": "ansible-automation-guide",
-      "excerpt": "Learn Ansible for configuration management and automation. Covers playbooks, roles, best practices, and integration with CI/CD pipelines.",
-      "content": "pages/blog-posts/ansible-automation-guide.html",
-      "author": "Ashwani Kumar",
-      "date": "2023-12-05",
-      "lastModified": "2023-12-07",
-      "readTime": "9 min read",
-      "tags": ["Ansible", "Automation", "Configuration", "DevOps"],
+      "id": "getting-started-ansible",
+      "title": "Getting Started with Ansible",
+      "slug": "getting-started-ansible",
+      "file": "2023-12-02-getting-started-ansible.md",
+      "date": "2023-12-02",
+      "excerpt": "A practical introduction to Ansible, the open-source automation engine for cloud provisioning, application deployment, and IT orchestration. Learn how control and remote machines work together in a typical Ansible setup.",
+      "content": "blog.html?post=getting-started-ansible",
+      "readTime": "6 min read",
+      "tags": [
+        "Ansible",
+        "Automation",
+        "DevOps",
+        "Configuration Management"
+      ],
       "category": "Automation",
       "image": null,
       "published": true,
-      "featured": false,
-      "views": 1150,
-      "likes": 76,
-      "comments": 9,
-      "seo": {
-        "metaTitle": "Ansible Automation Guide: Configuration Management Simplified",
-        "metaDescription": "Master Ansible for configuration management and automation. Learn playbooks, roles, and best practices for infrastructure automation.",
-        "keywords": ["Ansible", "automation", "configuration management", "playbooks", "DevOps"]
-      }
+      "source": "native",
+      "_wordCount": 1321
     }
   ],
-  "categories": [
-    {
-      "name": "DevOps",
-      "description": "DevOps culture, practices, and methodologies",
-      "color": "#58a6ff",
-      "slug": "devops"
-    },
-    {
-      "name": "Containerization",
-      "description": "Docker, containers, and containerization technologies",
-      "color": "#3fb950",
-      "slug": "containerization"
-    },
-    {
-      "name": "Kubernetes",
-      "description": "Kubernetes orchestration and management",
-      "color": "#a5a5ff",
-      "slug": "kubernetes"
-    },
-    {
-      "name": "Cloud Security",
-      "description": "Cloud security best practices and implementations",
-      "color": "#f85149",
-      "slug": "cloud-security"
-    },
-    {
-      "name": "CI/CD",
-      "description": "Continuous Integration and Continuous Deployment",
-      "color": "#58a6ff",
-      "slug": "cicd"
-    },
-    {
-      "name": "Infrastructure",
-      "description": "Infrastructure as Code and cloud infrastructure",
-      "color": "#a5a5ff",
-      "slug": "infrastructure"
-    },
-    {
-      "name": "Monitoring",
-      "description": "Monitoring, observability, and alerting",
-      "color": "#3fb950",
-      "slug": "monitoring"
-    },
-    {
-      "name": "Automation",
-      "description": "Automation tools and practices",
-      "color": "#58a6ff",
-      "slug": "automation"
-    },
-    {
-      "name": "Test Automation",
-      "description": "Test automation frameworks and quality assurance",
-      "color": "#f85149",
-      "slug": "test-automation"
-    }
-  ],
+  "categories": [],
   "tags": [
-    "DevOps", "Docker", "Kubernetes", "AWS", "Jenkins", "Terraform", 
-    "Ansible", "CI/CD", "Security", "Monitoring", "Automation", 
-    "Infrastructure", "Cloud", "Containers", "Pipeline", "IaC"
+    "Testing",
+    "Automation",
+    "Framework",
+    "Quality Assurance",
+    "Git",
+    "GitHub",
+    "Version Control",
+    "Collaboration",
+    "Ansible",
+    "DevOps",
+    "Configuration Management"
   ],
   "stats": {
-    "totalPosts": 11,
-    "publishedPosts": 11,
+    "totalPosts": 3,
+    "publishedPosts": 3,
     "draftPosts": 0,
-    "featuredPosts": 6,
-    "totalViews": 15610,
-    "totalLikes": 1135,
-    "totalComments": 158,
-    "categoriesCount": 8,
-    "tagsCount": 20
+    "featuredPosts": 3,
+    "totalViews": 0,
+    "totalLikes": 0,
+    "totalComments": 0,
+    "categoriesCount": 3,
+    "tagsCount": 11
   },
   "settings": {
     "postsPerPage": 6,
-    "enableComments": true,
+    "enableComments": false,
     "enableSocialSharing": true,
     "enableSearch": true,
-    "enableTagFiltering": true,
-    "enableCategoryFiltering": true,
+    "enableTagFiltering": false,
+    "enableCategoryFiltering": false,
     "defaultSortOrder": "date-desc"
-  }
+  },
+  "generatedAt": "2026-08-04T06:51:35.802Z"
 }

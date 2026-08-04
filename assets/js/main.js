@@ -443,7 +443,7 @@ const dataManager = {
     if (!elements.blogGrid) return;
     
     elements.blogGrid.innerHTML = posts.map(post => `
-      <a href="${post.content || 'https://atlcodify.wordpress.com'}" class="blog-card hover-lift" target="_blank" rel="noopener">
+      <a href="${post.content || 'blog.html'}" class="blog-card hover-lift" target="_blank" rel="noopener">
         <div class="blog-image">
           ${post.image ? `<img src="${post.image}" alt="${post.title}" loading="lazy" decoding="async" width="400" height="150">` : '📝 Blog Post'}
         </div>
