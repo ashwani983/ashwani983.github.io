@@ -4,7 +4,7 @@
       "id": "system-design-handbook-scalable-architectures",
       "title": "System Design Handbook: A Practical Guide to Scalable Architectures",
       "slug": "system-design-handbook-scalable-architectures",
-      "file": "2026-08-04-system-design-handbook-scalable-architectures.md",
+      "file": "developer/2026-08-04-system-design-handbook-scalable-architectures.md",
       "date": "2026-08-04",
       "excerpt": "A practical guide to system design fundamentals: load balancing, caching, CAP theorem, sharding, consistent hashing, queues, and more.",
       "content": "blog.html?post=system-design-handbook-scalable-architectures",
@@ -14,7 +14,7 @@
         "Distributed Systems",
         "Scalability"
       ],
-      "category": "Technology",
+      "category": "Developer",
       "image": null,
       "published": true,
       "source": "native",
@@ -464,7 +464,7 @@
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
-    "categoriesCount": 4,
+    "categoriesCount": 3,
     "tagsCount": 72
   },
   "settings": {
@@ -476,5 +476,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-08-04T09:56:40.621Z"
+  "generatedAt": "2026-08-04T10:17:00.970Z"
 }
