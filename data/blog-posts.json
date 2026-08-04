@@ -85,6 +85,28 @@
       "_wordCount": 1058
     },
     {
+      "id": "ci-cd-devops-pipeline-kubernetes-jenkins",
+      "title": "Building an End-to-End CI/CD DevOps Pipeline with Kubernetes and Jenkins",
+      "slug": "ci-cd-devops-pipeline-kubernetes-jenkins",
+      "file": "devops/2026-08-04-ci-cd-devops-pipeline-kubernetes-jenkins.md",
+      "date": "2026-08-04",
+      "excerpt": "Hands-on guide to building a complete CI/CD DevOps pipeline: AWS EC2, Kubernetes, Jenkins, Docker, SonarQube, Nexus, Trivy scanning, and Grafana monitoring.",
+      "content": "blog.html?post=ci-cd-devops-pipeline-kubernetes-jenkins",
+      "readTime": "12 min read",
+      "tags": [
+        "CI/CD",
+        "Kubernetes",
+        "Jenkins",
+        "Docker",
+        "Monitoring"
+      ],
+      "category": "DevOps",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 3740
+    },
+    {
       "id": "complete-devops-cheat-sheet-linux-git-cicd-iac",
       "title": "The Complete DevOps Cheat Sheet: Linux, Git, CI/CD, IaC and Beyond",
       "slug": "complete-devops-cheat-sheet-linux-git-cicd-iac",
@@ -529,12 +551,15 @@
     "projects",
     "serverless",
     "terraform",
+    "CI/CD",
+    "Kubernetes",
+    "Jenkins",
+    "Docker",
+    "Monitoring",
     "DevOps",
     "Linux",
-    "CI/CD",
     "Terraform",
     "Ansible",
-    "Kubernetes",
     "Cloud",
     "IT Support",
     "Active Directory",
@@ -542,7 +567,6 @@
     "Azure AD",
     "Exchange Online",
     "Service Desk",
-    "Docker",
     "Containers",
     "Infrastructure as Code",
     "ITInfrastructure",
@@ -608,15 +632,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 23,
-    "publishedPosts": 23,
+    "totalPosts": 24,
+    "publishedPosts": 24,
     "draftPosts": 0,
-    "featuredPosts": 23,
+    "featuredPosts": 24,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 3,
-    "tagsCount": 93
+    "tagsCount": 95
   },
   "settings": {
     "postsPerPage": 12,
@@ -627,5 +651,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-08-04T11:23:55.608Z"
+  "generatedAt": "2026-08-04T11:25:26.448Z"
 }
