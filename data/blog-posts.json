@@ -107,6 +107,29 @@
       "_wordCount": 5101
     },
     {
+      "id": "it-support-administration-interview-guide",
+      "title": "IT Support & Administration: The Complete Interview Preparation Guide",
+      "slug": "it-support-administration-interview-guide",
+      "file": "devops/2026-08-04-it-support-administration-interview-guide.md",
+      "date": "2026-08-04",
+      "excerpt": "A comprehensive interview prep guide for IT support and administration roles, covering Outlook, Teams, Active Directory, Entra ID, Exchange Online, service desk and networking troubleshooting.",
+      "content": "blog.html?post=it-support-administration-interview-guide",
+      "readTime": "18 min read",
+      "tags": [
+        "IT Support",
+        "Active Directory",
+        "Microsoft 365",
+        "Azure AD",
+        "Exchange Online",
+        "Service Desk"
+      ],
+      "category": "DevOps",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 5035
+    },
+    {
       "id": "mastering-docker-complete-guide",
       "title": "Mastering Docker: A Complete Guide to Containers, Networking, Storage, Registry and Security",
       "slug": "mastering-docker-complete-guide",
@@ -490,6 +513,12 @@
     "CI/CD",
     "Terraform",
     "Ansible",
+    "IT Support",
+    "Active Directory",
+    "Microsoft 365",
+    "Azure AD",
+    "Exchange Online",
+    "Service Desk",
     "Docker",
     "Containers",
     "Infrastructure as Code",
@@ -557,15 +586,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 21,
-    "publishedPosts": 21,
+    "totalPosts": 22,
+    "publishedPosts": 22,
     "draftPosts": 0,
-    "featuredPosts": 21,
+    "featuredPosts": 22,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 3,
-    "tagsCount": 86
+    "tagsCount": 92
   },
   "settings": {
     "postsPerPage": 12,
@@ -576,5 +605,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-08-04T10:58:28.925Z"
+  "generatedAt": "2026-08-04T11:19:26.721Z"
 }
