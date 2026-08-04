@@ -4,8 +4,12 @@
  *
  * Usage: node scripts/generate-blog-index.js
  *
+ * Posts are organized into category subfolders under /posts:
+ *   developer/, tester/, devops/, others/
+ * The subfolder determines the post's category.
+ *
  * Front matter format (top of each post file, between --- lines):
- *   title, date (YYYY-MM-DD), slug, tags ([a, b]), category,
+ *   title, date (YYYY-MM-DD), slug, tags ([a, b]),
  *   excerpt, readTime, published (true/false)
  */
 
@@ -14,6 +18,13 @@ const path = require('path');
 
 const POSTS_DIR = path.join(__dirname, '..', 'posts');
 const OUT_FILE = path.join(__dirname, '..', 'data', 'blog-posts.json');
+
+const CATEGORY_LABELS = {
+  developer: 'Developer',
+  tester: 'Tester',
+  devops: 'DevOps',
+  others: 'Others'
+};
 
 function parseFrontMatter(raw) {
   const body = raw.replace(/^\uFEFF/, '');
@@ -29,9 +40,12 @@ function parseFrontMatter(raw) {
   fm.split('\n').forEach(line => {
     const idx = line.indexOf(':');
     if (idx === -1) return;
-    const key = line.slice(0, idx).trim();
-    let value = line.slice(idx + 1).trim();
-    if (key === 'tags') {
+      const key = line.slice(0, idx).trim();
+      let value = line.slice(idx + 1).trim();
+      if ((value.startsWith('"') && value.endsWith('"')) || (value.startsWith("'") && value.endsWith("'"))) {
+        value = value.slice(1, -1);
+      }
+      if (key === 'tags') {
       value = value.replace(/^\[|\]$/g, '')
         .split(',')
         .map(t => t.trim())
@@ -47,6 +61,20 @@ function parseFrontMatter(raw) {
   return { meta, content };
 }
 
+function listPostFiles(dir, base) {
+  const results = [];
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    const rel = path.join(base, entry.name);
+    const abs = path.join(dir, entry.name);
+    if (entry.isDirectory()) {
+      results.push(...listPostFiles(abs, rel));
+    } else if (entry.name.endsWith('.md')) {
+      results.push(rel);
+    }
+  }
+  return results;
+}
+
 function generate() {
   if (!fs.existsSync(POSTS_DIR)) {
     console.error(`Posts directory not found: ${POSTS_DIR}`);
@@ -54,8 +82,7 @@ function generate() {
   }
 
   const posts = [];
-  for (const file of fs.readdirSync(POSTS_DIR)) {
-    if (!file.endsWith('.md')) continue;
+  for (const file of listPostFiles(POSTS_DIR, '')) {
     const raw = fs.readFileSync(path.join(POSTS_DIR, file), 'utf8');
     const { meta, content } = parseFrontMatter(raw);
 
@@ -64,9 +91,11 @@ function generate() {
       continue;
     }
 
-    const slug = meta.slug || file.replace(/^\d{4}-\d{2}-\d{2}-/, '').replace(/\.md$/, '');
+    const slug = meta.slug || path.basename(file).replace(/^\d{4}-\d{2}-\d{2}-/, '').replace(/\.md$/, '');
     const title = meta.title || slug;
     const date = meta.date || file.slice(0, 10);
+    const folder = path.dirname(file).split(path.sep)[0];
+    const category = CATEGORY_LABELS[folder] || meta.category || 'General';
 
     posts.push({
       id: slug,
@@ -78,7 +107,7 @@ function generate() {
       content: `blog.html?post=${encodeURIComponent(slug)}`,
       readTime: meta.readTime || '5 min read',
       tags: meta.tags || [],
-      category: meta.category || 'General',
+      category,
       image: meta.image || null,
       published: meta.published !== false,
       source: 'native',
@@ -104,12 +133,12 @@ function generate() {
       tagsCount: new Set(posts.flatMap(p => p.tags)).size
     },
     settings: {
-      postsPerPage: 6,
+      postsPerPage: 12,
       enableComments: false,
       enableSocialSharing: true,
       enableSearch: true,
       enableTagFiltering: false,
-      enableCategoryFiltering: false,
+      enableCategoryFiltering: true,
       defaultSortOrder: 'date-desc'
     },
     generatedAt: new Date().toISOString()

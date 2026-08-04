@@ -98,9 +98,21 @@
                     <p class="section-subtitle" id="blog-subtitle">Notes on DevOps, cloud engineering, and learning in public</p>
                 </div>
 
+                <div class="blog-toolbar">
+                    <div class="blog-categories" id="blog-categories" role="tablist" aria-label="Filter posts by category">
+                        <button type="button" class="blog-cat-btn active" data-cat="all" role="tab" aria-selected="true">All</button>
+                    </div>
+                    <div class="blog-toolbar-right">
+                        <input type="search" id="blog-search" class="blog-search" placeholder="Search posts…" aria-label="Search posts">
+                        <span class="blog-count" id="blog-count" aria-live="polite"></span>
+                    </div>
+                </div>
+
                 <div id="blog-archive" class="blog-archive">
                     <p class="stats-fallback">Loading posts…</p>
                 </div>
+
+                <nav class="blog-pagination" id="blog-pagination" aria-label="Pagination"></nav>
 
                 <article id="blog-post" class="blog-post" hidden>
                     <a href="blog.html" class="btn btn-outline btn-sm" id="blog-back">← Back to all posts</a>

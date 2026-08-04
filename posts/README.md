@@ -1,10 +1,21 @@
 # Blog posts
 
-This is the native blog for the portfolio. Each post is a single Markdown file in this folder.
+This is the native blog for the portfolio. Each post is a single Markdown file organized into category folders under `posts/`.
+
+## Folder structure
+
+| Folder | Category | Examples |
+| ------ | -------- | -------- |
+| `posts/developer/` | Developer | Python, Django, Git & GitHub |
+| `posts/tester/` | Tester | Selenium, API testing, frameworks |
+| `posts/devops/` | DevOps | Ansible, Terraform, networking |
+| `posts/others/` | Others | Anything that doesn't fit above |
+
+The subfolder determines the post's category (shown on the archive tabs). Want a new category? Just create a new subfolder, e.g. `posts/cloud/`.
 
 ## How to publish a post
 
-1. Create a new file: `posts/YYYY-MM-DD-<slug>.md`
+1. Create a new file in the right category folder: `posts/<category>/YYYY-MM-DD-<slug>.md`
 2. Copy the front matter below and fill it in.
 3. Commit and push. A GitHub Action regenerates `data/blog-posts.json` automatically.
 
@@ -30,3 +41,9 @@ Your post content in Markdown here.
 - Set `published: false` to save a draft (hidden from the site).
 - To regenerate the index locally instead of waiting for the action:
   `node scripts/generate-blog-index.js`
+
+## Migrating from WordPress
+
+Script and notes for importing old posts from `atlcodify.wordpress.com` live in
+`/data/user/0/com.foxdebug.acodefree/cache/opencode/migrate-wp.js`
+(turndown + jsdom are required; run from that folder). New posts are written natively here.

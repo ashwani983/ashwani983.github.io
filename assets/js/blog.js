@@ -2,8 +2,18 @@
   'use strict';
 
   const blogState = {
-    currentTheme: localStorage.getItem('theme') || 'dark'
+    currentTheme: localStorage.getItem('theme') || 'dark',
+    posts: [],
+    categories: ['All'],
+    currentCategory: 'All',
+    searchQuery: '',
+    currentPage: 1,
+    perPage: 12
   };
+
+  function escapeHtml(str) {
+    return String(str || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
 
   function setTheme(theme) {
     document.documentElement.setAttribute('data-theme', theme);
@@ -48,6 +58,9 @@
       if (idx === -1) return;
       const key = line.slice(0, idx).trim();
       let value = line.slice(idx + 1).trim();
+      if ((value.startsWith('"') && value.endsWith('"')) || (value.startsWith("'") && value.endsWith("'"))) {
+        value = value.slice(1, -1);
+      }
       if (key === 'tags') {
         value = value.replace(/^\[|\]$/g, '')
           .split(',')
@@ -64,31 +77,94 @@
     return { meta, content };
   }
 
-  function renderArchive(posts) {
-    const archive = document.getElementById('blog-archive');
-    if (!archive) return;
-
-    const published = posts.filter(p => p.published !== false);
-    if (!published.length) {
-      archive.innerHTML = '<p class="stats-fallback">No posts yet. Check back soon.</p>';
-      return;
-    }
-
-    archive.innerHTML = published.map(post => `
+  function renderCard(post) {
+    return `
       <article class="blog-archive-card hover-lift">
-        <a href="${post.content}" class="blog-archive-link">
+        <a href="${escapeHtml(post.content)}" class="blog-archive-link">
           <div class="blog-archive-date">
-            <time datetime="${post.date}">${formatDate(post.date)}</time>
-            <span class="blog-read-time">${post.readTime || '5 min read'}</span>
+            <time datetime="${escapeHtml(post.date)}">${escapeHtml(formatDate(post.date))}</time>
+            <span class="blog-read-time">${escapeHtml(post.readTime || '5 min read')}</span>
           </div>
-          <h3 class="blog-archive-title">${post.title}</h3>
-          <p class="blog-archive-excerpt">${post.excerpt}</p>
+          <h3 class="blog-archive-title">${escapeHtml(post.title)}</h3>
+          <p class="blog-archive-excerpt">${escapeHtml(post.excerpt)}</p>
           <div class="blog-tags">
-            ${(post.tags || []).map(tag => `<span class="blog-tag">${tag}</span>`).join('')}
+            ${(post.tags || []).slice(0, 5).map(tag => `<span class="blog-tag">${escapeHtml(tag)}</span>`).join('')}
           </div>
         </a>
       </article>
+    `;
+  }
+
+  function buildCategoryTabs() {
+    const tabs = document.getElementById('blog-categories');
+    if (!tabs) return;
+    tabs.innerHTML = blogState.categories.map(cat => `
+      <button type="button" class="blog-cat-btn${cat === blogState.currentCategory ? ' active' : ''}"
+        data-cat="${escapeHtml(cat)}" role="tab"
+        aria-selected="${cat === blogState.currentCategory}">${escapeHtml(cat)}</button>
     `).join('');
+
+    tabs.querySelectorAll('.blog-cat-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        blogState.currentCategory = btn.dataset.cat;
+        blogState.currentPage = 1;
+        renderArchive();
+      });
+    });
+  }
+
+  function getFiltered() {
+    const query = blogState.searchQuery.trim().toLowerCase();
+    return blogState.posts.filter(p => {
+      if (p.published === false) return false;
+      if (blogState.currentCategory !== 'All' && (p.category || 'Others') !== blogState.currentCategory) return false;
+      if (!query) return true;
+      return [p.title, p.excerpt, (p.tags || []).join(' '), p.category]
+        .join(' ').toLowerCase().includes(query);
+    });
+  }
+
+  function renderPagination(total) {
+    const nav = document.getElementById('blog-pagination');
+    if (!nav) return;
+    const pages = Math.max(1, Math.ceil(total / blogState.perPage));
+    if (blogState.currentPage > pages) blogState.currentPage = pages;
+    if (pages <= 1) {
+      nav.innerHTML = '';
+      return;
+    }
+    nav.innerHTML = `
+      <button type="button" class="blog-page-btn" data-page="${blogState.currentPage - 1}" ${blogState.currentPage === 1 ? 'disabled' : ''}>← Prev</button>
+      <span class="blog-page-info">Page ${blogState.currentPage} of ${pages}</span>
+      <button type="button" class="blog-page-btn" data-page="${blogState.currentPage + 1}" ${blogState.currentPage === pages ? 'disabled' : ''}>Next →</button>
+    `;
+    nav.querySelectorAll('.blog-page-btn:not(:disabled)').forEach(btn => {
+      btn.addEventListener('click', () => {
+        blogState.currentPage = Number(btn.dataset.page);
+        renderArchive();
+      });
+    });
+  }
+
+  function renderArchive() {
+    const archive = document.getElementById('blog-archive');
+    const count = document.getElementById('blog-count');
+    if (!archive) return;
+
+    const filtered = getFiltered();
+    const total = filtered.length;
+    if (count) count.textContent = total ? `${total} post${total === 1 ? '' : 's'}` : '';
+
+    if (!total) {
+      archive.innerHTML = '<p class="stats-fallback">No posts found. Check back soon.</p>';
+      renderPagination(0);
+      return;
+    }
+
+    const start = (blogState.currentPage - 1) * blogState.perPage;
+    const pagePosts = filtered.slice(start, start + blogState.perPage);
+    archive.innerHTML = pagePosts.map(renderCard).join('');
+    renderPagination(total);
   }
 
   async function loadArchive() {
@@ -96,7 +172,26 @@
     try {
       const response = await fetch('data/blog-posts.json');
       const data = await response.json();
-      renderArchive(data.posts || []);
+      blogState.posts = data.posts || [];
+      const cats = [...new Set(blogState.posts
+        .filter(p => p.published !== false)
+        .map(p => p.category || 'Others'))].sort();
+      blogState.categories = ['All', ...cats];
+      blogState.perPage = (data.settings && data.settings.postsPerPage) || 12;
+      buildCategoryTabs();
+
+      const search = document.getElementById('blog-search');
+      let debounce;
+      search?.addEventListener('input', () => {
+        clearTimeout(debounce);
+        debounce = setTimeout(() => {
+          blogState.searchQuery = search.value;
+          blogState.currentPage = 1;
+          renderArchive();
+        }, 200);
+      });
+
+      renderArchive();
     } catch (error) {
       console.error('Error loading blog posts:', error);
       if (archive) archive.innerHTML = '<p class="stats-fallback">Could not load posts.</p>';
