@@ -21,7 +21,7 @@ Visualization libraries
 1.  matplotlib
 2.  Seaborn
 
-![](https://atlcodify.wordpress.com/wp-content/uploads/2022/07/numpy_logo_2020.svg_.png)
+![NumPy logo](assets/images/blog/python-libraries-for-data-science-1.png)
 
 NumPy
 
@@ -30,7 +30,7 @@ NumPy
 -   many other python libraries are built on
 -   Link: [http://www.numpy.org/](http://www.numpy.org/)
 
-![](https://atlcodify.wordpress.com/wp-content/uploads/2022/07/scipy-1.png)
+![SciPy logo](assets/images/blog/python-libraries-for-data-science-2.png)
 
 SciPy
 
@@ -39,7 +39,7 @@ SciPy
 -   built on NumPy
 -   Link: [https://www.scipy.org/scipylib/](https://www.scipy.org/scipylib/)
 
-![](https://atlcodify.wordpress.com/wp-content/uploads/2022/07/pandas_logo.svg_-1.png)
+![Pandas logo](assets/images/blog/python-libraries-for-data-science-3.png)
 
 Pandas
 
@@ -48,7 +48,7 @@ Pandas
 -   allows handling missing data
 -   Link: [http://pandas.pydata.org/](http://pandas.pydata.org/)
 
-![](https://atlcodify.wordpress.com/wp-content/uploads/2022/07/scikit_learn_logo_small.svg_-1.png)
+![scikit-learn logo](assets/images/blog/python-libraries-for-data-science-4.png)
 
 SciKit-Learn
 
@@ -56,7 +56,7 @@ SciKit-Learn
 -   built on NumPy, SciPy and matplotlib
 -   Link: [http://scikit-learn.org/](http://scikit-learn.org/)
 
-![](https://atlcodify.wordpress.com/wp-content/uploads/2022/07/matplotlib.jpg)
+![Matplotlib chart example](assets/images/blog/python-libraries-for-data-science-5.jpg)
 
 matplotlib
 
@@ -65,7 +65,7 @@ matplotlib
 -   relatively low-level; some effort needed to create advanced visualization
 -   Link: [https://matplotlib.org/](https://matplotlib.org/)
 
-![](https://atlcodify.wordpress.com/wp-content/uploads/2022/07/featured_hue585f61b28a74a671118de43150c5d63_166173_680x0_resize_q90_h2_lanczos.webp)
+![Python libraries for data science](assets/images/blog/python-libraries-for-data-science-6.webp)
 
 Seaborn
 

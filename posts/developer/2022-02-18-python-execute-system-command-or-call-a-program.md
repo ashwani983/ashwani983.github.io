@@ -9,7 +9,7 @@ readTime: 4 min read
 published: true
 ---
 
-![](https://atlcodify.wordpress.com/wp-content/uploads/2022/02/open-external-program-python-1024x5768805944019763400791-1.jpg?w=1024)
+![Running an external program from Python](assets/images/blog/python-execute-system-command-or-call-a-program-1.jpg)
 
 Python system call
 
@@ -59,7 +59,7 @@ os.system(cmd)
 
 Output:
 
-![](https://atlcodify.wordpress.com/wp-content/uploads/2022/02/notepad.png?w=875)
+![Notepad program launched from Python](assets/images/blog/python-execute-system-command-or-call-a-program-2.png)
 
 Notepad
 

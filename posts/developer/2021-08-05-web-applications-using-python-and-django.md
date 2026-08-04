@@ -9,7 +9,7 @@ readTime: 7 min read
 published: true
 ---
 
-![](https://atlcodify.wordpress.com/wp-content/uploads/2021/08/phyton-django-768x550-1.jpg?w=768)
+![Overview of the Python and Django web application](assets/images/blog/web-applications-using-python-and-django-1.jpg)
 
 Web application using python and Django
 
@@ -58,7 +58,7 @@ cd webapp
 
 Inside this folder you will get a basic **Django Project structure**:
 
-![](https://atlcodify.wordpress.com/wp-content/uploads/2021/08/image_editor_output_image-666994412-1628108142294.jpg)
+![Image editor output from the Django project](assets/images/blog/web-applications-using-python-and-django-2.jpg)
 
 **Django Project structure**
 
@@ -117,7 +117,7 @@ Performing system checks...System check identified no issues (0 silenced).You ha
 
 This means **_you have not created the default database_**. In the **next section** you will fix that. Even so, you can run the default application, running until this point, with a default home page:
 
-![](https://atlcodify.wordpress.com/wp-content/uploads/2021/08/django_2.1_landing_page.png)
+![Django 2.1 landing page](assets/images/blog/web-applications-using-python-and-django-3.png)
 
 ### Creating the default tables for authentication
 

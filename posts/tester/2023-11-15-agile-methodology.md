@@ -17,7 +17,7 @@ In this type of environment, quality assurance (QA) adheres to agile practices; 
 
 Basically, Scrum is grouping some people. And who are involved in this? There is main 5 guys are there as below:
 
-![](https://atlcodify.wordpress.com/wp-content/uploads/2023/11/image.png?w=550)
+![Diagram illustrating the topic](assets/images/blog/agile-methodology-1.png)
 
 Scrum Team
 
@@ -54,13 +54,13 @@ The three scrum roles i.e., Scrum Master, Product Owner and Team should be expla
 -   **Scrum team:** A Scrum team is made up of all the people who work together to accomplish a specific project. Scrum team 6 comprises 4 QA and 6 developers, with about 10 members total.
 -   **Scrum master: T**he scrum master is the team’s coach and leader, ensuring that the team is carrying out assigned tasks correctly. In order for the team to successfully complete the sprint, he is also in charge of boosting productivity and efficiency.
 
-![](https://atlcodify.wordpress.com/wp-content/uploads/2023/11/image-1.png?w=1024)
+![image 1 example](assets/images/blog/agile-methodology-2.png)
 
 Scrum Team
 
 ## **What do you know about “Planning Poker” technique?**
 
-![](https://atlcodify.wordpress.com/wp-content/uploads/2023/11/image-3.png?w=1024)
+![image 3 example](assets/images/blog/agile-methodology-3.png)
 
 **Planning Poker**
 
@@ -71,7 +71,7 @@ Scrum Poker, another name for planning poker, is an agile card-based technique u
 -   An estimate is made if all estimators select the same cards with the same value. If not, the estimator talks about the estimates’ high and low values.
 -   However, each estimator secretly chooses and discloses a card. Once a general agreement is reached, this poker planning process is repeated.
 
-![](https://atlcodify.wordpress.com/wp-content/uploads/2023/11/image-2.png?w=520)
+![image 2 example](assets/images/blog/agile-methodology-4.png)
 
 User Story numbers
 

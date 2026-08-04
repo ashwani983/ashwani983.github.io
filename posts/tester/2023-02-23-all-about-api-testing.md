@@ -28,7 +28,7 @@ published: true
 
 Three separate layers
 
-![](https://atlcodify.wordpress.com/wp-content/uploads/2023/02/application-programming-interface-e28093-api-testing-white-box-testing-336x336-1.webp?w=336)
+![API testing concept illustration](assets/images/blog/all-about-api-testing-1.webp)
 
 -   Presentation (or user interface) layer
 -   The business layer

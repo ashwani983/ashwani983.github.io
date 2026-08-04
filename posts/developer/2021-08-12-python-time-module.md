@@ -11,7 +11,7 @@ published: true
 
 Python has the module named **time** **to deal with** time-**associated** tasks. In this article, **we are able to** **discover** the time module in detail. We will **discover ways to** use the **one-of-a-kind** time-**associated** **capabilities** **described** **withinside the** time module. The Python time module **affords** many **approaches** of representing time **withinside the** code, **which includes** objects, numbers, and strings. It **additionally** **affords** **capability** **apart from** representing time, like **ready** **all through** the code execution and measuring the **performance** of the code.
 
-![](https://atlcodify.wordpress.com/wp-content/uploads/2022/01/pythontime-1.png?w=789)
+![Python time module output](assets/images/blog/python-time-module-1.png)
 
 python time image 1.1
 

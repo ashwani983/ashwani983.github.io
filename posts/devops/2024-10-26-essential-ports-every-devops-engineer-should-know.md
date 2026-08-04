@@ -9,7 +9,7 @@ readTime: 6 min read
 published: true
 ---
 
-![](https://atlcodify.wordpress.com/wp-content/uploads/2024/10/image.png?w=1024)
+![Diagram illustrating the topic](assets/images/blog/essential-ports-every-devops-engineer-should-know-1.png)
 
 Port numbers play a crucial role in the communication protocols of the Internet. They function as virtual endpoints for network connections, allowing multiple applications on a single device to share the same network interface efficiently.
 

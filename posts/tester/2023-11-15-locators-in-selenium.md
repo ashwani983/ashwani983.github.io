@@ -14,7 +14,7 @@ Locators are used in selenium WebDriver to find an element on a DOM. Locating el
 -   `findElement()` returns a WebElement object based on a specified search criteria, or ends up throwing an exception if it does not find any element matching the search criteria.
 -   `findElements()` returns a list of WebElements matching the search criteria. If no elements are found, it returns an empty list.
 
-![](https://atlcodify.wordpress.com/wp-content/uploads/2023/12/image-3.png?w=738)
+![image 3 example](assets/images/blog/locators-in-selenium-1.png)
 
 There are 8 types of Locators in Selenium are as follows –
 
@@ -171,7 +171,7 @@ With this, you can find elements of “a” tags (Link) with the link names. Use
 
 ### **Using XPath**
 
-![](https://atlcodify.wordpress.com/wp-content/uploads/2023/12/image-4.png?w=1000)
+![image 4 example](assets/images/blog/locators-in-selenium-2.png)
 
 While DOM is the recognized standard for navigation through an HTML element tree, XPath is the standard navigation tool for XML and an HTML document is also an XML document (XHTML). XPath is used everywhere where there is XML. XPath has a fixed structure (syntax). See below –
 
@@ -318,7 +318,7 @@ Xpath = //*[@id = ‘rt-fearture’]//descendant::a
 
 ### **Using CSS Selector**
 
-![](https://atlcodify.wordpress.com/wp-content/uploads/2023/12/image-6.png?w=1024)
+![image 6 example](assets/images/blog/locators-in-selenium-3.png)
 
 There is a debate on the performance of CSS Locator and XPath locator. Most of the automation testers believe that using CSS selectors makes the execution of script faster compared to XPath locator. CSS Selector locator is always the best way to locate elements on the page. CSS is always same irrespective of browsers.
 
@@ -334,7 +334,7 @@ If fixed part is at starting -> use (^) e.g. input [id^=’XXXXXX’]If fixed pa
 
 -   **Following are some of the mainly used formats of CSS Selectors.**
 
-![](https://atlcodify.wordpress.com/wp-content/uploads/2023/12/image-5.png?w=500)
+![image 5 example](assets/images/blog/locators-in-selenium-4.png)
 
 -   Tag and ID
 -   Tag and Class

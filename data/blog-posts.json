@@ -1,26 +1,6 @@
 {
   "posts": [
     {
-      "id": "complete-guide-data-structures-and-algorithms-java",
-      "title": "The Complete Guide to Data Structures and Algorithms in Java",
-      "slug": "complete-guide-data-structures-and-algorithms-java",
-      "file": "developer/2026-08-04-complete-guide-data-structures-and-algorithms-java.md",
-      "date": "2026-08-04",
-      "excerpt": "A practical Java guide covering sorting, searching, dynamic programming, graph, greedy, backtracking, tree and math algorithms with complexity analysis.",
-      "content": "blog.html?post=complete-guide-data-structures-and-algorithms-java",
-      "readTime": "14 min read",
-      "tags": [
-        "Data Structures",
-        "Algorithms",
-        "Java"
-      ],
-      "category": "Developer",
-      "image": null,
-      "published": true,
-      "source": "native",
-      "_wordCount": 4336
-    },
-    {
       "id": "sql-guide-database-communication",
       "title": "A Comprehensive Guide to SQL: The Language for Database Communication",
       "slug": "sql-guide-database-communication",
@@ -40,49 +20,6 @@
       "published": true,
       "source": "native",
       "_wordCount": 757
-    },
-    {
-      "id": "system-design-handbook-scalable-architectures",
-      "title": "System Design Handbook: A Practical Guide to Scalable Architectures",
-      "slug": "system-design-handbook-scalable-architectures",
-      "file": "developer/2026-08-04-system-design-handbook-scalable-architectures.md",
-      "date": "2026-08-04",
-      "excerpt": "A practical guide to system design fundamentals: load balancing, caching, CAP theorem, sharding, consistent hashing, queues, and more.",
-      "content": "blog.html?post=system-design-handbook-scalable-architectures",
-      "readTime": "20 min read",
-      "tags": [
-        "System Design",
-        "Distributed Systems",
-        "Scalability"
-      ],
-      "category": "Developer",
-      "image": null,
-      "published": true,
-      "source": "native",
-      "_wordCount": 4577
-    },
-    {
-      "id": "aws-projects-guide",
-      "title": "Ultimate Guide to AWS Projects for Cloud Engineers",
-      "slug": "aws-projects-guide",
-      "file": "devops/2026-08-04-aws-projects-guide.md",
-      "date": "2026-08-04",
-      "excerpt": "Comprehensive guide to 50+ AWS projects covering web hosting, serverless apps, security, CI/CD, and IaC. Perfect for cloud engineers and developers.",
-      "content": "blog.html?post=aws-projects-guide",
-      "readTime": "3 min read",
-      "tags": [
-        "aws",
-        "cloud",
-        "devops",
-        "projects",
-        "serverless",
-        "terraform"
-      ],
-      "category": "DevOps",
-      "image": null,
-      "published": true,
-      "source": "native",
-      "_wordCount": 1058
     },
     {
       "id": "ci-cd-devops-pipeline-kubernetes-jenkins",
@@ -105,49 +42,6 @@
       "published": true,
       "source": "native",
       "_wordCount": 3740
-    },
-    {
-      "id": "complete-devops-cheat-sheet-linux-git-cicd-iac",
-      "title": "The Complete DevOps Cheat Sheet: Linux, Git, CI/CD, IaC and Beyond",
-      "slug": "complete-devops-cheat-sheet-linux-git-cicd-iac",
-      "file": "devops/2026-08-04-complete-devops-cheat-sheet-linux-git-cicd-iac.md",
-      "date": "2026-08-04",
-      "excerpt": "A practical DevOps cheat sheet covering Linux commands, shell scripting, Python automation, Git, CI/CD tools, Terraform, Ansible, and container orchestration.",
-      "content": "blog.html?post=complete-devops-cheat-sheet-linux-git-cicd-iac",
-      "readTime": "15 min read",
-      "tags": [
-        "DevOps",
-        "Linux",
-        "CI/CD",
-        "Terraform",
-        "Ansible"
-      ],
-      "category": "DevOps",
-      "image": null,
-      "published": true,
-      "source": "native",
-      "_wordCount": 5101
-    },
-    {
-      "id": "complete-devops-interview-playbook-2026",
-      "title": "The Complete DevOps Interview Playbook for 2026",
-      "slug": "complete-devops-interview-playbook-2026",
-      "file": "devops/2026-08-04-complete-devops-interview-playbook-2026.md",
-      "date": "2026-08-04",
-      "excerpt": "A practical guide to DevOps interview success — covering DevOps Engineer, SRE, Cloud DevOps, and Kubernetes roles, career paths, certifications, salaries, and the interview process.",
-      "content": "blog.html?post=complete-devops-interview-playbook-2026",
-      "readTime": "14 min read",
-      "tags": [
-        "DevOps",
-        "Kubernetes",
-        "Cloud",
-        "CI/CD"
-      ],
-      "category": "DevOps",
-      "image": null,
-      "published": true,
-      "source": "native",
-      "_wordCount": 3675
     },
     {
       "id": "it-support-administration-interview-guide",
@@ -193,6 +87,26 @@
       "_wordCount": 5276
     },
     {
+      "id": "system-design-handbook-scalable-architectures",
+      "title": "System Design Handbook: A Practical Guide to Scalable Architectures",
+      "slug": "system-design-handbook-scalable-architectures",
+      "file": "developer/2026-08-04-system-design-handbook-scalable-architectures.md",
+      "date": "2026-08-04",
+      "excerpt": "A practical guide to system design fundamentals: load balancing, caching, CAP theorem, sharding, consistent hashing, queues, and more.",
+      "content": "blog.html?post=system-design-handbook-scalable-architectures",
+      "readTime": "20 min read",
+      "tags": [
+        "System Design",
+        "Distributed Systems",
+        "Scalability"
+      ],
+      "category": "Developer",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 4577
+    },
+    {
       "id": "terraform-basics-for-devops-engineers",
       "title": "Terraform Basics for DevOps Engineers: A Practical Introduction",
       "slug": "terraform-basics-for-devops-engineers",
@@ -211,6 +125,92 @@
       "published": true,
       "source": "native",
       "_wordCount": 2712
+    },
+    {
+      "id": "complete-devops-cheat-sheet-linux-git-cicd-iac",
+      "title": "The Complete DevOps Cheat Sheet: Linux, Git, CI/CD, IaC and Beyond",
+      "slug": "complete-devops-cheat-sheet-linux-git-cicd-iac",
+      "file": "devops/2026-08-04-complete-devops-cheat-sheet-linux-git-cicd-iac.md",
+      "date": "2026-08-04",
+      "excerpt": "A practical DevOps cheat sheet covering Linux commands, shell scripting, Python automation, Git, CI/CD tools, Terraform, Ansible, and container orchestration.",
+      "content": "blog.html?post=complete-devops-cheat-sheet-linux-git-cicd-iac",
+      "readTime": "15 min read",
+      "tags": [
+        "DevOps",
+        "Linux",
+        "CI/CD",
+        "Terraform",
+        "Ansible"
+      ],
+      "category": "DevOps",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 5101
+    },
+    {
+      "id": "complete-devops-interview-playbook-2026",
+      "title": "The Complete DevOps Interview Playbook for 2026",
+      "slug": "complete-devops-interview-playbook-2026",
+      "file": "devops/2026-08-04-complete-devops-interview-playbook-2026.md",
+      "date": "2026-08-04",
+      "excerpt": "A practical guide to DevOps interview success — covering DevOps Engineer, SRE, Cloud DevOps, and Kubernetes roles, career paths, certifications, salaries, and the interview process.",
+      "content": "blog.html?post=complete-devops-interview-playbook-2026",
+      "readTime": "14 min read",
+      "tags": [
+        "DevOps",
+        "Kubernetes",
+        "Cloud",
+        "CI/CD"
+      ],
+      "category": "DevOps",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 3675
+    },
+    {
+      "id": "complete-guide-data-structures-and-algorithms-java",
+      "title": "The Complete Guide to Data Structures and Algorithms in Java",
+      "slug": "complete-guide-data-structures-and-algorithms-java",
+      "file": "developer/2026-08-04-complete-guide-data-structures-and-algorithms-java.md",
+      "date": "2026-08-04",
+      "excerpt": "A practical Java guide covering sorting, searching, dynamic programming, graph, greedy, backtracking, tree and math algorithms with complexity analysis.",
+      "content": "blog.html?post=complete-guide-data-structures-and-algorithms-java",
+      "readTime": "14 min read",
+      "tags": [
+        "Data Structures",
+        "Algorithms",
+        "Java"
+      ],
+      "category": "Developer",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 4336
+    },
+    {
+      "id": "aws-projects-guide",
+      "title": "Ultimate Guide to AWS Projects for Cloud Engineers",
+      "slug": "aws-projects-guide",
+      "file": "devops/2026-08-04-aws-projects-guide.md",
+      "date": "2026-08-04",
+      "excerpt": "Comprehensive guide to 50+ AWS projects covering web hosting, serverless apps, security, CI/CD, and IaC. Perfect for cloud engineers and developers.",
+      "content": "blog.html?post=aws-projects-guide",
+      "readTime": "3 min read",
+      "tags": [
+        "aws",
+        "cloud",
+        "devops",
+        "projects",
+        "serverless",
+        "terraform"
+      ],
+      "category": "DevOps",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 1058
     },
     {
       "id": "essential-ports-every-devops-engineer-should-know",
@@ -239,7 +239,7 @@
       "image": null,
       "published": true,
       "source": "native",
-      "_wordCount": 1169
+      "_wordCount": 1172
     },
     {
       "id": "automation-testing-frameworks",
@@ -324,7 +324,7 @@
       "image": null,
       "published": true,
       "source": "native",
-      "_wordCount": 1449
+      "_wordCount": 1458
     },
     {
       "id": "locators-in-selenium",
@@ -348,7 +348,7 @@
       "image": null,
       "published": true,
       "source": "native",
-      "_wordCount": 1512
+      "_wordCount": 1520
     },
     {
       "id": "selenium-cheat-sheet",
@@ -397,7 +397,7 @@
       "image": null,
       "published": true,
       "source": "native",
-      "_wordCount": 1427
+      "_wordCount": 1430
     },
     {
       "id": "28-github-repositories-for-python-developers",
@@ -438,31 +438,7 @@
       "image": null,
       "published": true,
       "source": "native",
-      "_wordCount": 269
-    },
-    {
-      "id": "python-execute-system-command-or-call-a-program",
-      "title": "Python Execute System command or Call a program",
-      "slug": "python-execute-system-command-or-call-a-program",
-      "file": "developer/2022-02-18-python-execute-system-command-or-call-a-program.md",
-      "date": "2022-02-18",
-      "excerpt": "Python system call In computing, a system call (commonly abbreviated to syscall) is the programmatic way in which a computer program requests a service from the",
-      "content": "blog.html?post=python-execute-system-command-or-call-a-program",
-      "readTime": "4 min read",
-      "tags": [
-        "cmd command",
-        "os",
-        "poxis",
-        "Python",
-        "subprocess",
-        "system call",
-        "system program"
-      ],
-      "category": "Developer",
-      "image": null,
-      "published": true,
-      "source": "native",
-      "_wordCount": 784
+      "_wordCount": 279
     },
     {
       "id": "how-to-take-screenshot-with-selenium-webdriver",
@@ -487,7 +463,31 @@
       "image": null,
       "published": true,
       "source": "native",
-      "_wordCount": 315
+      "_wordCount": 324
+    },
+    {
+      "id": "python-execute-system-command-or-call-a-program",
+      "title": "Python Execute System command or Call a program",
+      "slug": "python-execute-system-command-or-call-a-program",
+      "file": "developer/2022-02-18-python-execute-system-command-or-call-a-program.md",
+      "date": "2022-02-18",
+      "excerpt": "Python system call In computing, a system call (commonly abbreviated to syscall) is the programmatic way in which a computer program requests a service from the",
+      "content": "blog.html?post=python-execute-system-command-or-call-a-program",
+      "readTime": "4 min read",
+      "tags": [
+        "cmd command",
+        "os",
+        "poxis",
+        "Python",
+        "subprocess",
+        "system call",
+        "system program"
+      ],
+      "category": "Developer",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 793
     },
     {
       "id": "python-time-module",
@@ -508,7 +508,7 @@
       "image": null,
       "published": true,
       "source": "native",
-      "_wordCount": 551
+      "_wordCount": 554
     },
     {
       "id": "web-applications-using-python-and-django",
@@ -530,45 +530,45 @@
       "image": null,
       "published": true,
       "source": "native",
-      "_wordCount": 1367
+      "_wordCount": 1383
     }
   ],
   "categories": [],
   "tags": [
-    "Data Structures",
-    "Algorithms",
-    "Java",
     "sql",
     "database",
     "rdbms",
     "query-language",
-    "System Design",
-    "Distributed Systems",
-    "Scalability",
-    "aws",
-    "cloud",
-    "devops",
-    "projects",
-    "serverless",
-    "terraform",
     "CI/CD",
     "Kubernetes",
     "Jenkins",
     "Docker",
     "Monitoring",
-    "DevOps",
-    "Linux",
-    "Terraform",
-    "Ansible",
-    "Cloud",
     "IT Support",
     "Active Directory",
     "Microsoft 365",
     "Azure AD",
     "Exchange Online",
     "Service Desk",
+    "DevOps",
     "Containers",
+    "System Design",
+    "Distributed Systems",
+    "Scalability",
+    "Terraform",
     "Infrastructure as Code",
+    "Linux",
+    "Ansible",
+    "Cloud",
+    "Data Structures",
+    "Algorithms",
+    "Java",
+    "aws",
+    "cloud",
+    "devops",
+    "projects",
+    "serverless",
+    "terraform",
     "ITInfrastructure",
     "Networking",
     "NetworkSecurity",
@@ -613,16 +613,16 @@
     "numpy",
     "Pandas",
     "scipy",
-    "cmd command",
-    "os",
-    "poxis",
-    "subprocess",
-    "system call",
     "c#",
     "javascript",
     "ruby",
     "screenshot",
     "webdriver",
+    "cmd command",
+    "os",
+    "poxis",
+    "subprocess",
+    "system call",
     "datetime",
     "time",
     "time.sleep()",
@@ -651,5 +651,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-08-04T11:25:26.448Z"
+  "generatedAt": "2026-08-04T12:42:42.559Z"
 }

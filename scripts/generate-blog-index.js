@@ -115,7 +115,10 @@ function generate() {
     });
   }
 
-  posts.sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+  posts.sort((a, b) =>
+    (b.date || '').localeCompare(a.date || '') ||
+    a.title.localeCompare(b.title)
+  );
 
   const output = {
     posts,

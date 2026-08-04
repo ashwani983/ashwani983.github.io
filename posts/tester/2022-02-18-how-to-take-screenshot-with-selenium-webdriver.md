@@ -9,7 +9,7 @@ readTime: 2 min read
 published: true
 ---
 
-![](https://atlcodify.wordpress.com/wp-content/uploads/2022/02/screenshot.png?w=750)
+![Selenium webdriver screenshot example](assets/images/blog/how-to-take-screenshot-with-selenium-webdriver-1.png)
 
 Selenium WebDriver Capture Screenshot
 
@@ -19,7 +19,7 @@ While automating a bunch of test cases of a considerable number, capturing scree
 
 Let us discuss which part of the page may be captured as a screenshot. With the help of Selenium WebDriver we will try to take screenshot in different Language.
 
-![](https://atlcodify.wordpress.com/wp-content/uploads/2022/02/python_logo_icon.png?w=150)
+![Python logo](assets/images/blog/how-to-take-screenshot-with-selenium-webdriver-2.png)
 
 Python
 
@@ -48,7 +48,7 @@ driver.get_screenshot_as_file('./Screenshots/get_screenshot_as_file_method.png')
 driver.quit()
 ```
 
-![](https://atlcodify.wordpress.com/wp-content/uploads/2022/02/java.png?w=1024)
+![Java logo](assets/images/blog/how-to-take-screenshot-with-selenium-webdriver-3.png)
 
 Java
 
@@ -59,7 +59,7 @@ File scrFile =((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 FileUtils.copyFile(scrFile, new File("c:\\tmp\\screenshot.png"));
 ```
 
-![](https://atlcodify.wordpress.com/wp-content/uploads/2022/02/437px-c_sharp_logo.svg_.png?w=437)
+![C# logo](assets/images/blog/how-to-take-screenshot-with-selenium-webdriver-4.png)
 
 C#
 
@@ -71,7 +71,7 @@ driver.GetScreenshot().SaveAsFile("screenshot.png",ImageFormat.Png);
 driver.Quit();
 ```
 
-![](https://atlcodify.wordpress.com/wp-content/uploads/2022/02/php-programming-language.png?w=1024)
+![PHP logo](assets/images/blog/how-to-take-screenshot-with-selenium-webdriver-5.png)
 
 PHP
 
@@ -90,7 +90,7 @@ class MyTestClass extends PHPUnit_Extensions_Selenium2TestCase {
 }
 ```
 
-![](https://atlcodify.wordpress.com/wp-content/uploads/2022/02/ruby.png?w=400)
+![Ruby logo](assets/images/blog/how-to-take-screenshot-with-selenium-webdriver-6.png)
 
 Ruby
 
@@ -103,7 +103,7 @@ driver.get "https://www.google.com"
 driver.save_screenshot("./screen.png")
 ```
 
-![](https://atlcodify.wordpress.com/wp-content/uploads/2022/02/js.png?w=1024)
+![JavaScript logo](assets/images/blog/how-to-take-screenshot-with-selenium-webdriver-7.png)
 
 Java Script
 
