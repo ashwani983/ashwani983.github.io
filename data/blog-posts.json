@@ -87,6 +87,28 @@
       "_wordCount": 6353
     },
     {
+      "id": "mastering-typescript-for-modern-javascript",
+      "title": "Mastering TypeScript: The Bridge to Safer, Scalable JavaScript",
+      "slug": "mastering-typescript-for-modern-javascript",
+      "file": "developer/2026-08-05-mastering-typescript-for-modern-javascript.md",
+      "date": "2026-08-05",
+      "excerpt": "A practical, end-to-end guide to TypeScript—types, generics, the compiler, real-world patterns, and migration—for developers who want safer, more scalable JavaScript.",
+      "content": "blog.html?post=mastering-typescript-for-modern-javascript",
+      "readTime": "9 min read",
+      "tags": [
+        "TypeScript",
+        "JavaScript",
+        "Web Development",
+        "Frontend",
+        "Static Typing"
+      ],
+      "category": "Developer",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2037
+    },
+    {
       "id": "production-grade-architecture-code-to-cloud-aws-lifecycle",
       "title": "Production-Grade Architecture: The Complete Code-to-Cloud Lifecycle with AWS",
       "slug": "production-grade-architecture-code-to-cloud-aws-lifecycle",
@@ -107,6 +129,27 @@
       "published": true,
       "source": "native",
       "_wordCount": 2186
+    },
+    {
+      "id": "sonarqube-complete-guide-static-code-analysis",
+      "title": "SonarQube Complete Guide — Static Code Analysis and Quality Gates",
+      "slug": "sonarqube-complete-guide-static-code-analysis",
+      "file": "devops/2026-08-05-sonarqube-complete-guide-static-code-analysis.md",
+      "date": "2026-08-05",
+      "excerpt": "A complete beginner's guide to SonarQube — its architecture, key components, metrics, quality gates, scanner CLI commands, integrations, and best practices for continuous code quality.",
+      "content": "blog.html?post=sonarqube-complete-guide-static-code-analysis",
+      "readTime": "8 min read",
+      "tags": [
+        "SonarQube",
+        "Code Quality",
+        "DevOps",
+        "CI/CD"
+      ],
+      "category": "DevOps",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 1680
     },
     {
       "id": "top-100-devops-interview-questions-2025",
@@ -847,7 +890,14 @@
     "Containers",
     "Containerization",
     "kubectl",
+    "TypeScript",
+    "JavaScript",
+    "Web Development",
+    "Frontend",
+    "Static Typing",
     "Cloud Infrastructure",
+    "SonarQube",
+    "Code Quality",
     "Terraform",
     "Playwright",
     "Test Automation",
@@ -962,15 +1012,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 38,
-    "publishedPosts": 38,
+    "totalPosts": 40,
+    "publishedPosts": 40,
     "draftPosts": 0,
-    "featuredPosts": 38,
+    "featuredPosts": 40,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 124
+    "tagsCount": 131
   },
   "settings": {
     "postsPerPage": 12,
@@ -981,5 +1031,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-08-05T15:59:38.596Z"
+  "generatedAt": "2026-08-05T19:38:01.351Z"
 }
