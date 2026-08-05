@@ -21,6 +21,26 @@
       "_wordCount": 5384
     },
     {
+      "id": "kubernetes-pod-troubleshooting-25-real-world-scenarios",
+      "title": "Kubernetes Pod Troubleshooting in Production: 25 Real-World Interview Scenarios",
+      "slug": "kubernetes-pod-troubleshooting-25-real-world-scenarios",
+      "file": "devops/2026-08-05-kubernetes-pod-troubleshooting-25-real-world-scenarios.md",
+      "date": "2026-08-05",
+      "excerpt": "Master Kubernetes pod troubleshooting with 25 real-world production and interview scenarios covering scheduling, probes, storage, networking, CPU, memory, and logs.",
+      "content": "blog.html?post=kubernetes-pod-troubleshooting-25-real-world-scenarios",
+      "readTime": "18 min read",
+      "tags": [
+        "Kubernetes",
+        "DevOps",
+        "Troubleshooting"
+      ],
+      "category": "DevOps",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 6340
+    },
+    {
       "id": "top-100-devops-interview-questions-2025",
       "title": "Top 100 DevOps Interview Questions and Answers to Master in 2025",
       "slug": "top-100-devops-interview-questions-2025",
@@ -751,6 +771,7 @@
     "Kubernetes",
     "kubectl",
     "DevOps",
+    "Troubleshooting",
     "CI/CD",
     "Docker",
     "Terraform",
@@ -871,15 +892,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 34,
-    "publishedPosts": 34,
+    "totalPosts": 35,
+    "publishedPosts": 35,
     "draftPosts": 0,
-    "featuredPosts": 34,
+    "featuredPosts": 35,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 121
+    "tagsCount": 122
   },
   "settings": {
     "postsPerPage": 12,
@@ -890,5 +911,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-08-05T03:46:15.859Z"
+  "generatedAt": "2026-08-05T03:57:41.417Z"
 }
