@@ -87,6 +87,28 @@
       "_wordCount": 6353
     },
     {
+      "id": "production-grade-architecture-code-to-cloud-aws-lifecycle",
+      "title": "Production-Grade Architecture: The Complete Code-to-Cloud Lifecycle with AWS",
+      "slug": "production-grade-architecture-code-to-cloud-aws-lifecycle",
+      "file": "devops/2026-08-05-production-grade-architecture-code-to-cloud-aws-lifecycle.md",
+      "date": "2026-08-05",
+      "excerpt": "Production-grade Code-to-Cloud architecture with GitHub Actions CI/CD, AWS CloudFront, Kubernetes, and Secrets Manager for secure, scalable delivery.",
+      "content": "blog.html?post=production-grade-architecture-code-to-cloud-aws-lifecycle",
+      "readTime": "9 min read",
+      "tags": [
+        "DevOps",
+        "AWS",
+        "CI/CD",
+        "Kubernetes",
+        "Cloud Infrastructure"
+      ],
+      "category": "DevOps",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2186
+    },
+    {
       "id": "top-100-devops-interview-questions-2025",
       "title": "Top 100 DevOps Interview Questions and Answers to Master in 2025",
       "slug": "top-100-devops-interview-questions-2025",
@@ -825,6 +847,7 @@
     "Containers",
     "Containerization",
     "kubectl",
+    "Cloud Infrastructure",
     "Terraform",
     "Playwright",
     "Test Automation",
@@ -939,15 +962,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 37,
-    "publishedPosts": 37,
+    "totalPosts": 38,
+    "publishedPosts": 38,
     "draftPosts": 0,
-    "featuredPosts": 37,
+    "featuredPosts": 38,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 123
+    "tagsCount": 124
   },
   "settings": {
     "postsPerPage": 12,
@@ -958,5 +981,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-08-05T14:35:52.400Z"
+  "generatedAt": "2026-08-05T15:59:38.596Z"
 }
