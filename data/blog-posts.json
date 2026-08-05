@@ -1,6 +1,31 @@
 {
   "posts": [
     {
+      "id": "devops-troubleshooting-cheat-sheet-common-issues",
+      "title": "DevOps Troubleshooting Mastery: A Practical Cheat Sheet for Common Issues",
+      "slug": "devops-troubleshooting-cheat-sheet-common-issues",
+      "file": "devops/2026-08-05-devops-troubleshooting-cheat-sheet-common-issues.md",
+      "date": "2026-08-05",
+      "excerpt": "A hands-on DevOps troubleshooting reference covering applications down, SSH failures, high CPU/RAM, Docker and Kubernetes crashes, Jenkins build failures, AWS EC2 issues and services that won't start.",
+      "content": "blog.html?post=devops-troubleshooting-cheat-sheet-common-issues",
+      "readTime": "8 min read",
+      "tags": [
+        "DevOps",
+        "Troubleshooting",
+        "Kubernetes",
+        "Docker",
+        "AWS",
+        "Linux",
+        "Jenkins",
+        "CI/CD"
+      ],
+      "category": "DevOps",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 3140
+    },
+    {
       "id": "docker-from-basic-to-advanced-guide",
       "title": "Docker from Basic to Advanced: A Complete Hands-On Guide",
       "slug": "docker-from-basic-to-advanced-guide",
@@ -789,14 +814,17 @@
   ],
   "categories": [],
   "tags": [
-    "Docker",
-    "Containers",
     "DevOps",
-    "Containerization",
-    "Kubernetes",
-    "kubectl",
     "Troubleshooting",
+    "Kubernetes",
+    "Docker",
+    "AWS",
+    "Linux",
+    "Jenkins",
     "CI/CD",
+    "Containers",
+    "Containerization",
+    "kubectl",
     "Terraform",
     "Playwright",
     "Test Automation",
@@ -819,14 +847,12 @@
     "GitOps",
     "Argo CD",
     "Flux",
-    "AWS",
     "Cloud Security",
     "IAM",
     "System Design",
     "Distributed Systems",
     "Scalability",
     "ITInfrastructure",
-    "Linux",
     "Networking",
     "NetworkSecurity",
     "port number",
@@ -861,7 +887,6 @@
     "System Administration",
     "cheatsheet",
     "java",
-    "Jenkins",
     "Monitoring",
     "IT Support",
     "Active Directory",
@@ -914,10 +939,10 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 36,
-    "publishedPosts": 36,
+    "totalPosts": 37,
+    "publishedPosts": 37,
     "draftPosts": 0,
-    "featuredPosts": 36,
+    "featuredPosts": 37,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
@@ -933,5 +958,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-08-05T11:30:14.091Z"
+  "generatedAt": "2026-08-05T13:57:42.060Z"
 }
