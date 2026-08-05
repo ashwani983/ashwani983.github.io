@@ -1,6 +1,28 @@
 {
   "posts": [
     {
+      "id": "top-100-devops-interview-questions-2025",
+      "title": "Top 100 DevOps Interview Questions and Answers to Master in 2025",
+      "slug": "top-100-devops-interview-questions-2025",
+      "file": "devops/2026-08-05-top-100-devops-interview-questions-2025.md",
+      "date": "2026-08-05",
+      "excerpt": "Prepare for DevOps interviews with 100 curated questions spanning Git, CI/CD, containers, Kubernetes, Terraform, monitoring, security, and SRE best practices for 2025.",
+      "content": "blog.html?post=top-100-devops-interview-questions-2025",
+      "readTime": "14 min read",
+      "tags": [
+        "DevOps",
+        "CI/CD",
+        "Kubernetes",
+        "Docker",
+        "Terraform"
+      ],
+      "category": "DevOps",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 3358
+    },
+    {
       "id": "playwright-core-methods-commands",
       "title": "Playwright Core Methods & Commands: A Complete Test Automation Cheat Sheet",
       "slug": "playwright-core-methods-commands",
@@ -706,6 +728,11 @@
   ],
   "categories": [],
   "tags": [
+    "DevOps",
+    "CI/CD",
+    "Kubernetes",
+    "Docker",
+    "Terraform",
     "Playwright",
     "Test Automation",
     "Web Testing",
@@ -717,10 +744,7 @@
     "Data Structures",
     "Algorithms",
     "Java",
-    "DevOps",
-    "Kubernetes",
     "Cloud",
-    "CI/CD",
     "security",
     "cybersecurity",
     "fundamentals",
@@ -750,13 +774,11 @@
     "networking",
     "soc",
     "handshake",
-    "Docker",
     "Containers",
     "Testing",
     "Automation",
     "Framework",
     "Quality Assurance",
-    "Terraform",
     "Ansible",
     "Git",
     "GitHub",
@@ -828,10 +850,10 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 32,
-    "publishedPosts": 32,
+    "totalPosts": 33,
+    "publishedPosts": 33,
     "draftPosts": 0,
-    "featuredPosts": 32,
+    "featuredPosts": 33,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
@@ -847,5 +869,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-08-04T17:36:40.268Z"
+  "generatedAt": "2026-08-05T03:43:22.081Z"
 }
