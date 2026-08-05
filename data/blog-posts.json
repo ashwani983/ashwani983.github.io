@@ -1,6 +1,26 @@
 {
   "posts": [
     {
+      "id": "kubernetes-100-scenarios-explained",
+      "title": "Kubernetes in 100 Scenarios: A Complete Field Guide from Core Concepts to Advanced Workloads",
+      "slug": "kubernetes-100-scenarios-explained",
+      "file": "devops/2026-08-05-kubernetes-100-scenarios-explained.md",
+      "date": "2026-08-05",
+      "excerpt": "100 real-world Kubernetes scenarios across 11 categories with commands, concepts, and explanations for beginner-to-expert engineers.",
+      "content": "blog.html?post=kubernetes-100-scenarios-explained",
+      "readTime": "14 min read",
+      "tags": [
+        "Kubernetes",
+        "kubectl",
+        "DevOps"
+      ],
+      "category": "DevOps",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 5384
+    },
+    {
       "id": "top-100-devops-interview-questions-2025",
       "title": "Top 100 DevOps Interview Questions and Answers to Master in 2025",
       "slug": "top-100-devops-interview-questions-2025",
@@ -728,9 +748,10 @@
   ],
   "categories": [],
   "tags": [
+    "Kubernetes",
+    "kubectl",
     "DevOps",
     "CI/CD",
-    "Kubernetes",
     "Docker",
     "Terraform",
     "Playwright",
@@ -850,15 +871,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 33,
-    "publishedPosts": 33,
+    "totalPosts": 34,
+    "publishedPosts": 34,
     "draftPosts": 0,
-    "featuredPosts": 33,
+    "featuredPosts": 34,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 120
+    "tagsCount": 121
   },
   "settings": {
     "postsPerPage": 12,
@@ -869,5 +890,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-08-05T03:43:22.081Z"
+  "generatedAt": "2026-08-05T03:46:15.859Z"
 }
