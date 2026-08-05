@@ -8,12 +8,13 @@ excerpt: Learn what the TCP Three-Way Handshake is, how it works, and its import
 readTime: 2 min read
 published: true
 ---
-
 # Understanding the TCP Three-Way Handshake: A Comprehensive Guide
 
 *Reading time: 2 min · 325 words*
 
 > The TCP Three-Way Handshake is a fundamental process in network communication that establishes a reliable connection between two devices. This article explains how the handshake works, its steps, and its significance in cybersecurity, particularly for SOC Analysts.
+
+![Understanding the TCP Three-Way Handshake: A Comprehensive Guide](https://upload.wikimedia.org/wikipedia/commons/7/71/TCP_Three-Way_Handshake.svg)
 
 ## Table of Contents
 - [Introduction](#introduction)

@@ -8,8 +8,9 @@ excerpt: An automation testing framework provides the structure, reusable librar
 readTime: 10 min read
 published: true
 ---
-
 An automation testing framework provides the structure, reusable libraries, and best practices that make automated testing efficient and maintainable. It comprises object details, test data sources, functional libraries, methods, and reusable models that work together to improve the efficiency and effectiveness of testing.
+
+![Automation Testing Frameworks](https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/TestingCup-Polish-Championship-in-Software-Testing-Katowice-2016.jpg/960px-TestingCup-Polish-Championship-in-Software-Testing-Katowice-2016.jpg)
 
 ## How is it helpful?
 

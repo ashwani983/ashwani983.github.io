@@ -8,7 +8,6 @@ excerpt: A hands-on guide to Playwright's core methods and commands: locators, a
 readTime: 9 min read
 published: true
 ---
-
 # Playwright Core Methods & Commands: A Complete Test Automation Cheat Sheet
 
 Playwright has become one of the most popular browser automation and testing libraries in the modern web development ecosystem. Developed by Microsoft, it gives developers and QA engineers a single, reliable way to automate real browsers for end-to-end testing. Whether you are new to browser automation or looking to sharpen your existing skills, understanding the core methods and commands is the difference between a flaky test suite and a rock-solid one.
@@ -16,6 +15,8 @@ Playwright has become one of the most popular browser automation and testing lib
 This article breaks down the essential Playwright methods and commands into a practical cheat sheet: what Playwright is, how to launch a browser, how to find elements with modern locators, which actions and assertions you will use every day, how to run and debug tests, and the project structure and best practices that keep your suite maintainable.
 
 > **Note:** Everything covered here is based on a study summary of Playwright's major methods and commands. For complete API details and version-specific behavior, always refer to the official Playwright documentation, as the source document does not include them.
+
+![Playwright Core Methods & Commands: A Complete Test Automation Cheat Sheet](https://upload.wikimedia.org/wikipedia/commons/c/cf/Software_Testing_Life_Cycle.jpg)
 
 ## Table of Contents
 

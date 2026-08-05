@@ -8,12 +8,13 @@ excerpt: Learn essential cybersecurity concepts including the CIA triad, threat 
 readTime: 4 min read
 published: true
 ---
-
 # Mastering Security Fundamentals: A Comprehensive Guide to Cybersecurity Basics
 
 *Reading time: 4 min · 895 words*
 
 > This comprehensive guide covers core cybersecurity concepts including the CIA triad, threat vs vulnerability, authentication vs authorization, hashing vs encryption, malware types, and defense strategies. Learn with practical examples and interview-ready explanations.
+
+![Mastering Security Fundamentals: A Comprehensive Guide to Cybersecurity Basics](https://upload.wikimedia.org/wikipedia/commons/d/d3/Computer_locked.jpg)
 
 ## Table of Contents
 - [Core Security Concepts](#core-security-concepts)

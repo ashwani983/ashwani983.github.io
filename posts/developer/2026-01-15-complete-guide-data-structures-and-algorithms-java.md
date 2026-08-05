@@ -8,12 +8,13 @@ excerpt: A practical Java guide covering sorting, searching, dynamic programming
 readTime: 14 min read
 published: true
 ---
-
 # The Complete Guide to Data Structures and Algorithms in Java
 
 Data Structures and Algorithms (DSA) is the foundation of computer science and technical interviews. Whether you are a student preparing for campus placements, a professional brushing up before an interview, or a developer who wants to write faster and cleaner code, a solid command of the classic algorithms matters more than ever. The source study document I am basing this article on is a compact, exam-oriented cheat sheet that organizes DSA into eight clean buckets: sorting, searching, dynamic programming, graphs, greedy, backtracking, mathematical, and tree algorithms, plus a bonus section on bit manipulation.
 
 Every algorithm in the document is accompanied by a short theory, a step-by-step algorithm, a working **Java** implementation, and a time/space complexity summary. This article restructures that material into a readable walkthrough with visual aids, tables, and real-world context, while sticking strictly to what the source covers.
+
+![The Complete Guide to Data Structures and Algorithms in Java](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Hash_table_3_1_1_0_1_0_0_SP.svg/960px-Hash_table_3_1_1_0_1_0_0_SP.svg.png)
 
 ## Table of Contents
 

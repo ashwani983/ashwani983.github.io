@@ -8,12 +8,13 @@ excerpt: A practical DevOps cheat sheet covering Linux commands, shell scripting
 readTime: 15 min read
 published: true
 ---
-
 # The Complete DevOps Cheat Sheet: Linux, Git, CI/CD, IaC and Beyond
 
 DevOps is less about a single tool and more about a complete toolkit. To move fast without breaking things, a DevOps engineer has to be comfortable across an entire stack: the Linux command line, shell and Python scripting, version control, CI/CD pipelines, Infrastructure as Code, container orchestration, monitoring and security. The volume of commands, syntaxes and best practices can be overwhelming, which is why a well-organized cheat sheet is one of the most valuable references you can keep at hand.
 
 This article distills a comprehensive DevOps study document into a practical, easy-to-navigate reference. We will walk through the fundamental skill areas of the DevOps workflow, from everyday Linux administration to advanced GitOps deployment tools, and finish with a real-world example that ties everything together. Everything covered here is drawn directly from the source cheat sheet, so you can trust it as a faithful study companion.
+
+![The Complete DevOps Cheat Sheet: Linux, Git, CI/CD, IaC and Beyond](https://upload.wikimedia.org/wikipedia/commons/4/4e/Devops.png)
 
 ## Table of Contents
 

@@ -8,12 +8,13 @@ excerpt: A practical introduction to Ansible, the open-source automation engine 
 readTime: 6 min read
 published: true
 ---
-
 **Ansible** is a straightforward open-source IT engine that automates cloud provisioning, in-service orchestration, application deployment, and many other IT technologies.
 
 **Control machine:** A system that serves as a hub for managing other machines.
 
 **Remote machine:** Machines that the control machine manages and controls.
+
+![Getting Started with Ansible](https://upload.wikimedia.org/wikipedia/commons/2/24/Ansible_logo.svg)
 
 ## Install Ansible
 

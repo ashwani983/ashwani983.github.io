@@ -8,8 +8,9 @@ excerpt: "Most of the repository are included in this list are from Machine Lear
 readTime: 1 min read
 published: true
 ---
-
 Most of the repository are included in this list are from **Machine Learning** and **Data Science**. All this repository are most useful and help a lot while developing modal and data Analysis.
+
+![28 GITHUB REPOSITORIES FOR PYTHON DEVELOPERS](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/960px-GitHub_Invertocat_Logo.svg.png)
 
 1.  **facebookresearch/Detectron**
 2.  **iperov/DeepFaceLab**

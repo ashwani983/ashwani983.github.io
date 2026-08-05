@@ -8,7 +8,6 @@ excerpt: A comprehensive interview prep guide for IT support and administration 
 readTime: 18 min read
 published: true
 ---
-
 # IT Support & Administration: The Complete Interview Preparation Guide
 
 IT Support and Administration is one of the most hands-on and demanding fields in technology. Whether you are troubleshooting a CEO's mailbox minutes before an important meeting, untangling a Microsoft Teams outage, or diagnosing a trust relationship failure on a domain-joined workstation, the way you approach a problem says as much about you as the final resolution.
@@ -29,6 +28,8 @@ This guide is compiled directly from a set of interview preparation notes coveri
 12. Networking & VPN
 
 It walks through the most common scenario questions an interviewer will throw at you, plus the underlying best practices that separate an average technician from an excellent one.
+
+![IT Support & Administration: The Complete Interview Preparation Guide](https://upload.wikimedia.org/wikipedia/commons/3/35/Help_Desk.jpg)
 
 ## Table of Contents
 

@@ -8,12 +8,13 @@ excerpt: Compare push and pull deployment models in CI/CD. Learn why GitOps cont
 readTime: 8 min read
 published: true
 ---
-
 # Push vs Pull Deployment Models - Understanding GitOps and Continuous Delivery
 
 Deploying software is no longer a manual step at the end of a sprint. Modern engineering teams automate how changes move from a developer's laptop into production. But how you deliver those changes matters a great deal — and there are fundamentally two ways to think about it: the **push model** and the **pull model**.
 
 The source document on which this article is based outlines both approaches, explains why teams increasingly prefer the pull model (also known as GitOps), and walks through a typical GitOps flow using controllers such as Argo CD and Flux. This guide unpacks all of that in detail so you can decide which model fits your systems.
+
+![Push vs Pull Deployment Models - Understanding GitOps and Continuous Delivery](https://upload.wikimedia.org/wikipedia/commons/2/29/GitOps_Icon.svg)
 
 ## Table of Contents
 

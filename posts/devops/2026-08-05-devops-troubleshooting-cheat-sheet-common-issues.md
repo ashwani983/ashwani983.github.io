@@ -8,7 +8,6 @@ excerpt: A hands-on DevOps troubleshooting reference covering applications down,
 readTime: 8 min read
 published: true
 ---
-
 # DevOps Troubleshooting Mastery: A Practical Cheat Sheet for Common Issues
 
 Every DevOps engineer eventually faces the same panicked moment: a user reports that the application is down, you cannot SSH into an EC2 instance, or a container is stuck in `CrashLoopBackOff`. Where do you start? Which command do you run first? And how do you answer the inevitable interview question about it?
@@ -16,6 +15,8 @@ Every DevOps engineer eventually faces the same panicked moment: a user reports 
 Troubleshooting is not guesswork. It is a repeatable, methodical process that combines the right commands with a calm, logical flow. This article distills a DevOps troubleshooting cheat sheet into a complete guide: the common issues you will hit, the exact commands to diagnose each one, the recommended troubleshooting flow, and the interview questions you are likely to be asked — all drawn directly from a condensed DevOps reference document.
 
 Whether you are a beginner learning Linux-based operations or an experienced SRE preparing for an interview, treat this as your field manual.
+
+![DevOps Troubleshooting Mastery: A Practical Cheat Sheet for Common Issues](https://upload.wikimedia.org/wikipedia/commons/4/4e/Devops.png)
 
 ## Table of Contents
 

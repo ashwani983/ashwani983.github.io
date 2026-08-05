@@ -8,12 +8,13 @@ excerpt: A complete Docker study guide covering core concepts, architecture, ima
 readTime: 9 min read
 published: true
 ---
-
 # Docker from Basic to Advanced: A Complete Hands-On Guide
 
 Docker has become the de facto standard for building, shipping, and running applications in a reliable, reproducible way. Whether you are a developer, a tester, or a DevOps engineer, understanding containers is no longer optional — it is the foundation of modern infrastructure. This article distills a comprehensive Docker study guide into a single, structured reference that takes you from the very basics of what Docker is, through images and containers, volumes and networks, and all the way up to Docker Compose, Docker Hub, and the classic interview questions.
 
 If you are starting from zero, don't worry. We begin with the fundamentals and build up layer by layer, exactly the way Docker builds its images.
+
+![Docker from Basic to Advanced: A Complete Hands-On Guide](https://upload.wikimedia.org/wikipedia/commons/d/dc/Docker_commands_screenshot.webp)
 
 ## Table of Contents
 

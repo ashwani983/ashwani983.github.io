@@ -8,12 +8,13 @@ excerpt: Discover SQL, the standard language for database communication. Learn i
 readTime: 2 min read
 published: true
 ---
-
 # A Comprehensive Guide to SQL: The Language for Database Communication
 
 *Reading time: 2 min · 410 words*
 
 > SQL (Structured Query Language) is the standard language for communicating with relational database management systems (RDBMS). This guide covers SQL's history, syntax, and key concepts, including sublanguages and practical examples. Learn how to interact with databases effectively using SQL.
+
+![A Comprehensive Guide to SQL: The Language for Database Communication](https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/UY3OsG1vuT-saving-a-ddl-file-in-Oracle-Developer.png/960px-UY3OsG1vuT-saving-a-ddl-file-in-Oracle-Developer.png)
 
 ## Table of Contents
 - [Introduction](#introduction)

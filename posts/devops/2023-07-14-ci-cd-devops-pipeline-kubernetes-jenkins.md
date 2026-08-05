@@ -8,7 +8,6 @@ excerpt: Hands-on guide to building a complete CI/CD DevOps pipeline: AWS EC2, K
 readTime: 12 min read
 published: true
 ---
-
 # Building an End-to-End CI/CD DevOps Pipeline with Kubernetes and Jenkins
 
 Automating the journey from a commit in a Git repository to a live, monitored application running on Kubernetes is the heart of modern DevOps. This article walks through a complete, end-to-end CI/CD DevOps pipeline project that takes you from raw cloud infrastructure all the way to a production-style deployment with full monitoring.
@@ -16,6 +15,8 @@ Automating the journey from a commit in a Git repository to a live, monitored ap
 The project is organized into four distinct phases: setting up the infrastructure on AWS, preparing a private Git repository, wiring up the CI/CD pipeline in Jenkins, and finally adding monitoring with Prometheus and Grafana. Along the way you will install and configure Kubernetes, Docker, Jenkins, SonarQube, Nexus, Trivy, and several Prometheus exporters.
 
 > **Note:** All instructions in this article are based entirely on the source document. Where the source omits details (for example, exact security group rules for every port or application-specific credentials), those details are not covered here and should be checked against the official documentation of the respective tools.
+
+![Building an End-to-End CI/CD DevOps Pipeline with Kubernetes and Jenkins](https://upload.wikimedia.org/wikipedia/commons/c/c3/Continuous_Delivery_process_diagram.svg)
 
 ## Table of Contents
 

@@ -8,12 +8,13 @@ excerpt: Comprehensive guide to 50+ AWS projects covering web hosting, serverles
 readTime: 3 min read
 published: true
 ---
-
 # Ultimate Guide to AWS Projects for Cloud Engineers
 
 *Reading time: 3 min · 606 words*
 
 > This comprehensive guide covers over 50 real-world AWS projects across web hosting, serverless applications, infrastructure as code, security, and CI/CD pipelines. Each project includes step-by-step implementation details to help cloud engineers build practical AWS skills.
+
+![Ultimate Guide to AWS Projects for Cloud Engineers](https://upload.wikimedia.org/wikipedia/commons/e/e0/AWS_Graviton_logo.jpg)
 
 ## Table of Contents
 - [Introduction to AWS Projects](#introduction-to-aws-projects)

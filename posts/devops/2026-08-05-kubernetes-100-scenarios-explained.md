@@ -8,12 +8,13 @@ excerpt: 100 real-world Kubernetes scenarios across 11 categories with commands,
 readTime: 14 min read
 published: true
 ---
-
 # Kubernetes in 100 Scenarios: A Complete Field Guide from Core Concepts to Advanced Workloads
 
 Kubernetes has become the de-facto orchestration platform for modern infrastructure, yet it remains famously steep — not because the concepts are hard, but because knowledge is scattered across hundreds of docs, blog posts, and Stack Overflow threads. This article distills a field guide of 100 real situations a Kubernetes engineer actually faces, each paired with the concept behind it, the exact manifest or `kubectl` command, the output you should expect, and a line-by-line explanation.
 
 The source material is organised into 11 categories spanning beginner to expert: Core Concepts and `kubectl`, Pods and Containers, Deployments and ReplicaSets, Services and Networking, ConfigMaps and Secrets, Storage, Scheduling and Resources, Health/Probes and Autoscaling, RBAC and Security, Observability and Troubleshooting, and Advanced Workloads and Tooling. Everything below is drawn directly from that material.
+
+![Kubernetes in 100 Scenarios: A Complete Field Guide from Core Concepts to Advanced Workloads](https://upload.wikimedia.org/wikipedia/commons/b/be/Kubernetes.png)
 
 ## Table of Contents
 

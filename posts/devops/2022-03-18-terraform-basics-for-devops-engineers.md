@@ -8,7 +8,6 @@ excerpt: Learn Terraform basics for DevOps: IaC, providers, variables, the terra
 readTime: 10 min read
 published: true
 ---
-
 # Terraform Basics for DevOps Engineers: A Practical Introduction
 
 Modern cloud infrastructure is complex. Spinning up an EC2 instance, wiring a VPC, creating security groups, and provisioning storage by clicking through the AWS console works for a single server, but it collapses the moment a team of engineers needs to build the same environment dozens of times, in different regions, without a single click going wrong.
@@ -16,6 +15,8 @@ Modern cloud infrastructure is complex. Spinning up an EC2 instance, wiring a VP
 Terraform, from HashiCorp, solves exactly this problem. It treats infrastructure as code — meaning your servers, networks, security groups, and cloud resources are defined in plain, reviewable, versionable files instead of being created by hand. This article is a hands-on primer for DevOps engineers who want to understand the fundamentals of Terraform: what Infrastructure as Code (IaC) really means, how the core workflow operates, and how to build your first resources with providers, variables, outputs, and remote state.
 
 Everything covered here is drawn directly from the source study document, *Terraform Basics for DevOps Engineers*.
+
+![Terraform Basics for DevOps Engineers: A Practical Introduction](https://upload.wikimedia.org/wikipedia/commons/b/bb/Terraform_infra.png)
 
 ## Table of Contents
 

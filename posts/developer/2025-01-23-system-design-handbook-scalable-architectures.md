@@ -8,12 +8,13 @@ excerpt: A practical guide to system design fundamentals: load balancing, cachin
 readTime: 20 min read
 published: true
 ---
-
 # System Design Handbook: A Practical Guide to Scalable Architectures
 
 Designing systems that handle millions of users is one of the hardest problems in software engineering. The good news is that the core ideas — decomposition, trade-off analysis, and a toolkit of battle-tested patterns — are learnable and repeatable. This article distills the essential concepts from a classic system design handbook: from the very basics of how to approach a design problem, through load balancing, databases, the CAP theorem, caching, sharding, consistent hashing, queues, and the communication protocols that connect clients to servers.
 
 By the end, you will understand the vocabulary and trade-offs interviewers expect, and you will be able to reason about real-world architectures with confidence.
+
+![System Design Handbook: A Practical Guide to Scalable Architectures](https://upload.wikimedia.org/wikipedia/commons/d/d8/Software_Architecture_Activities.jpg)
 
 ## Table of Contents
 

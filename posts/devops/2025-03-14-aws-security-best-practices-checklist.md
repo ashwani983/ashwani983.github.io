@@ -8,7 +8,6 @@ excerpt: A practical AWS security checklist covering IAM least privilege, MFA, e
 readTime: 8 min read
 published: true
 ---
-
 # AWS Security Best Practices: A Practical Checklist for Protecting Your Cloud Environment
 
 Securing an AWS environment can feel overwhelming. Between IAM policies, encryption keys, security groups, and a whole alphabet soup of monitoring services, where do you even start? The good news is that AWS ships with a comprehensive set of tools designed to protect your resources and data — if you know how to configure them.
@@ -16,6 +15,8 @@ Securing an AWS environment can feel overwhelming. Between IAM policies, encrypt
 This article distills the essential AWS security best practices into a practical, action-oriented checklist. Whether you are launching a single EC2 instance or running a multi-account production environment, the practices below will help you harden your setup, detect threats early, and stay compliant over time.
 
 > The guidance in this article is based entirely on the AWS Security Best Practices Checklist source document. Where a topic is not covered in the source, it is called out explicitly rather than invented.
+
+![AWS Security Best Practices: A Practical Checklist for Protecting Your Cloud Environment](https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg)
 
 ## Table of Contents
 - [Introduction](#introduction)

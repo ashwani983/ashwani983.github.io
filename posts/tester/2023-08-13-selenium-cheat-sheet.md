@@ -9,6 +9,8 @@ readTime: 4 min read
 published: true
 ---
 
+![SELENIUM Cheat Sheet](https://upload.wikimedia.org/wikipedia/commons/4/47/SeBlackRed.jpg)
+
 ## **Creating Driver:**
 
 **Action**
