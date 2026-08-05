@@ -346,9 +346,3 @@ Mouse movement after right click
 _a.sendKeys(Keys.<keyboardstrokes>).build().perform();_
 
 Keys is a class contains all keystrokes such as right left, enter, back button.
-
-\_\_ATA = window.\_\_ATA || {}; \_\_ATA.cmd = window.\_\_ATA.cmd || \[\]; \_\_ATA.cmd.push(function() { \_\_ATA.initVideoSlot('atatags-370373-6a71b3cb1bc3c', { sectionId: '370373', format: 'inread' }); });
-
-Like Loading...
-
-### _Related_

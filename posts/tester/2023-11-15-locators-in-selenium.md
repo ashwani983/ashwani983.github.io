@@ -511,9 +511,3 @@ Similarly, To select the last child element
 ```
 css="ul#automation li:last-child"
 ```
-
-\_\_ATA = window.\_\_ATA || {}; \_\_ATA.cmd = window.\_\_ATA.cmd || \[\]; \_\_ATA.cmd.push(function() { \_\_ATA.initVideoSlot('atatags-370373-6a71b3cd4cdf4', { sectionId: '370373', format: 'inread' }); });
-
-Like Loading...
-
-### _Related_

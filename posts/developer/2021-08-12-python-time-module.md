@@ -90,9 +90,3 @@ while True:
 
 1.  There are two more Python modules that help you deal with time and date: `calendar` handles the calendar-related functions, and `datetime` lets you manipulate Python timestamps. You can also extend `datetime` withe the `dateutil` package from PyPI.
 2.  If you’re working with **multithreaded programs**, remember that the Python `time.sleep()` function only delays a single **thread** and not the whole process.
-
-\_\_ATA = window.\_\_ATA || {}; \_\_ATA.cmd = window.\_\_ATA.cmd || \[\]; \_\_ATA.cmd.push(function() { \_\_ATA.initVideoSlot('atatags-370373-6a71b3c549ec2', { sectionId: '370373', format: 'inread' }); });
-
-Like Loading...
-
-### _Related_

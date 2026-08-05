@@ -101,9 +101,3 @@ User Story numbers
 14.  **Grooming in Agile**: For agile product development teams, backlog grooming, also known as backlog refinement or story time is a regular occurrence. A backlog grooming session’s main goal is to make sure the product backlog’s user stories for the upcoming few sprints are ready for sprint planning.
 15.  **Zero sprint :** The preparatory phase of the initial Agile sprint is known as the Zero Sprint. Prior to the project commencing, there are certain tasks that must be completed. These tasks are referred to as the “Zero sprint”; some examples include preparing backlogs and creating development environments.
 16.  **Spike** : A story that can be read in between sprints is called a spike. Spikes are frequently utilized for tasks like research, design, prototyping, and exploration that are connected to technical or design-related concerns. Spikes can be classified as either functional or technical.
-
-\_\_ATA = window.\_\_ATA || {}; \_\_ATA.cmd = window.\_\_ATA.cmd || \[\]; \_\_ATA.cmd.push(function() { \_\_ATA.initVideoSlot('atatags-370373-6a71b3cbdae66', { sectionId: '370373', format: 'inread' }); });
-
-Like Loading...
-
-### _Related_

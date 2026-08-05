@@ -115,9 +115,3 @@ driver.takeScreenshot().then(function(data){
    });
 });
 ```
-
-\_\_ATA = window.\_\_ATA || {}; \_\_ATA.cmd = window.\_\_ATA.cmd || \[\]; \_\_ATA.cmd.push(function() { \_\_ATA.initVideoSlot('atatags-370373-6a71b3c62fb4e', { sectionId: '370373', format: 'inread' }); });
-
-Like Loading...
-
-### _Related_

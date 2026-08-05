@@ -253,9 +253,3 @@ In this post we created a Python web application with Django following this comm
 2.  Edit the file `**example**/views.py` to create an `index()` function
 3.  Add in`**webapp**/urls.py` a **new route** path in `urlpatterns`
 4.  Modify `**webapp**/settings.py` to add the application `PollsConfig (**example**.apps.**Example**Config)`
-
-\_\_ATA = window.\_\_ATA || {}; \_\_ATA.cmd = window.\_\_ATA.cmd || \[\]; \_\_ATA.cmd.push(function() { \_\_ATA.initVideoSlot('atatags-370373-6a71b3c3afa75', { sectionId: '370373', format: 'inread' }); });
-
-Like Loading...
-
-### _Related_

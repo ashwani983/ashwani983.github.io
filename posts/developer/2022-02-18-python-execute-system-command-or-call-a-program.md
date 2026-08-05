@@ -138,9 +138,3 @@ $ python3 posix_example.py
 b'Mango\nOrange\nBanana\nApple\nGuava\nGrape\nRaspberry\nBlueberry\nPineapple\nWatermelon\n'
 The Home Directory: b'/home/unix_user
 ```
-
-\_\_ATA = window.\_\_ATA || {}; \_\_ATA.cmd = window.\_\_ATA.cmd || \[\]; \_\_ATA.cmd.push(function() { \_\_ATA.initVideoSlot('atatags-370373-6a71b3c73013a', { sectionId: '370373', format: 'inread' }); });
-
-Like Loading...
-
-### _Related_
