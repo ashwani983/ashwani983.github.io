@@ -22,6 +22,8 @@ The guide is organized around a few broad objectives that are worth keeping in m
 
 ![Mastering Docker: A Complete Guide to Containers, Networking, Storage, Registry and Security](https://upload.wikimedia.org/wikipedia/commons/7/79/Docker_%28container_engine%29_logo.png)
 
+*Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Docker_%28container_engine%29_logo.png)*
+
 ## Table of Contents
 
 - [Introduction](#introduction)

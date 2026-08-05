@@ -16,6 +16,8 @@ The source material is organised into 11 categories spanning beginner to expert:
 
 ![Kubernetes in 100 Scenarios: A Complete Field Guide from Core Concepts to Advanced Workloads](https://upload.wikimedia.org/wikipedia/commons/b/be/Kubernetes.png)
 
+*Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kubernetes.png)*
+
 ## Table of Contents
 
 - [Introduction](#introduction)

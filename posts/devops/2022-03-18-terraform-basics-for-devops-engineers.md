@@ -18,6 +18,8 @@ Everything covered here is drawn directly from the source study document, *Terra
 
 ![Terraform Basics for DevOps Engineers: A Practical Introduction](https://upload.wikimedia.org/wikipedia/commons/b/bb/Terraform_infra.png)
 
+*Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Terraform_infra.png)*
+
 ## Table of Contents
 
 - [What Is Infrastructure as Code?](#what-is-infrastructure-as-code)

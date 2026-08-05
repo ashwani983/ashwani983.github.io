@@ -18,6 +18,8 @@ The project is organized into four distinct phases: setting up the infrastructur
 
 ![Building an End-to-End CI/CD DevOps Pipeline with Kubernetes and Jenkins](https://upload.wikimedia.org/wikipedia/commons/c/c3/Continuous_Delivery_process_diagram.svg)
 
+*Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Continuous_Delivery_process_diagram.svg)*
+
 ## Table of Contents
 
 - [Phase 1: Infrastructure Setup](#phase-1-infrastructure-setup)

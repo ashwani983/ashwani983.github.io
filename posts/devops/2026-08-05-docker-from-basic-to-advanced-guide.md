@@ -16,6 +16,8 @@ If you are starting from zero, don't worry. We begin with the fundamentals and b
 
 ![Docker from Basic to Advanced: A Complete Hands-On Guide](https://upload.wikimedia.org/wikipedia/commons/d/dc/Docker_commands_screenshot.webp)
 
+*Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Docker_commands_screenshot.webp)*
+
 ## Table of Contents
 
 - [Introduction to Docker](#introduction-to-docker)

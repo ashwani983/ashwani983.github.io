@@ -16,6 +16,8 @@ published: true
 
 ![The Comprehensive Guide to DevOps: Principles, Practices, and Tools](https://upload.wikimedia.org/wikipedia/commons/4/4e/Devops.png)
 
+*Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Devops.png)*
+
 ## Table of Contents
 - [Introduction to DevOps](#introduction-to-devops)
 - [Core Principles of DevOps](#core-principles-of-devops)

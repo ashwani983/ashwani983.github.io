@@ -12,6 +12,8 @@ Most of the repository are included in this list are from **Machine Learning** a
 
 ![28 GITHUB REPOSITORIES FOR PYTHON DEVELOPERS](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/960px-GitHub_Invertocat_Logo.svg.png)
 
+*Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:GitHub_Invertocat_Logo.svg.svg)*
+
 1.  **facebookresearch/Detectron**
 2.  **iperov/DeepFaceLab**
 3.  **ageitgey/face\_recognition**

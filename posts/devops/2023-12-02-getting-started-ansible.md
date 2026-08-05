@@ -16,6 +16,8 @@ published: true
 
 ![Getting Started with Ansible](https://upload.wikimedia.org/wikipedia/commons/2/24/Ansible_logo.svg)
 
+*Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ansible_logo.svg)*
+
 ## Install Ansible
 
 ```bash

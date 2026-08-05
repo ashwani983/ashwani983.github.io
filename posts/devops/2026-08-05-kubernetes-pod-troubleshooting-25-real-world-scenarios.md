@@ -26,6 +26,8 @@ By the end you will have a reusable mental model and a single troubleshooting wo
 
 ![Kubernetes Pod Troubleshooting in Production: 25 Real-World Interview Scenarios](https://upload.wikimedia.org/wikipedia/commons/b/be/Kubernetes.png)
 
+*Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kubernetes.png)*
+
 ## Table of Contents
 
 - [Why a Structured Workflow Beats Memorized Fixes](#why-a-structured-workflow-beats-memorized-fixes)

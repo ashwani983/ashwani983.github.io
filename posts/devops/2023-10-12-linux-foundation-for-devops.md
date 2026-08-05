@@ -14,6 +14,8 @@ Linux is everywhere. It powers cloud servers, containerized applications, develo
 
 ![A Strong Foundation for DevOps: Mastering Linux Fundamentals](https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png)
 
+*Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Tux.png)*
+
 ## Table of Contents
 
 - [What is Linux?](#what-is-linux)

@@ -31,6 +31,8 @@ It walks through the most common scenario questions an interviewer will throw at
 
 ![IT Support & Administration: The Complete Interview Preparation Guide](https://upload.wikimedia.org/wikipedia/commons/3/35/Help_Desk.jpg)
 
+*Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Help_Desk.jpg)*
+
 ## Table of Contents
 
 - [Why This Guide Matters](#why-this-guide-matters)

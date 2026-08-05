@@ -18,6 +18,8 @@ This article distills the essential AWS security best practices into a practical
 
 ![AWS Security Best Practices: A Practical Checklist for Protecting Your Cloud Environment](https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg)
 
+*Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Amazon_Web_Services_Logo.svg)*
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [The Shared Responsibility Model](#the-shared-responsibility-model)

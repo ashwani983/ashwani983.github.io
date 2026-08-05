@@ -11,6 +11,8 @@ published: true
 
 ![All About Git & GitHub](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/960px-GitHub_Invertocat_Logo.svg.png)
 
+*Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:GitHub_Invertocat_Logo.svg.svg)*
+
 ## What is Git?
 
 - Git is an open-source version control system.

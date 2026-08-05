@@ -18,6 +18,8 @@ Whether you are a beginner learning Linux-based operations or an experienced SRE
 
 ![DevOps Troubleshooting Mastery: A Practical Cheat Sheet for Common Issues](https://upload.wikimedia.org/wikipedia/commons/4/4e/Devops.png)
 
+*Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Devops.png)*
+
 ## Table of Contents
 
 - [A Systematic Approach to Troubleshooting](#a-systematic-approach-to-troubleshooting)

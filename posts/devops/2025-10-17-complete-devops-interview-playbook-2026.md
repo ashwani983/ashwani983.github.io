@@ -18,6 +18,8 @@ This playbook is a condensed, practical version of a DevOps interview preparatio
 
 ![The Complete DevOps Interview Playbook for 2026](https://upload.wikimedia.org/wikipedia/commons/4/4e/Devops.png)
 
+*Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Devops.png)*
+
 ## Table of Contents
 
 - [Introduction to DevOps Roles](#introduction-to-devops-roles)

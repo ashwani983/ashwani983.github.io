@@ -14,6 +14,8 @@ Artificial intelligence has moved from an experiment to an everyday necessity in
 
 ![4 AI Tools Every Manual and Automation Tester Should Learn in 2026](https://upload.wikimedia.org/wikipedia/commons/c/c2/Human_brain_blue_circuit_white_background_artificial_intelligence_icon_%28Topaz_Bloom%29.jpeg)
 
+*Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Human_brain_blue_circuit_white_background_artificial_intelligence_icon_%28Topaz_Bloom%29.jpeg)*
+
 ## Table of Contents
 
 - [Why AI Is Becoming Core to Testing](#why-ai-is-becoming-core-to-testing)

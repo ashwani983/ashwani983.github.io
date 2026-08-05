@@ -16,6 +16,8 @@ The source document on which this article is based outlines both approaches, exp
 
 ![Push vs Pull Deployment Models - Understanding GitOps and Continuous Delivery](https://upload.wikimedia.org/wikipedia/commons/2/29/GitOps_Icon.svg)
 
+*Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:GitOps_Icon.svg)*
+
 ## Table of Contents
 
 - [What Are the Two Deployment Models?](#what-are-the-two-deployment-models)

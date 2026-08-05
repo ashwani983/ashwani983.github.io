@@ -16,6 +16,8 @@ This article distills a comprehensive interview bank covering 100 questions acro
 
 ![Top 100 DevOps Interview Questions and Answers to Master in 2025](https://upload.wikimedia.org/wikipedia/commons/4/4e/Devops.png)
 
+*Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Devops.png)*
+
 ## Table of Contents
 
 - [1. What Is DevOps and Why Does It Matter](#1-what-is-devops-and-why-does-it-matter)

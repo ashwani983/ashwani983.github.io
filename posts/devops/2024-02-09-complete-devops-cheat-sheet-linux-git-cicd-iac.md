@@ -16,6 +16,8 @@ This article distills a comprehensive DevOps study document into a practical, ea
 
 ![The Complete DevOps Cheat Sheet: Linux, Git, CI/CD, IaC and Beyond](https://upload.wikimedia.org/wikipedia/commons/4/4e/Devops.png)
 
+*Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Devops.png)*
+
 ## Table of Contents
 
 - [Introduction](#introduction)

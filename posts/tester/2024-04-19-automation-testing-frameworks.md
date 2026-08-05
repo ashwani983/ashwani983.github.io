@@ -12,6 +12,8 @@ An automation testing framework provides the structure, reusable libraries, and 
 
 ![Automation Testing Frameworks](https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/TestingCup-Polish-Championship-in-Software-Testing-Katowice-2016.jpg/960px-TestingCup-Polish-Championship-in-Software-Testing-Katowice-2016.jpg)
 
+*Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:TestingCup-Polish-Championship-in-Software-Testing-Katowice-2016.jpg)*
+
 ## How is it helpful?
 
 1. Automation testing frameworks offer a multitude of benefits, including ensuring consistency and reliability in achieving desired objectives.

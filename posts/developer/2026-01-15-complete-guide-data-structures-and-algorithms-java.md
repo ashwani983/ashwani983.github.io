@@ -16,6 +16,8 @@ Every algorithm in the document is accompanied by a short theory, a step-by-step
 
 ![The Complete Guide to Data Structures and Algorithms in Java](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Hash_table_3_1_1_0_1_0_0_SP.svg/960px-Hash_table_3_1_1_0_1_0_0_SP.svg.png)
 
+*Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hash_table_3_1_1_0_1_0_0_SP.svg.svg)*
+
 ## Table of Contents
 
 - [What Are Data Structures and Algorithms?](#what-are-data-structures-and-algorithms)

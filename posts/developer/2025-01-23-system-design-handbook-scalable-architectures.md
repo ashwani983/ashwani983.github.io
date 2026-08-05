@@ -16,6 +16,8 @@ By the end, you will understand the vocabulary and trade-offs interviewers expec
 
 ![System Design Handbook: A Practical Guide to Scalable Architectures](https://upload.wikimedia.org/wikipedia/commons/d/d8/Software_Architecture_Activities.jpg)
 
+*Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Software_Architecture_Activities.jpg)*
+
 ## Table of Contents
 
 - [Core Principles of System Design](#core-principles-of-system-design)

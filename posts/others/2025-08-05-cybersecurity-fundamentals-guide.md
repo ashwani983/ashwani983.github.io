@@ -16,6 +16,8 @@ published: true
 
 ![Mastering Security Fundamentals: A Comprehensive Guide to Cybersecurity Basics](https://upload.wikimedia.org/wikipedia/commons/d/d3/Computer_locked.jpg)
 
+*Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Computer_locked.jpg)*
+
 ## Table of Contents
 - [Core Security Concepts](#core-security-concepts)
   - [The CIA Triad](#the-cia-triad)

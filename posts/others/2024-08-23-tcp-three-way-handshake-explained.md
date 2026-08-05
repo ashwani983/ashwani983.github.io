@@ -16,6 +16,8 @@ published: true
 
 ![Understanding the TCP Three-Way Handshake: A Comprehensive Guide](https://upload.wikimedia.org/wikipedia/commons/7/71/TCP_Three-Way_Handshake.svg)
 
+*Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:TCP_Three-Way_Handshake.svg)*
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [What is TCP?](#what-is-tcp)

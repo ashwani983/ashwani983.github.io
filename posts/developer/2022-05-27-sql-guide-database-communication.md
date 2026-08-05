@@ -16,6 +16,8 @@ published: true
 
 ![A Comprehensive Guide to SQL: The Language for Database Communication](https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/UY3OsG1vuT-saving-a-ddl-file-in-Oracle-Developer.png/960px-UY3OsG1vuT-saving-a-ddl-file-in-Oracle-Developer.png)
 
+*Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:UY3OsG1vuT-saving-a-ddl-file-in-Oracle-Developer.png)*
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Key Features of SQL](#key-features-of-sql)

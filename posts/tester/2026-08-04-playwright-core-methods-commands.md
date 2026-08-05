@@ -18,6 +18,8 @@ This article breaks down the essential Playwright methods and commands into a pr
 
 ![Playwright Core Methods & Commands: A Complete Test Automation Cheat Sheet](https://upload.wikimedia.org/wikipedia/commons/c/cf/Software_Testing_Life_Cycle.jpg)
 
+*Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Software_Testing_Life_Cycle.jpg)*
+
 ## Table of Contents
 
 - [What is Playwright?](#what-is-playwright)

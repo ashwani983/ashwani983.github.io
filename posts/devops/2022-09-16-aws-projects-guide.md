@@ -16,6 +16,8 @@ published: true
 
 ![Ultimate Guide to AWS Projects for Cloud Engineers](https://upload.wikimedia.org/wikipedia/commons/e/e0/AWS_Graviton_logo.jpg)
 
+*Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:AWS_Graviton_logo.jpg)*
+
 ## Table of Contents
 - [Introduction to AWS Projects](#introduction-to-aws-projects)
 - [Web Hosting & Deployment Projects](#web-hosting--deployment-projects)
