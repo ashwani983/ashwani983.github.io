@@ -369,7 +369,7 @@
       "image": null,
       "published": true,
       "source": "native",
-      "_wordCount": 1172
+      "_wordCount": 1148
     },
     {
       "id": "tcp-three-way-handshake-explained",
@@ -518,7 +518,7 @@
       "image": null,
       "published": true,
       "source": "native",
-      "_wordCount": 1458
+      "_wordCount": 1434
     },
     {
       "id": "locators-in-selenium",
@@ -542,7 +542,7 @@
       "image": null,
       "published": true,
       "source": "native",
-      "_wordCount": 1520
+      "_wordCount": 1496
     },
     {
       "id": "linux-foundation-for-devops",
@@ -584,7 +584,7 @@
       "image": null,
       "published": true,
       "source": "native",
-      "_wordCount": 791
+      "_wordCount": 767
     },
     {
       "id": "ci-cd-devops-pipeline-kubernetes-jenkins",
@@ -656,7 +656,7 @@
       "image": null,
       "published": true,
       "source": "native",
-      "_wordCount": 1430
+      "_wordCount": 1406
     },
     {
       "id": "ai-tools-testers-should-learn-2026",
@@ -719,7 +719,7 @@
       "image": null,
       "published": true,
       "source": "native",
-      "_wordCount": 145
+      "_wordCount": 121
     },
     {
       "id": "python-libraries-for-data-science",
@@ -741,7 +741,7 @@
       "image": null,
       "published": true,
       "source": "native",
-      "_wordCount": 279
+      "_wordCount": 255
     },
     {
       "id": "sql-guide-database-communication",
@@ -807,7 +807,7 @@
       "image": null,
       "published": true,
       "source": "native",
-      "_wordCount": 324
+      "_wordCount": 300
     },
     {
       "id": "python-execute-system-command-or-call-a-program",
@@ -831,7 +831,7 @@
       "image": null,
       "published": true,
       "source": "native",
-      "_wordCount": 793
+      "_wordCount": 769
     },
     {
       "id": "python-time-module",
@@ -852,7 +852,7 @@
       "image": null,
       "published": true,
       "source": "native",
-      "_wordCount": 554
+      "_wordCount": 530
     },
     {
       "id": "web-applications-using-python-and-django",
@@ -874,7 +874,7 @@
       "image": null,
       "published": true,
       "source": "native",
-      "_wordCount": 1383
+      "_wordCount": 1359
     }
   ],
   "categories": [],
@@ -1031,5 +1031,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-08-05T19:38:01.351Z"
+  "generatedAt": "2026-08-05T19:42:52.887Z"
 }
