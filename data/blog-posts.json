@@ -1,6 +1,27 @@
 {
   "posts": [
     {
+      "id": "docker-from-basic-to-advanced-guide",
+      "title": "Docker from Basic to Advanced: A Complete Hands-On Guide",
+      "slug": "docker-from-basic-to-advanced-guide",
+      "file": "devops/2026-08-05-docker-from-basic-to-advanced-guide.md",
+      "date": "2026-08-05",
+      "excerpt": "A complete Docker study guide covering core concepts, architecture, images, containers, volumes, networks, Docker Compose, Docker Hub, and top interview questions.",
+      "content": "blog.html?post=docker-from-basic-to-advanced-guide",
+      "readTime": "9 min read",
+      "tags": [
+        "Docker",
+        "Containers",
+        "DevOps",
+        "Containerization"
+      ],
+      "category": "DevOps",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 3439
+    },
+    {
       "id": "kubernetes-100-scenarios-explained",
       "title": "Kubernetes in 100 Scenarios: A Complete Field Guide from Core Concepts to Advanced Workloads",
       "slug": "kubernetes-100-scenarios-explained",
@@ -768,12 +789,14 @@
   ],
   "categories": [],
   "tags": [
+    "Docker",
+    "Containers",
+    "DevOps",
+    "Containerization",
     "Kubernetes",
     "kubectl",
-    "DevOps",
     "Troubleshooting",
     "CI/CD",
-    "Docker",
     "Terraform",
     "Playwright",
     "Test Automation",
@@ -816,7 +839,6 @@
     "networking",
     "soc",
     "handshake",
-    "Containers",
     "Testing",
     "Automation",
     "Framework",
@@ -892,15 +914,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 35,
-    "publishedPosts": 35,
+    "totalPosts": 36,
+    "publishedPosts": 36,
     "draftPosts": 0,
-    "featuredPosts": 35,
+    "featuredPosts": 36,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 122
+    "tagsCount": 123
   },
   "settings": {
     "postsPerPage": 12,
@@ -911,5 +933,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-08-05T03:57:41.417Z"
+  "generatedAt": "2026-08-05T11:30:14.091Z"
 }
