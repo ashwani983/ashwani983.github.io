@@ -1,6 +1,28 @@
 {
   "posts": [
     {
+      "id": "api-testing-complete-guide-rest-api-test-automation",
+      "title": "API Testing Masterclass: The Complete Guide to REST API Test Automation",
+      "slug": "api-testing-complete-guide-rest-api-test-automation",
+      "file": "tester/2026-08-06-api-testing-complete-guide-rest-api-test-automation.md",
+      "date": "2026-08-06",
+      "excerpt": "Learn API testing end to end: REST fundamentals, test case design, automation with Postman and code, CI/CD integration, and real-world strategies.",
+      "content": "blog.html?post=api-testing-complete-guide-rest-api-test-automation",
+      "readTime": "10 min read",
+      "tags": [
+        "API Testing",
+        "REST API",
+        "Test Automation",
+        "QA",
+        "Postman"
+      ],
+      "category": "Tester",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2662
+    },
+    {
       "id": "devops-troubleshooting-cheat-sheet-common-issues",
       "title": "DevOps Troubleshooting Mastery: A Practical Cheat Sheet for Common Issues",
       "slug": "devops-troubleshooting-cheat-sheet-common-issues",
@@ -879,6 +901,11 @@
   ],
   "categories": [],
   "tags": [
+    "API Testing",
+    "REST API",
+    "Test Automation",
+    "QA",
+    "Postman",
     "DevOps",
     "Troubleshooting",
     "Kubernetes",
@@ -900,7 +927,6 @@
     "Code Quality",
     "Terraform",
     "Playwright",
-    "Test Automation",
     "Web Testing",
     "devops",
     "ci-cd",
@@ -969,14 +995,12 @@
     "Service Desk",
     "api",
     "API Calls",
-    "API Testing",
     "code",
     "Error code",
     "Layers of API",
     "URI",
     "URL",
     "AI Tools",
-    "QA",
     "Software Testing",
     "aws",
     "projects",
@@ -1012,15 +1036,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 40,
-    "publishedPosts": 40,
+    "totalPosts": 41,
+    "publishedPosts": 41,
     "draftPosts": 0,
-    "featuredPosts": 40,
+    "featuredPosts": 41,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 131
+    "tagsCount": 133
   },
   "settings": {
     "postsPerPage": 12,
@@ -1031,5 +1055,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-08-05T19:42:52.887Z"
+  "generatedAt": "2026-08-06T10:03:02.328Z"
 }
