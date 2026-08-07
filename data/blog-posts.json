@@ -1,6 +1,28 @@
 {
   "posts": [
     {
+      "id": "observability-prometheus-grafana-guide",
+      "title": "Mastering Observability with Prometheus and Grafana: From Metrics to Actionable Insights",
+      "slug": "observability-prometheus-grafana-guide",
+      "file": "devops/2026-08-07-observability-prometheus-grafana-guide.md",
+      "date": "2026-08-07",
+      "excerpt": "Learn to build a modern observability stack with Prometheus and Grafana, covering metric collection, PromQL, alerting, dashboards, and SRE best practices.",
+      "content": "blog.html?post=observability-prometheus-grafana-guide",
+      "readTime": "12 min read",
+      "tags": [
+        "Prometheus",
+        "Grafana",
+        "Observability",
+        "Monitoring",
+        "SRE"
+      ],
+      "category": "DevOps",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2286
+    },
+    {
       "id": "api-testing-complete-guide-rest-api-test-automation",
       "title": "API Testing Masterclass: The Complete Guide to REST API Test Automation",
       "slug": "api-testing-complete-guide-rest-api-test-automation",
@@ -901,6 +923,11 @@
   ],
   "categories": [],
   "tags": [
+    "Prometheus",
+    "Grafana",
+    "Observability",
+    "Monitoring",
+    "SRE",
     "API Testing",
     "REST API",
     "Test Automation",
@@ -986,7 +1013,6 @@
     "System Administration",
     "cheatsheet",
     "java",
-    "Monitoring",
     "IT Support",
     "Active Directory",
     "Microsoft 365",
@@ -1036,15 +1062,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 41,
-    "publishedPosts": 41,
+    "totalPosts": 42,
+    "publishedPosts": 42,
     "draftPosts": 0,
-    "featuredPosts": 41,
+    "featuredPosts": 42,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 133
+    "tagsCount": 137
   },
   "settings": {
     "postsPerPage": 12,
@@ -1055,5 +1081,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-08-06T10:03:02.328Z"
+  "generatedAt": "2026-08-07T10:02:37.159Z"
 }
