@@ -1,6 +1,50 @@
 {
   "posts": [
     {
+      "id": "grpc-essentials-practical-guide",
+      "title": "gRPC Essentials: A Practical Guide to High-Performance Remote Procedure Calls",
+      "slug": "grpc-essentials-practical-guide",
+      "file": "others/2026-08-07-grpc-essentials-practical-guide.md",
+      "date": "2026-08-07",
+      "excerpt": "gRPC uses Protocol Buffers over HTTP/2 to deliver fast, typed, bidirectional communication between services. Learn core concepts, streaming patterns, error handling.",
+      "content": "blog.html?post=grpc-essentials-practical-guide",
+      "readTime": "13 min read",
+      "tags": [
+        "gRPC",
+        "RPC",
+        "Microservices",
+        "Protobuf",
+        "API Design",
+        "Distributed Systems"
+      ],
+      "category": "Others",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2415
+    },
+    {
+      "id": "jenkins-ci-cd-pipeline-architecture",
+      "title": "Jenkins Architecture, Declarative Pipelines, and CI/CD Explained",
+      "slug": "jenkins-ci-cd-pipeline-architecture",
+      "file": "devops/2026-08-07-jenkins-ci-cd-pipeline-architecture.md",
+      "date": "2026-08-07",
+      "excerpt": "A practical guide to Jenkins architecture, declarative pipelines as code, and how CI/CD automates build, test, and deployment workflows.",
+      "content": "blog.html?post=jenkins-ci-cd-pipeline-architecture",
+      "readTime": "8 min read",
+      "tags": [
+        "Jenkins",
+        "CI/CD",
+        "DevOps",
+        "Pipeline"
+      ],
+      "category": "DevOps",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 1988
+    },
+    {
       "id": "observability-prometheus-grafana-guide",
       "title": "Mastering Observability with Prometheus and Grafana: From Metrics to Actionable Insights",
       "slug": "observability-prometheus-grafana-guide",
@@ -923,6 +967,16 @@
   ],
   "categories": [],
   "tags": [
+    "gRPC",
+    "RPC",
+    "Microservices",
+    "Protobuf",
+    "API Design",
+    "Distributed Systems",
+    "Jenkins",
+    "CI/CD",
+    "DevOps",
+    "Pipeline",
     "Prometheus",
     "Grafana",
     "Observability",
@@ -933,14 +987,11 @@
     "Test Automation",
     "QA",
     "Postman",
-    "DevOps",
     "Troubleshooting",
     "Kubernetes",
     "Docker",
     "AWS",
     "Linux",
-    "Jenkins",
-    "CI/CD",
     "Containers",
     "Containerization",
     "kubectl",
@@ -976,7 +1027,6 @@
     "Cloud Security",
     "IAM",
     "System Design",
-    "Distributed Systems",
     "Scalability",
     "ITInfrastructure",
     "Networking",
@@ -1062,15 +1112,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 42,
-    "publishedPosts": 42,
+    "totalPosts": 44,
+    "publishedPosts": 44,
     "draftPosts": 0,
-    "featuredPosts": 42,
+    "featuredPosts": 44,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 137
+    "tagsCount": 143
   },
   "settings": {
     "postsPerPage": 12,
@@ -1081,5 +1131,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-08-07T10:02:37.159Z"
+  "generatedAt": "2026-08-07T15:35:01.326Z"
 }
