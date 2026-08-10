@@ -808,6 +808,54 @@ section {
   font-size: var(--fs-xs);
 }
 
+/* Blogger Section */
+.blogger-section {
+  background: var(--primary-bg);
+}
+
+.blogger-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: var(--spacing-md);
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.blogger-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-lg);
+  background: var(--accent-bg);
+  border: 1px solid transparent;
+  border-radius: var(--radius-lg);
+  color: var(--text-primary);
+  text-decoration: none;
+  transition: var(--transition-normal);
+}
+
+.blogger-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--text-accent);
+}
+
+.blogger-icon {
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.blogger-title {
+  font-size: var(--fs-lg);
+  color: var(--text-primary);
+}
+
+.blogger-desc {
+  font-size: var(--fs-base);
+  color: var(--text-secondary);
+}
+
 /* Contact Section */
 .contact-content {
   max-width: 1100px;
@@ -1342,6 +1390,7 @@ a.timeline-company:hover {
 
 [data-theme="light"] .project-card,
 [data-theme="light"] .blog-card,
+[data-theme="light"] .blogger-card,
 [data-theme="light"] .skill-bar,
 [data-theme="light"] .timeline-card,
 [data-theme="light"] .contact-item,
