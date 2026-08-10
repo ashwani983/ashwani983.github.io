@@ -155,6 +155,7 @@
   main > section {
     scroll-snap-align: start;
     scroll-margin-top: 60px;
+    scroll-snap-stop: always;
   }
 
   .container {
