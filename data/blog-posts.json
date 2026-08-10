@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "id": "ai-agent-hub-local-dashboard-ai-coding-tools",
+      "title": "AI Agent Hub — One Local Dashboard to Rule All Your AI Coding Tools",
+      "slug": "ai-agent-hub-local-dashboard-ai-coding-tools",
+      "file": "developer/2026-08-10-ai-agent-hub-local-dashboard-ai-coding-tools.md",
+      "date": "2026-08-10",
+      "excerpt": "Meet AI Agent Hub, an open-source local dashboard that auto-discovers every AI coding tool on your machine and lets you manage agents, rules, MCP, and configs from one interface.",
+      "content": "blog.html?post=ai-agent-hub-local-dashboard-ai-coding-tools",
+      "readTime": "8 min read",
+      "tags": [
+        "Developer Tools",
+        "AI Agents",
+        "Dashboard"
+      ],
+      "category": "Developer",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2385
+    },
+    {
+      "id": "mastering-graphql-flexible-type-safe-apis-guide",
+      "title": "Mastering GraphQL: A Practical Guide to Flexible, Type-Safe APIs",
+      "slug": "mastering-graphql-flexible-type-safe-apis-guide",
+      "file": "developer/2026-08-10-mastering-graphql-flexible-type-safe-apis-guide.md",
+      "date": "2026-08-10",
+      "excerpt": "Learn GraphQL from the ground up — schema design, queries, mutations, subscriptions, resolver patterns, security, and when to choose it over REST.",
+      "content": "blog.html?post=mastering-graphql-flexible-type-safe-apis-guide",
+      "readTime": "11 min read",
+      "tags": [
+        "GraphQL",
+        "JavaScript",
+        "API Design",
+        "Web Development",
+        "Backend"
+      ],
+      "category": "Developer",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 3349
+    },
+    {
       "id": "grpc-essentials-practical-guide",
       "title": "gRPC Essentials: A Practical Guide to High-Performance Remote Procedure Calls",
       "slug": "grpc-essentials-practical-guide",
@@ -967,11 +1009,18 @@
   ],
   "categories": [],
   "tags": [
+    "Developer Tools",
+    "AI Agents",
+    "Dashboard",
+    "GraphQL",
+    "JavaScript",
+    "API Design",
+    "Web Development",
+    "Backend",
     "gRPC",
     "RPC",
     "Microservices",
     "Protobuf",
-    "API Design",
     "Distributed Systems",
     "Jenkins",
     "CI/CD",
@@ -996,8 +1045,6 @@
     "Containerization",
     "kubectl",
     "TypeScript",
-    "JavaScript",
-    "Web Development",
     "Frontend",
     "Static Typing",
     "Cloud Infrastructure",
@@ -1112,15 +1159,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 44,
-    "publishedPosts": 44,
+    "totalPosts": 46,
+    "publishedPosts": 46,
     "draftPosts": 0,
-    "featuredPosts": 44,
+    "featuredPosts": 46,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 143
+    "tagsCount": 148
   },
   "settings": {
     "postsPerPage": 12,
@@ -1131,5 +1178,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-08-07T15:35:01.326Z"
+  "generatedAt": "2026-08-10T18:27:52.713Z"
 }

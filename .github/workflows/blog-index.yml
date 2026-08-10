@@ -7,6 +7,10 @@ on:
     paths:
       - 'posts/**'
 
+concurrency:
+  group: blog-index
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -29,12 +33,24 @@ jobs:
 
       - name: Commit generated index
         run: |
-          if [ -n "$(git status --porcelain data/blog-posts.json)" ]; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -z "$(git status --porcelain data/blog-posts.json)" ]; then
+            echo "No changes to blog-posts.json"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/blog-posts.json
+          git commit -m "chore: regenerate blog index from posts"
+          for i in 1 2 3 4 5; do
+            if git push origin main; then
+              exit 0
+            fi
+            echo "Push rejected, rebasing onto latest main (attempt $i)..."
+            git fetch origin main
+            git reset --hard origin/main
+            node scripts/generate-blog-index.js
             git add data/blog-posts.json
             git commit -m "chore: regenerate blog index from posts"
-            git push origin main
-          else
-            echo "No changes to blog-posts.json"
-          fi
+          done
+          echo "Failed to push regenerated index after 5 attempts" >&2
+          exit 1
