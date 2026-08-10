@@ -156,6 +156,10 @@
     padding: 0 var(--spacing-sm);
     height: 60px;
   }
+
+  .blog-section {
+    padding-top: calc(60px + var(--spacing-xl));
+  }
   
   .nav-menu {
     top: 60px;

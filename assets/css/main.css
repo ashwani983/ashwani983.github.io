@@ -1876,7 +1876,8 @@ a.timeline-company:hover {
    ============================================ */
 
 .blog-section {
-  padding: var(--spacing-xl) 0 var(--spacing-2xl);
+  padding: calc(var(--spacing-xl) + 70px) 0 var(--spacing-2xl);
+  scroll-margin-top: 80px;
   min-height: 60vh;
 }
 
