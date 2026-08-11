@@ -295,17 +295,64 @@ a:hover {
 
 .nav-toggle {
   display: none;
-  flex-direction: column;
+  position: relative;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: none;
+  background: transparent;
+  border-radius: var(--radius-md);
   cursor: pointer;
-  gap: 4px;
+  transition: background var(--transition-fast), box-shadow var(--transition-fast);
 }
 
-.bar {
-  width: 25px;
-  height: 3px;
+.nav-toggle:hover,
+.nav-toggle.active {
+  background: var(--accent-bg);
+}
+
+.nav-toggle .bar {
+  position: absolute;
+  left: 50%;
+  width: 22px;
+  height: 2.5px;
+  margin-left: -11px;
   background: var(--text-primary);
-  border-radius: 2px;
-  transition: var(--transition-fast);
+  border-radius: 999px;
+  transition:
+    transform 0.35s cubic-bezier(0.68, -0.55, 0.27, 1.55),
+    top 0.35s cubic-bezier(0.68, -0.55, 0.27, 1.55),
+    opacity 0.2s ease;
+}
+
+.nav-toggle .bar:nth-child(1) {
+  top: 15px;
+}
+
+.nav-toggle .bar:nth-child(2) {
+  top: 20.75px;
+}
+
+.nav-toggle .bar:nth-child(3) {
+  top: 26.5px;
+}
+
+.nav-toggle.active .bar:nth-child(1),
+.nav-toggle.active .bar:nth-child(3) {
+  top: 20.75px;
+}
+
+.nav-toggle.active .bar:nth-child(1) {
+  transform: rotate(45deg);
+}
+
+.nav-toggle.active .bar:nth-child(2) {
+  opacity: 0;
+  transform: translateX(-14px);
+}
+
+.nav-toggle.active .bar:nth-child(3) {
+  transform: rotate(-45deg);
 }
 
 .theme-toggle {
