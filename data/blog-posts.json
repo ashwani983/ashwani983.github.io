@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "performance-testing-masterclass-k6",
+      "title": "Performance Testing Masterclass — Load, Stress, and Scalability with k6",
+      "slug": "performance-testing-masterclass-k6",
+      "file": "tester/2026-08-11-performance-testing-masterclass-k6.md",
+      "date": "2026-08-11",
+      "excerpt": "Learn performance testing from scratch: test types, core metrics, k6 scripting, executors, thresholds, CI/CD integration and a real-world load test workflow.",
+      "content": "blog.html?post=performance-testing-masterclass-k6",
+      "readTime": "10 min read",
+      "tags": [
+        "Performance Testing",
+        "k6",
+        "Load Testing",
+        "QA",
+        "Test Automation",
+        "Monitoring"
+      ],
+      "category": "Tester",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2669
+    },
+    {
       "id": "ai-agent-hub-local-dashboard-ai-coding-tools",
       "title": "AI Agent Hub — One Local Dashboard to Rule All Your AI Coding Tools",
       "slug": "ai-agent-hub-local-dashboard-ai-coding-tools",
@@ -1009,6 +1032,12 @@
   ],
   "categories": [],
   "tags": [
+    "Performance Testing",
+    "k6",
+    "Load Testing",
+    "QA",
+    "Test Automation",
+    "Monitoring",
     "Developer Tools",
     "AI Agents",
     "Dashboard",
@@ -1029,12 +1058,9 @@
     "Prometheus",
     "Grafana",
     "Observability",
-    "Monitoring",
     "SRE",
     "API Testing",
     "REST API",
-    "Test Automation",
-    "QA",
     "Postman",
     "Troubleshooting",
     "Kubernetes",
@@ -1159,15 +1185,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 46,
-    "publishedPosts": 46,
+    "totalPosts": 47,
+    "publishedPosts": 47,
     "draftPosts": 0,
-    "featuredPosts": 46,
+    "featuredPosts": 47,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 148
+    "tagsCount": 151
   },
   "settings": {
     "postsPerPage": 12,
@@ -1178,5 +1204,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-08-10T18:27:52.713Z"
+  "generatedAt": "2026-08-11T11:52:14.656Z"
 }
