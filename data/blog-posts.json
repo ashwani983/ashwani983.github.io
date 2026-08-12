@@ -1,6 +1,26 @@
 {
   "posts": [
     {
+      "id": "how-docker-works-internally",
+      "title": "How Docker Works Internally: Layers, Namespaces, and Networking Explained",
+      "slug": "how-docker-works-internally",
+      "file": "devops/2026-08-12-how-docker-works-internally.md",
+      "date": "2026-08-12",
+      "excerpt": "A deep dive into how Docker works internally — image layers, OverlayFS, namespaces, cgroups, the docker0 bridge, iptables, volumes, and the Docker daemon.",
+      "content": "blog.html?post=how-docker-works-internally",
+      "readTime": "11 min read",
+      "tags": [
+        "Docker",
+        "Containers",
+        "DevOps"
+      ],
+      "category": "DevOps",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 3018
+    },
+    {
       "id": "performance-testing-masterclass-k6",
       "title": "Performance Testing Masterclass — Load, Stress, and Scalability with k6",
       "slug": "performance-testing-masterclass-k6",
@@ -1032,6 +1052,9 @@
   ],
   "categories": [],
   "tags": [
+    "Docker",
+    "Containers",
+    "DevOps",
     "Performance Testing",
     "k6",
     "Load Testing",
@@ -1053,7 +1076,6 @@
     "Distributed Systems",
     "Jenkins",
     "CI/CD",
-    "DevOps",
     "Pipeline",
     "Prometheus",
     "Grafana",
@@ -1064,10 +1086,8 @@
     "Postman",
     "Troubleshooting",
     "Kubernetes",
-    "Docker",
     "AWS",
     "Linux",
-    "Containers",
     "Containerization",
     "kubectl",
     "TypeScript",
@@ -1185,10 +1205,10 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 47,
-    "publishedPosts": 47,
+    "totalPosts": 48,
+    "publishedPosts": 48,
     "draftPosts": 0,
-    "featuredPosts": 47,
+    "featuredPosts": 48,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
@@ -1204,5 +1224,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-08-11T11:52:14.656Z"
+  "generatedAt": "2026-08-12T01:37:31.922Z"
 }
