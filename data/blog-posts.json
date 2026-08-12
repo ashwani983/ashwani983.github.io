@@ -21,6 +21,28 @@
       "_wordCount": 3018
     },
     {
+      "id": "opentelemetry-devops-unified-observability",
+      "title": "OpenTelemetry in DevOps: Unified Traces, Metrics, and Logs for Modern Observability",
+      "slug": "opentelemetry-devops-unified-observability",
+      "file": "devops/2026-08-12-opentelemetry-devops-unified-observability.md",
+      "date": "2026-08-12",
+      "excerpt": "Unified traces, metrics, and logs with OpenTelemetry — instrumentation, the Collector pipeline, and OTLP for standardized, scalable observability in modern infrastructure.",
+      "content": "blog.html?post=opentelemetry-devops-unified-observability",
+      "readTime": "10 min read",
+      "tags": [
+        "OpenTelemetry",
+        "Observability",
+        "Tracing",
+        "Monitoring",
+        "SRE"
+      ],
+      "category": "DevOps",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2521
+    },
+    {
       "id": "performance-testing-masterclass-k6",
       "title": "Performance Testing Masterclass — Load, Stress, and Scalability with k6",
       "slug": "performance-testing-masterclass-k6",
@@ -1055,12 +1077,16 @@
     "Docker",
     "Containers",
     "DevOps",
+    "OpenTelemetry",
+    "Observability",
+    "Tracing",
+    "Monitoring",
+    "SRE",
     "Performance Testing",
     "k6",
     "Load Testing",
     "QA",
     "Test Automation",
-    "Monitoring",
     "Developer Tools",
     "AI Agents",
     "Dashboard",
@@ -1079,8 +1105,6 @@
     "Pipeline",
     "Prometheus",
     "Grafana",
-    "Observability",
-    "SRE",
     "API Testing",
     "REST API",
     "Postman",
@@ -1205,15 +1229,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 48,
-    "publishedPosts": 48,
+    "totalPosts": 49,
+    "publishedPosts": 49,
     "draftPosts": 0,
-    "featuredPosts": 48,
+    "featuredPosts": 49,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 151
+    "tagsCount": 153
   },
   "settings": {
     "postsPerPage": 12,
@@ -1224,5 +1248,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-08-12T01:37:31.922Z"
+  "generatedAt": "2026-08-12T10:01:31.870Z"
 }
