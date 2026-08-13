@@ -1,6 +1,27 @@
 {
   "posts": [
     {
+      "id": "websockets-complete-guide-real-time-communication",
+      "title": "WebSockets Explained: A Complete Guide to Real-Time Communication",
+      "slug": "websockets-complete-guide-real-time-communication",
+      "file": "others/2026-08-13-websockets-complete-guide-real-time-communication.md",
+      "date": "2026-08-13",
+      "excerpt": "A complete guide to WebSockets: the upgrade handshake, frame anatomy, live chat and scaling with Redis plus SSE and polling comparisons.",
+      "content": "blog.html?post=websockets-complete-guide-real-time-communication",
+      "readTime": "13 min read",
+      "tags": [
+        "WebSockets",
+        "Real-Time Communication",
+        "Networking",
+        "Web Development"
+      ],
+      "category": "Others",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 3774
+    },
+    {
       "id": "how-docker-works-internally",
       "title": "How Docker Works Internally: Layers, Namespaces, and Networking Explained",
       "slug": "how-docker-works-internally",
@@ -1074,6 +1095,10 @@
   ],
   "categories": [],
   "tags": [
+    "WebSockets",
+    "Real-Time Communication",
+    "Networking",
+    "Web Development",
     "Docker",
     "Containers",
     "DevOps",
@@ -1093,7 +1118,6 @@
     "GraphQL",
     "JavaScript",
     "API Design",
-    "Web Development",
     "Backend",
     "gRPC",
     "RPC",
@@ -1146,7 +1170,6 @@
     "System Design",
     "Scalability",
     "ITInfrastructure",
-    "Networking",
     "NetworkSecurity",
     "port number",
     "SSH",
@@ -1229,15 +1252,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 49,
-    "publishedPosts": 49,
+    "totalPosts": 50,
+    "publishedPosts": 50,
     "draftPosts": 0,
-    "featuredPosts": 49,
+    "featuredPosts": 50,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 153
+    "tagsCount": 155
   },
   "settings": {
     "postsPerPage": 12,
@@ -1248,5 +1271,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-08-12T10:01:31.870Z"
+  "generatedAt": "2026-08-13T10:04:21.693Z"
 }
