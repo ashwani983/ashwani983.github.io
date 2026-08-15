@@ -1,6 +1,28 @@
 {
   "posts": [
     {
+      "id": "contract-testing-consumer-driven-contracts-guide",
+      "title": "Contract Testing Explained: Consumer-Driven Contracts for Microservices",
+      "slug": "contract-testing-consumer-driven-contracts-guide",
+      "file": "tester/2026-08-15-contract-testing-consumer-driven-contracts-guide.md",
+      "date": "2026-08-15",
+      "excerpt": "Learn consumer-driven contract testing with Pact: verify microservice API agreements, replace brittle end-to-end suites, and ship versions with confidence.",
+      "content": "blog.html?post=contract-testing-consumer-driven-contracts-guide",
+      "readTime": "12 min read",
+      "tags": [
+        "Contract Testing",
+        "Pact",
+        "Microservices",
+        "Test Automation",
+        "QA"
+      ],
+      "category": "Tester",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2877
+    },
+    {
       "id": "rust-ownership-memory-safety-guide",
       "title": "Rust Ownership Explained: Memory Safety Without a Garbage Collector",
       "slug": "rust-ownership-memory-safety-guide",
@@ -1117,6 +1139,11 @@
   ],
   "categories": [],
   "tags": [
+    "Contract Testing",
+    "Pact",
+    "Microservices",
+    "Test Automation",
+    "QA",
     "Rust",
     "Ownership",
     "Borrowing",
@@ -1137,8 +1164,6 @@
     "Performance Testing",
     "k6",
     "Load Testing",
-    "QA",
-    "Test Automation",
     "Developer Tools",
     "AI Agents",
     "Dashboard",
@@ -1148,7 +1173,6 @@
     "Backend",
     "gRPC",
     "RPC",
-    "Microservices",
     "Protobuf",
     "Distributed Systems",
     "Jenkins",
@@ -1279,15 +1303,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 51,
-    "publishedPosts": 51,
+    "totalPosts": 52,
+    "publishedPosts": 52,
     "draftPosts": 0,
-    "featuredPosts": 51,
+    "featuredPosts": 52,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 160
+    "tagsCount": 162
   },
   "settings": {
     "postsPerPage": 12,
@@ -1298,5 +1322,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-08-14T10:03:01.095Z"
+  "generatedAt": "2026-08-15T10:02:23.227Z"
 }
