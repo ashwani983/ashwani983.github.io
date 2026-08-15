@@ -1,6 +1,26 @@
 {
   "posts": [
     {
+      "id": "ansible-for-devops-engineers",
+      "title": "Ansible for DevOps Engineers: A Complete Guide to Agentless Automation, Playbooks and Best Practices",
+      "slug": "ansible-for-devops-engineers",
+      "file": "devops/2026-08-15-ansible-for-devops-engineers.md",
+      "date": "2026-08-15",
+      "excerpt": "Ansible makes automation simple. A complete DevOps guide covering architecture, inventory, ad-hoc commands, playbooks, handlers, tags and best practices.",
+      "content": "blog.html?post=ansible-for-devops-engineers",
+      "readTime": "11 min read",
+      "tags": [
+        "Ansible",
+        "DevOps",
+        "Automation"
+      ],
+      "category": "DevOps",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 3340
+    },
+    {
       "id": "contract-testing-consumer-driven-contracts-guide",
       "title": "Contract Testing Explained: Consumer-Driven Contracts for Microservices",
       "slug": "contract-testing-consumer-driven-contracts-guide",
@@ -1139,6 +1159,9 @@
   ],
   "categories": [],
   "tags": [
+    "Ansible",
+    "DevOps",
+    "Automation",
     "Contract Testing",
     "Pact",
     "Microservices",
@@ -1155,7 +1178,6 @@
     "Web Development",
     "Docker",
     "Containers",
-    "DevOps",
     "OpenTelemetry",
     "Observability",
     "Tracing",
@@ -1233,10 +1255,8 @@
     "soc",
     "handshake",
     "Testing",
-    "Automation",
     "Framework",
     "Quality Assurance",
-    "Ansible",
     "Git",
     "GitHub",
     "Version Control",
@@ -1303,10 +1323,10 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 52,
-    "publishedPosts": 52,
+    "totalPosts": 53,
+    "publishedPosts": 53,
     "draftPosts": 0,
-    "featuredPosts": 52,
+    "featuredPosts": 53,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
@@ -1322,5 +1342,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-08-15T10:02:23.227Z"
+  "generatedAt": "2026-08-15T18:13:30.144Z"
 }
