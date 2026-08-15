@@ -43,6 +43,29 @@
       "_wordCount": 2877
     },
     {
+      "id": "top-20-devops-cloud-use-cases",
+      "title": "Top 20 DevOps and Cloud Use Cases: A Curated Engineering Field Guide",
+      "slug": "top-20-devops-cloud-use-cases",
+      "file": "devops/2026-08-15-top-20-devops-cloud-use-cases.md",
+      "date": "2026-08-15",
+      "excerpt": "A field guide to the 20 most impactful DevOps and cloud use cases covering Kubernetes, Docker, Terraform, GitOps, AWS architecture, cloud security and FinOps",
+      "content": "blog.html?post=top-20-devops-cloud-use-cases",
+      "readTime": "15 min read",
+      "tags": [
+        "DevOps",
+        "Kubernetes",
+        "Docker",
+        "Terraform",
+        "AWS",
+        "Cloud Cost"
+      ],
+      "category": "DevOps",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 3097
+    },
+    {
       "id": "rust-ownership-memory-safety-guide",
       "title": "Rust Ownership Explained: Memory Safety Without a Garbage Collector",
       "slug": "rust-ownership-memory-safety-guide",
@@ -1167,6 +1190,11 @@
     "Microservices",
     "Test Automation",
     "QA",
+    "Kubernetes",
+    "Docker",
+    "Terraform",
+    "AWS",
+    "Cloud Cost",
     "Rust",
     "Ownership",
     "Borrowing",
@@ -1176,7 +1204,6 @@
     "Real-Time Communication",
     "Networking",
     "Web Development",
-    "Docker",
     "Containers",
     "OpenTelemetry",
     "Observability",
@@ -1206,8 +1233,6 @@
     "REST API",
     "Postman",
     "Troubleshooting",
-    "Kubernetes",
-    "AWS",
     "Linux",
     "Containerization",
     "kubectl",
@@ -1217,7 +1242,6 @@
     "Cloud Infrastructure",
     "SonarQube",
     "Code Quality",
-    "Terraform",
     "Playwright",
     "Web Testing",
     "devops",
@@ -1323,15 +1347,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 53,
-    "publishedPosts": 53,
+    "totalPosts": 54,
+    "publishedPosts": 54,
     "draftPosts": 0,
-    "featuredPosts": 53,
+    "featuredPosts": 54,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 162
+    "tagsCount": 163
   },
   "settings": {
     "postsPerPage": 12,
@@ -1342,5 +1366,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-08-15T18:13:30.144Z"
+  "generatedAt": "2026-08-15T18:16:23.173Z"
 }
