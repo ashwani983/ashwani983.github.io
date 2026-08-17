@@ -1,6 +1,28 @@
 {
   "posts": [
     {
+      "id": "vs-code-extensions-for-developers",
+      "title": "VS Code Extensions for Developers: Must-Have Tools for a Faster Workflow",
+      "slug": "vs-code-extensions-for-developers",
+      "file": "developer/2026-08-17-vs-code-extensions-for-developers.md",
+      "date": "2026-08-17",
+      "excerpt": "Boost your coding speed with must-have VS Code extensions covering formatting, linting, live reload, React snippets, Git insights and image preview tools.",
+      "content": "blog.html?post=vs-code-extensions-for-developers",
+      "readTime": "8 min read",
+      "tags": [
+        "VS Code",
+        "Developer Productivity",
+        "Code Quality",
+        "Frontend",
+        "Git"
+      ],
+      "category": "Developer",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2103
+    },
+    {
       "id": "mastering-helm-kubernetes-package-management",
       "title": "Mastering Helm: The Complete Guide to Kubernetes Package Management",
       "slug": "mastering-helm-kubernetes-package-management",
@@ -1203,6 +1225,11 @@
   ],
   "categories": [],
   "tags": [
+    "VS Code",
+    "Developer Productivity",
+    "Code Quality",
+    "Frontend",
+    "Git",
     "Helm",
     "Kubernetes",
     "DevOps",
@@ -1260,11 +1287,9 @@
     "Containerization",
     "kubectl",
     "TypeScript",
-    "Frontend",
     "Static Typing",
     "Cloud Infrastructure",
     "SonarQube",
-    "Code Quality",
     "Playwright",
     "Web Testing",
     "devops",
@@ -1304,7 +1329,6 @@
     "Testing",
     "Framework",
     "Quality Assurance",
-    "Git",
     "GitHub",
     "Version Control",
     "Collaboration",
@@ -1370,15 +1394,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 55,
-    "publishedPosts": 55,
+    "totalPosts": 56,
+    "publishedPosts": 56,
     "draftPosts": 0,
-    "featuredPosts": 55,
+    "featuredPosts": 56,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 165
+    "tagsCount": 167
   },
   "settings": {
     "postsPerPage": 12,
@@ -1389,5 +1413,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-08-16T10:02:22.467Z"
+  "generatedAt": "2026-08-17T09:50:30.811Z"
 }
