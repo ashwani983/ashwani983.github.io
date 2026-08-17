@@ -1,6 +1,28 @@
 {
   "posts": [
     {
+      "id": "http3-quic-explained",
+      "title": "HTTP/3 and QUIC Explained: The Next-Generation Web Transport Protocol",
+      "slug": "http3-quic-explained",
+      "file": "others/2026-08-17-http3-quic-explained.md",
+      "date": "2026-08-17",
+      "excerpt": "HTTP/3 and QUIC deliver faster, reliable web transport over UDP. Explore the protocol stack, the 1-RTT handshake, streams, connection migration, and deployment.",
+      "content": "blog.html?post=http3-quic-explained",
+      "readTime": "11 min read",
+      "tags": [
+        "HTTP/3",
+        "QUIC",
+        "Networking",
+        "Web Performance",
+        "Protocols"
+      ],
+      "category": "Others",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2934
+    },
+    {
       "id": "vs-code-extensions-for-developers",
       "title": "VS Code Extensions for Developers: Must-Have Tools for a Faster Workflow",
       "slug": "vs-code-extensions-for-developers",
@@ -1225,6 +1247,11 @@
   ],
   "categories": [],
   "tags": [
+    "HTTP/3",
+    "QUIC",
+    "Networking",
+    "Web Performance",
+    "Protocols",
     "VS Code",
     "Developer Productivity",
     "Code Quality",
@@ -1252,7 +1279,6 @@
     "Systems Programming",
     "WebSockets",
     "Real-Time Communication",
-    "Networking",
     "Web Development",
     "Containers",
     "OpenTelemetry",
@@ -1394,15 +1420,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 56,
-    "publishedPosts": 56,
+    "totalPosts": 57,
+    "publishedPosts": 57,
     "draftPosts": 0,
-    "featuredPosts": 56,
+    "featuredPosts": 57,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 167
+    "tagsCount": 171
   },
   "settings": {
     "postsPerPage": 12,
@@ -1413,5 +1439,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-08-17T09:50:30.811Z"
+  "generatedAt": "2026-08-17T10:03:01.392Z"
 }
