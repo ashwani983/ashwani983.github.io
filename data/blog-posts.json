@@ -1,6 +1,28 @@
 {
   "posts": [
     {
+      "id": "git-internals-explained-objects-branches-merge-strategies",
+      "title": "Git Internals Explained: Objects, Branches, Rebase, and Merge Strategies",
+      "slug": "git-internals-explained-objects-branches-merge-strategies",
+      "file": "developer/2026-08-18-git-internals-explained-objects-branches-merge-strategies.md",
+      "date": "2026-08-18",
+      "excerpt": "Learn how Git really works under the hood: the object model, branches as pointers, the staging area, and when to rebase versus merge.",
+      "content": "blog.html?post=git-internals-explained-objects-branches-merge-strategies",
+      "readTime": "12 min read",
+      "tags": [
+        "Git",
+        "Version Control",
+        "Git Internals",
+        "Branching",
+        "Developer Productivity"
+      ],
+      "category": "Developer",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2564
+    },
+    {
       "id": "http3-quic-explained",
       "title": "HTTP/3 and QUIC Explained: The Next-Generation Web Transport Protocol",
       "slug": "http3-quic-explained",
@@ -1247,16 +1269,19 @@
   ],
   "categories": [],
   "tags": [
+    "Git",
+    "Version Control",
+    "Git Internals",
+    "Branching",
+    "Developer Productivity",
     "HTTP/3",
     "QUIC",
     "Networking",
     "Web Performance",
     "Protocols",
     "VS Code",
-    "Developer Productivity",
     "Code Quality",
     "Frontend",
-    "Git",
     "Helm",
     "Kubernetes",
     "DevOps",
@@ -1356,7 +1381,6 @@
     "Framework",
     "Quality Assurance",
     "GitHub",
-    "Version Control",
     "Collaboration",
     "Configuration Management",
     "Agile",
@@ -1420,15 +1444,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 57,
-    "publishedPosts": 57,
+    "totalPosts": 58,
+    "publishedPosts": 58,
     "draftPosts": 0,
-    "featuredPosts": 57,
+    "featuredPosts": 58,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 171
+    "tagsCount": 173
   },
   "settings": {
     "postsPerPage": 12,
@@ -1439,5 +1463,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-08-17T10:03:01.392Z"
+  "generatedAt": "2026-08-18T10:01:43.554Z"
 }
