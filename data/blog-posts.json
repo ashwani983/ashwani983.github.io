@@ -1,6 +1,28 @@
 {
   "posts": [
     {
+      "id": "test-driven-development-complete-guide",
+      "title": "Test-Driven Development (TDD) Explained: The Complete Guide with Real-World Examples",
+      "slug": "test-driven-development-complete-guide",
+      "file": "tester/2026-08-19-test-driven-development-complete-guide.md",
+      "date": "2026-08-19",
+      "excerpt": "Learn Test-Driven Development from scratch: the Red-Green-Refactor cycle, three laws of TDD, code examples, best practices, real-world pitfalls, and answers to common questions.",
+      "content": "blog.html?post=test-driven-development-complete-guide",
+      "readTime": "11 min read",
+      "tags": [
+        "TDD",
+        "Test Automation",
+        "Software Testing",
+        "QA",
+        "Unit Testing"
+      ],
+      "category": "Tester",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 3504
+    },
+    {
       "id": "git-internals-explained-objects-branches-merge-strategies",
       "title": "Git Internals Explained: Objects, Branches, Rebase, and Merge Strategies",
       "slug": "git-internals-explained-objects-branches-merge-strategies",
@@ -1269,6 +1291,11 @@
   ],
   "categories": [],
   "tags": [
+    "TDD",
+    "Test Automation",
+    "Software Testing",
+    "QA",
+    "Unit Testing",
     "Git",
     "Version Control",
     "Git Internals",
@@ -1291,8 +1318,6 @@
     "Contract Testing",
     "Pact",
     "Microservices",
-    "Test Automation",
-    "QA",
     "Docker",
     "Terraform",
     "AWS",
@@ -1409,7 +1434,6 @@
     "URI",
     "URL",
     "AI Tools",
-    "Software Testing",
     "aws",
     "projects",
     "serverless",
@@ -1444,15 +1468,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 58,
-    "publishedPosts": 58,
+    "totalPosts": 59,
+    "publishedPosts": 59,
     "draftPosts": 0,
-    "featuredPosts": 58,
+    "featuredPosts": 59,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 173
+    "tagsCount": 175
   },
   "settings": {
     "postsPerPage": 12,
@@ -1463,5 +1487,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-08-18T10:01:43.554Z"
+  "generatedAt": "2026-08-19T10:01:40.797Z"
 }
