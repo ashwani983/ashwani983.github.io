@@ -1,6 +1,27 @@
 {
   "posts": [
     {
+      "id": "hashicorp-vault-secrets-management-devops",
+      "title": "HashiCorp Vault for DevOps: The Complete Guide to Secrets Management and Dynamic Credentials",
+      "slug": "hashicorp-vault-secrets-management-devops",
+      "file": "devops/2026-08-20-hashicorp-vault-secrets-management-devops.md",
+      "date": "2026-08-20",
+      "excerpt": "Centralize secrets, issue short-lived dynamic credentials, and encrypt data with HashiCorp Vault — with architecture, examples, and best practices.",
+      "content": "blog.html?post=hashicorp-vault-secrets-management-devops",
+      "readTime": "10 min read",
+      "tags": [
+        "HashiCorp Vault",
+        "Secrets Management",
+        "DevOps",
+        "Security"
+      ],
+      "category": "DevOps",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2322
+    },
+    {
       "id": "playwright-ui-features-guide",
       "title": "Playwright UI Features: Automating Tests Faster, Smarter, and Easier",
       "slug": "playwright-ui-features-guide",
@@ -1311,6 +1332,10 @@
   ],
   "categories": [],
   "tags": [
+    "HashiCorp Vault",
+    "Secrets Management",
+    "DevOps",
+    "Security",
     "Playwright",
     "Test Automation",
     "UI Testing",
@@ -1333,7 +1358,6 @@
     "Frontend",
     "Helm",
     "Kubernetes",
-    "DevOps",
     "Package Management",
     "Ansible",
     "Automation",
@@ -1489,15 +1513,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 60,
-    "publishedPosts": 60,
+    "totalPosts": 61,
+    "publishedPosts": 61,
     "draftPosts": 0,
-    "featuredPosts": 60,
+    "featuredPosts": 61,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 176
+    "tagsCount": 179
   },
   "settings": {
     "postsPerPage": 12,
@@ -1508,5 +1532,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-08-19T17:35:18.103Z"
+  "generatedAt": "2026-08-20T10:01:54.343Z"
 }
