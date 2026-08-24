@@ -1,6 +1,28 @@
 {
   "posts": [
     {
+      "id": "apache-kafka-event-driven-architecture-guide",
+      "title": "Apache Kafka and Event-Driven Architecture — A Practical Guide to Building Event-Streaming Systems",
+      "slug": "apache-kafka-event-driven-architecture-guide",
+      "file": "others/2026-08-24-apache-kafka-event-driven-architecture-guide.md",
+      "date": "2026-08-24",
+      "excerpt": "Learn how Apache Kafka powers event-driven architectures with topics, partitions, consumer groups, delivery guarantees and real-world patterns.",
+      "content": "blog.html?post=apache-kafka-event-driven-architecture-guide",
+      "readTime": "14 min read",
+      "tags": [
+        "Apache Kafka",
+        "Event-Driven Architecture",
+        "Streaming Data",
+        "Distributed Systems",
+        "Microservices"
+      ],
+      "category": "Others",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2792
+    },
+    {
       "id": "hashicorp-vault-secrets-management-devops",
       "title": "HashiCorp Vault for DevOps: The Complete Guide to Secrets Management and Dynamic Credentials",
       "slug": "hashicorp-vault-secrets-management-devops",
@@ -1332,6 +1354,11 @@
   ],
   "categories": [],
   "tags": [
+    "Apache Kafka",
+    "Event-Driven Architecture",
+    "Streaming Data",
+    "Distributed Systems",
+    "Microservices",
     "HashiCorp Vault",
     "Secrets Management",
     "DevOps",
@@ -1363,7 +1390,6 @@
     "Automation",
     "Contract Testing",
     "Pact",
-    "Microservices",
     "Docker",
     "Terraform",
     "AWS",
@@ -1395,7 +1421,6 @@
     "gRPC",
     "RPC",
     "Protobuf",
-    "Distributed Systems",
     "Jenkins",
     "CI/CD",
     "Pipeline",
@@ -1513,15 +1538,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 61,
-    "publishedPosts": 61,
+    "totalPosts": 62,
+    "publishedPosts": 62,
     "draftPosts": 0,
-    "featuredPosts": 61,
+    "featuredPosts": 62,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 179
+    "tagsCount": 182
   },
   "settings": {
     "postsPerPage": 12,
@@ -1532,5 +1557,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-08-20T10:01:54.343Z"
+  "generatedAt": "2026-08-24T10:34:19.838Z"
 }
