@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "webassembly-beyond-the-browser-wasm-practical-guide",
+      "title": "WebAssembly Beyond the Browser: A Practical Guide to WASM in 2026",
+      "slug": "webassembly-beyond-the-browser-wasm-practical-guide",
+      "file": "developer/2026-08-25-webassembly-beyond-the-browser-wasm-practical-guide.md",
+      "date": "2026-08-25",
+      "excerpt": "WebAssembly has broken free of the browser sandbox. Explore WASM runtimes, practical use cases, and hands-on examples that ship native-speed code everywhere.",
+      "content": "blog.html?post=webassembly-beyond-the-browser-wasm-practical-guide",
+      "readTime": "8 min read",
+      "tags": [
+        "WebAssembly",
+        "WASM",
+        "Web Development",
+        "Systems Programming",
+        "Rust",
+        "Performance"
+      ],
+      "category": "Developer",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 1808
+    },
+    {
       "id": "apache-kafka-event-driven-architecture-guide",
       "title": "Apache Kafka and Event-Driven Architecture — A Practical Guide to Building Event-Streaming Systems",
       "slug": "apache-kafka-event-driven-architecture-guide",
@@ -1354,6 +1377,12 @@
   ],
   "categories": [],
   "tags": [
+    "WebAssembly",
+    "WASM",
+    "Web Development",
+    "Systems Programming",
+    "Rust",
+    "Performance",
     "Apache Kafka",
     "Event-Driven Architecture",
     "Streaming Data",
@@ -1394,14 +1423,11 @@
     "Terraform",
     "AWS",
     "Cloud Cost",
-    "Rust",
     "Ownership",
     "Borrowing",
     "Memory Safety",
-    "Systems Programming",
     "WebSockets",
     "Real-Time Communication",
-    "Web Development",
     "Containers",
     "OpenTelemetry",
     "Observability",
@@ -1538,15 +1564,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 62,
-    "publishedPosts": 62,
+    "totalPosts": 63,
+    "publishedPosts": 63,
     "draftPosts": 0,
-    "featuredPosts": 62,
+    "featuredPosts": 63,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 182
+    "tagsCount": 185
   },
   "settings": {
     "postsPerPage": 12,
@@ -1557,5 +1583,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-08-24T10:34:19.838Z"
+  "generatedAt": "2026-08-25T10:01:50.948Z"
 }
