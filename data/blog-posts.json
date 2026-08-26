@@ -1,6 +1,28 @@
 {
   "posts": [
     {
+      "id": "how-to-write-a-master-project-plan",
+      "title": "How to Write a Master Project Plan: A Complete Guide to Planning Excellence",
+      "slug": "how-to-write-a-master-project-plan",
+      "file": "devops/2026-08-26-how-to-write-a-master-project-plan.md",
+      "date": "2026-08-26",
+      "excerpt": "Learn how to build a master project plan with key components, a 10-step framework, and proven architecture for delivering projects on time and within budget.",
+      "content": "blog.html?post=how-to-write-a-master-project-plan",
+      "readTime": "8 min read",
+      "tags": [
+        "Project Management",
+        "Planning",
+        "DevOps",
+        "Risk Management",
+        "Stakeholder Management"
+      ],
+      "category": "DevOps",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2407
+    },
+    {
       "id": "webassembly-beyond-the-browser-wasm-practical-guide",
       "title": "WebAssembly Beyond the Browser: A Practical Guide to WASM in 2026",
       "slug": "webassembly-beyond-the-browser-wasm-practical-guide",
@@ -1377,6 +1399,11 @@
   ],
   "categories": [],
   "tags": [
+    "Project Management",
+    "Planning",
+    "DevOps",
+    "Risk Management",
+    "Stakeholder Management",
     "WebAssembly",
     "WASM",
     "Web Development",
@@ -1390,7 +1417,6 @@
     "Microservices",
     "HashiCorp Vault",
     "Secrets Management",
-    "DevOps",
     "Security",
     "Playwright",
     "Test Automation",
@@ -1564,15 +1590,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 63,
-    "publishedPosts": 63,
+    "totalPosts": 64,
+    "publishedPosts": 64,
     "draftPosts": 0,
-    "featuredPosts": 63,
+    "featuredPosts": 64,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 185
+    "tagsCount": 189
   },
   "settings": {
     "postsPerPage": 12,
@@ -1583,5 +1609,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-08-25T10:01:50.948Z"
+  "generatedAt": "2026-08-26T09:33:35.170Z"
 }
