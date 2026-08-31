@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "chaos-engineering-resilience-testing-guide",
+      "title": "Chaos Engineering and Resilience Testing: A Practical Guide to Breaking Your Systems Before They Break Themselves",
+      "slug": "chaos-engineering-resilience-testing-guide",
+      "file": "tester/2026-08-31-chaos-engineering-resilience-testing-guide.md",
+      "date": "2026-08-31",
+      "excerpt": "Learn how chaos engineering and resilience testing help teams proactively find weaknesses in distributed systems before production incidents occur.",
+      "content": "blog.html?post=chaos-engineering-resilience-testing-guide",
+      "readTime": "12 min read",
+      "tags": [
+        "Chaos Engineering",
+        "Resilience Testing",
+        "SRE",
+        "Fault Tolerance",
+        "Distributed Systems",
+        "Test Automation"
+      ],
+      "category": "Tester",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 3295
+    },
+    {
       "id": "hands-on-selenium-api-automation-practical-guide",
       "title": "Hands-On Selenium and API Automation: A Practical Guide to Common Interview Questions",
       "slug": "hands-on-selenium-api-automation-practical-guide",
@@ -1421,11 +1444,16 @@
   ],
   "categories": [],
   "tags": [
+    "Chaos Engineering",
+    "Resilience Testing",
+    "SRE",
+    "Fault Tolerance",
+    "Distributed Systems",
+    "Test Automation",
     "Selenium",
     "API Testing",
     "RestAssured",
     "Java",
-    "Test Automation",
     "Project Management",
     "Planning",
     "DevOps",
@@ -1440,7 +1468,6 @@
     "Apache Kafka",
     "Event-Driven Architecture",
     "Streaming Data",
-    "Distributed Systems",
     "Microservices",
     "HashiCorp Vault",
     "Secrets Management",
@@ -1485,7 +1512,6 @@
     "Observability",
     "Tracing",
     "Monitoring",
-    "SRE",
     "Performance Testing",
     "k6",
     "Load Testing",
@@ -1613,15 +1639,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 65,
-    "publishedPosts": 65,
+    "totalPosts": 66,
+    "publishedPosts": 66,
     "draftPosts": 0,
-    "featuredPosts": 65,
+    "featuredPosts": 66,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 190
+    "tagsCount": 193
   },
   "settings": {
     "postsPerPage": 12,
@@ -1632,5 +1658,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-08-31T05:52:21.734Z"
+  "generatedAt": "2026-08-31T10:02:29.094Z"
 }
