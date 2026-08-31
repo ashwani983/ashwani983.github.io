@@ -1,6 +1,28 @@
 {
   "posts": [
     {
+      "id": "hands-on-selenium-api-automation-practical-guide",
+      "title": "Hands-On Selenium and API Automation: A Practical Guide to Common Interview Questions",
+      "slug": "hands-on-selenium-api-automation-practical-guide",
+      "file": "tester/2026-08-31-hands-on-selenium-api-automation-practical-guide.md",
+      "date": "2026-08-31",
+      "excerpt": "Master Selenium and RestAssured with practical answers to 17 common interview questions covering dropdowns, alerts, screenshots, and API requests.",
+      "content": "blog.html?post=hands-on-selenium-api-automation-practical-guide",
+      "readTime": "10 min read",
+      "tags": [
+        "Selenium",
+        "API Testing",
+        "RestAssured",
+        "Java",
+        "Test Automation"
+      ],
+      "category": "Tester",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2483
+    },
+    {
       "id": "how-to-write-a-master-project-plan",
       "title": "How to Write a Master Project Plan: A Complete Guide to Planning Excellence",
       "slug": "how-to-write-a-master-project-plan",
@@ -1399,6 +1421,11 @@
   ],
   "categories": [],
   "tags": [
+    "Selenium",
+    "API Testing",
+    "RestAssured",
+    "Java",
+    "Test Automation",
     "Project Management",
     "Planning",
     "DevOps",
@@ -1419,7 +1446,6 @@
     "Secrets Management",
     "Security",
     "Playwright",
-    "Test Automation",
     "UI Testing",
     "TDD",
     "Software Testing",
@@ -1478,7 +1504,6 @@
     "Pipeline",
     "Prometheus",
     "Grafana",
-    "API Testing",
     "REST API",
     "Postman",
     "Troubleshooting",
@@ -1497,7 +1522,6 @@
     "cloud",
     "Data Structures",
     "Algorithms",
-    "Java",
     "Cloud",
     "security",
     "cybersecurity",
@@ -1537,7 +1561,6 @@
     "css",
     "css selector",
     "Locators",
-    "Selenium",
     "xpath",
     "System Administration",
     "cheatsheet",
@@ -1590,15 +1613,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 64,
-    "publishedPosts": 64,
+    "totalPosts": 65,
+    "publishedPosts": 65,
     "draftPosts": 0,
-    "featuredPosts": 64,
+    "featuredPosts": 65,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 189
+    "tagsCount": 190
   },
   "settings": {
     "postsPerPage": 12,
@@ -1609,5 +1632,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-08-26T09:33:35.170Z"
+  "generatedAt": "2026-08-31T05:52:21.734Z"
 }
