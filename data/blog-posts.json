@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "platform-engineering-internal-developer-platform-2026",
+      "title": "Platform Engineering in 2026: Building Your Internal Developer Platform from Scratch",
+      "slug": "platform-engineering-internal-developer-platform-2026",
+      "file": "devops/2026-09-01-platform-engineering-internal-developer-platform-2026.md",
+      "date": "2026-09-01",
+      "excerpt": "Learn how to design and build an Internal Developer Platform that boosts developer velocity, enforces standards, and eliminates toil.",
+      "content": "blog.html?post=platform-engineering-internal-developer-platform-2026",
+      "readTime": "12 min read",
+      "tags": [
+        "Platform Engineering",
+        "Developer Experience",
+        "Internal Developer Platform",
+        "DevOps",
+        "Kubernetes",
+        "Backstage"
+      ],
+      "category": "DevOps",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2291
+    },
+    {
       "id": "chaos-engineering-resilience-testing-guide",
       "title": "Chaos Engineering and Resilience Testing: A Practical Guide to Breaking Your Systems Before They Break Themselves",
       "slug": "chaos-engineering-resilience-testing-guide",
@@ -1444,6 +1467,12 @@
   ],
   "categories": [],
   "tags": [
+    "Platform Engineering",
+    "Developer Experience",
+    "Internal Developer Platform",
+    "DevOps",
+    "Kubernetes",
+    "Backstage",
     "Chaos Engineering",
     "Resilience Testing",
     "SRE",
@@ -1456,7 +1485,6 @@
     "Java",
     "Project Management",
     "Planning",
-    "DevOps",
     "Risk Management",
     "Stakeholder Management",
     "WebAssembly",
@@ -1492,7 +1520,6 @@
     "Code Quality",
     "Frontend",
     "Helm",
-    "Kubernetes",
     "Package Management",
     "Ansible",
     "Automation",
@@ -1639,15 +1666,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 66,
-    "publishedPosts": 66,
+    "totalPosts": 67,
+    "publishedPosts": 67,
     "draftPosts": 0,
-    "featuredPosts": 66,
+    "featuredPosts": 67,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 193
+    "tagsCount": 197
   },
   "settings": {
     "postsPerPage": 12,
@@ -1658,5 +1685,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-08-31T10:02:29.094Z"
+  "generatedAt": "2026-09-01T07:50:46.838Z"
 }
