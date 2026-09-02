@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "oauth-2-0-and-openid-connect-explained",
+      "title": "OAuth 2.0 and OpenID Connect Explained: The Complete Guide to Modern Authentication and Authorization",
+      "slug": "oauth-2-0-and-openid-connect-explained",
+      "file": "others/2026-09-02-oauth-2-0-and-openid-connect-explained.md",
+      "date": "2026-09-02",
+      "excerpt": "A comprehensive guide to OAuth 2.0 and OpenID Connect covering flows, tokens, best practices, and real-world implementation patterns for modern apps.",
+      "content": "blog.html?post=oauth-2-0-and-openid-connect-explained",
+      "readTime": "12 min read",
+      "tags": [
+        "OAuth 2.0",
+        "OpenID Connect",
+        "Authentication",
+        "Authorization",
+        "Security",
+        "API Security"
+      ],
+      "category": "Others",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2549
+    },
+    {
       "id": "platform-engineering-internal-developer-platform-2026",
       "title": "Platform Engineering in 2026: Building Your Internal Developer Platform from Scratch",
       "slug": "platform-engineering-internal-developer-platform-2026",
@@ -1467,6 +1490,12 @@
   ],
   "categories": [],
   "tags": [
+    "OAuth 2.0",
+    "OpenID Connect",
+    "Authentication",
+    "Authorization",
+    "Security",
+    "API Security",
     "Platform Engineering",
     "Developer Experience",
     "Internal Developer Platform",
@@ -1499,7 +1528,6 @@
     "Microservices",
     "HashiCorp Vault",
     "Secrets Management",
-    "Security",
     "Playwright",
     "UI Testing",
     "TDD",
@@ -1666,15 +1694,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 67,
-    "publishedPosts": 67,
+    "totalPosts": 68,
+    "publishedPosts": 68,
     "draftPosts": 0,
-    "featuredPosts": 67,
+    "featuredPosts": 68,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 197
+    "tagsCount": 202
   },
   "settings": {
     "postsPerPage": 12,
@@ -1685,5 +1713,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-09-01T07:50:46.838Z"
+  "generatedAt": "2026-09-02T07:50:59.509Z"
 }
