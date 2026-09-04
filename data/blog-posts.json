@@ -1,6 +1,30 @@
 {
   "posts": [
     {
+      "id": "accessibility-testing-complete-guide-2026",
+      "title": "Accessibility Testing in 2026: A Complete Guide to Building Inclusive Software",
+      "slug": "accessibility-testing-complete-guide-2026",
+      "file": "tester/2026-09-04-accessibility-testing-complete-guide-2026.md",
+      "date": "2026-09-04",
+      "excerpt": "Learn how to implement accessibility testing across your stack with automated tools, manual audits, and WCAG 2.2 compliance strategies.",
+      "content": "blog.html?post=accessibility-testing-complete-guide-2026",
+      "readTime": "12 min read",
+      "tags": [
+        "Accessibility Testing",
+        "WCAG",
+        "a11y",
+        "Test Automation",
+        "QA",
+        "Software Testing",
+        "Inclusive Design"
+      ],
+      "category": "Tester",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2863
+    },
+    {
       "id": "signals-in-frontend-development-reactivity-pattern-web-frameworks",
       "title": "Signals in Frontend Development: The Reactivity Pattern Reshaping Modern Web Frameworks",
       "slug": "signals-in-frontend-development-reactivity-pattern-web-frameworks",
@@ -1513,6 +1537,13 @@
   ],
   "categories": [],
   "tags": [
+    "Accessibility Testing",
+    "WCAG",
+    "a11y",
+    "Test Automation",
+    "QA",
+    "Software Testing",
+    "Inclusive Design",
     "Frontend",
     "Signals",
     "Reactivity",
@@ -1536,7 +1567,6 @@
     "SRE",
     "Fault Tolerance",
     "Distributed Systems",
-    "Test Automation",
     "Selenium",
     "API Testing",
     "RestAssured",
@@ -1558,8 +1588,6 @@
     "Playwright",
     "UI Testing",
     "TDD",
-    "Software Testing",
-    "QA",
     "Unit Testing",
     "Git",
     "Version Control",
@@ -1719,15 +1747,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 69,
-    "publishedPosts": 69,
+    "totalPosts": 70,
+    "publishedPosts": 70,
     "draftPosts": 0,
-    "featuredPosts": 69,
+    "featuredPosts": 70,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 204
+    "tagsCount": 208
   },
   "settings": {
     "postsPerPage": 12,
@@ -1738,5 +1766,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-09-03T07:50:13.226Z"
+  "generatedAt": "2026-09-04T07:50:53.474Z"
 }
