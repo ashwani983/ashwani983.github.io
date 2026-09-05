@@ -1,6 +1,30 @@
 {
   "posts": [
     {
+      "id": "policy-as-code-securing-kubernetes-opa-kyverno",
+      "title": "Policy as Code: Securing Kubernetes with Open Policy Agent and Kyverno",
+      "slug": "policy-as-code-securing-kubernetes-opa-kyverno",
+      "file": "devops/2026-09-05-policy-as-code-securing-kubernetes-opa-kyverno.md",
+      "date": "2026-09-05",
+      "excerpt": "Learn how Policy as Code strengthens Kubernetes security by enforcing compliance rules at admission time using Open Policy Agent and Kyverno.",
+      "content": "blog.html?post=policy-as-code-securing-kubernetes-opa-kyverno",
+      "readTime": "12 min read",
+      "tags": [
+        "Kubernetes",
+        "Policy as Code",
+        "Open Policy Agent",
+        "Kyverno",
+        "DevSecOps",
+        "Security",
+        "Admission Control"
+      ],
+      "category": "DevOps",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2504
+    },
+    {
       "id": "accessibility-testing-complete-guide-2026",
       "title": "Accessibility Testing in 2026: A Complete Guide to Building Inclusive Software",
       "slug": "accessibility-testing-complete-guide-2026",
@@ -1537,6 +1561,13 @@
   ],
   "categories": [],
   "tags": [
+    "Kubernetes",
+    "Policy as Code",
+    "Open Policy Agent",
+    "Kyverno",
+    "DevSecOps",
+    "Security",
+    "Admission Control",
     "Accessibility Testing",
     "WCAG",
     "a11y",
@@ -1554,13 +1585,11 @@
     "OpenID Connect",
     "Authentication",
     "Authorization",
-    "Security",
     "API Security",
     "Platform Engineering",
     "Developer Experience",
     "Internal Developer Platform",
     "DevOps",
-    "Kubernetes",
     "Backstage",
     "Chaos Engineering",
     "Resilience Testing",
@@ -1747,15 +1776,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 70,
-    "publishedPosts": 70,
+    "totalPosts": 71,
+    "publishedPosts": 71,
     "draftPosts": 0,
-    "featuredPosts": 70,
+    "featuredPosts": 71,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 208
+    "tagsCount": 213
   },
   "settings": {
     "postsPerPage": 12,
@@ -1766,5 +1795,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-09-04T07:50:53.474Z"
+  "generatedAt": "2026-09-05T07:50:02.876Z"
 }
