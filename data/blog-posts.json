@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "serverless-architecture-complete-guide-cloud-native-applications",
+      "title": "Serverless Architecture: A Complete Guide to Building Cloud-Native Applications Without Managing Servers",
+      "slug": "serverless-architecture-complete-guide-cloud-native-applications",
+      "file": "others/2026-09-06-serverless-architecture-complete-guide-cloud-native-applications.md",
+      "date": "2026-09-06",
+      "excerpt": "A comprehensive guide to serverless architecture covering cloud functions, event-driven patterns, cost optimization, and real-world deployment strategies.",
+      "content": "blog.html?post=serverless-architecture-complete-guide-cloud-native-applications",
+      "readTime": "12 min read",
+      "tags": [
+        "Serverless",
+        "Cloud Computing",
+        "AWS Lambda",
+        "Azure Functions",
+        "Microservices",
+        "Cloud-Native"
+      ],
+      "category": "Others",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2781
+    },
+    {
       "id": "policy-as-code-securing-kubernetes-opa-kyverno",
       "title": "Policy as Code: Securing Kubernetes with Open Policy Agent and Kyverno",
       "slug": "policy-as-code-securing-kubernetes-opa-kyverno",
@@ -1561,6 +1584,12 @@
   ],
   "categories": [],
   "tags": [
+    "Serverless",
+    "Cloud Computing",
+    "AWS Lambda",
+    "Azure Functions",
+    "Microservices",
+    "Cloud-Native",
     "Kubernetes",
     "Policy as Code",
     "Open Policy Agent",
@@ -1611,7 +1640,6 @@
     "Apache Kafka",
     "Event-Driven Architecture",
     "Streaming Data",
-    "Microservices",
     "HashiCorp Vault",
     "Secrets Management",
     "Playwright",
@@ -1776,15 +1804,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 71,
-    "publishedPosts": 71,
+    "totalPosts": 72,
+    "publishedPosts": 72,
     "draftPosts": 0,
-    "featuredPosts": 71,
+    "featuredPosts": 72,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 213
+    "tagsCount": 218
   },
   "settings": {
     "postsPerPage": 12,
@@ -1795,5 +1823,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-09-05T07:50:02.876Z"
+  "generatedAt": "2026-09-06T07:50:54.043Z"
 }
