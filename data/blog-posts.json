@@ -1,6 +1,30 @@
 {
   "posts": [
     {
+      "id": "rag-retrieval-augmented-generation-practical-guide",
+      "title": "RAG Explained: A Practical Guide to Building AI-Powered Applications with Retrieval-Augmented Generation",
+      "slug": "rag-retrieval-augmented-generation-practical-guide",
+      "file": "developer/2026-09-07-rag-retrieval-augmented-generation-practical-guide.md",
+      "date": "2026-09-07",
+      "excerpt": "Learn how Retrieval-Augmented Generation bridges LLM knowledge gaps by grounding AI responses in your own data with a hands-on, architecture-first approach.",
+      "content": "blog.html?post=rag-retrieval-augmented-generation-practical-guide",
+      "readTime": "12 min read",
+      "tags": [
+        "RAG",
+        "Large Language Models",
+        "AI",
+        "Vector Databases",
+        "Embeddings",
+        "LLM",
+        "Python"
+      ],
+      "category": "Developer",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2364
+    },
+    {
       "id": "serverless-architecture-complete-guide-cloud-native-applications",
       "title": "Serverless Architecture: A Complete Guide to Building Cloud-Native Applications Without Managing Servers",
       "slug": "serverless-architecture-complete-guide-cloud-native-applications",
@@ -1584,6 +1608,13 @@
   ],
   "categories": [],
   "tags": [
+    "RAG",
+    "Large Language Models",
+    "AI",
+    "Vector Databases",
+    "Embeddings",
+    "LLM",
+    "Python",
     "Serverless",
     "Cloud Computing",
     "AWS Lambda",
@@ -1775,7 +1806,6 @@
     "serverless",
     "terraform",
     "github",
-    "Python",
     "matplotlib",
     "numpy",
     "Pandas",
@@ -1804,15 +1834,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 72,
-    "publishedPosts": 72,
+    "totalPosts": 73,
+    "publishedPosts": 73,
     "draftPosts": 0,
-    "featuredPosts": 72,
+    "featuredPosts": 73,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 218
+    "tagsCount": 224
   },
   "settings": {
     "postsPerPage": 12,
@@ -1823,5 +1853,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-09-06T07:50:54.043Z"
+  "generatedAt": "2026-09-07T07:51:25.961Z"
 }
