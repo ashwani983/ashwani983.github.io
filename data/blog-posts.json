@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "mutation-testing-explained-how-breaking-your-code-proves-your-tests-work",
+      "title": "Mutation Testing Explained: How Breaking Your Code Proves Your Tests Actually Work",
+      "slug": "mutation-testing-explained-how-breaking-your-code-proves-your-tests-work",
+      "file": "tester/2026-09-09-mutation-testing-explained-how-breaking-your-code-proves-your-tests-work.md",
+      "date": "2026-09-09",
+      "excerpt": "Mutation testing deliberately introduces faults into your code to measure whether your test suite catches them, exposing weak tests before production does.",
+      "content": "blog.html?post=mutation-testing-explained-how-breaking-your-code-proves-your-tests-work",
+      "readTime": "10 min read",
+      "tags": [
+        "Mutation Testing",
+        "Software Testing",
+        "QA",
+        "Test Automation",
+        "Unit Testing",
+        "Test Quality"
+      ],
+      "category": "Tester",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2276
+    },
+    {
       "id": "rag-retrieval-augmented-generation-practical-guide",
       "title": "RAG Explained: A Practical Guide to Building AI-Powered Applications with Retrieval-Augmented Generation",
       "slug": "rag-retrieval-augmented-generation-practical-guide",
@@ -1608,6 +1631,12 @@
   ],
   "categories": [],
   "tags": [
+    "Mutation Testing",
+    "Software Testing",
+    "QA",
+    "Test Automation",
+    "Unit Testing",
+    "Test Quality",
     "RAG",
     "Large Language Models",
     "AI",
@@ -1631,9 +1660,6 @@
     "Accessibility Testing",
     "WCAG",
     "a11y",
-    "Test Automation",
-    "QA",
-    "Software Testing",
     "Inclusive Design",
     "Frontend",
     "Signals",
@@ -1676,7 +1702,6 @@
     "Playwright",
     "UI Testing",
     "TDD",
-    "Unit Testing",
     "Git",
     "Version Control",
     "Git Internals",
@@ -1834,15 +1859,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 73,
-    "publishedPosts": 73,
+    "totalPosts": 74,
+    "publishedPosts": 74,
     "draftPosts": 0,
-    "featuredPosts": 73,
+    "featuredPosts": 74,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 224
+    "tagsCount": 226
   },
   "settings": {
     "postsPerPage": 12,
@@ -1853,5 +1878,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-09-07T07:51:25.961Z"
+  "generatedAt": "2026-09-09T07:52:57.030Z"
 }
