@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "supply-chain-security-devops-cicd-pipeline",
+      "title": "Supply Chain Security in DevOps: Securing Your CI/CD Pipeline from Code to Container",
+      "slug": "supply-chain-security-devops-cicd-pipeline",
+      "file": "devops/2026-09-10-supply-chain-security-devops-cicd-pipeline.md",
+      "date": "2026-09-10",
+      "excerpt": "Learn how to harden your CI/CD pipeline against supply chain attacks using SBOMs, image signing, SLSA frameworks, and provenance attestation.",
+      "content": "blog.html?post=supply-chain-security-devops-cicd-pipeline",
+      "readTime": "12 min read",
+      "tags": [
+        "Supply Chain Security",
+        "DevSecOps",
+        "CI/CD",
+        "SBOM",
+        "Container Security",
+        "SLSA"
+      ],
+      "category": "DevOps",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2362
+    },
+    {
       "id": "mutation-testing-explained-how-breaking-your-code-proves-your-tests-work",
       "title": "Mutation Testing Explained: How Breaking Your Code Proves Your Tests Actually Work",
       "slug": "mutation-testing-explained-how-breaking-your-code-proves-your-tests-work",
@@ -1631,6 +1654,12 @@
   ],
   "categories": [],
   "tags": [
+    "Supply Chain Security",
+    "DevSecOps",
+    "CI/CD",
+    "SBOM",
+    "Container Security",
+    "SLSA",
     "Mutation Testing",
     "Software Testing",
     "QA",
@@ -1654,7 +1683,6 @@
     "Policy as Code",
     "Open Policy Agent",
     "Kyverno",
-    "DevSecOps",
     "Security",
     "Admission Control",
     "Accessibility Testing",
@@ -1747,7 +1775,6 @@
     "RPC",
     "Protobuf",
     "Jenkins",
-    "CI/CD",
     "Pipeline",
     "Prometheus",
     "Grafana",
@@ -1859,15 +1886,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 74,
-    "publishedPosts": 74,
+    "totalPosts": 75,
+    "publishedPosts": 75,
     "draftPosts": 0,
-    "featuredPosts": 74,
+    "featuredPosts": 75,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 226
+    "tagsCount": 230
   },
   "settings": {
     "postsPerPage": 12,
@@ -1878,5 +1905,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-09-09T07:52:57.030Z"
+  "generatedAt": "2026-09-10T08:02:22.350Z"
 }
