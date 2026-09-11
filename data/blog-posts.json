@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "edge-computing-explained-practical-guide-processing-data",
+      "title": "Edge Computing Explained: A Practical Guide to Processing Data Closer to the Source",
+      "slug": "edge-computing-explained-practical-guide-processing-data",
+      "file": "others/2026-09-11-edge-computing-explained-practical-guide-processing-data.md",
+      "date": "2026-09-11",
+      "excerpt": "Edge computing moves processing closer to data sources, slashing latency and cutting bandwidth costs. Learn architecture patterns, real-world use cases, and deployment strategies.",
+      "content": "blog.html?post=edge-computing-explained-practical-guide-processing-data",
+      "readTime": "12 min read",
+      "tags": [
+        "Edge Computing",
+        "IoT",
+        "Distributed Systems",
+        "Cloud Computing",
+        "Low Latency",
+        "Fog Computing"
+      ],
+      "category": "Others",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2582
+    },
+    {
       "id": "supply-chain-security-devops-cicd-pipeline",
       "title": "Supply Chain Security in DevOps: Securing Your CI/CD Pipeline from Code to Container",
       "slug": "supply-chain-security-devops-cicd-pipeline",
@@ -1654,6 +1677,12 @@
   ],
   "categories": [],
   "tags": [
+    "Edge Computing",
+    "IoT",
+    "Distributed Systems",
+    "Cloud Computing",
+    "Low Latency",
+    "Fog Computing",
     "Supply Chain Security",
     "DevSecOps",
     "CI/CD",
@@ -1674,7 +1703,6 @@
     "LLM",
     "Python",
     "Serverless",
-    "Cloud Computing",
     "AWS Lambda",
     "Azure Functions",
     "Microservices",
@@ -1709,7 +1737,6 @@
     "Resilience Testing",
     "SRE",
     "Fault Tolerance",
-    "Distributed Systems",
     "Selenium",
     "API Testing",
     "RestAssured",
@@ -1886,15 +1913,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 75,
-    "publishedPosts": 75,
+    "totalPosts": 76,
+    "publishedPosts": 76,
     "draftPosts": 0,
-    "featuredPosts": 75,
+    "featuredPosts": 76,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 230
+    "tagsCount": 234
   },
   "settings": {
     "postsPerPage": 12,
@@ -1905,5 +1932,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-09-10T08:02:22.350Z"
+  "generatedAt": "2026-09-11T14:16:28.877Z"
 }
