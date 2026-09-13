@@ -1,6 +1,28 @@
 {
   "posts": [
     {
+      "id": "model-context-protocol-explained",
+      "title": "Model Context Protocol Explained: How to Connect AI Agents to Tools and Data with MCP",
+      "slug": "model-context-protocol-explained",
+      "file": "developer/2026-09-13-model-context-protocol-explained.md",
+      "date": "2026-09-13",
+      "excerpt": "Learn how Model Context Protocol unifies tools, prompts, and context for AI agents via JSON-RPC, stdio, and Streamable HTTP — with a hands-on Python example.",
+      "content": "blog.html?post=model-context-protocol-explained",
+      "readTime": "10 min read",
+      "tags": [
+        "Model Context Protocol",
+        "JSON-RPC",
+        "AI Integration",
+        "Developer Tools",
+        "LLM"
+      ],
+      "category": "Developer",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 3154
+    },
+    {
       "id": "edge-computing-explained-practical-guide-processing-data",
       "title": "Edge Computing Explained: A Practical Guide to Processing Data Closer to the Source",
       "slug": "edge-computing-explained-practical-guide-processing-data",
@@ -1677,6 +1699,11 @@
   ],
   "categories": [],
   "tags": [
+    "Model Context Protocol",
+    "JSON-RPC",
+    "AI Integration",
+    "Developer Tools",
+    "LLM",
     "Edge Computing",
     "IoT",
     "Distributed Systems",
@@ -1700,7 +1727,6 @@
     "AI",
     "Vector Databases",
     "Embeddings",
-    "LLM",
     "Python",
     "Serverless",
     "AWS Lambda",
@@ -1792,7 +1818,6 @@
     "Performance Testing",
     "k6",
     "Load Testing",
-    "Developer Tools",
     "AI Agents",
     "Dashboard",
     "GraphQL",
@@ -1913,15 +1938,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 76,
-    "publishedPosts": 76,
+    "totalPosts": 77,
+    "publishedPosts": 77,
     "draftPosts": 0,
-    "featuredPosts": 76,
+    "featuredPosts": 77,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 234
+    "tagsCount": 237
   },
   "settings": {
     "postsPerPage": 12,
@@ -1932,5 +1957,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-09-11T14:16:28.877Z"
+  "generatedAt": "2026-09-13T14:21:10.371Z"
 }
