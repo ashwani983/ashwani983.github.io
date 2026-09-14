@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "property-based-testing-explained-finding-bugs-your-example-tests-will-never-catch",
+      "title": "Property-Based Testing Explained: Finding Bugs Your Example-Based Tests Will Never Catch",
+      "slug": "property-based-testing-explained-finding-bugs-your-example-tests-will-never-catch",
+      "file": "tester/2026-09-14-property-based-testing-explained-finding-bugs-your-example-tests-will-never-catch.md",
+      "date": "2026-09-14",
+      "excerpt": "Property-based testing generates hundreds of random inputs to validate invariants, catching edge cases that manual test cases miss entirely.",
+      "content": "blog.html?post=property-based-testing-explained-finding-bugs-your-example-tests-will-never-catch",
+      "readTime": "8 min read",
+      "tags": [
+        "Property-Based Testing",
+        "Software Testing",
+        "QA",
+        "Test Automation",
+        "Fuzzing",
+        "Test Quality"
+      ],
+      "category": "Tester",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2365
+    },
+    {
       "id": "model-context-protocol-explained",
       "title": "Model Context Protocol Explained: How to Connect AI Agents to Tools and Data with MCP",
       "slug": "model-context-protocol-explained",
@@ -1699,6 +1722,12 @@
   ],
   "categories": [],
   "tags": [
+    "Property-Based Testing",
+    "Software Testing",
+    "QA",
+    "Test Automation",
+    "Fuzzing",
+    "Test Quality",
     "Model Context Protocol",
     "JSON-RPC",
     "AI Integration",
@@ -1717,11 +1746,7 @@
     "Container Security",
     "SLSA",
     "Mutation Testing",
-    "Software Testing",
-    "QA",
-    "Test Automation",
     "Unit Testing",
-    "Test Quality",
     "RAG",
     "Large Language Models",
     "AI",
@@ -1938,15 +1963,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 77,
-    "publishedPosts": 77,
+    "totalPosts": 78,
+    "publishedPosts": 78,
     "draftPosts": 0,
-    "featuredPosts": 77,
+    "featuredPosts": 78,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 237
+    "tagsCount": 239
   },
   "settings": {
     "postsPerPage": 12,
@@ -1957,5 +1982,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-09-13T14:21:10.371Z"
+  "generatedAt": "2026-09-14T08:51:34.511Z"
 }
