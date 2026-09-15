@@ -24,6 +24,29 @@
       "_wordCount": 2536
     },
     {
+      "id": "what-it-takes-to-become-senior-devops-engineer",
+      "title": "What It Actually Takes to Become a Senior DevOps Engineer",
+      "slug": "what-it-takes-to-become-senior-devops-engineer",
+      "file": "devops/2026-09-15-what-it-takes-to-become-senior-devops-engineer.md",
+      "date": "2026-09-15",
+      "excerpt": "A comprehensive deep-dive into the skills, mindsets, and production knowledge that separate senior DevOps engineers from the rest.",
+      "content": "blog.html?post=what-it-takes-to-become-senior-devops-engineer",
+      "readTime": "18 min read",
+      "tags": [
+        "DevOps",
+        "Kubernetes",
+        "Linux",
+        "Cloud Architecture",
+        "CI/CD",
+        "Observability"
+      ],
+      "category": "DevOps",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 5012
+    },
+    {
       "id": "property-based-testing-explained-finding-bugs-your-example-tests-will-never-catch",
       "title": "Property-Based Testing Explained: Finding Bugs Your Example-Based Tests Will Never Catch",
       "slug": "property-based-testing-explained-finding-bugs-your-example-tests-will-never-catch",
@@ -1751,6 +1774,10 @@
     "Release Management",
     "CI/CD",
     "Risk Mitigation",
+    "Kubernetes",
+    "Linux",
+    "Cloud Architecture",
+    "Observability",
     "Property-Based Testing",
     "Software Testing",
     "QA",
@@ -1786,7 +1813,6 @@
     "Azure Functions",
     "Microservices",
     "Cloud-Native",
-    "Kubernetes",
     "Policy as Code",
     "Open Policy Agent",
     "Kyverno",
@@ -1864,7 +1890,6 @@
     "Real-Time Communication",
     "Containers",
     "OpenTelemetry",
-    "Observability",
     "Tracing",
     "Monitoring",
     "Performance Testing",
@@ -1885,7 +1910,6 @@
     "REST API",
     "Postman",
     "Troubleshooting",
-    "Linux",
     "Containerization",
     "kubectl",
     "TypeScript",
@@ -1990,15 +2014,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 79,
-    "publishedPosts": 79,
+    "totalPosts": 80,
+    "publishedPosts": 80,
     "draftPosts": 0,
-    "featuredPosts": 79,
+    "featuredPosts": 80,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 243
+    "tagsCount": 244
   },
   "settings": {
     "postsPerPage": 12,
@@ -2009,5 +2033,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-09-15T08:57:19.328Z"
+  "generatedAt": "2026-09-15T10:16:51.197Z"
 }
