@@ -46,6 +46,29 @@
       "_wordCount": 2536
     },
     {
+      "id": "local-first-software-crdts-practical-guide",
+      "title": "Local-First Software and CRDTs: A Practical Guide to Building Collaborative Apps Without the Cloud",
+      "slug": "local-first-software-crdts-practical-guide",
+      "file": "developer/2026-09-15-local-first-software-crdts-practical-guide.md",
+      "date": "2026-09-15",
+      "excerpt": "Learn how CRDTs enable local-first applications that work offline, sync peer-to-peer, and eliminate server bottlenecks for real-time collaboration.",
+      "content": "blog.html?post=local-first-software-crdts-practical-guide",
+      "readTime": "8 min read",
+      "tags": [
+        "CRDTs",
+        "Local-First Software",
+        "Distributed Systems",
+        "Web Development",
+        "JavaScript",
+        "Collaboration"
+      ],
+      "category": "Developer",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2294
+    },
+    {
       "id": "what-it-takes-to-become-senior-devops-engineer",
       "title": "What It Actually Takes to Become a Senior DevOps Engineer",
       "slug": "what-it-takes-to-become-senior-devops-engineer",
@@ -1800,6 +1823,12 @@
     "Release Management",
     "CI/CD",
     "Risk Mitigation",
+    "CRDTs",
+    "Local-First Software",
+    "Distributed Systems",
+    "Web Development",
+    "JavaScript",
+    "Collaboration",
     "Kubernetes",
     "Linux",
     "Cloud Architecture",
@@ -1817,7 +1846,6 @@
     "LLM",
     "Edge Computing",
     "IoT",
-    "Distributed Systems",
     "Low Latency",
     "Fog Computing",
     "Supply Chain Security",
@@ -1850,8 +1878,6 @@
     "Frontend",
     "Signals",
     "Reactivity",
-    "Web Development",
-    "JavaScript",
     "Performance",
     "OAuth 2.0",
     "OpenID Connect",
@@ -1979,7 +2005,6 @@
     "Framework",
     "Quality Assurance",
     "GitHub",
-    "Collaboration",
     "Configuration Management",
     "Agile",
     "Product Owner",
@@ -2039,15 +2064,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 81,
-    "publishedPosts": 81,
+    "totalPosts": 82,
+    "publishedPosts": 82,
     "draftPosts": 0,
-    "featuredPosts": 81,
+    "featuredPosts": 82,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 247
+    "tagsCount": 249
   },
   "settings": {
     "postsPerPage": 12,
@@ -2058,5 +2083,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-09-15T10:18:54.000Z"
+  "generatedAt": "2026-09-15T12:35:27.903Z"
 }
