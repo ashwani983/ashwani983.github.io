@@ -1,6 +1,28 @@
 {
   "posts": [
     {
+      "id": "azure-administrator-infrastructure-engineer-interview-handbook",
+      "title": "Azure Administrator and Infrastructure Engineer Interview Handbook: 150 Questions You Must Know",
+      "slug": "azure-administrator-infrastructure-engineer-interview-handbook",
+      "file": "devops/2026-09-15-azure-administrator-infrastructure-engineer-interview-handbook.md",
+      "date": "2026-09-15",
+      "excerpt": "Master 150 scenario-driven Azure admin and infrastructure engineer interview questions spanning networking, compute, storage, identity, monitoring, and automation.",
+      "content": "blog.html?post=azure-administrator-infrastructure-engineer-interview-handbook",
+      "readTime": "15 min read",
+      "tags": [
+        "Azure",
+        "Cloud Computing",
+        "Infrastructure",
+        "Interview Preparation",
+        "DevOps"
+      ],
+      "category": "DevOps",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 3725
+    },
+    {
       "id": "feature-flags-devops-progressive-delivery",
       "title": "Feature Flags in DevOps: The Complete Guide to Progressive Delivery and Safe Releases",
       "slug": "feature-flags-devops-progressive-delivery",
@@ -1768,9 +1790,13 @@
   ],
   "categories": [],
   "tags": [
+    "Azure",
+    "Cloud Computing",
+    "Infrastructure",
+    "Interview Preparation",
+    "DevOps",
     "Feature Flags",
     "Progressive Delivery",
-    "DevOps",
     "Release Management",
     "CI/CD",
     "Risk Mitigation",
@@ -1792,7 +1818,6 @@
     "Edge Computing",
     "IoT",
     "Distributed Systems",
-    "Cloud Computing",
     "Low Latency",
     "Fog Computing",
     "Supply Chain Security",
@@ -2014,15 +2039,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 80,
-    "publishedPosts": 80,
+    "totalPosts": 81,
+    "publishedPosts": 81,
     "draftPosts": 0,
-    "featuredPosts": 80,
+    "featuredPosts": 81,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 244
+    "tagsCount": 247
   },
   "settings": {
     "postsPerPage": 12,
@@ -2033,5 +2058,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-09-15T10:16:51.197Z"
+  "generatedAt": "2026-09-15T10:18:54.000Z"
 }
