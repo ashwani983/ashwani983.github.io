@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "feature-flags-devops-progressive-delivery",
+      "title": "Feature Flags in DevOps: The Complete Guide to Progressive Delivery and Safe Releases",
+      "slug": "feature-flags-devops-progressive-delivery",
+      "file": "devops/2026-09-15-feature-flags-devops-progressive-delivery.md",
+      "date": "2026-09-15",
+      "excerpt": "Feature flags let teams decouple deployment from release, enabling progressive rollouts, instant rollbacks, and data-driven decisions in production.",
+      "content": "blog.html?post=feature-flags-devops-progressive-delivery",
+      "readTime": "12 min read",
+      "tags": [
+        "Feature Flags",
+        "Progressive Delivery",
+        "DevOps",
+        "Release Management",
+        "CI/CD",
+        "Risk Mitigation"
+      ],
+      "category": "DevOps",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2536
+    },
+    {
       "id": "property-based-testing-explained-finding-bugs-your-example-tests-will-never-catch",
       "title": "Property-Based Testing Explained: Finding Bugs Your Example-Based Tests Will Never Catch",
       "slug": "property-based-testing-explained-finding-bugs-your-example-tests-will-never-catch",
@@ -1722,6 +1745,12 @@
   ],
   "categories": [],
   "tags": [
+    "Feature Flags",
+    "Progressive Delivery",
+    "DevOps",
+    "Release Management",
+    "CI/CD",
+    "Risk Mitigation",
     "Property-Based Testing",
     "Software Testing",
     "QA",
@@ -1741,7 +1770,6 @@
     "Fog Computing",
     "Supply Chain Security",
     "DevSecOps",
-    "CI/CD",
     "SBOM",
     "Container Security",
     "SLSA",
@@ -1782,7 +1810,6 @@
     "Platform Engineering",
     "Developer Experience",
     "Internal Developer Platform",
-    "DevOps",
     "Backstage",
     "Chaos Engineering",
     "Resilience Testing",
@@ -1963,15 +1990,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 78,
-    "publishedPosts": 78,
+    "totalPosts": 79,
+    "publishedPosts": 79,
     "draftPosts": 0,
-    "featuredPosts": 78,
+    "featuredPosts": 79,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 239
+    "tagsCount": 243
   },
   "settings": {
     "postsPerPage": 12,
@@ -1982,5 +2009,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-09-14T08:51:34.511Z"
+  "generatedAt": "2026-09-15T08:57:19.328Z"
 }
