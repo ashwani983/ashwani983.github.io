@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "wasi-explained-webassembly-beyond-browser",
+      "title": "WASI Explained: The Standard That Brings WebAssembly Beyond the Browser",
+      "slug": "wasi-explained-webassembly-beyond-browser",
+      "file": "others/2026-09-16-wasi-explained-webassembly-beyond-browser.md",
+      "date": "2026-09-16",
+      "excerpt": "WASI standardizes how WebAssembly interacts with the OS, unlocking portable sandboxed modules outside the browser. Learn how it works and why it matters.",
+      "content": "blog.html?post=wasi-explained-webassembly-beyond-browser",
+      "readTime": "10 min read",
+      "tags": [
+        "WebAssembly",
+        "WASI",
+        "Web Development",
+        "Systems Programming",
+        "Rust",
+        "Sandbox"
+      ],
+      "category": "Others",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2398
+    },
+    {
       "id": "azure-administrator-infrastructure-engineer-interview-handbook",
       "title": "Azure Administrator and Infrastructure Engineer Interview Handbook: 150 Questions You Must Know",
       "slug": "azure-administrator-infrastructure-engineer-interview-handbook",
@@ -1813,6 +1836,12 @@
   ],
   "categories": [],
   "tags": [
+    "WebAssembly",
+    "WASI",
+    "Web Development",
+    "Systems Programming",
+    "Rust",
+    "Sandbox",
     "Azure",
     "Cloud Computing",
     "Infrastructure",
@@ -1826,7 +1855,6 @@
     "CRDTs",
     "Local-First Software",
     "Distributed Systems",
-    "Web Development",
     "JavaScript",
     "Collaboration",
     "Kubernetes",
@@ -1900,10 +1928,7 @@
     "Planning",
     "Risk Management",
     "Stakeholder Management",
-    "WebAssembly",
     "WASM",
-    "Systems Programming",
-    "Rust",
     "Apache Kafka",
     "Event-Driven Architecture",
     "Streaming Data",
@@ -2064,15 +2089,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 82,
-    "publishedPosts": 82,
+    "totalPosts": 83,
+    "publishedPosts": 83,
     "draftPosts": 0,
-    "featuredPosts": 82,
+    "featuredPosts": 83,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 249
+    "tagsCount": 251
   },
   "settings": {
     "postsPerPage": 12,
@@ -2083,5 +2108,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-09-15T12:35:27.903Z"
+  "generatedAt": "2026-09-16T10:21:11.891Z"
 }
