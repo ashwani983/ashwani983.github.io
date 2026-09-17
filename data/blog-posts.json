@@ -1,6 +1,30 @@
 {
   "posts": [
     {
+      "id": "web-components-in-2026-native-browser-standard",
+      "title": "Web Components in 2026: The Native Browser Standard That Eliminates Framework Lock-In",
+      "slug": "web-components-in-2026-native-browser-standard",
+      "file": "developer/2026-09-17-web-components-in-2026-native-browser-standard.md",
+      "date": "2026-09-17",
+      "excerpt": "Web Components let you build reusable UI with native browser APIs. Learn how Custom Elements, Shadow DOM, and HTML Templates work together in 2026.",
+      "content": "blog.html?post=web-components-in-2026-native-browser-standard",
+      "readTime": "11 min read",
+      "tags": [
+        "Web Components",
+        "JavaScript",
+        "Frontend",
+        "Web Development",
+        "Custom Elements",
+        "Shadow DOM",
+        "Standards"
+      ],
+      "category": "Developer",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2097
+    },
+    {
       "id": "wasi-explained-webassembly-beyond-browser",
       "title": "WASI Explained: The Standard That Brings WebAssembly Beyond the Browser",
       "slug": "wasi-explained-webassembly-beyond-browser",
@@ -1836,9 +1860,15 @@
   ],
   "categories": [],
   "tags": [
+    "Web Components",
+    "JavaScript",
+    "Frontend",
+    "Web Development",
+    "Custom Elements",
+    "Shadow DOM",
+    "Standards",
     "WebAssembly",
     "WASI",
-    "Web Development",
     "Systems Programming",
     "Rust",
     "Sandbox",
@@ -1855,7 +1885,6 @@
     "CRDTs",
     "Local-First Software",
     "Distributed Systems",
-    "JavaScript",
     "Collaboration",
     "Kubernetes",
     "Linux",
@@ -1903,7 +1932,6 @@
     "WCAG",
     "a11y",
     "Inclusive Design",
-    "Frontend",
     "Signals",
     "Reactivity",
     "Performance",
@@ -2089,15 +2117,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 83,
-    "publishedPosts": 83,
+    "totalPosts": 84,
+    "publishedPosts": 84,
     "draftPosts": 0,
-    "featuredPosts": 83,
+    "featuredPosts": 84,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 251
+    "tagsCount": 255
   },
   "settings": {
     "postsPerPage": 12,
@@ -2108,5 +2136,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-09-16T10:21:11.891Z"
+  "generatedAt": "2026-09-17T10:02:20.490Z"
 }
