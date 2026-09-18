@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "visual-regression-testing-complete-guide",
+      "title": "Visual Regression Testing: The Complete Guide to Catching Broken UIs Before Your Users Do",
+      "slug": "visual-regression-testing-complete-guide",
+      "file": "tester/2026-09-18-visual-regression-testing-complete-guide.md",
+      "date": "2026-09-18",
+      "excerpt": "Visual regression testing catches broken UIs by diffing screenshots against baselines, bugs functional tests miss. Learn tools, thresholds, and CI workflows.",
+      "content": "blog.html?post=visual-regression-testing-complete-guide",
+      "readTime": "15 min read",
+      "tags": [
+        "Visual Regression Testing",
+        "Test Automation",
+        "UI Testing",
+        "QA",
+        "Screenshots",
+        "CI/CD"
+      ],
+      "category": "Tester",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2919
+    },
+    {
       "id": "web-components-in-2026-native-browser-standard",
       "title": "Web Components in 2026: The Native Browser Standard That Eliminates Framework Lock-In",
       "slug": "web-components-in-2026-native-browser-standard",
@@ -1860,6 +1883,12 @@
   ],
   "categories": [],
   "tags": [
+    "Visual Regression Testing",
+    "Test Automation",
+    "UI Testing",
+    "QA",
+    "Screenshots",
+    "CI/CD",
     "Web Components",
     "JavaScript",
     "Frontend",
@@ -1880,7 +1909,6 @@
     "Feature Flags",
     "Progressive Delivery",
     "Release Management",
-    "CI/CD",
     "Risk Mitigation",
     "CRDTs",
     "Local-First Software",
@@ -1892,8 +1920,6 @@
     "Observability",
     "Property-Based Testing",
     "Software Testing",
-    "QA",
-    "Test Automation",
     "Fuzzing",
     "Test Quality",
     "Model Context Protocol",
@@ -1963,7 +1989,6 @@
     "HashiCorp Vault",
     "Secrets Management",
     "Playwright",
-    "UI Testing",
     "TDD",
     "Git",
     "Version Control",
@@ -2117,15 +2142,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 84,
-    "publishedPosts": 84,
+    "totalPosts": 85,
+    "publishedPosts": 85,
     "draftPosts": 0,
-    "featuredPosts": 84,
+    "featuredPosts": 85,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 255
+    "tagsCount": 257
   },
   "settings": {
     "postsPerPage": 12,
@@ -2136,5 +2161,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-09-17T10:02:20.490Z"
+  "generatedAt": "2026-09-18T10:13:02.127Z"
 }
