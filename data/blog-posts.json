@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "ebpf-explained-deep-linux-observability",
+      "title": "eBPF Explained: A Practical Guide to Deep Linux Observability for DevOps and SRE",
+      "slug": "ebpf-explained-deep-linux-observability",
+      "file": "devops/2026-09-19-ebpf-explained-deep-linux-observability.md",
+      "date": "2026-09-19",
+      "excerpt": "Master eBPF for kernel-level observability: how it works, core concepts, the modern tooling stack, and practical recipes for DevOps and SRE teams.",
+      "content": "blog.html?post=ebpf-explained-deep-linux-observability",
+      "readTime": "14 min read",
+      "tags": [
+        "eBPF",
+        "Observability",
+        "SRE",
+        "Linux",
+        "Performance",
+        "DevOps"
+      ],
+      "category": "DevOps",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2910
+    },
+    {
       "id": "visual-regression-testing-complete-guide",
       "title": "Visual Regression Testing: The Complete Guide to Catching Broken UIs Before Your Users Do",
       "slug": "visual-regression-testing-complete-guide",
@@ -1883,6 +1906,12 @@
   ],
   "categories": [],
   "tags": [
+    "eBPF",
+    "Observability",
+    "SRE",
+    "Linux",
+    "Performance",
+    "DevOps",
     "Visual Regression Testing",
     "Test Automation",
     "UI Testing",
@@ -1905,7 +1934,6 @@
     "Cloud Computing",
     "Infrastructure",
     "Interview Preparation",
-    "DevOps",
     "Feature Flags",
     "Progressive Delivery",
     "Release Management",
@@ -1915,9 +1943,7 @@
     "Distributed Systems",
     "Collaboration",
     "Kubernetes",
-    "Linux",
     "Cloud Architecture",
-    "Observability",
     "Property-Based Testing",
     "Software Testing",
     "Fuzzing",
@@ -1960,7 +1986,6 @@
     "Inclusive Design",
     "Signals",
     "Reactivity",
-    "Performance",
     "OAuth 2.0",
     "OpenID Connect",
     "Authentication",
@@ -1972,7 +1997,6 @@
     "Backstage",
     "Chaos Engineering",
     "Resilience Testing",
-    "SRE",
     "Fault Tolerance",
     "Selenium",
     "API Testing",
@@ -2142,15 +2166,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 85,
-    "publishedPosts": 85,
+    "totalPosts": 86,
+    "publishedPosts": 86,
     "draftPosts": 0,
-    "featuredPosts": 85,
+    "featuredPosts": 86,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 257
+    "tagsCount": 258
   },
   "settings": {
     "postsPerPage": 12,
@@ -2161,5 +2185,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-09-18T10:13:02.127Z"
+  "generatedAt": "2026-09-19T10:03:00.463Z"
 }
