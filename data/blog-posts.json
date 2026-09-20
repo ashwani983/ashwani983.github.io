@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "dns-explained-complete-guide",
+      "title": "DNS Explained: The Complete Guide to the Internet's Phonebook",
+      "slug": "dns-explained-complete-guide",
+      "file": "others/2026-09-20-dns-explained-complete-guide.md",
+      "date": "2026-09-20",
+      "excerpt": "How the Domain Name System converts names to IP addresses: resolution paths, record types, caching, DNS-over-HTTPS, and practical dig troubleshooting.",
+      "content": "blog.html?post=dns-explained-complete-guide",
+      "readTime": "16 min read",
+      "tags": [
+        "DNS",
+        "Networking",
+        "DNS over HTTPS",
+        "Internet Infrastructure",
+        "Troubleshooting",
+        "System Administration"
+      ],
+      "category": "Others",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 3076
+    },
+    {
       "id": "ebpf-explained-deep-linux-observability",
       "title": "eBPF Explained: A Practical Guide to Deep Linux Observability for DevOps and SRE",
       "slug": "ebpf-explained-deep-linux-observability",
@@ -1906,6 +1929,12 @@
   ],
   "categories": [],
   "tags": [
+    "DNS",
+    "Networking",
+    "DNS over HTTPS",
+    "Internet Infrastructure",
+    "Troubleshooting",
+    "System Administration",
     "eBPF",
     "Observability",
     "SRE",
@@ -2021,7 +2050,6 @@
     "Developer Productivity",
     "HTTP/3",
     "QUIC",
-    "Networking",
     "Web Performance",
     "Protocols",
     "VS Code",
@@ -2062,7 +2090,6 @@
     "Grafana",
     "REST API",
     "Postman",
-    "Troubleshooting",
     "Containerization",
     "kubectl",
     "TypeScript",
@@ -2116,7 +2143,6 @@
     "css selector",
     "Locators",
     "xpath",
-    "System Administration",
     "cheatsheet",
     "java",
     "IT Support",
@@ -2166,15 +2192,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 86,
-    "publishedPosts": 86,
+    "totalPosts": 87,
+    "publishedPosts": 87,
     "draftPosts": 0,
-    "featuredPosts": 86,
+    "featuredPosts": 87,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 258
+    "tagsCount": 261
   },
   "settings": {
     "postsPerPage": 12,
@@ -2185,5 +2211,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-09-19T10:03:00.463Z"
+  "generatedAt": "2026-09-20T10:05:30.687Z"
 }
