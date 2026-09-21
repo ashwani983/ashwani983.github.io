@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "bun-javascript-runtime-bundler-test-runner",
+      "title": "Bun Explained: The All-in-One JavaScript Runtime, Bundler and Test Runner",
+      "slug": "bun-javascript-runtime-bundler-test-runner",
+      "file": "developer/2026-09-21-bun-javascript-runtime-bundler-test-runner.md",
+      "date": "2026-09-21",
+      "excerpt": "A practical guide to Bun, the fast all-in-one JavaScript runtime that unifies package management, bundling, testing and Node compatibility.",
+      "content": "blog.html?post=bun-javascript-runtime-bundler-test-runner",
+      "readTime": "9 min read",
+      "tags": [
+        "Bun",
+        "JavaScript",
+        "Runtime",
+        "Node.js",
+        "Developer Tools",
+        "Performance"
+      ],
+      "category": "Developer",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 1933
+    },
+    {
       "id": "dns-explained-complete-guide",
       "title": "DNS Explained: The Complete Guide to the Internet's Phonebook",
       "slug": "dns-explained-complete-guide",
@@ -1929,6 +1952,12 @@
   ],
   "categories": [],
   "tags": [
+    "Bun",
+    "JavaScript",
+    "Runtime",
+    "Node.js",
+    "Developer Tools",
+    "Performance",
     "DNS",
     "Networking",
     "DNS over HTTPS",
@@ -1939,7 +1968,6 @@
     "Observability",
     "SRE",
     "Linux",
-    "Performance",
     "DevOps",
     "Visual Regression Testing",
     "Test Automation",
@@ -1948,7 +1976,6 @@
     "Screenshots",
     "CI/CD",
     "Web Components",
-    "JavaScript",
     "Frontend",
     "Web Development",
     "Custom Elements",
@@ -1980,7 +2007,6 @@
     "Model Context Protocol",
     "JSON-RPC",
     "AI Integration",
-    "Developer Tools",
     "LLM",
     "Edge Computing",
     "IoT",
@@ -2192,15 +2218,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 87,
-    "publishedPosts": 87,
+    "totalPosts": 88,
+    "publishedPosts": 88,
     "draftPosts": 0,
-    "featuredPosts": 87,
+    "featuredPosts": 88,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 261
+    "tagsCount": 264
   },
   "settings": {
     "postsPerPage": 12,
@@ -2211,5 +2237,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-09-20T10:05:30.687Z"
+  "generatedAt": "2026-09-21T10:13:06.891Z"
 }
