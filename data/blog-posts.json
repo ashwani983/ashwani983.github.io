@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "flaky-tests-guide",
+      "title": "Flaky Tests Explained: A Practical Guide to Finding and Eliminating Test Unreliability",
+      "slug": "flaky-tests-guide",
+      "file": "tester/2026-09-22-flaky-tests-guide.md",
+      "date": "2026-09-22",
+      "excerpt": "Flaky tests erode trust in your suite. Learn how to detect, classify, and eliminate flakiness with quarantine flows, root-cause patterns, and CI practices.",
+      "content": "blog.html?post=flaky-tests-guide",
+      "readTime": "9 min read",
+      "tags": [
+        "Flaky Tests",
+        "Test Automation",
+        "Software Testing",
+        "QA",
+        "Test Reliability",
+        "CI/CD"
+      ],
+      "category": "Tester",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2710
+    },
+    {
       "id": "bun-javascript-runtime-bundler-test-runner",
       "title": "Bun Explained: The All-in-One JavaScript Runtime, Bundler and Test Runner",
       "slug": "bun-javascript-runtime-bundler-test-runner",
@@ -1952,6 +1975,12 @@
   ],
   "categories": [],
   "tags": [
+    "Flaky Tests",
+    "Test Automation",
+    "Software Testing",
+    "QA",
+    "Test Reliability",
+    "CI/CD",
     "Bun",
     "JavaScript",
     "Runtime",
@@ -1970,11 +1999,8 @@
     "Linux",
     "DevOps",
     "Visual Regression Testing",
-    "Test Automation",
     "UI Testing",
-    "QA",
     "Screenshots",
-    "CI/CD",
     "Web Components",
     "Frontend",
     "Web Development",
@@ -2001,7 +2027,6 @@
     "Kubernetes",
     "Cloud Architecture",
     "Property-Based Testing",
-    "Software Testing",
     "Fuzzing",
     "Test Quality",
     "Model Context Protocol",
@@ -2218,15 +2243,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 88,
-    "publishedPosts": 88,
+    "totalPosts": 89,
+    "publishedPosts": 89,
     "draftPosts": 0,
-    "featuredPosts": 88,
+    "featuredPosts": 89,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 264
+    "tagsCount": 266
   },
   "settings": {
     "postsPerPage": 12,
@@ -2237,5 +2262,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-09-21T10:13:06.891Z"
+  "generatedAt": "2026-09-22T10:02:22.803Z"
 }
