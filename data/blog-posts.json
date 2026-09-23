@@ -22,6 +22,29 @@
       "_wordCount": 2366
     },
     {
+      "id": "service-level-objectives-and-error-budgets-sre-guide",
+      "title": "Service Level Objectives and Error Budgets: The SRE Guide to Measuring Reliability",
+      "slug": "service-level-objectives-and-error-budgets-sre-guide",
+      "file": "devops/2026-09-23-service-level-objectives-and-error-budgets-sre-guide.md",
+      "date": "2026-09-23",
+      "excerpt": "Learn how SLIs, SLOs, and error budgets turn reliability into a measurable, shared target your whole team can act on.",
+      "content": "blog.html?post=service-level-objectives-and-error-budgets-sre-guide",
+      "readTime": "10 min read",
+      "tags": [
+        "SRE",
+        "Service Level Objectives",
+        "Error Budgets",
+        "Observability",
+        "DevOps",
+        "Reliability Engineering"
+      ],
+      "category": "DevOps",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2344
+    },
+    {
       "id": "flaky-tests-guide",
       "title": "Flaky Tests Explained: A Practical Guide to Finding and Eliminating Test Unreliability",
       "slug": "flaky-tests-guide",
@@ -2000,6 +2023,12 @@
     "API Testing",
     "QA",
     "Software Testing",
+    "SRE",
+    "Service Level Objectives",
+    "Error Budgets",
+    "Observability",
+    "DevOps",
+    "Reliability Engineering",
     "Flaky Tests",
     "Test Automation",
     "Test Reliability",
@@ -2017,10 +2046,7 @@
     "Troubleshooting",
     "System Administration",
     "eBPF",
-    "Observability",
-    "SRE",
     "Linux",
-    "DevOps",
     "Visual Regression Testing",
     "UI Testing",
     "Screenshots",
@@ -2265,15 +2291,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 90,
-    "publishedPosts": 90,
+    "totalPosts": 91,
+    "publishedPosts": 91,
     "draftPosts": 0,
-    "featuredPosts": 90,
+    "featuredPosts": 91,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 267
+    "tagsCount": 270
   },
   "settings": {
     "postsPerPage": 12,
@@ -2284,5 +2310,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-09-23T04:51:54.990Z"
+  "generatedAt": "2026-09-23T10:03:40.762Z"
 }
