@@ -1,6 +1,27 @@
 {
   "posts": [
     {
+      "id": "http-status-codes-every-api-tester-should-know",
+      "title": "HTTP Status Codes Every API Tester Should Know",
+      "slug": "http-status-codes-every-api-tester-should-know",
+      "file": "tester/2026-09-23-http-status-codes-every-api-tester-should-know.md",
+      "date": "2026-09-23",
+      "excerpt": "A practical QA reference to HTTP status codes: what each 2xx, 3xx, 4xx and 5xx response means and exactly what to assert when testing an API.",
+      "content": "blog.html?post=http-status-codes-every-api-tester-should-know",
+      "readTime": "8 min read",
+      "tags": [
+        "HTTP Status Codes",
+        "API Testing",
+        "QA",
+        "Software Testing"
+      ],
+      "category": "Tester",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2366
+    },
+    {
       "id": "flaky-tests-guide",
       "title": "Flaky Tests Explained: A Practical Guide to Finding and Eliminating Test Unreliability",
       "slug": "flaky-tests-guide",
@@ -1975,10 +1996,12 @@
   ],
   "categories": [],
   "tags": [
+    "HTTP Status Codes",
+    "API Testing",
+    "QA",
+    "Software Testing",
     "Flaky Tests",
     "Test Automation",
-    "Software Testing",
-    "QA",
     "Test Reliability",
     "CI/CD",
     "Bun",
@@ -2079,7 +2102,6 @@
     "Resilience Testing",
     "Fault Tolerance",
     "Selenium",
-    "API Testing",
     "RestAssured",
     "Java",
     "Project Management",
@@ -2243,15 +2265,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 89,
-    "publishedPosts": 89,
+    "totalPosts": 90,
+    "publishedPosts": 90,
     "draftPosts": 0,
-    "featuredPosts": 89,
+    "featuredPosts": 90,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 266
+    "tagsCount": 267
   },
   "settings": {
     "postsPerPage": 12,
@@ -2262,5 +2284,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-09-22T10:02:22.803Z"
+  "generatedAt": "2026-09-23T04:51:54.990Z"
 }
