@@ -1,6 +1,28 @@
 {
   "posts": [
     {
+      "id": "temporal-workflows-durable-execution-reliable-applications",
+      "title": "Temporal Workflows and Durable Execution for Reliable Applications",
+      "slug": "temporal-workflows-durable-execution-reliable-applications",
+      "file": "developer/2026-09-25-temporal-workflows-durable-execution-reliable-applications.md",
+      "date": "2026-09-25",
+      "excerpt": "Learn how Temporal uses durable execution, retries, and replay to keep business workflows reliable across crashes, deploys, and long-running tasks.",
+      "content": "blog.html?post=temporal-workflows-durable-execution-reliable-applications",
+      "readTime": "14 min read",
+      "tags": [
+        "Temporal",
+        "Durable Execution",
+        "Distributed Systems",
+        "TypeScript",
+        "Backend"
+      ],
+      "category": "Developer",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2885
+    },
+    {
       "id": "post-quantum-cryptography-explained",
       "title": "Post-Quantum Cryptography Explained: Preparing for the Quantum Computing Threat",
       "slug": "post-quantum-cryptography-explained",
@@ -2042,6 +2064,11 @@
   ],
   "categories": [],
   "tags": [
+    "Temporal",
+    "Durable Execution",
+    "Distributed Systems",
+    "TypeScript",
+    "Backend",
     "Post-Quantum Cryptography",
     "Cybersecurity",
     "Quantum Computing",
@@ -2100,7 +2127,6 @@
     "Risk Mitigation",
     "CRDTs",
     "Local-First Software",
-    "Distributed Systems",
     "Collaboration",
     "Kubernetes",
     "Cloud Architecture",
@@ -2208,7 +2234,6 @@
     "Dashboard",
     "GraphQL",
     "API Design",
-    "Backend",
     "gRPC",
     "RPC",
     "Protobuf",
@@ -2220,7 +2245,6 @@
     "Postman",
     "Containerization",
     "kubectl",
-    "TypeScript",
     "Static Typing",
     "Cloud Infrastructure",
     "SonarQube",
@@ -2320,15 +2344,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 92,
-    "publishedPosts": 92,
+    "totalPosts": 93,
+    "publishedPosts": 93,
     "draftPosts": 0,
-    "featuredPosts": 92,
+    "featuredPosts": 93,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 276
+    "tagsCount": 278
   },
   "settings": {
     "postsPerPage": 12,
@@ -2339,5 +2363,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-09-24T10:06:15.967Z"
+  "generatedAt": "2026-09-25T10:05:41.359Z"
 }
