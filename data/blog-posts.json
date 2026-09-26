@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "synthetic-monitoring-explained-proactive-user-journey-testing",
+      "title": "Synthetic Monitoring Explained: Proactively Testing User Journeys Before Your Users Find the Bugs",
+      "slug": "synthetic-monitoring-explained-proactive-user-journey-testing",
+      "file": "tester/2026-09-26-synthetic-monitoring-explained-proactive-user-journey-testing.md",
+      "date": "2026-09-26",
+      "excerpt": "Learn how synthetic monitoring simulates real user journeys from global probes to catch outages, latency regressions, and broken flows before your customers do.",
+      "content": "blog.html?post=synthetic-monitoring-explained-proactive-user-journey-testing",
+      "readTime": "15 min read",
+      "tags": [
+        "Synthetic Monitoring",
+        "QA",
+        "Observability",
+        "Test Automation",
+        "Performance Testing",
+        "Reliability"
+      ],
+      "category": "Tester",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2812
+    },
+    {
       "id": "temporal-workflows-durable-execution-reliable-applications",
       "title": "Temporal Workflows and Durable Execution for Reliable Applications",
       "slug": "temporal-workflows-durable-execution-reliable-applications",
@@ -2064,6 +2087,12 @@
   ],
   "categories": [],
   "tags": [
+    "Synthetic Monitoring",
+    "QA",
+    "Observability",
+    "Test Automation",
+    "Performance Testing",
+    "Reliability",
     "Temporal",
     "Durable Execution",
     "Distributed Systems",
@@ -2077,16 +2106,13 @@
     "TLS",
     "HTTP Status Codes",
     "API Testing",
-    "QA",
     "Software Testing",
     "SRE",
     "Service Level Objectives",
     "Error Budgets",
-    "Observability",
     "DevOps",
     "Reliability Engineering",
     "Flaky Tests",
-    "Test Automation",
     "Test Reliability",
     "CI/CD",
     "Bun",
@@ -2227,7 +2253,6 @@
     "OpenTelemetry",
     "Tracing",
     "Monitoring",
-    "Performance Testing",
     "k6",
     "Load Testing",
     "AI Agents",
@@ -2344,15 +2369,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 93,
-    "publishedPosts": 93,
+    "totalPosts": 94,
+    "publishedPosts": 94,
     "draftPosts": 0,
-    "featuredPosts": 93,
+    "featuredPosts": 94,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 278
+    "tagsCount": 280
   },
   "settings": {
     "postsPerPage": 12,
@@ -2363,5 +2388,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-09-25T10:05:41.359Z"
+  "generatedAt": "2026-09-26T10:14:36.982Z"
 }
