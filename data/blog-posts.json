@@ -1,6 +1,30 @@
 {
   "posts": [
     {
+      "id": "service-mesh-explained-istio-linkerd-microservice-traffic",
+      "title": "Service Mesh Explained: How Istio, Linkerd and eBPF Proxies Secure and Route Microservice Traffic",
+      "slug": "service-mesh-explained-istio-linkerd-microservice-traffic",
+      "file": "devops/2026-09-27-service-mesh-explained-istio-linkerd-microservice-traffic.md",
+      "date": "2026-09-27",
+      "excerpt": "How service meshes move mTLS, traffic shifting and telemetry out of application code, and how to choose between Istio, Linkerd and sidecarless eBPF options.",
+      "content": "blog.html?post=service-mesh-explained-istio-linkerd-microservice-traffic",
+      "readTime": "13 min read",
+      "tags": [
+        "Service Mesh",
+        "Istio",
+        "Linkerd",
+        "Kubernetes",
+        "mTLS",
+        "Microservices",
+        "eBPF"
+      ],
+      "category": "DevOps",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2992
+    },
+    {
       "id": "synthetic-monitoring-explained-proactive-user-journey-testing",
       "title": "Synthetic Monitoring Explained: Proactively Testing User Journeys Before Your Users Find the Bugs",
       "slug": "synthetic-monitoring-explained-proactive-user-journey-testing",
@@ -2087,6 +2111,13 @@
   ],
   "categories": [],
   "tags": [
+    "Service Mesh",
+    "Istio",
+    "Linkerd",
+    "Kubernetes",
+    "mTLS",
+    "Microservices",
+    "eBPF",
     "Synthetic Monitoring",
     "QA",
     "Observability",
@@ -2127,7 +2158,6 @@
     "Internet Infrastructure",
     "Troubleshooting",
     "System Administration",
-    "eBPF",
     "Linux",
     "Visual Regression Testing",
     "UI Testing",
@@ -2154,7 +2184,6 @@
     "CRDTs",
     "Local-First Software",
     "Collaboration",
-    "Kubernetes",
     "Cloud Architecture",
     "Property-Based Testing",
     "Fuzzing",
@@ -2183,7 +2212,6 @@
     "Serverless",
     "AWS Lambda",
     "Azure Functions",
-    "Microservices",
     "Cloud-Native",
     "Policy as Code",
     "Open Policy Agent",
@@ -2369,15 +2397,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 94,
-    "publishedPosts": 94,
+    "totalPosts": 95,
+    "publishedPosts": 95,
     "draftPosts": 0,
-    "featuredPosts": 94,
+    "featuredPosts": 95,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 280
+    "tagsCount": 284
   },
   "settings": {
     "postsPerPage": 12,
@@ -2388,5 +2416,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-09-26T10:14:36.982Z"
+  "generatedAt": "2026-09-27T10:06:48.941Z"
 }
