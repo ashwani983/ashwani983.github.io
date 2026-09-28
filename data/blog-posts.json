@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "zero-trust-architecture-explained",
+      "title": "Zero Trust Architecture Explained: Replacing Network Perimeters with Identity-Based Security",
+      "slug": "zero-trust-architecture-explained",
+      "file": "others/2026-09-28-zero-trust-architecture-explained.md",
+      "date": "2026-09-28",
+      "excerpt": "Zero trust replaces the network perimeter with identity-based access. Learn the core principles, the NIST building blocks, and a practical rollout roadmap.",
+      "content": "blog.html?post=zero-trust-architecture-explained",
+      "readTime": "14 min read",
+      "tags": [
+        "Zero Trust",
+        "Identity Security",
+        "SASE",
+        "ZTNA",
+        "Network Security",
+        "NIST"
+      ],
+      "category": "Others",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 3494
+    },
+    {
       "id": "service-mesh-explained-istio-linkerd-microservice-traffic",
       "title": "Service Mesh Explained: How Istio, Linkerd and eBPF Proxies Secure and Route Microservice Traffic",
       "slug": "service-mesh-explained-istio-linkerd-microservice-traffic",
@@ -2111,6 +2134,12 @@
   ],
   "categories": [],
   "tags": [
+    "Zero Trust",
+    "Identity Security",
+    "SASE",
+    "ZTNA",
+    "Network Security",
+    "NIST",
     "Service Mesh",
     "Istio",
     "Linkerd",
@@ -2133,7 +2162,6 @@
     "Cybersecurity",
     "Quantum Computing",
     "Encryption",
-    "NIST",
     "TLS",
     "HTTP Status Codes",
     "API Testing",
@@ -2397,15 +2425,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 95,
-    "publishedPosts": 95,
+    "totalPosts": 96,
+    "publishedPosts": 96,
     "draftPosts": 0,
-    "featuredPosts": 95,
+    "featuredPosts": 96,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 284
+    "tagsCount": 289
   },
   "settings": {
     "postsPerPage": 12,
@@ -2416,5 +2444,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-09-27T10:06:48.941Z"
+  "generatedAt": "2026-09-28T10:12:47.996Z"
 }
