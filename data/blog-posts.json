@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "python-packaging-explained-pyproject-pep517-wheels-reproducible-installs",
+      "title": "Python Packaging Explained: pyproject.toml, PEP 517 Build Hooks, Wheels and Reproducible Installs",
+      "slug": "python-packaging-explained-pyproject-pep517-wheels-reproducible-installs",
+      "file": "developer/2026-09-29-python-packaging-explained-pyproject-pep517-wheels-reproducible-installs.md",
+      "date": "2026-09-29",
+      "excerpt": "How the modern Python packaging stack works end to end, from pyproject.toml and PEP 517 build hooks to wheels, lockfiles, and fully reproducible installs.",
+      "content": "blog.html?post=python-packaging-explained-pyproject-pep517-wheels-reproducible-installs",
+      "readTime": "11 min read",
+      "tags": [
+        "Python Packaging",
+        "pyproject.toml",
+        "PEP 517",
+        "Wheels",
+        "Build Systems",
+        "DevOps"
+      ],
+      "category": "Developer",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2941
+    },
+    {
       "id": "zero-trust-architecture-explained",
       "title": "Zero Trust Architecture Explained: Replacing Network Perimeters with Identity-Based Security",
       "slug": "zero-trust-architecture-explained",
@@ -2134,6 +2157,12 @@
   ],
   "categories": [],
   "tags": [
+    "Python Packaging",
+    "pyproject.toml",
+    "PEP 517",
+    "Wheels",
+    "Build Systems",
+    "DevOps",
     "Zero Trust",
     "Identity Security",
     "SASE",
@@ -2169,7 +2198,6 @@
     "SRE",
     "Service Level Objectives",
     "Error Budgets",
-    "DevOps",
     "Reliability Engineering",
     "Flaky Tests",
     "Test Reliability",
@@ -2425,15 +2453,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 96,
-    "publishedPosts": 96,
+    "totalPosts": 97,
+    "publishedPosts": 97,
     "draftPosts": 0,
-    "featuredPosts": 96,
+    "featuredPosts": 97,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 289
+    "tagsCount": 294
   },
   "settings": {
     "postsPerPage": 12,
@@ -2444,5 +2472,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-09-28T10:12:47.996Z"
+  "generatedAt": "2026-09-29T10:06:10.703Z"
 }
