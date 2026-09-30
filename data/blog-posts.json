@@ -1,6 +1,30 @@
 {
   "posts": [
     {
+      "id": "test-data-management-explained-fixtures-factories-seeding",
+      "title": "Test Data Management Explained: Fixtures, Factories, Seeding and Synthetic Data",
+      "slug": "test-data-management-explained-fixtures-factories-seeding",
+      "file": "tester/2026-09-30-test-data-management-explained-fixtures-factories-seeding.md",
+      "date": "2026-09-30",
+      "excerpt": "How fixtures, factories, database seeding and synthetic data keep automated tests deterministic, parallel-safe and free of production PII.",
+      "content": "blog.html?post=test-data-management-explained-fixtures-factories-seeding",
+      "readTime": "15 min read",
+      "tags": [
+        "Test Data Management",
+        "Test Automation",
+        "QA",
+        "Fixtures",
+        "Factories",
+        "Synthetic Data",
+        "Data Masking"
+      ],
+      "category": "Tester",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2950
+    },
+    {
       "id": "python-packaging-explained-pyproject-pep517-wheels-reproducible-installs",
       "title": "Python Packaging Explained: pyproject.toml, PEP 517 Build Hooks, Wheels and Reproducible Installs",
       "slug": "python-packaging-explained-pyproject-pep517-wheels-reproducible-installs",
@@ -2157,6 +2181,13 @@
   ],
   "categories": [],
   "tags": [
+    "Test Data Management",
+    "Test Automation",
+    "QA",
+    "Fixtures",
+    "Factories",
+    "Synthetic Data",
+    "Data Masking",
     "Python Packaging",
     "pyproject.toml",
     "PEP 517",
@@ -2177,9 +2208,7 @@
     "Microservices",
     "eBPF",
     "Synthetic Monitoring",
-    "QA",
     "Observability",
-    "Test Automation",
     "Performance Testing",
     "Reliability",
     "Temporal",
@@ -2453,15 +2482,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 97,
-    "publishedPosts": 97,
+    "totalPosts": 98,
+    "publishedPosts": 98,
     "draftPosts": 0,
-    "featuredPosts": 97,
+    "featuredPosts": 98,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 294
+    "tagsCount": 299
   },
   "settings": {
     "postsPerPage": 12,
@@ -2472,5 +2501,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-09-29T10:06:10.703Z"
+  "generatedAt": "2026-09-30T10:16:16.702Z"
 }
