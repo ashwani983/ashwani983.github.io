@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "github-actions-reusable-workflows-oidc-hardened-ci-cd",
+      "title": "GitHub Actions Explained: Reusable Workflows, OIDC and Hardened CI/CD Pipelines",
+      "slug": "github-actions-reusable-workflows-oidc-hardened-ci-cd",
+      "file": "devops/2026-10-01-github-actions-reusable-workflows-oidc-hardened-ci-cd.md",
+      "date": "2026-10-01",
+      "excerpt": "Build production-grade GitHub Actions pipelines: workflow anatomy, matrices, reusable workflows, OIDC cloud auth, caching and real pipeline hardening.",
+      "content": "blog.html?post=github-actions-reusable-workflows-oidc-hardened-ci-cd",
+      "readTime": "11 min read",
+      "tags": [
+        "GitHub Actions",
+        "CI/CD",
+        "DevOps",
+        "Workflow Automation",
+        "DevSecOps",
+        "OIDC"
+      ],
+      "category": "DevOps",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2984
+    },
+    {
       "id": "test-data-management-explained-fixtures-factories-seeding",
       "title": "Test Data Management Explained: Fixtures, Factories, Seeding and Synthetic Data",
       "slug": "test-data-management-explained-fixtures-factories-seeding",
@@ -2181,6 +2204,12 @@
   ],
   "categories": [],
   "tags": [
+    "GitHub Actions",
+    "CI/CD",
+    "DevOps",
+    "Workflow Automation",
+    "DevSecOps",
+    "OIDC",
     "Test Data Management",
     "Test Automation",
     "QA",
@@ -2193,7 +2222,6 @@
     "PEP 517",
     "Wheels",
     "Build Systems",
-    "DevOps",
     "Zero Trust",
     "Identity Security",
     "SASE",
@@ -2230,7 +2258,6 @@
     "Reliability Engineering",
     "Flaky Tests",
     "Test Reliability",
-    "CI/CD",
     "Bun",
     "JavaScript",
     "Runtime",
@@ -2282,7 +2309,6 @@
     "Low Latency",
     "Fog Computing",
     "Supply Chain Security",
-    "DevSecOps",
     "SBOM",
     "Container Security",
     "SLSA",
@@ -2482,15 +2508,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 98,
-    "publishedPosts": 98,
+    "totalPosts": 99,
+    "publishedPosts": 99,
     "draftPosts": 0,
-    "featuredPosts": 98,
+    "featuredPosts": 99,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 299
+    "tagsCount": 302
   },
   "settings": {
     "postsPerPage": 12,
@@ -2501,5 +2527,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-09-30T10:16:16.702Z"
+  "generatedAt": "2026-10-01T10:03:41.993Z"
 }
