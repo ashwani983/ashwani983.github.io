@@ -1,6 +1,30 @@
 {
   "posts": [
     {
+      "id": "public-key-infrastructure-explained-x509-acme-rotation",
+      "title": "Public Key Infrastructure Explained: X.509 Certificates, ACME Automation and Zero-Downtime Rotation",
+      "slug": "public-key-infrastructure-explained-x509-acme-rotation",
+      "file": "others/2026-10-02-public-key-infrastructure-explained-x509-acme-rotation.md",
+      "date": "2026-10-02",
+      "excerpt": "How X.509 certificates, certificate authorities and ACME automation keep TLS safe, and how to issue, rotate and monitor them without outages.",
+      "content": "blog.html?post=public-key-infrastructure-explained-x509-acme-rotation",
+      "readTime": "14 min read",
+      "tags": [
+        "PKI",
+        "X.509",
+        "TLS",
+        "Certificates",
+        "ACME",
+        "Security",
+        "DevSecOps"
+      ],
+      "category": "Others",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 3199
+    },
+    {
       "id": "github-actions-reusable-workflows-oidc-hardened-ci-cd",
       "title": "GitHub Actions Explained: Reusable Workflows, OIDC and Hardened CI/CD Pipelines",
       "slug": "github-actions-reusable-workflows-oidc-hardened-ci-cd",
@@ -2204,11 +2228,17 @@
   ],
   "categories": [],
   "tags": [
+    "PKI",
+    "X.509",
+    "TLS",
+    "Certificates",
+    "ACME",
+    "Security",
+    "DevSecOps",
     "GitHub Actions",
     "CI/CD",
     "DevOps",
     "Workflow Automation",
-    "DevSecOps",
     "OIDC",
     "Test Data Management",
     "Test Automation",
@@ -2248,7 +2278,6 @@
     "Cybersecurity",
     "Quantum Computing",
     "Encryption",
-    "TLS",
     "HTTP Status Codes",
     "API Testing",
     "Software Testing",
@@ -2327,7 +2356,6 @@
     "Policy as Code",
     "Open Policy Agent",
     "Kyverno",
-    "Security",
     "Admission Control",
     "Accessibility Testing",
     "WCAG",
@@ -2508,15 +2536,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 99,
-    "publishedPosts": 99,
+    "totalPosts": 100,
+    "publishedPosts": 100,
     "draftPosts": 0,
-    "featuredPosts": 99,
+    "featuredPosts": 100,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 302
+    "tagsCount": 306
   },
   "settings": {
     "postsPerPage": 12,
@@ -2527,5 +2555,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-10-01T10:03:41.993Z"
+  "generatedAt": "2026-10-02T10:13:35.299Z"
 }
