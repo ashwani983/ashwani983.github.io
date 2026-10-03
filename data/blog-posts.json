@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "building-production-ready-ai-agents-with-langgraph",
+      "title": "Building Production-Ready AI Agents with LangGraph",
+      "slug": "building-production-ready-ai-agents-with-langgraph",
+      "file": "developer/2026-10-03-building-production-ready-ai-agents-with-langgraph.md",
+      "date": "2026-10-03",
+      "excerpt": "A practical guide to building reliable, stateful AI agents with LangGraph, covering workflows, memory, tools, human-in-the-loop, and deployment best practices.",
+      "content": "blog.html?post=building-production-ready-ai-agents-with-langgraph",
+      "readTime": "12 min read",
+      "tags": [
+        "LangGraph",
+        "AI Agents",
+        "LLM",
+        "Python",
+        "TypeScript",
+        "Workflow Automation"
+      ],
+      "category": "Developer",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2080
+    },
+    {
       "id": "public-key-infrastructure-explained-x509-acme-rotation",
       "title": "Public Key Infrastructure Explained: X.509 Certificates, ACME Automation and Zero-Downtime Rotation",
       "slug": "public-key-infrastructure-explained-x509-acme-rotation",
@@ -2228,6 +2251,12 @@
   ],
   "categories": [],
   "tags": [
+    "LangGraph",
+    "AI Agents",
+    "LLM",
+    "Python",
+    "TypeScript",
+    "Workflow Automation",
     "PKI",
     "X.509",
     "TLS",
@@ -2238,7 +2267,6 @@
     "GitHub Actions",
     "CI/CD",
     "DevOps",
-    "Workflow Automation",
     "OIDC",
     "Test Data Management",
     "Test Automation",
@@ -2272,7 +2300,6 @@
     "Temporal",
     "Durable Execution",
     "Distributed Systems",
-    "TypeScript",
     "Backend",
     "Post-Quantum Cryptography",
     "Cybersecurity",
@@ -2332,7 +2359,6 @@
     "Model Context Protocol",
     "JSON-RPC",
     "AI Integration",
-    "LLM",
     "Edge Computing",
     "IoT",
     "Low Latency",
@@ -2348,7 +2374,6 @@
     "AI",
     "Vector Databases",
     "Embeddings",
-    "Python",
     "Serverless",
     "AWS Lambda",
     "Azure Functions",
@@ -2422,7 +2447,6 @@
     "Monitoring",
     "k6",
     "Load Testing",
-    "AI Agents",
     "Dashboard",
     "GraphQL",
     "API Design",
@@ -2536,15 +2560,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 100,
-    "publishedPosts": 100,
+    "totalPosts": 101,
+    "publishedPosts": 101,
     "draftPosts": 0,
-    "featuredPosts": 100,
+    "featuredPosts": 101,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 306
+    "tagsCount": 307
   },
   "settings": {
     "postsPerPage": 12,
@@ -2555,5 +2579,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-10-02T10:13:35.299Z"
+  "generatedAt": "2026-10-03T10:18:33.248Z"
 }
