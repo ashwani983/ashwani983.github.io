@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "shift-left-testing-integrating-quality-earlier-in-sdlc",
+      "title": "Shift-Left Testing - Integrating Quality Earlier in the Software Development Lifecycle",
+      "slug": "shift-left-testing-integrating-quality-earlier-in-sdlc",
+      "file": "tester/2026-10-04-shift-left-testing-integrating-quality-earlier-in-sdlc.md",
+      "date": "2026-10-04",
+      "excerpt": "Discover how shift-left testing helps teams catch defects earlier, reduce costs, and build higher-quality software through proactive quality practices.",
+      "content": "blog.html?post=shift-left-testing-integrating-quality-earlier-in-sdlc",
+      "readTime": "12 min read",
+      "tags": [
+        "Shift-Left Testing",
+        "Quality Assurance",
+        "DevOps",
+        "CI/CD",
+        "Test Automation",
+        "Software Testing"
+      ],
+      "category": "Tester",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2323
+    },
+    {
       "id": "building-production-ready-ai-agents-with-langgraph",
       "title": "Building Production-Ready AI Agents with LangGraph",
       "slug": "building-production-ready-ai-agents-with-langgraph",
@@ -2251,6 +2274,12 @@
   ],
   "categories": [],
   "tags": [
+    "Shift-Left Testing",
+    "Quality Assurance",
+    "DevOps",
+    "CI/CD",
+    "Test Automation",
+    "Software Testing",
     "LangGraph",
     "AI Agents",
     "LLM",
@@ -2265,11 +2294,8 @@
     "Security",
     "DevSecOps",
     "GitHub Actions",
-    "CI/CD",
-    "DevOps",
     "OIDC",
     "Test Data Management",
-    "Test Automation",
     "QA",
     "Fixtures",
     "Factories",
@@ -2307,7 +2333,6 @@
     "Encryption",
     "HTTP Status Codes",
     "API Testing",
-    "Software Testing",
     "SRE",
     "Service Level Objectives",
     "Error Budgets",
@@ -2500,7 +2525,6 @@
     "handshake",
     "Testing",
     "Framework",
-    "Quality Assurance",
     "GitHub",
     "Configuration Management",
     "Agile",
@@ -2560,15 +2584,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 101,
-    "publishedPosts": 101,
+    "totalPosts": 102,
+    "publishedPosts": 102,
     "draftPosts": 0,
-    "featuredPosts": 101,
+    "featuredPosts": 102,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 307
+    "tagsCount": 308
   },
   "settings": {
     "postsPerPage": 12,
@@ -2579,5 +2603,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-10-03T10:18:33.248Z"
+  "generatedAt": "2026-10-04T10:03:45.195Z"
 }
