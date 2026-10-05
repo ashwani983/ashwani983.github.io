@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "kubernetes-autoscaling-explained-hpa-vpa-keda-cluster-autoscaler-karpenter",
+      "title": "Kubernetes Autoscaling Explained: HPA, VPA, KEDA, Cluster Autoscaler and Karpenter",
+      "slug": "kubernetes-autoscaling-explained-hpa-vpa-keda-cluster-autoscaler-karpenter",
+      "file": "devops/2026-10-05-kubernetes-autoscaling-explained-hpa-vpa-keda-cluster-autoscaler-karpenter.md",
+      "date": "2026-10-05",
+      "excerpt": "A practical guide to the five autoscaling layers in Kubernetes, from pod-level HPA and VPA through event-driven KEDA to node scaling with Karpenter.",
+      "content": "blog.html?post=kubernetes-autoscaling-explained-hpa-vpa-keda-cluster-autoscaler-karpenter",
+      "readTime": "11 min read",
+      "tags": [
+        "Kubernetes",
+        "Autoscaling",
+        "HPA",
+        "Karpenter",
+        "DevOps",
+        "Cost Optimization"
+      ],
+      "category": "DevOps",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 3163
+    },
+    {
       "id": "shift-left-testing-integrating-quality-earlier-in-sdlc",
       "title": "Shift-Left Testing - Integrating Quality Earlier in the Software Development Lifecycle",
       "slug": "shift-left-testing-integrating-quality-earlier-in-sdlc",
@@ -2274,9 +2297,14 @@
   ],
   "categories": [],
   "tags": [
+    "Kubernetes",
+    "Autoscaling",
+    "HPA",
+    "Karpenter",
+    "DevOps",
+    "Cost Optimization",
     "Shift-Left Testing",
     "Quality Assurance",
-    "DevOps",
     "CI/CD",
     "Test Automation",
     "Software Testing",
@@ -2315,7 +2343,6 @@
     "Service Mesh",
     "Istio",
     "Linkerd",
-    "Kubernetes",
     "mTLS",
     "Microservices",
     "eBPF",
@@ -2584,15 +2611,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 102,
-    "publishedPosts": 102,
+    "totalPosts": 103,
+    "publishedPosts": 103,
     "draftPosts": 0,
-    "featuredPosts": 102,
+    "featuredPosts": 103,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 308
+    "tagsCount": 312
   },
   "settings": {
     "postsPerPage": 12,
@@ -2603,5 +2630,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-10-04T10:03:45.195Z"
+  "generatedAt": "2026-10-05T10:46:12.471Z"
 }
