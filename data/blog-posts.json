@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "bgp-explained-internet-routing-rpki",
+      "title": "BGP Explained: How the Internet Picks Its Routes and Why One Leak Can Take It Down",
+      "slug": "bgp-explained-internet-routing-rpki",
+      "file": "others/2026-10-06-bgp-explained-internet-routing-rpki.md",
+      "date": "2026-10-06",
+      "excerpt": "Border Gateway Protocol quietly decides how traffic crosses the internet. Learn how BGP works, why route leaks happen, and how RPKI helps.",
+      "content": "blog.html?post=bgp-explained-internet-routing-rpki",
+      "readTime": "10 min read",
+      "tags": [
+        "BGP",
+        "Networking",
+        "Internet Infrastructure",
+        "RPKI",
+        "Routing",
+        "Cybersecurity"
+      ],
+      "category": "Others",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2357
+    },
+    {
       "id": "kubernetes-autoscaling-explained-hpa-vpa-keda-cluster-autoscaler-karpenter",
       "title": "Kubernetes Autoscaling Explained: HPA, VPA, KEDA, Cluster Autoscaler and Karpenter",
       "slug": "kubernetes-autoscaling-explained-hpa-vpa-keda-cluster-autoscaler-karpenter",
@@ -2297,6 +2320,12 @@
   ],
   "categories": [],
   "tags": [
+    "BGP",
+    "Networking",
+    "Internet Infrastructure",
+    "RPKI",
+    "Routing",
+    "Cybersecurity",
     "Kubernetes",
     "Autoscaling",
     "HPA",
@@ -2355,7 +2384,6 @@
     "Distributed Systems",
     "Backend",
     "Post-Quantum Cryptography",
-    "Cybersecurity",
     "Quantum Computing",
     "Encryption",
     "HTTP Status Codes",
@@ -2373,9 +2401,7 @@
     "Developer Tools",
     "Performance",
     "DNS",
-    "Networking",
     "DNS over HTTPS",
-    "Internet Infrastructure",
     "Troubleshooting",
     "System Administration",
     "Linux",
@@ -2611,15 +2637,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 103,
-    "publishedPosts": 103,
+    "totalPosts": 104,
+    "publishedPosts": 104,
     "draftPosts": 0,
-    "featuredPosts": 103,
+    "featuredPosts": 104,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 312
+    "tagsCount": 315
   },
   "settings": {
     "postsPerPage": 12,
@@ -2630,5 +2656,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-10-05T10:46:12.471Z"
+  "generatedAt": "2026-10-06T10:08:35.771Z"
 }
