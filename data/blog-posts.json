@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "react-server-components-explained-streaming-suspense-server-client-boundary",
+      "title": "React Server Components Explained: Streaming, Suspense and the Server-Client Boundary",
+      "slug": "react-server-components-explained-streaming-suspense-server-client-boundary",
+      "file": "developer/2026-10-07-react-server-components-explained-streaming-suspense-server-client-boundary.md",
+      "date": "2026-10-07",
+      "excerpt": "React Server Components shift rendering to the server by default. Learn the component types, data flow, streaming and when they actually pay off.",
+      "content": "blog.html?post=react-server-components-explained-streaming-suspense-server-client-boundary",
+      "readTime": "10 min read",
+      "tags": [
+        "React",
+        "Server Components",
+        "Frontend",
+        "Next.js",
+        "JavaScript",
+        "Web Performance"
+      ],
+      "category": "Developer",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2177
+    },
+    {
       "id": "bgp-explained-internet-routing-rpki",
       "title": "BGP Explained: How the Internet Picks Its Routes and Why One Leak Can Take It Down",
       "slug": "bgp-explained-internet-routing-rpki",
@@ -2320,6 +2343,12 @@
   ],
   "categories": [],
   "tags": [
+    "React",
+    "Server Components",
+    "Frontend",
+    "Next.js",
+    "JavaScript",
+    "Web Performance",
     "BGP",
     "Networking",
     "Internet Infrastructure",
@@ -2395,7 +2424,6 @@
     "Flaky Tests",
     "Test Reliability",
     "Bun",
-    "JavaScript",
     "Runtime",
     "Node.js",
     "Developer Tools",
@@ -2409,7 +2437,6 @@
     "UI Testing",
     "Screenshots",
     "Web Components",
-    "Frontend",
     "Web Development",
     "Custom Elements",
     "Shadow DOM",
@@ -2500,7 +2527,6 @@
     "Developer Productivity",
     "HTTP/3",
     "QUIC",
-    "Web Performance",
     "Protocols",
     "VS Code",
     "Code Quality",
@@ -2637,15 +2663,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 104,
-    "publishedPosts": 104,
+    "totalPosts": 105,
+    "publishedPosts": 105,
     "draftPosts": 0,
-    "featuredPosts": 104,
+    "featuredPosts": 105,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 315
+    "tagsCount": 318
   },
   "settings": {
     "postsPerPage": 12,
@@ -2656,5 +2682,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-10-06T10:08:35.771Z"
+  "generatedAt": "2026-10-07T10:04:44.833Z"
 }
