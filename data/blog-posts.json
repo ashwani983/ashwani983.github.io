@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "test-impact-analysis-run-only-tests-that-matter",
+      "title": "Test Impact Analysis Explained: How to Run Only the Tests That Matter",
+      "slug": "test-impact-analysis-run-only-tests-that-matter",
+      "file": "tester/2026-10-08-test-impact-analysis-run-only-tests-that-matter.md",
+      "date": "2026-10-08",
+      "excerpt": "Test impact analysis maps code changes to the tests that actually cover them, so CI runs the right subset in seconds instead of the whole suite.",
+      "content": "blog.html?post=test-impact-analysis-run-only-tests-that-matter",
+      "readTime": "10 min read",
+      "tags": [
+        "Test Impact Analysis",
+        "Test Selection",
+        "CI/CD",
+        "Test Automation",
+        "QA",
+        "Developer Productivity"
+      ],
+      "category": "Tester",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2570
+    },
+    {
       "id": "react-server-components-explained-streaming-suspense-server-client-boundary",
       "title": "React Server Components Explained: Streaming, Suspense and the Server-Client Boundary",
       "slug": "react-server-components-explained-streaming-suspense-server-client-boundary",
@@ -2343,6 +2366,12 @@
   ],
   "categories": [],
   "tags": [
+    "Test Impact Analysis",
+    "Test Selection",
+    "CI/CD",
+    "Test Automation",
+    "QA",
+    "Developer Productivity",
     "React",
     "Server Components",
     "Frontend",
@@ -2363,8 +2392,6 @@
     "Cost Optimization",
     "Shift-Left Testing",
     "Quality Assurance",
-    "CI/CD",
-    "Test Automation",
     "Software Testing",
     "LangGraph",
     "AI Agents",
@@ -2382,7 +2409,6 @@
     "GitHub Actions",
     "OIDC",
     "Test Data Management",
-    "QA",
     "Fixtures",
     "Factories",
     "Synthetic Data",
@@ -2524,7 +2550,6 @@
     "Version Control",
     "Git Internals",
     "Branching",
-    "Developer Productivity",
     "HTTP/3",
     "QUIC",
     "Protocols",
@@ -2663,15 +2688,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 105,
-    "publishedPosts": 105,
+    "totalPosts": 106,
+    "publishedPosts": 106,
     "draftPosts": 0,
-    "featuredPosts": 105,
+    "featuredPosts": 106,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 318
+    "tagsCount": 320
   },
   "settings": {
     "postsPerPage": 12,
@@ -2682,5 +2707,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-10-07T10:04:44.833Z"
+  "generatedAt": "2026-10-08T10:03:49.278Z"
 }
