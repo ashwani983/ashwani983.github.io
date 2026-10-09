@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "dora-metrics-explained-measuring-software-delivery-performance",
+      "title": "DORA Metrics Explained: Measuring and Improving Your Software Delivery Performance",
+      "slug": "dora-metrics-explained-measuring-software-delivery-performance",
+      "file": "devops/2026-10-09-dora-metrics-explained-measuring-software-delivery-performance.md",
+      "date": "2026-10-09",
+      "excerpt": "DORA metrics turn software delivery into numbers you can act on. Learn the four key metrics, how to collect them, and how to improve them safely.",
+      "content": "blog.html?post=dora-metrics-explained-measuring-software-delivery-performance",
+      "readTime": "10 min read",
+      "tags": [
+        "DORA Metrics",
+        "DevOps",
+        "Software Delivery",
+        "SRE",
+        "CI/CD",
+        "Engineering Productivity"
+      ],
+      "category": "DevOps",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2823
+    },
+    {
       "id": "test-impact-analysis-run-only-tests-that-matter",
       "title": "Test Impact Analysis Explained: How to Run Only the Tests That Matter",
       "slug": "test-impact-analysis-run-only-tests-that-matter",
@@ -2366,9 +2389,14 @@
   ],
   "categories": [],
   "tags": [
+    "DORA Metrics",
+    "DevOps",
+    "Software Delivery",
+    "SRE",
+    "CI/CD",
+    "Engineering Productivity",
     "Test Impact Analysis",
     "Test Selection",
-    "CI/CD",
     "Test Automation",
     "QA",
     "Developer Productivity",
@@ -2388,7 +2416,6 @@
     "Autoscaling",
     "HPA",
     "Karpenter",
-    "DevOps",
     "Cost Optimization",
     "Shift-Left Testing",
     "Quality Assurance",
@@ -2443,7 +2470,6 @@
     "Encryption",
     "HTTP Status Codes",
     "API Testing",
-    "SRE",
     "Service Level Objectives",
     "Error Budgets",
     "Reliability Engineering",
@@ -2688,15 +2714,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 106,
-    "publishedPosts": 106,
+    "totalPosts": 107,
+    "publishedPosts": 107,
     "draftPosts": 0,
-    "featuredPosts": 106,
+    "featuredPosts": 107,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 320
+    "tagsCount": 323
   },
   "settings": {
     "postsPerPage": 12,
@@ -2707,5 +2733,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-10-08T10:03:49.278Z"
+  "generatedAt": "2026-10-09T10:05:01.381Z"
 }
