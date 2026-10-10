@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "email-authentication-spf-dkim-dmarc",
+      "title": "Email Authentication Explained - SPF, DKIM, DMARC and the War on Spoofing",
+      "slug": "email-authentication-spf-dkim-dmarc",
+      "file": "others/2026-10-10-email-authentication-spf-dkim-dmarc.md",
+      "date": "2026-10-10",
+      "excerpt": "How SPF, DKIM and DMARC work together to stop email spoofing, protect your brand and meet modern bulk sender rules.",
+      "content": "blog.html?post=email-authentication-spf-dkim-dmarc",
+      "readTime": "9 min read",
+      "tags": [
+        "Email Security",
+        "SPF",
+        "DKIM",
+        "DMARC",
+        "Email Deliverability",
+        "Cybersecurity"
+      ],
+      "category": "Others",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 1748
+    },
+    {
       "id": "dora-metrics-explained-measuring-software-delivery-performance",
       "title": "DORA Metrics Explained: Measuring and Improving Your Software Delivery Performance",
       "slug": "dora-metrics-explained-measuring-software-delivery-performance",
@@ -2389,6 +2412,12 @@
   ],
   "categories": [],
   "tags": [
+    "Email Security",
+    "SPF",
+    "DKIM",
+    "DMARC",
+    "Email Deliverability",
+    "Cybersecurity",
     "DORA Metrics",
     "DevOps",
     "Software Delivery",
@@ -2411,7 +2440,6 @@
     "Internet Infrastructure",
     "RPKI",
     "Routing",
-    "Cybersecurity",
     "Kubernetes",
     "Autoscaling",
     "HPA",
@@ -2714,15 +2742,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 107,
-    "publishedPosts": 107,
+    "totalPosts": 108,
+    "publishedPosts": 108,
     "draftPosts": 0,
-    "featuredPosts": 107,
+    "featuredPosts": 108,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 323
+    "tagsCount": 328
   },
   "settings": {
     "postsPerPage": 12,
@@ -2733,5 +2761,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-10-09T10:05:01.381Z"
+  "generatedAt": "2026-10-10T10:51:38.604Z"
 }
