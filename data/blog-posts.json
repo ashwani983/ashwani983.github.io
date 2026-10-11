@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "webgpu-explained-compute-shaders-wgsl",
+      "title": "WebGPU Explained: Compute Shaders, WGSL and the Future of GPU Programming on the Web",
+      "slug": "webgpu-explained-compute-shaders-wgsl",
+      "file": "developer/2026-10-11-webgpu-explained-compute-shaders-wgsl.md",
+      "date": "2026-10-11",
+      "excerpt": "A practical guide to WebGPU: adapters, devices, WGSL compute shaders and command encoding that bring high-performance GPU work to the browser.",
+      "content": "blog.html?post=webgpu-explained-compute-shaders-wgsl",
+      "readTime": "12 min read",
+      "tags": [
+        "WebGPU",
+        "WGSL",
+        "GPU Programming",
+        "Web Development",
+        "JavaScript",
+        "Performance"
+      ],
+      "category": "Developer",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2472
+    },
+    {
       "id": "email-authentication-spf-dkim-dmarc",
       "title": "Email Authentication Explained - SPF, DKIM, DMARC and the War on Spoofing",
       "slug": "email-authentication-spf-dkim-dmarc",
@@ -2412,6 +2435,12 @@
   ],
   "categories": [],
   "tags": [
+    "WebGPU",
+    "WGSL",
+    "GPU Programming",
+    "Web Development",
+    "JavaScript",
+    "Performance",
     "Email Security",
     "SPF",
     "DKIM",
@@ -2433,7 +2462,6 @@
     "Server Components",
     "Frontend",
     "Next.js",
-    "JavaScript",
     "Web Performance",
     "BGP",
     "Networking",
@@ -2507,7 +2535,6 @@
     "Runtime",
     "Node.js",
     "Developer Tools",
-    "Performance",
     "DNS",
     "DNS over HTTPS",
     "Troubleshooting",
@@ -2517,7 +2544,6 @@
     "UI Testing",
     "Screenshots",
     "Web Components",
-    "Web Development",
     "Custom Elements",
     "Shadow DOM",
     "Standards",
@@ -2742,15 +2768,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 108,
-    "publishedPosts": 108,
+    "totalPosts": 109,
+    "publishedPosts": 109,
     "draftPosts": 0,
-    "featuredPosts": 108,
+    "featuredPosts": 109,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 328
+    "tagsCount": 331
   },
   "settings": {
     "postsPerPage": 12,
@@ -2761,5 +2787,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-10-10T10:51:38.604Z"
+  "generatedAt": "2026-10-11T11:29:58.782Z"
 }
