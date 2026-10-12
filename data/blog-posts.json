@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "testcontainers-explained-integration-testing",
+      "title": "Testcontainers Explained - Reliable Integration Testing with Real Dependencies",
+      "slug": "testcontainers-explained-integration-testing",
+      "file": "tester/2026-10-12-testcontainers-explained-integration-testing.md",
+      "date": "2026-10-12",
+      "excerpt": "Testcontainers spins up real databases and services in Docker for integration tests, eliminating mocks and flaky runs while boosting confidence.",
+      "content": "blog.html?post=testcontainers-explained-integration-testing",
+      "readTime": "9 min read",
+      "tags": [
+        "Testcontainers",
+        "Integration Testing",
+        "Test Automation",
+        "Docker",
+        "QA",
+        "Test Reliability"
+      ],
+      "category": "Tester",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 1718
+    },
+    {
       "id": "webgpu-explained-compute-shaders-wgsl",
       "title": "WebGPU Explained: Compute Shaders, WGSL and the Future of GPU Programming on the Web",
       "slug": "webgpu-explained-compute-shaders-wgsl",
@@ -2435,6 +2458,12 @@
   ],
   "categories": [],
   "tags": [
+    "Testcontainers",
+    "Integration Testing",
+    "Test Automation",
+    "Docker",
+    "QA",
+    "Test Reliability",
     "WebGPU",
     "WGSL",
     "GPU Programming",
@@ -2455,8 +2484,6 @@
     "Engineering Productivity",
     "Test Impact Analysis",
     "Test Selection",
-    "Test Automation",
-    "QA",
     "Developer Productivity",
     "React",
     "Server Components",
@@ -2530,7 +2557,6 @@
     "Error Budgets",
     "Reliability Engineering",
     "Flaky Tests",
-    "Test Reliability",
     "Bun",
     "Runtime",
     "Node.js",
@@ -2641,7 +2667,6 @@
     "Automation",
     "Contract Testing",
     "Pact",
-    "Docker",
     "Terraform",
     "AWS",
     "Cloud Cost",
@@ -2768,15 +2793,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 109,
-    "publishedPosts": 109,
+    "totalPosts": 110,
+    "publishedPosts": 110,
     "draftPosts": 0,
-    "featuredPosts": 109,
+    "featuredPosts": 110,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 331
+    "tagsCount": 333
   },
   "settings": {
     "postsPerPage": 12,
@@ -2787,5 +2812,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-10-11T11:29:58.782Z"
+  "generatedAt": "2026-10-12T10:01:22.745Z"
 }
