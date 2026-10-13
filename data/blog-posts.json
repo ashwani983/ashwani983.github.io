@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "finops-explained-cloud-cost-optimization-devops",
+      "title": "FinOps Explained - A Practical Guide to Cloud Cost Optimization for DevOps Teams",
+      "slug": "finops-explained-cloud-cost-optimization-devops",
+      "file": "devops/2026-10-13-finops-explained-cloud-cost-optimization-devops.md",
+      "date": "2026-10-13",
+      "excerpt": "Learn how FinOps aligns engineering, finance and product teams to control cloud spend through rightsizing, commitments, tagging and Kubernetes cost allocation.",
+      "content": "blog.html?post=finops-explained-cloud-cost-optimization-devops",
+      "readTime": "9 min read",
+      "tags": [
+        "FinOps",
+        "Cloud Cost Optimization",
+        "AWS",
+        "Kubernetes",
+        "DevOps",
+        "Cost Management"
+      ],
+      "category": "DevOps",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2354
+    },
+    {
       "id": "testcontainers-explained-integration-testing",
       "title": "Testcontainers Explained - Reliable Integration Testing with Real Dependencies",
       "slug": "testcontainers-explained-integration-testing",
@@ -2458,6 +2481,12 @@
   ],
   "categories": [],
   "tags": [
+    "FinOps",
+    "Cloud Cost Optimization",
+    "AWS",
+    "Kubernetes",
+    "DevOps",
+    "Cost Management",
     "Testcontainers",
     "Integration Testing",
     "Test Automation",
@@ -2477,7 +2506,6 @@
     "Email Deliverability",
     "Cybersecurity",
     "DORA Metrics",
-    "DevOps",
     "Software Delivery",
     "SRE",
     "CI/CD",
@@ -2495,7 +2523,6 @@
     "Internet Infrastructure",
     "RPKI",
     "Routing",
-    "Kubernetes",
     "Autoscaling",
     "HPA",
     "Karpenter",
@@ -2668,7 +2695,6 @@
     "Contract Testing",
     "Pact",
     "Terraform",
-    "AWS",
     "Cloud Cost",
     "Ownership",
     "Borrowing",
@@ -2793,15 +2819,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 110,
-    "publishedPosts": 110,
+    "totalPosts": 111,
+    "publishedPosts": 111,
     "draftPosts": 0,
-    "featuredPosts": 110,
+    "featuredPosts": 111,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 333
+    "tagsCount": 336
   },
   "settings": {
     "postsPerPage": 12,
@@ -2812,5 +2838,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-10-12T10:01:22.745Z"
+  "generatedAt": "2026-10-13T10:02:14.340Z"
 }
