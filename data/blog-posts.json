@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "passkeys-webauthn-explained-passwordless-authentication",
+      "title": "Passkeys and WebAuthn Explained - How Passwordless Authentication Finally Went Mainstream",
+      "slug": "passkeys-webauthn-explained-passwordless-authentication",
+      "file": "others/2026-10-14-passkeys-webauthn-explained-passwordless-authentication.md",
+      "date": "2026-10-14",
+      "excerpt": "A practical guide to passkeys and WebAuthn, how the FIDO2 public-key model kills phishing, and how to roll out passwordless login safely.",
+      "content": "blog.html?post=passkeys-webauthn-explained-passwordless-authentication",
+      "readTime": "10 min read",
+      "tags": [
+        "Passkeys",
+        "WebAuthn",
+        "FIDO2",
+        "Authentication",
+        "Passwordless",
+        "Security"
+      ],
+      "category": "Others",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2325
+    },
+    {
       "id": "finops-explained-cloud-cost-optimization-devops",
       "title": "FinOps Explained - A Practical Guide to Cloud Cost Optimization for DevOps Teams",
       "slug": "finops-explained-cloud-cost-optimization-devops",
@@ -2481,6 +2504,12 @@
   ],
   "categories": [],
   "tags": [
+    "Passkeys",
+    "WebAuthn",
+    "FIDO2",
+    "Authentication",
+    "Passwordless",
+    "Security",
     "FinOps",
     "Cloud Cost Optimization",
     "AWS",
@@ -2541,7 +2570,6 @@
     "TLS",
     "Certificates",
     "ACME",
-    "Security",
     "DevSecOps",
     "GitHub Actions",
     "OIDC",
@@ -2654,7 +2682,6 @@
     "Reactivity",
     "OAuth 2.0",
     "OpenID Connect",
-    "Authentication",
     "Authorization",
     "API Security",
     "Platform Engineering",
@@ -2819,15 +2846,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 111,
-    "publishedPosts": 111,
+    "totalPosts": 112,
+    "publishedPosts": 112,
     "draftPosts": 0,
-    "featuredPosts": 111,
+    "featuredPosts": 112,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 336
+    "tagsCount": 340
   },
   "settings": {
     "postsPerPage": 12,
@@ -2838,5 +2865,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-10-13T10:02:14.340Z"
+  "generatedAt": "2026-10-15T00:01:52.210Z"
 }
