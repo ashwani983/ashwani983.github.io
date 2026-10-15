@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "structured-outputs-constrained-decoding-json-schema",
+      "title": "Structured Outputs Explained - Turning Unreliable LLM Text into Valid JSON",
+      "slug": "structured-outputs-constrained-decoding-json-schema",
+      "file": "developer/2026-10-15-structured-outputs-constrained-decoding-json-schema.md",
+      "date": "2026-10-15",
+      "excerpt": "Learn how constrained decoding and JSON Schema grammars turn unpredictable LLM text into valid machine-readable data your code can trust.",
+      "content": "blog.html?post=structured-outputs-constrained-decoding-json-schema",
+      "readTime": "12 min read",
+      "tags": [
+        "Structured Outputs",
+        "LLM",
+        "JSON Schema",
+        "Constrained Decoding",
+        "Generative AI",
+        "Python"
+      ],
+      "category": "Developer",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2792
+    },
+    {
       "id": "passkeys-webauthn-explained-passwordless-authentication",
       "title": "Passkeys and WebAuthn Explained - How Passwordless Authentication Finally Went Mainstream",
       "slug": "passkeys-webauthn-explained-passwordless-authentication",
@@ -2504,6 +2527,12 @@
   ],
   "categories": [],
   "tags": [
+    "Structured Outputs",
+    "LLM",
+    "JSON Schema",
+    "Constrained Decoding",
+    "Generative AI",
+    "Python",
     "Passkeys",
     "WebAuthn",
     "FIDO2",
@@ -2561,8 +2590,6 @@
     "Software Testing",
     "LangGraph",
     "AI Agents",
-    "LLM",
-    "Python",
     "TypeScript",
     "Workflow Automation",
     "PKI",
@@ -2846,15 +2873,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 112,
-    "publishedPosts": 112,
+    "totalPosts": 113,
+    "publishedPosts": 113,
     "draftPosts": 0,
-    "featuredPosts": 112,
+    "featuredPosts": 113,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 340
+    "tagsCount": 344
   },
   "settings": {
     "postsPerPage": 12,
@@ -2865,5 +2892,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-10-15T00:01:52.210Z"
+  "generatedAt": "2026-10-15T10:05:46.760Z"
 }
