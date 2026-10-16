@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "llm-application-testing-explained",
+      "title": "LLM Application Testing Explained - Evaluating AI Systems with Golden Datasets, LLM-as-a-Judge and Guardrails",
+      "slug": "llm-application-testing-explained",
+      "file": "tester/2026-10-16-llm-application-testing-explained.md",
+      "date": "2026-10-16",
+      "excerpt": "A practical guide to testing LLM applications with golden datasets, LLM-as-a-judge evaluation, guardrail checks and CI regression tests.",
+      "content": "blog.html?post=llm-application-testing-explained",
+      "readTime": "13 min read",
+      "tags": [
+        "LLM Testing",
+        "AI Evaluation",
+        "Test Automation",
+        "QA",
+        "Generative AI",
+        "Guardrails"
+      ],
+      "category": "Tester",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2538
+    },
+    {
       "id": "structured-outputs-constrained-decoding-json-schema",
       "title": "Structured Outputs Explained - Turning Unreliable LLM Text into Valid JSON",
       "slug": "structured-outputs-constrained-decoding-json-schema",
@@ -2527,11 +2550,16 @@
   ],
   "categories": [],
   "tags": [
+    "LLM Testing",
+    "AI Evaluation",
+    "Test Automation",
+    "QA",
+    "Generative AI",
+    "Guardrails",
     "Structured Outputs",
     "LLM",
     "JSON Schema",
     "Constrained Decoding",
-    "Generative AI",
     "Python",
     "Passkeys",
     "WebAuthn",
@@ -2547,9 +2575,7 @@
     "Cost Management",
     "Testcontainers",
     "Integration Testing",
-    "Test Automation",
     "Docker",
-    "QA",
     "Test Reliability",
     "WebGPU",
     "WGSL",
@@ -2873,15 +2899,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 113,
-    "publishedPosts": 113,
+    "totalPosts": 114,
+    "publishedPosts": 114,
     "draftPosts": 0,
-    "featuredPosts": 113,
+    "featuredPosts": 114,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 344
+    "tagsCount": 347
   },
   "settings": {
     "postsPerPage": 12,
@@ -2892,5 +2918,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-10-15T10:05:46.760Z"
+  "generatedAt": "2026-10-16T10:04:30.703Z"
 }
