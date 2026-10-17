@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "terraform-state-drift-detection-remote-backends",
+      "title": "Terraform State, Drift Detection and Remote Backends: The Guide That Keeps Your IaC Honest",
+      "slug": "terraform-state-drift-detection-remote-backends",
+      "file": "devops/2026-10-17-terraform-state-drift-detection-remote-backends.md",
+      "date": "2026-10-17",
+      "excerpt": "Terraform state is the source of truth for your infrastructure. Learn how remote backends, locking and drift detection keep plans honest.",
+      "content": "blog.html?post=terraform-state-drift-detection-remote-backends",
+      "readTime": "12 min read",
+      "tags": [
+        "Terraform",
+        "Infrastructure as Code",
+        "DevOps",
+        "Drift Detection",
+        "Remote State",
+        "GitOps"
+      ],
+      "category": "DevOps",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2381
+    },
+    {
       "id": "llm-application-testing-explained",
       "title": "LLM Application Testing Explained - Evaluating AI Systems with Golden Datasets, LLM-as-a-Judge and Guardrails",
       "slug": "llm-application-testing-explained",
@@ -2550,6 +2573,12 @@
   ],
   "categories": [],
   "tags": [
+    "Terraform",
+    "Infrastructure as Code",
+    "DevOps",
+    "Drift Detection",
+    "Remote State",
+    "GitOps",
     "LLM Testing",
     "AI Evaluation",
     "Test Automation",
@@ -2571,7 +2600,6 @@
     "Cloud Cost Optimization",
     "AWS",
     "Kubernetes",
-    "DevOps",
     "Cost Management",
     "Testcontainers",
     "Integration Testing",
@@ -2774,7 +2802,6 @@
     "Automation",
     "Contract Testing",
     "Pact",
-    "Terraform",
     "Cloud Cost",
     "Ownership",
     "Borrowing",
@@ -2819,7 +2846,6 @@
     "cia-triad",
     "authentication",
     "malware",
-    "GitOps",
     "Argo CD",
     "Flux",
     "Cloud Security",
@@ -2879,7 +2905,6 @@
     "database",
     "rdbms",
     "query-language",
-    "Infrastructure as Code",
     "c#",
     "javascript",
     "ruby",
@@ -2899,15 +2924,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 114,
-    "publishedPosts": 114,
+    "totalPosts": 115,
+    "publishedPosts": 115,
     "draftPosts": 0,
-    "featuredPosts": 114,
+    "featuredPosts": 115,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 347
+    "tagsCount": 349
   },
   "settings": {
     "postsPerPage": 12,
@@ -2918,5 +2943,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-10-16T10:04:30.703Z"
+  "generatedAt": "2026-10-17T10:03:54.920Z"
 }
