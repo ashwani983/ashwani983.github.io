@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "sqlite-explained-most-deployed-database",
+      "title": "SQLite Explained: Why the World's Most Deployed Database Powers Modern Apps",
+      "slug": "sqlite-explained-most-deployed-database",
+      "file": "others/2026-10-18-sqlite-explained-most-deployed-database.md",
+      "date": "2026-10-18",
+      "excerpt": "SQLite is the most deployed database on earth, yet many devs dismiss it as a toy. Learn how it works, where it shines, and when to move on.",
+      "content": "blog.html?post=sqlite-explained-most-deployed-database",
+      "readTime": "9 min read",
+      "tags": [
+        "SQLite",
+        "Databases",
+        "SQL",
+        "Serverless",
+        "Edge Computing",
+        "Performance"
+      ],
+      "category": "Others",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2149
+    },
+    {
       "id": "terraform-state-drift-detection-remote-backends",
       "title": "Terraform State, Drift Detection and Remote Backends: The Guide That Keeps Your IaC Honest",
       "slug": "terraform-state-drift-detection-remote-backends",
@@ -2573,6 +2596,12 @@
   ],
   "categories": [],
   "tags": [
+    "SQLite",
+    "Databases",
+    "SQL",
+    "Serverless",
+    "Edge Computing",
+    "Performance",
     "Terraform",
     "Infrastructure as Code",
     "DevOps",
@@ -2610,7 +2639,6 @@
     "GPU Programming",
     "Web Development",
     "JavaScript",
-    "Performance",
     "Email Security",
     "SPF",
     "DKIM",
@@ -2732,7 +2760,6 @@
     "Model Context Protocol",
     "JSON-RPC",
     "AI Integration",
-    "Edge Computing",
     "IoT",
     "Low Latency",
     "Fog Computing",
@@ -2747,7 +2774,6 @@
     "AI",
     "Vector Databases",
     "Embeddings",
-    "Serverless",
     "AWS Lambda",
     "Azure Functions",
     "Cloud-Native",
@@ -2924,15 +2950,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 115,
-    "publishedPosts": 115,
+    "totalPosts": 116,
+    "publishedPosts": 116,
     "draftPosts": 0,
-    "featuredPosts": 115,
+    "featuredPosts": 116,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 349
+    "tagsCount": 352
   },
   "settings": {
     "postsPerPage": 12,
@@ -2943,5 +2969,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-10-17T10:03:54.920Z"
+  "generatedAt": "2026-10-18T10:02:35.075Z"
 }
