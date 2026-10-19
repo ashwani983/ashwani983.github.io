@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "local-llm-inference-ollama-gguf-quantization",
+      "title": "Local LLM Inference Explained: Ollama, GGUF Quantization and the Math Behind Running AI on Your Own Machine",
+      "slug": "local-llm-inference-ollama-gguf-quantization",
+      "file": "developer/2026-10-19-local-llm-inference-ollama-gguf-quantization.md",
+      "date": "2026-10-19",
+      "excerpt": "Run AI on your own machine. This guide covers local LLM inference, GGUF quantization, Ollama setup, memory math and tuning for speed.",
+      "content": "blog.html?post=local-llm-inference-ollama-gguf-quantization",
+      "readTime": "12 min read",
+      "tags": [
+        "Local LLM",
+        "Ollama",
+        "GGUF",
+        "Quantization",
+        "AI Inference",
+        "Python"
+      ],
+      "category": "Developer",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2380
+    },
+    {
       "id": "sqlite-explained-most-deployed-database",
       "title": "SQLite Explained: Why the World's Most Deployed Database Powers Modern Apps",
       "slug": "sqlite-explained-most-deployed-database",
@@ -2596,6 +2619,12 @@
   ],
   "categories": [],
   "tags": [
+    "Local LLM",
+    "Ollama",
+    "GGUF",
+    "Quantization",
+    "AI Inference",
+    "Python",
     "SQLite",
     "Databases",
     "SQL",
@@ -2618,7 +2647,6 @@
     "LLM",
     "JSON Schema",
     "Constrained Decoding",
-    "Python",
     "Passkeys",
     "WebAuthn",
     "FIDO2",
@@ -2950,15 +2978,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 116,
-    "publishedPosts": 116,
+    "totalPosts": 117,
+    "publishedPosts": 117,
     "draftPosts": 0,
-    "featuredPosts": 116,
+    "featuredPosts": 117,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 352
+    "tagsCount": 357
   },
   "settings": {
     "postsPerPage": 12,
@@ -2969,5 +2997,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-10-18T10:02:35.075Z"
+  "generatedAt": "2026-10-19T10:05:05.768Z"
 }
