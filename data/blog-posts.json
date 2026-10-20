@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "exploratory-testing-session-based-test-management-guide",
+      "title": "Exploratory Testing and Session-Based Test Management: A Practical Guide to Chartering, Note-Taking and Risk-Driven Discovery",
+      "slug": "exploratory-testing-session-based-test-management-guide",
+      "file": "tester/2026-10-20-exploratory-testing-session-based-test-management-guide.md",
+      "date": "2026-10-20",
+      "excerpt": "Structured exploratory testing turns ad-hoc poking into a repeatable, trackable practice. Learn charters, SBTM, note-taking and metrics.",
+      "content": "blog.html?post=exploratory-testing-session-based-test-management-guide",
+      "readTime": "10 min read",
+      "tags": [
+        "Exploratory Testing",
+        "Session-Based Test Management",
+        "Software Testing",
+        "QA",
+        "Test Automation",
+        "Risk-Based Testing"
+      ],
+      "category": "Tester",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2426
+    },
+    {
       "id": "local-llm-inference-ollama-gguf-quantization",
       "title": "Local LLM Inference Explained: Ollama, GGUF Quantization and the Math Behind Running AI on Your Own Machine",
       "slug": "local-llm-inference-ollama-gguf-quantization",
@@ -2619,6 +2642,12 @@
   ],
   "categories": [],
   "tags": [
+    "Exploratory Testing",
+    "Session-Based Test Management",
+    "Software Testing",
+    "QA",
+    "Test Automation",
+    "Risk-Based Testing",
     "Local LLM",
     "Ollama",
     "GGUF",
@@ -2639,8 +2668,6 @@
     "GitOps",
     "LLM Testing",
     "AI Evaluation",
-    "Test Automation",
-    "QA",
     "Generative AI",
     "Guardrails",
     "Structured Outputs",
@@ -2697,7 +2724,6 @@
     "Cost Optimization",
     "Shift-Left Testing",
     "Quality Assurance",
-    "Software Testing",
     "LangGraph",
     "AI Agents",
     "TypeScript",
@@ -2978,15 +3004,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 117,
-    "publishedPosts": 117,
+    "totalPosts": 118,
+    "publishedPosts": 118,
     "draftPosts": 0,
-    "featuredPosts": 117,
+    "featuredPosts": 118,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 357
+    "tagsCount": 360
   },
   "settings": {
     "postsPerPage": 12,
@@ -2997,5 +3023,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-10-19T10:05:05.768Z"
+  "generatedAt": "2026-10-20T10:03:36.593Z"
 }
