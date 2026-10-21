@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "kubernetes-operators-explained-custom-controllers-day-2-operations",
+      "title": "Kubernetes Operators Explained - Building Custom Controllers That Automate Day-2 Operations",
+      "slug": "kubernetes-operators-explained-custom-controllers-day-2-operations",
+      "file": "devops/2026-10-21-kubernetes-operators-explained-custom-controllers-day-2-operations.md",
+      "date": "2026-10-21",
+      "excerpt": "How Kubernetes Operators turn hard-wired operational knowledge into code using CRDs, reconciliation loops and the Operator SDK, with a working example.",
+      "content": "blog.html?post=kubernetes-operators-explained-custom-controllers-day-2-operations",
+      "readTime": "12 min read",
+      "tags": [
+        "Kubernetes",
+        "Operators",
+        "CRDs",
+        "Controller Runtime",
+        "Operator SDK",
+        "Automation"
+      ],
+      "category": "DevOps",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2869
+    },
+    {
       "id": "exploratory-testing-session-based-test-management-guide",
       "title": "Exploratory Testing and Session-Based Test Management: A Practical Guide to Chartering, Note-Taking and Risk-Driven Discovery",
       "slug": "exploratory-testing-session-based-test-management-guide",
@@ -2642,6 +2665,12 @@
   ],
   "categories": [],
   "tags": [
+    "Kubernetes",
+    "Operators",
+    "CRDs",
+    "Controller Runtime",
+    "Operator SDK",
+    "Automation",
     "Exploratory Testing",
     "Session-Based Test Management",
     "Software Testing",
@@ -2683,7 +2712,6 @@
     "FinOps",
     "Cloud Cost Optimization",
     "AWS",
-    "Kubernetes",
     "Cost Management",
     "Testcontainers",
     "Integration Testing",
@@ -2879,7 +2907,6 @@
     "Helm",
     "Package Management",
     "Ansible",
-    "Automation",
     "Contract Testing",
     "Pact",
     "Cloud Cost",
@@ -3004,15 +3031,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 118,
-    "publishedPosts": 118,
+    "totalPosts": 119,
+    "publishedPosts": 119,
     "draftPosts": 0,
-    "featuredPosts": 118,
+    "featuredPosts": 119,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 360
+    "tagsCount": 364
   },
   "settings": {
     "postsPerPage": 12,
@@ -3023,5 +3050,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-10-20T10:03:36.593Z"
+  "generatedAt": "2026-10-21T10:17:48.275Z"
 }
