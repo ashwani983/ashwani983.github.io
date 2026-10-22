@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "cors-explained-cross-origin-resource-sharing",
+      "title": "CORS Explained: The Complete Guide to Cross-Origin Resource Sharing, Preflight Requests and Secure API Access",
+      "slug": "cors-explained-cross-origin-resource-sharing",
+      "file": "others/2026-10-22-cors-explained-cross-origin-resource-sharing.md",
+      "date": "2026-10-22",
+      "excerpt": "Learn how CORS works, why browsers block cross-origin API calls, and how to fix CORS errors with preflights, correct headers and proxy patterns.",
+      "content": "blog.html?post=cors-explained-cross-origin-resource-sharing",
+      "readTime": "13 min read",
+      "tags": [
+        "CORS",
+        "Web Security",
+        "HTTP",
+        "APIs",
+        "Browser Security",
+        "Same-Origin Policy"
+      ],
+      "category": "Others",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2852
+    },
+    {
       "id": "kubernetes-operators-explained-custom-controllers-day-2-operations",
       "title": "Kubernetes Operators Explained - Building Custom Controllers That Automate Day-2 Operations",
       "slug": "kubernetes-operators-explained-custom-controllers-day-2-operations",
@@ -2665,6 +2688,12 @@
   ],
   "categories": [],
   "tags": [
+    "CORS",
+    "Web Security",
+    "HTTP",
+    "APIs",
+    "Browser Security",
+    "Same-Origin Policy",
     "Kubernetes",
     "Operators",
     "CRDs",
@@ -3031,15 +3060,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 119,
-    "publishedPosts": 119,
+    "totalPosts": 120,
+    "publishedPosts": 120,
     "draftPosts": 0,
-    "featuredPosts": 119,
+    "featuredPosts": 120,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 364
+    "tagsCount": 370
   },
   "settings": {
     "postsPerPage": 12,
@@ -3050,5 +3079,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-10-21T10:17:48.275Z"
+  "generatedAt": "2026-10-22T10:10:20.024Z"
 }
