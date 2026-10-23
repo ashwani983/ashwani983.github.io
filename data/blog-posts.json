@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "rate-limiting-explained-token-bucket-sliding-window-distributed-throttling",
+      "title": "Rate Limiting Explained - Token Bucket, Sliding Windows and Distributed Throttling That Actually Holds",
+      "slug": "rate-limiting-explained-token-bucket-sliding-window-distributed-throttling",
+      "file": "developer/2026-10-23-rate-limiting-explained-token-bucket-sliding-window-distributed-throttling.md",
+      "date": "2026-10-23",
+      "excerpt": "A practical guide to rate limiting algorithms, distributed counters, Redis Lua scripts and the client-side retry behavior that keeps APIs fair and available.",
+      "content": "blog.html?post=rate-limiting-explained-token-bucket-sliding-window-distributed-throttling",
+      "readTime": "15 min read",
+      "tags": [
+        "Rate Limiting",
+        "API Design",
+        "Distributed Systems",
+        "Redis",
+        "Backend",
+        "System Design"
+      ],
+      "category": "Developer",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2930
+    },
+    {
       "id": "cors-explained-cross-origin-resource-sharing",
       "title": "CORS Explained: The Complete Guide to Cross-Origin Resource Sharing, Preflight Requests and Secure API Access",
       "slug": "cors-explained-cross-origin-resource-sharing",
@@ -2688,6 +2711,12 @@
   ],
   "categories": [],
   "tags": [
+    "Rate Limiting",
+    "API Design",
+    "Distributed Systems",
+    "Redis",
+    "Backend",
+    "System Design",
     "CORS",
     "Web Security",
     "HTTP",
@@ -2821,8 +2850,6 @@
     "Reliability",
     "Temporal",
     "Durable Execution",
-    "Distributed Systems",
-    "Backend",
     "Post-Quantum Cryptography",
     "Quantum Computing",
     "Encryption",
@@ -2952,7 +2979,6 @@
     "Load Testing",
     "Dashboard",
     "GraphQL",
-    "API Design",
     "gRPC",
     "RPC",
     "Protobuf",
@@ -2986,7 +3012,6 @@
     "Flux",
     "Cloud Security",
     "IAM",
-    "System Design",
     "Scalability",
     "ITInfrastructure",
     "NetworkSecurity",
@@ -3060,15 +3085,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 120,
-    "publishedPosts": 120,
+    "totalPosts": 121,
+    "publishedPosts": 121,
     "draftPosts": 0,
-    "featuredPosts": 120,
+    "featuredPosts": 121,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 370
+    "tagsCount": 372
   },
   "settings": {
     "postsPerPage": 12,
@@ -3079,5 +3104,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-10-22T10:10:20.024Z"
+  "generatedAt": "2026-10-23T10:07:33.536Z"
 }
