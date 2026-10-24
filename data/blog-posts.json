@@ -1,6 +1,28 @@
 {
   "posts": [
     {
+      "id": "graphql-api-testing-schema-validation-resolvers-queries-performance",
+      "title": "GraphQL API Testing - Schema Validation, Resolvers, Queries and Performance",
+      "slug": "graphql-api-testing-schema-validation-resolvers-queries-performance",
+      "file": "tester/2026-10-24-graphql-api-testing-schema-validation-resolvers-queries-performance.md",
+      "date": "2026-10-24",
+      "excerpt": "A practical guide to testing GraphQL APIs from schema validation to resolver logic and performance tuning.",
+      "content": "blog.html?post=graphql-api-testing-schema-validation-resolvers-queries-performance",
+      "readTime": "12 min read",
+      "tags": [
+        "GraphQL",
+        "API Testing",
+        "Schema Testing",
+        "Resolvers",
+        "Performance Testing"
+      ],
+      "category": "Tester",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2279
+    },
+    {
       "id": "rate-limiting-explained-token-bucket-sliding-window-distributed-throttling",
       "title": "Rate Limiting Explained - Token Bucket, Sliding Windows and Distributed Throttling That Actually Holds",
       "slug": "rate-limiting-explained-token-bucket-sliding-window-distributed-throttling",
@@ -2711,6 +2733,11 @@
   ],
   "categories": [],
   "tags": [
+    "GraphQL",
+    "API Testing",
+    "Schema Testing",
+    "Resolvers",
+    "Performance Testing",
     "Rate Limiting",
     "API Design",
     "Distributed Systems",
@@ -2846,7 +2873,6 @@
     "eBPF",
     "Synthetic Monitoring",
     "Observability",
-    "Performance Testing",
     "Reliability",
     "Temporal",
     "Durable Execution",
@@ -2854,7 +2880,6 @@
     "Quantum Computing",
     "Encryption",
     "HTTP Status Codes",
-    "API Testing",
     "Service Level Objectives",
     "Error Budgets",
     "Reliability Engineering",
@@ -2978,7 +3003,6 @@
     "k6",
     "Load Testing",
     "Dashboard",
-    "GraphQL",
     "gRPC",
     "RPC",
     "Protobuf",
@@ -3085,15 +3109,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 121,
-    "publishedPosts": 121,
+    "totalPosts": 122,
+    "publishedPosts": 122,
     "draftPosts": 0,
-    "featuredPosts": 121,
+    "featuredPosts": 122,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 372
+    "tagsCount": 374
   },
   "settings": {
     "postsPerPage": 12,
@@ -3104,5 +3128,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-10-23T10:07:33.536Z"
+  "generatedAt": "2026-10-24T10:04:33.352Z"
 }
