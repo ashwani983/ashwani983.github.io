@@ -48,6 +48,28 @@
       "id": "graphql-api-testing-schema-validation-resolvers-queries-performance",
       "title": "GraphQL API Testing - Schema Validation, Resolvers, Queries and Performance",
       "slug": "graphql-api-testing-schema-validation-resolvers-queries-performance",
+      "file": "posts/tester/2026-10-24-graphql-api-testing-schema-validation-resolvers-queries-performance.md",
+      "date": "2026-10-24",
+      "excerpt": "A practical guide to testing GraphQL APIs from schema validation to resolver logic and performance tuning.",
+      "content": "blog.html?post=graphql-api-testing-schema-validation-resolvers-queries-performance",
+      "readTime": "12 min read",
+      "tags": [
+        "GraphQL",
+        "API Testing",
+        "Schema Testing",
+        "Resolvers",
+        "Performance Testing"
+      ],
+      "category": "Tester",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2287
+    },
+    {
+      "id": "graphql-api-testing-schema-validation-resolvers-queries-performance",
+      "title": "GraphQL API Testing - Schema Validation, Resolvers, Queries and Performance",
+      "slug": "graphql-api-testing-schema-validation-resolvers-queries-performance",
       "file": "tester/2026-10-24-graphql-api-testing-schema-validation-resolvers-queries-performance.md",
       "date": "2026-10-24",
       "excerpt": "A practical guide to testing GraphQL APIs from schema validation to resolver logic and performance tuning.",
@@ -3156,10 +3178,10 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 124,
-    "publishedPosts": 124,
+    "totalPosts": 125,
+    "publishedPosts": 125,
     "draftPosts": 0,
-    "featuredPosts": 124,
+    "featuredPosts": 125,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
@@ -3175,5 +3197,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-10-25T05:48:37.867Z"
+  "generatedAt": "2026-10-25T05:59:56.988Z"
 }
