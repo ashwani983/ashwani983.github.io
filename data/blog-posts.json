@@ -23,6 +23,28 @@
       "_wordCount": 982
     },
     {
+      "id": "how-virtualization-works-linux-kvm-qemu",
+      "title": "How Virtualization Works with Linux KVM and QEMU",
+      "slug": "how-virtualization-works-linux-kvm-qemu",
+      "file": "posts/devops/2026-10-25-how-virtualization-works-linux-kvm-qemu.md",
+      "date": "2026-10-25",
+      "excerpt": "Understanding how KVM and QEMU work together to deliver near-native virtual machines on Linux systems.",
+      "content": "blog.html?post=how-virtualization-works-linux-kvm-qemu",
+      "readTime": "5 min read",
+      "tags": [
+        "Virtualization",
+        "Linux",
+        "KVM",
+        "QEMU",
+        "DevOps"
+      ],
+      "category": "DevOps",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 988
+    },
+    {
       "id": "graphql-api-testing-schema-validation-resolvers-queries-performance",
       "title": "GraphQL API Testing - Schema Validation, Resolvers, Queries and Performance",
       "slug": "graphql-api-testing-schema-validation-resolvers-queries-performance",
@@ -3134,10 +3156,10 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 123,
-    "publishedPosts": 123,
+    "totalPosts": 124,
+    "publishedPosts": 124,
     "draftPosts": 0,
-    "featuredPosts": 123,
+    "featuredPosts": 124,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
@@ -3153,5 +3175,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-10-25T05:20:16.950Z"
+  "generatedAt": "2026-10-25T05:48:37.867Z"
 }
