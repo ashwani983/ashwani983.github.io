@@ -45,6 +45,29 @@
       "_wordCount": 988
     },
     {
+      "id": "kubernetes-gateway-api-future-ingress-service-mesh-routing",
+      "title": "Kubernetes Gateway API: The Future of Ingress and Service Mesh Routing",
+      "slug": "kubernetes-gateway-api-future-ingress-service-mesh-routing",
+      "file": "devops/2026-10-25-kubernetes-gateway-api-future-ingress-service-mesh-routing.md",
+      "date": "2026-10-25",
+      "excerpt": "A 138 character summary of how Gateway API modernizes Kubernetes routing with expressive, role-oriented, extensible traffic management.",
+      "content": "blog.html?post=kubernetes-gateway-api-future-ingress-service-mesh-routing",
+      "readTime": "12 min read",
+      "tags": [
+        "Kubernetes",
+        "Gateway API",
+        "Ingress",
+        "Service Mesh",
+        "Networking",
+        "DevOps"
+      ],
+      "category": "DevOps",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2242
+    },
+    {
       "id": "graphql-api-testing-schema-validation-resolvers-queries-performance",
       "title": "GraphQL API Testing - Schema Validation, Resolvers, Queries and Performance",
       "slug": "graphql-api-testing-schema-validation-resolvers-queries-performance",
@@ -2804,6 +2827,11 @@
     "KVM",
     "QEMU",
     "DevOps",
+    "Kubernetes",
+    "Gateway API",
+    "Ingress",
+    "Service Mesh",
+    "Networking",
     "GraphQL",
     "API Testing",
     "Schema Testing",
@@ -2821,7 +2849,6 @@
     "APIs",
     "Browser Security",
     "Same-Origin Policy",
-    "Kubernetes",
     "Operators",
     "CRDs",
     "Controller Runtime",
@@ -2897,7 +2924,6 @@
     "Next.js",
     "Web Performance",
     "BGP",
-    "Networking",
     "Internet Infrastructure",
     "RPKI",
     "Routing",
@@ -2935,7 +2961,6 @@
     "ZTNA",
     "Network Security",
     "NIST",
-    "Service Mesh",
     "Istio",
     "Linkerd",
     "mTLS",
@@ -3178,15 +3203,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 125,
-    "publishedPosts": 125,
+    "totalPosts": 126,
+    "publishedPosts": 126,
     "draftPosts": 0,
-    "featuredPosts": 125,
+    "featuredPosts": 126,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 377
+    "tagsCount": 379
   },
   "settings": {
     "postsPerPage": 12,
@@ -3197,5 +3222,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-10-25T05:59:56.988Z"
+  "generatedAt": "2026-10-26T00:02:37.650Z"
 }
