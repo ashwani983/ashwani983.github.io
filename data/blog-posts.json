@@ -1,6 +1,28 @@
 {
   "posts": [
     {
+      "id": "owasp-top-10-explained-web-application-security-risks",
+      "title": "OWASP Top 10 Explained - A Complete Guide to Web Application Security Risks and Mitigations",
+      "slug": "owasp-top-10-explained-web-application-security-risks",
+      "file": "others/2026-10-27-owasp-top-10-explained-web-application-security-risks.md",
+      "date": "2026-10-27",
+      "excerpt": "A practical guide to the OWASP Top 10 vulnerabilities, real-world examples, and proven mitigations for building secure web applications",
+      "content": "blog.html?post=owasp-top-10-explained-web-application-security-risks",
+      "readTime": "15 min read",
+      "tags": [
+        "OWASP",
+        "Web Security",
+        "Application Security",
+        "Cybersecurity",
+        "Secure Coding"
+      ],
+      "category": "Others",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2984
+    },
+    {
       "id": "how-virtualization-works-linux-kvm-qemu",
       "title": "How Virtualization Works with Linux KVM and QEMU",
       "slug": "how-virtualization-works-linux-kvm-qemu",
@@ -2845,6 +2867,11 @@
   ],
   "categories": [],
   "tags": [
+    "OWASP",
+    "Web Security",
+    "Application Security",
+    "Cybersecurity",
+    "Secure Coding",
     "Virtualization",
     "Linux",
     "KVM",
@@ -2867,7 +2894,6 @@
     "Backend",
     "System Design",
     "CORS",
-    "Web Security",
     "HTTP",
     "APIs",
     "Browser Security",
@@ -2932,7 +2958,6 @@
     "DKIM",
     "DMARC",
     "Email Deliverability",
-    "Cybersecurity",
     "DORA Metrics",
     "Software Delivery",
     "SRE",
@@ -3226,15 +3251,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 127,
-    "publishedPosts": 127,
+    "totalPosts": 128,
+    "publishedPosts": 128,
     "draftPosts": 0,
-    "featuredPosts": 127,
+    "featuredPosts": 128,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 379
+    "tagsCount": 382
   },
   "settings": {
     "postsPerPage": 12,
@@ -3245,5 +3270,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-10-26T05:26:20.119Z"
+  "generatedAt": "2026-10-28T00:04:50.312Z"
 }
