@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "building-reliable-ai-agents-in-production",
+      "title": "Building Reliable AI Agents in Production: Patterns, Pitfalls, and Practical Advice",
+      "slug": "building-reliable-ai-agents-in-production",
+      "file": "developer/2026-10-31-building-reliable-ai-agents-in-production.md",
+      "date": "2026-10-31",
+      "excerpt": "Learn how to build production-grade AI agents: architecture patterns, guardrails, observability, evaluation, and real-world lessons for shipping reliable agentic systems.",
+      "content": "blog.html?post=building-reliable-ai-agents-in-production",
+      "readTime": "12 min read",
+      "tags": [
+        "ai-agents",
+        "llm",
+        "production",
+        "orchestration",
+        "guardrails",
+        "observability"
+      ],
+      "category": "Developer",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 3244
+    },
+    {
       "id": "database-indexing-explained-b-trees-query-planners-missing-index",
       "title": "Database Indexing Explained - B-Trees, Query Planners, and the True Cost of a Missing Index",
       "slug": "database-indexing-explained-b-trees-query-planners-missing-index",
@@ -2890,6 +2913,12 @@
   ],
   "categories": [],
   "tags": [
+    "ai-agents",
+    "llm",
+    "production",
+    "orchestration",
+    "guardrails",
+    "observability",
     "Database Indexing",
     "B-Tree",
     "SQL",
@@ -3277,15 +3306,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 129,
-    "publishedPosts": 129,
+    "totalPosts": 130,
+    "publishedPosts": 130,
     "draftPosts": 0,
-    "featuredPosts": 129,
+    "featuredPosts": 130,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 385
+    "tagsCount": 391
   },
   "settings": {
     "postsPerPage": 12,
@@ -3296,5 +3325,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-10-31T10:03:30.689Z"
+  "generatedAt": "2026-10-31T23:13:20.400Z"
 }
