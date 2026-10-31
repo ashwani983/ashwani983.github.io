@@ -24,6 +24,28 @@
       "_wordCount": 3244
     },
     {
+      "id": "contract-testing-microservices-guide",
+      "title": "Contract Testing for Microservices: A Practical Guide for Testers",
+      "slug": "contract-testing-microservices-guide",
+      "file": "tester/2026-10-31-contract-testing-microservices-guide.md",
+      "date": "2026-10-31",
+      "excerpt": "Learn how contract testing verifies API compatibility between microservices without slow end-to-end suites. Includes tools, workflows, and real-world examples.",
+      "content": "blog.html?post=contract-testing-microservices-guide",
+      "readTime": "8 min read",
+      "tags": [
+        "contract-testing",
+        "microservices",
+        "api-testing",
+        "test-automation",
+        "quality-engineering"
+      ],
+      "category": "Tester",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 1997
+    },
+    {
       "id": "database-indexing-explained-b-trees-query-planners-missing-index",
       "title": "Database Indexing Explained - B-Trees, Query Planners, and the True Cost of a Missing Index",
       "slug": "database-indexing-explained-b-trees-query-planners-missing-index",
@@ -2919,6 +2941,11 @@
     "orchestration",
     "guardrails",
     "observability",
+    "contract-testing",
+    "microservices",
+    "api-testing",
+    "test-automation",
+    "quality-engineering",
     "Database Indexing",
     "B-Tree",
     "SQL",
@@ -3306,15 +3333,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 130,
-    "publishedPosts": 130,
+    "totalPosts": 131,
+    "publishedPosts": 131,
     "draftPosts": 0,
-    "featuredPosts": 130,
+    "featuredPosts": 131,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 391
+    "tagsCount": 396
   },
   "settings": {
     "postsPerPage": 12,
@@ -3325,5 +3352,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-10-31T23:13:20.400Z"
+  "generatedAt": "2026-10-31T23:38:33.118Z"
 }
