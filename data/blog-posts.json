@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "database-indexing-explained-b-trees-query-planners-missing-index",
+      "title": "Database Indexing Explained - B-Trees, Query Planners, and the True Cost of a Missing Index",
+      "slug": "database-indexing-explained-b-trees-query-planners-missing-index",
+      "file": "developer/2026-10-31-database-indexing-explained-b-trees-query-planners-missing-index.md",
+      "date": "2026-10-31",
+      "excerpt": "Learn how B-tree indexes work, how query planners choose them, and how to read execution plans, avoid redundant indexes, and keep writes fast.",
+      "content": "blog.html?post=database-indexing-explained-b-trees-query-planners-missing-index",
+      "readTime": "15 min read",
+      "tags": [
+        "Database Indexing",
+        "B-Tree",
+        "SQL",
+        "Query Optimization",
+        "Databases",
+        "Performance"
+      ],
+      "category": "Developer",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2825
+    },
+    {
       "id": "owasp-top-10-explained-web-application-security-risks",
       "title": "OWASP Top 10 Explained - A Complete Guide to Web Application Security Risks and Mitigations",
       "slug": "owasp-top-10-explained-web-application-security-risks",
@@ -2867,6 +2890,12 @@
   ],
   "categories": [],
   "tags": [
+    "Database Indexing",
+    "B-Tree",
+    "SQL",
+    "Query Optimization",
+    "Databases",
+    "Performance",
     "OWASP",
     "Web Security",
     "Application Security",
@@ -2916,11 +2945,8 @@
     "AI Inference",
     "Python",
     "SQLite",
-    "Databases",
-    "SQL",
     "Serverless",
     "Edge Computing",
-    "Performance",
     "Terraform",
     "Infrastructure as Code",
     "Drift Detection",
@@ -3251,15 +3277,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 128,
-    "publishedPosts": 128,
+    "totalPosts": 129,
+    "publishedPosts": 129,
     "draftPosts": 0,
-    "featuredPosts": 128,
+    "featuredPosts": 129,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 382
+    "tagsCount": 385
   },
   "settings": {
     "postsPerPage": 12,
@@ -3270,5 +3296,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-10-28T00:04:50.312Z"
+  "generatedAt": "2026-10-31T10:03:30.689Z"
 }
