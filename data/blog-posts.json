@@ -69,6 +69,29 @@
       "_wordCount": 2825
     },
     {
+      "id": "gitops-practical-guide-declarative-infrastructure-cd",
+      "title": "GitOps in 2025: A Practical Guide to Declarative Infrastructure and Continuous Delivery",
+      "slug": "gitops-practical-guide-declarative-infrastructure-cd",
+      "file": "devops/2026-10-31-gitops-practical-guide-declarative-infrastructure-cd.md",
+      "date": "2026-10-31",
+      "excerpt": "Learn how GitOps uses Git as the single source of truth for infrastructure and app deployment. Explore principles, tools, workflows, and real-world examples.",
+      "content": "blog.html?post=gitops-practical-guide-declarative-infrastructure-cd",
+      "readTime": "12 min read",
+      "tags": [
+        "gitops",
+        "continuous-delivery",
+        "infrastructure-as-code",
+        "kubernetes",
+        "devops",
+        "declarative"
+      ],
+      "category": "DevOps",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2963
+    },
+    {
       "id": "owasp-top-10-explained-web-application-security-risks",
       "title": "OWASP Top 10 Explained - A Complete Guide to Web Application Security Risks and Mitigations",
       "slug": "owasp-top-10-explained-web-application-security-risks",
@@ -2952,6 +2975,12 @@
     "Query Optimization",
     "Databases",
     "Performance",
+    "gitops",
+    "continuous-delivery",
+    "infrastructure-as-code",
+    "kubernetes",
+    "devops",
+    "declarative",
     "OWASP",
     "Web Security",
     "Application Security",
@@ -3242,9 +3271,7 @@
     "Cloud Infrastructure",
     "SonarQube",
     "Web Testing",
-    "devops",
     "ci-cd",
-    "kubernetes",
     "automation",
     "cloud",
     "Data Structures",
@@ -3333,15 +3360,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 131,
-    "publishedPosts": 131,
+    "totalPosts": 132,
+    "publishedPosts": 132,
     "draftPosts": 0,
-    "featuredPosts": 131,
+    "featuredPosts": 132,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 396
+    "tagsCount": 400
   },
   "settings": {
     "postsPerPage": 12,
@@ -3352,5 +3379,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-10-31T23:38:33.118Z"
+  "generatedAt": "2026-10-31T23:43:13.563Z"
 }
