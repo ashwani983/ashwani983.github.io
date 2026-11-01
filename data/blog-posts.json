@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "llm-evals-practical-guide",
+      "title": "A Practical Guide to LLM Evals: Testing AI Applications in Production",
+      "slug": "llm-evals-practical-guide",
+      "file": "developer/2026-11-01-llm-evals-practical-guide.md",
+      "date": "2026-11-01",
+      "excerpt": "Learn how to build an LLM eval harness: metrics, LLM-as-judge, CI integration, and a real-world chatbot example. A practical guide for developers.",
+      "content": "blog.html?post=llm-evals-practical-guide",
+      "readTime": "8 min read",
+      "tags": [
+        "llm-evals",
+        "ai-testing",
+        "mlops",
+        "quality-engineering",
+        "prompt-engineering",
+        "developer-tools"
+      ],
+      "category": "Developer",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2132
+    },
+    {
       "id": "finops-cloud-cost-management-guide",
       "title": "FinOps in 2025: A Practical Guide to Cloud Cost Management and Optimization",
       "slug": "finops-cloud-cost-management-guide",
@@ -3004,6 +3027,12 @@
   ],
   "categories": [],
   "tags": [
+    "llm-evals",
+    "ai-testing",
+    "mlops",
+    "quality-engineering",
+    "prompt-engineering",
+    "developer-tools",
     "finops",
     "cloud-costs",
     "cost-optimization",
@@ -3015,7 +3044,6 @@
     "ai-integration",
     "llm-tools",
     "json-rpc",
-    "developer-tools",
     "ai-agents",
     "llm",
     "production",
@@ -3026,7 +3054,6 @@
     "microservices",
     "api-testing",
     "test-automation",
-    "quality-engineering",
     "Database Indexing",
     "B-Tree",
     "SQL",
@@ -3417,15 +3444,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 134,
-    "publishedPosts": 134,
+    "totalPosts": 135,
+    "publishedPosts": 135,
     "draftPosts": 0,
-    "featuredPosts": 134,
+    "featuredPosts": 135,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 411
+    "tagsCount": 415
   },
   "settings": {
     "postsPerPage": 12,
@@ -3436,5 +3463,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-11-01T07:01:19.349Z"
+  "generatedAt": "2026-11-01T07:02:06.237Z"
 }
