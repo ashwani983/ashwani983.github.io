@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "finops-cloud-cost-management-guide",
+      "title": "FinOps in 2025: A Practical Guide to Cloud Cost Management and Optimization",
+      "slug": "finops-cloud-cost-management-guide",
+      "file": "others/2026-11-01-finops-cloud-cost-management-guide.md",
+      "date": "2026-11-01",
+      "excerpt": "Learn how FinOps helps teams reduce cloud waste, implement cost allocation, rightsizing, and savings plans. A practical 2025 guide with real-world examples.",
+      "content": "blog.html?post=finops-cloud-cost-management-guide",
+      "readTime": "7 min read",
+      "tags": [
+        "finops",
+        "cloud-costs",
+        "cost-optimization",
+        "aws",
+        "azure",
+        "gcp"
+      ],
+      "category": "Others",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 1902
+    },
+    {
       "id": "building-reliable-ai-agents-in-production",
       "title": "Building Reliable AI Agents in Production: Patterns, Pitfalls, and Practical Advice",
       "slug": "building-reliable-ai-agents-in-production",
@@ -2958,6 +2981,12 @@
   ],
   "categories": [],
   "tags": [
+    "finops",
+    "cloud-costs",
+    "cost-optimization",
+    "aws",
+    "azure",
+    "gcp",
     "ai-agents",
     "llm",
     "production",
@@ -3328,7 +3357,6 @@
     "URI",
     "URL",
     "AI Tools",
-    "aws",
     "projects",
     "serverless",
     "terraform",
@@ -3360,15 +3388,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 132,
-    "publishedPosts": 132,
+    "totalPosts": 133,
+    "publishedPosts": 133,
     "draftPosts": 0,
-    "featuredPosts": 132,
+    "featuredPosts": 133,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 400
+    "tagsCount": 405
   },
   "settings": {
     "postsPerPage": 12,
@@ -3379,5 +3407,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-10-31T23:43:13.563Z"
+  "generatedAt": "2026-11-01T00:11:06.624Z"
 }
