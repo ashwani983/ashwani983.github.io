@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "synthetic-test-data-guide",
+      "title": "Synthetic Test Data: A Practical Guide to Generating Realistic, Privacy-Compliant Test Data",
+      "slug": "synthetic-test-data-guide",
+      "file": "tester/2026-11-02-synthetic-test-data-guide.md",
+      "date": "2026-11-02",
+      "excerpt": "Learn how to generate realistic synthetic test data for your QA pipelines while staying privacy-compliant. Covers tools, techniques, and best practices.",
+      "content": "blog.html?post=synthetic-test-data-guide",
+      "readTime": "10 min read",
+      "tags": [
+        "synthetic-data",
+        "test-data-management",
+        "privacy-testing",
+        "qa",
+        "test-automation",
+        "data-generation"
+      ],
+      "category": "Tester",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2516
+    },
+    {
       "id": "llm-evals-practical-guide",
       "title": "A Practical Guide to LLM Evals: Testing AI Applications in Production",
       "slug": "llm-evals-practical-guide",
@@ -3027,6 +3050,12 @@
   ],
   "categories": [],
   "tags": [
+    "synthetic-data",
+    "test-data-management",
+    "privacy-testing",
+    "qa",
+    "test-automation",
+    "data-generation",
     "llm-evals",
     "ai-testing",
     "mlops",
@@ -3053,7 +3082,6 @@
     "contract-testing",
     "microservices",
     "api-testing",
-    "test-automation",
     "Database Indexing",
     "B-Tree",
     "SQL",
@@ -3444,15 +3472,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 135,
-    "publishedPosts": 135,
+    "totalPosts": 136,
+    "publishedPosts": 136,
     "draftPosts": 0,
-    "featuredPosts": 135,
+    "featuredPosts": 136,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 415
+    "tagsCount": 420
   },
   "settings": {
     "postsPerPage": 12,
@@ -3463,5 +3491,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-11-01T07:02:06.237Z"
+  "generatedAt": "2026-11-02T10:02:19.321Z"
 }
