@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "platform-engineering-internal-developer-platforms",
+      "title": "Platform Engineering in 2025: A Practical Guide to Building Internal Developer Platforms",
+      "slug": "platform-engineering-internal-developer-platforms",
+      "file": "devops/2026-11-03-platform-engineering-internal-developer-platforms.md",
+      "date": "2026-11-03",
+      "excerpt": "Learn how platform engineering and internal developer platforms reduce cognitive load and accelerate delivery by turning DevOps best practices into golden paths developers actually use.",
+      "content": "blog.html?post=platform-engineering-internal-developer-platforms",
+      "readTime": "11 min read",
+      "tags": [
+        "platform-engineering",
+        "idp",
+        "developer-experience",
+        "devops",
+        "kubernetes",
+        "golden-paths"
+      ],
+      "category": "DevOps",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2837
+    },
+    {
       "id": "synthetic-test-data-guide",
       "title": "Synthetic Test Data: A Practical Guide to Generating Realistic, Privacy-Compliant Test Data",
       "slug": "synthetic-test-data-guide",
@@ -3050,6 +3073,12 @@
   ],
   "categories": [],
   "tags": [
+    "platform-engineering",
+    "idp",
+    "developer-experience",
+    "devops",
+    "kubernetes",
+    "golden-paths",
     "synthetic-data",
     "test-data-management",
     "privacy-testing",
@@ -3091,8 +3120,6 @@
     "gitops",
     "continuous-delivery",
     "infrastructure-as-code",
-    "kubernetes",
-    "devops",
     "declarative",
     "OWASP",
     "Web Security",
@@ -3472,15 +3499,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 136,
-    "publishedPosts": 136,
+    "totalPosts": 137,
+    "publishedPosts": 137,
     "draftPosts": 0,
-    "featuredPosts": 136,
+    "featuredPosts": 137,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 420
+    "tagsCount": 424
   },
   "settings": {
     "postsPerPage": 12,
@@ -3491,5 +3518,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-11-02T10:02:19.321Z"
+  "generatedAt": "2026-11-03T10:02:10.649Z"
 }
