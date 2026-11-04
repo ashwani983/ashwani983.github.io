@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "ai-governance-2025-practical-guide",
+      "title": "AI Governance in 2025: A Practical Guide to Responsible AI Deployment",
+      "slug": "ai-governance-2025-practical-guide",
+      "file": "others/2026-11-04-ai-governance-2025-practical-guide.md",
+      "date": "2026-11-04",
+      "excerpt": "Learn how to build an AI governance program in 2025: understand the EU AI Act, NIST AI RMF, roles, processes, and tools for responsible AI deployment.",
+      "content": "blog.html?post=ai-governance-2025-practical-guide",
+      "readTime": "8 min read",
+      "tags": [
+        "ai-governance",
+        "responsible-ai",
+        "compliance",
+        "eu-ai-act",
+        "risk-management",
+        "model-risk"
+      ],
+      "category": "Others",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2154
+    },
+    {
       "id": "platform-engineering-internal-developer-platforms",
       "title": "Platform Engineering in 2025: A Practical Guide to Building Internal Developer Platforms",
       "slug": "platform-engineering-internal-developer-platforms",
@@ -3073,6 +3096,12 @@
   ],
   "categories": [],
   "tags": [
+    "ai-governance",
+    "responsible-ai",
+    "compliance",
+    "eu-ai-act",
+    "risk-management",
+    "model-risk",
     "platform-engineering",
     "idp",
     "developer-experience",
@@ -3499,15 +3528,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 137,
-    "publishedPosts": 137,
+    "totalPosts": 138,
+    "publishedPosts": 138,
     "draftPosts": 0,
-    "featuredPosts": 137,
+    "featuredPosts": 138,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 424
+    "tagsCount": 430
   },
   "settings": {
     "postsPerPage": 12,
@@ -3518,5 +3547,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-11-03T10:02:10.649Z"
+  "generatedAt": "2026-11-04T10:03:19.605Z"
 }
