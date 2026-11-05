@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "webassembly-beyond-the-browser",
+      "title": "WebAssembly Beyond the Browser: A Developer's Guide to Wasm on the Backend and Edge",
+      "slug": "webassembly-beyond-the-browser",
+      "file": "developer/2026-11-05-webassembly-beyond-the-browser.md",
+      "date": "2026-11-05",
+      "excerpt": "Learn how WebAssembly powers backend and edge computing in 2025: WASI, the component model, runtimes, use cases, and a hands-on example.",
+      "content": "blog.html?post=webassembly-beyond-the-browser",
+      "readTime": "11 min read",
+      "tags": [
+        "webassembly",
+        "wasm",
+        "edge-computing",
+        "wasi",
+        "serverless",
+        "backend"
+      ],
+      "category": "Developer",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2778
+    },
+    {
       "id": "ai-governance-2025-practical-guide",
       "title": "AI Governance in 2025: A Practical Guide to Responsible AI Deployment",
       "slug": "ai-governance-2025-practical-guide",
@@ -3096,6 +3119,12 @@
   ],
   "categories": [],
   "tags": [
+    "webassembly",
+    "wasm",
+    "edge-computing",
+    "wasi",
+    "serverless",
+    "backend",
     "ai-governance",
     "responsible-ai",
     "compliance",
@@ -3498,7 +3527,6 @@
     "URL",
     "AI Tools",
     "projects",
-    "serverless",
     "terraform",
     "github",
     "matplotlib",
@@ -3528,15 +3556,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 138,
-    "publishedPosts": 138,
+    "totalPosts": 139,
+    "publishedPosts": 139,
     "draftPosts": 0,
-    "featuredPosts": 138,
+    "featuredPosts": 139,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 430
+    "tagsCount": 435
   },
   "settings": {
     "postsPerPage": 12,
@@ -3547,5 +3575,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-11-04T10:03:19.605Z"
+  "generatedAt": "2026-11-05T10:02:18.838Z"
 }
