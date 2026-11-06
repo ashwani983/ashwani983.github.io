@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "ai-powered-test-automation-guide",
+      "title": "AI-Powered Test Automation: A Practical Guide for Testers",
+      "slug": "ai-powered-test-automation-guide",
+      "file": "tester/2026-11-06-ai-powered-test-automation-guide.md",
+      "date": "2026-11-06",
+      "excerpt": "Discover how AI-powered test automation boosts test generation, self-healing, and failure analysis. Includes tools, examples, and best practices.",
+      "content": "blog.html?post=ai-powered-test-automation-guide",
+      "readTime": "9 min read",
+      "tags": [
+        "ai-testing",
+        "test-automation",
+        "self-healing-tests",
+        "qa",
+        "machine-learning",
+        "llm-testing"
+      ],
+      "category": "Tester",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2327
+    },
+    {
       "id": "webassembly-beyond-the-browser",
       "title": "WebAssembly Beyond the Browser: A Developer's Guide to Wasm on the Backend and Edge",
       "slug": "webassembly-beyond-the-browser",
@@ -3119,6 +3142,12 @@
   ],
   "categories": [],
   "tags": [
+    "ai-testing",
+    "test-automation",
+    "self-healing-tests",
+    "qa",
+    "machine-learning",
+    "llm-testing",
     "webassembly",
     "wasm",
     "edge-computing",
@@ -3140,11 +3169,8 @@
     "synthetic-data",
     "test-data-management",
     "privacy-testing",
-    "qa",
-    "test-automation",
     "data-generation",
     "llm-evals",
-    "ai-testing",
     "mlops",
     "quality-engineering",
     "prompt-engineering",
@@ -3556,15 +3582,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 139,
-    "publishedPosts": 139,
+    "totalPosts": 140,
+    "publishedPosts": 140,
     "draftPosts": 0,
-    "featuredPosts": 139,
+    "featuredPosts": 140,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 435
+    "tagsCount": 438
   },
   "settings": {
     "postsPerPage": 12,
@@ -3575,5 +3601,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-11-05T10:02:18.838Z"
+  "generatedAt": "2026-11-06T10:02:08.388Z"
 }
