@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "observability-2025-opentelemetry-guide",
+      "title": "Observability in 2025: A Practical Guide to OpenTelemetry and Unified Telemetry",
+      "slug": "observability-2025-opentelemetry-guide",
+      "file": "devops/2026-11-07-observability-2025-opentelemetry-guide.md",
+      "date": "2026-11-07",
+      "excerpt": "Learn how to unify logs, metrics, and traces with OpenTelemetry. A practical DevOps guide to building production-grade observability in 2025.",
+      "content": "blog.html?post=observability-2025-opentelemetry-guide",
+      "readTime": "7 min read",
+      "tags": [
+        "observability",
+        "opentelemetry",
+        "telemetry",
+        "monitoring",
+        "sre",
+        "devops"
+      ],
+      "category": "DevOps",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 1835
+    },
+    {
       "id": "ai-powered-test-automation-guide",
       "title": "AI-Powered Test Automation: A Practical Guide for Testers",
       "slug": "ai-powered-test-automation-guide",
@@ -3142,6 +3165,12 @@
   ],
   "categories": [],
   "tags": [
+    "observability",
+    "opentelemetry",
+    "telemetry",
+    "monitoring",
+    "sre",
+    "devops",
     "ai-testing",
     "test-automation",
     "self-healing-tests",
@@ -3163,7 +3192,6 @@
     "platform-engineering",
     "idp",
     "developer-experience",
-    "devops",
     "kubernetes",
     "golden-paths",
     "synthetic-data",
@@ -3191,7 +3219,6 @@
     "production",
     "orchestration",
     "guardrails",
-    "observability",
     "contract-testing",
     "microservices",
     "api-testing",
@@ -3582,15 +3609,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 140,
-    "publishedPosts": 140,
+    "totalPosts": 141,
+    "publishedPosts": 141,
     "draftPosts": 0,
-    "featuredPosts": 140,
+    "featuredPosts": 141,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 438
+    "tagsCount": 442
   },
   "settings": {
     "postsPerPage": 12,
@@ -3601,5 +3628,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-11-06T10:02:08.388Z"
+  "generatedAt": "2026-11-07T10:02:10.180Z"
 }
