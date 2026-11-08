@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "green-software-engineering-2025",
+      "title": "Green Software Engineering in 2025: A Practical Guide to Sustainable Applications",
+      "slug": "green-software-engineering-2025",
+      "file": "others/2026-11-08-green-software-engineering-2025.md",
+      "date": "2026-11-08",
+      "excerpt": "Learn how to measure and reduce your software's carbon footprint with green software engineering principles, tools, and real-world strategies for 2025.",
+      "content": "blog.html?post=green-software-engineering-2025",
+      "readTime": "11 min read",
+      "tags": [
+        "green-software",
+        "sustainability",
+        "carbon-footprint",
+        "energy-efficiency",
+        "cloud-computing",
+        "esg"
+      ],
+      "category": "Others",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2851
+    },
+    {
       "id": "observability-2025-opentelemetry-guide",
       "title": "Observability in 2025: A Practical Guide to OpenTelemetry and Unified Telemetry",
       "slug": "observability-2025-opentelemetry-guide",
@@ -3165,6 +3188,12 @@
   ],
   "categories": [],
   "tags": [
+    "green-software",
+    "sustainability",
+    "carbon-footprint",
+    "energy-efficiency",
+    "cloud-computing",
+    "esg",
     "observability",
     "opentelemetry",
     "telemetry",
@@ -3609,15 +3638,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 141,
-    "publishedPosts": 141,
+    "totalPosts": 142,
+    "publishedPosts": 142,
     "draftPosts": 0,
-    "featuredPosts": 141,
+    "featuredPosts": 142,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 442
+    "tagsCount": 448
   },
   "settings": {
     "postsPerPage": 12,
@@ -3628,5 +3657,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-11-07T10:02:10.180Z"
+  "generatedAt": "2026-11-08T10:02:30.181Z"
 }
