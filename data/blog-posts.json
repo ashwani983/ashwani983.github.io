@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "local-first-software-development-guide",
+      "title": "Local-First Software Development: A Practical Guide to Offline-First Architectures",
+      "slug": "local-first-software-development-guide",
+      "file": "developer/2026-11-09-local-first-software-development-guide.md",
+      "date": "2026-11-09",
+      "excerpt": "Learn how to build local-first apps with offline support, instant load times, and seamless sync. Explore CRDTs, sync engines, and real-world trade-offs.",
+      "content": "blog.html?post=local-first-software-development-guide",
+      "readTime": "12 min read",
+      "tags": [
+        "local-first",
+        "offline-first",
+        "crdt",
+        "sync",
+        "sqlite",
+        "architecture"
+      ],
+      "category": "Developer",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2993
+    },
+    {
       "id": "green-software-engineering-2025",
       "title": "Green Software Engineering in 2025: A Practical Guide to Sustainable Applications",
       "slug": "green-software-engineering-2025",
@@ -3188,6 +3211,12 @@
   ],
   "categories": [],
   "tags": [
+    "local-first",
+    "offline-first",
+    "crdt",
+    "sync",
+    "sqlite",
+    "architecture",
     "green-software",
     "sustainability",
     "carbon-footprint",
@@ -3638,15 +3667,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 142,
-    "publishedPosts": 142,
+    "totalPosts": 143,
+    "publishedPosts": 143,
     "draftPosts": 0,
-    "featuredPosts": 142,
+    "featuredPosts": 143,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 448
+    "tagsCount": 454
   },
   "settings": {
     "postsPerPage": 12,
@@ -3657,5 +3686,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-11-08T10:02:30.181Z"
+  "generatedAt": "2026-11-09T10:02:16.961Z"
 }
