@@ -24,6 +24,29 @@
       "_wordCount": 2616
     },
     {
+      "id": "mobile-app-testing-2026-appium-2-maestro-real-device-strategy",
+      "title": "Mobile App Testing in 2026 - Appium 2, Maestro and the Real-Device Strategy That Catches What Emulators Miss",
+      "slug": "mobile-app-testing-2026-appium-2-maestro-real-device-strategy",
+      "file": "tester/2026-11-10-mobile-app-testing-2026-appium-2-maestro-real-device-strategy.md",
+      "date": "2026-11-10",
+      "excerpt": "A practical guide to mobile test automation in 2026 with Appium 2 architecture, Maestro flows, device farms, and the emulator gaps that hide real bugs.",
+      "content": "blog.html?post=mobile-app-testing-2026-appium-2-maestro-real-device-strategy",
+      "readTime": "14 min read",
+      "tags": [
+        "Mobile Testing",
+        "Appium",
+        "Maestro",
+        "Test Automation",
+        "QA",
+        "Device Farms"
+      ],
+      "category": "Tester",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2968
+    },
+    {
       "id": "local-first-software-development-guide",
       "title": "Local-First Software Development: A Practical Guide to Offline-First Architectures",
       "slug": "local-first-software-development-guide",
@@ -3240,6 +3263,12 @@
     "screen-reader",
     "inclusive-design",
     "test-automation",
+    "Mobile Testing",
+    "Appium",
+    "Maestro",
+    "Test Automation",
+    "QA",
+    "Device Farms",
     "local-first",
     "offline-first",
     "crdt",
@@ -3356,8 +3385,6 @@
     "Exploratory Testing",
     "Session-Based Test Management",
     "Software Testing",
-    "QA",
-    "Test Automation",
     "Risk-Based Testing",
     "Local LLM",
     "Ollama",
@@ -3694,15 +3721,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 144,
-    "publishedPosts": 144,
+    "totalPosts": 145,
+    "publishedPosts": 145,
     "draftPosts": 0,
-    "featuredPosts": 144,
+    "featuredPosts": 145,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 458
+    "tagsCount": 462
   },
   "settings": {
     "postsPerPage": 12,
@@ -3713,5 +3740,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-11-10T10:02:19.236Z"
+  "generatedAt": "2026-11-10T10:03:07.622Z"
 }
