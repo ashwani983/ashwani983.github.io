@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "accessibility-testing-guide-2025",
+      "title": "Accessibility Testing in 2025: A Practical Guide for Testers",
+      "slug": "accessibility-testing-guide-2025",
+      "file": "tester/2026-11-10-accessibility-testing-guide-2025.md",
+      "date": "2026-11-10",
+      "excerpt": "Learn how to build a practical accessibility testing strategy in 2025: WCAG 2.2, automated tools, manual checks, and CI/CD integration for testers.",
+      "content": "blog.html?post=accessibility-testing-guide-2025",
+      "readTime": "10 min read",
+      "tags": [
+        "accessibility-testing",
+        "wcag",
+        "qa",
+        "screen-reader",
+        "inclusive-design",
+        "test-automation"
+      ],
+      "category": "Tester",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2616
+    },
+    {
       "id": "local-first-software-development-guide",
       "title": "Local-First Software Development: A Practical Guide to Offline-First Architectures",
       "slug": "local-first-software-development-guide",
@@ -3211,6 +3234,12 @@
   ],
   "categories": [],
   "tags": [
+    "accessibility-testing",
+    "wcag",
+    "qa",
+    "screen-reader",
+    "inclusive-design",
+    "test-automation",
     "local-first",
     "offline-first",
     "crdt",
@@ -3230,9 +3259,7 @@
     "sre",
     "devops",
     "ai-testing",
-    "test-automation",
     "self-healing-tests",
-    "qa",
     "machine-learning",
     "llm-testing",
     "webassembly",
@@ -3667,15 +3694,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 143,
-    "publishedPosts": 143,
+    "totalPosts": 144,
+    "publishedPosts": 144,
     "draftPosts": 0,
-    "featuredPosts": 143,
+    "featuredPosts": 144,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 454
+    "tagsCount": 458
   },
   "settings": {
     "postsPerPage": 12,
@@ -3686,5 +3713,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-11-09T10:02:16.961Z"
+  "generatedAt": "2026-11-10T10:02:19.236Z"
 }
