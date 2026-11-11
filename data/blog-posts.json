@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "policy-as-code-devops-guide",
+      "title": "Policy as Code in 2025: Automating Guardrails, Governance, and Compliance",
+      "slug": "policy-as-code-devops-guide",
+      "file": "devops/2026-11-11-policy-as-code-devops-guide.md",
+      "date": "2026-11-11",
+      "excerpt": "Learn how policy as code automates compliance, security guardrails, and governance across CI/CD and cloud platforms with OPA, Kyverno, and more.",
+      "content": "blog.html?post=policy-as-code-devops-guide",
+      "readTime": "10 min read",
+      "tags": [
+        "policy-as-code",
+        "opa",
+        "kyverno",
+        "governance",
+        "compliance",
+        "devsecops"
+      ],
+      "category": "DevOps",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2533
+    },
+    {
       "id": "accessibility-testing-guide-2025",
       "title": "Accessibility Testing in 2025: A Practical Guide for Testers",
       "slug": "accessibility-testing-guide-2025",
@@ -3257,6 +3280,12 @@
   ],
   "categories": [],
   "tags": [
+    "policy-as-code",
+    "opa",
+    "kyverno",
+    "governance",
+    "compliance",
+    "devsecops",
     "accessibility-testing",
     "wcag",
     "qa",
@@ -3299,7 +3328,6 @@
     "backend",
     "ai-governance",
     "responsible-ai",
-    "compliance",
     "eu-ai-act",
     "risk-management",
     "model-risk",
@@ -3721,15 +3749,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 145,
-    "publishedPosts": 145,
+    "totalPosts": 146,
+    "publishedPosts": 146,
     "draftPosts": 0,
-    "featuredPosts": 145,
+    "featuredPosts": 146,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 462
+    "tagsCount": 467
   },
   "settings": {
     "postsPerPage": 12,
@@ -3740,5 +3768,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-11-10T10:03:07.622Z"
+  "generatedAt": "2026-11-11T10:02:18.120Z"
 }
