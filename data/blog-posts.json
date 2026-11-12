@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "digital-twins-practical-guide",
+      "title": "Digital Twins in 2025: A Practical Guide to Building Virtual Replicas",
+      "slug": "digital-twins-practical-guide",
+      "file": "others/2026-11-12-digital-twins-practical-guide.md",
+      "date": "2026-11-12",
+      "excerpt": "Learn how digital twins work, their architecture, use cases, and how to build them. A practical guide for engineers and decision-makers.",
+      "content": "blog.html?post=digital-twins-practical-guide",
+      "readTime": "8 min read",
+      "tags": [
+        "digital-twins",
+        "iot",
+        "simulation",
+        "industry-4-0",
+        "data-analytics",
+        "virtual-replicas"
+      ],
+      "category": "Others",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2022
+    },
+    {
       "id": "policy-as-code-devops-guide",
       "title": "Policy as Code in 2025: Automating Guardrails, Governance, and Compliance",
       "slug": "policy-as-code-devops-guide",
@@ -3280,6 +3303,12 @@
   ],
   "categories": [],
   "tags": [
+    "digital-twins",
+    "iot",
+    "simulation",
+    "industry-4-0",
+    "data-analytics",
+    "virtual-replicas",
     "policy-as-code",
     "opa",
     "kyverno",
@@ -3749,15 +3778,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 146,
-    "publishedPosts": 146,
+    "totalPosts": 147,
+    "publishedPosts": 147,
     "draftPosts": 0,
-    "featuredPosts": 146,
+    "featuredPosts": 147,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 467
+    "tagsCount": 473
   },
   "settings": {
     "postsPerPage": 12,
@@ -3768,5 +3797,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-11-11T10:02:18.120Z"
+  "generatedAt": "2026-11-12T10:02:08.570Z"
 }
