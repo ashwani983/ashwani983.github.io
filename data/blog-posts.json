@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "ai-code-review-2025-practical-guide",
+      "title": "AI Code Review in 2025: A Practical Guide to Automated Pull Request Feedback",
+      "slug": "ai-code-review-2025-practical-guide",
+      "file": "developer/2026-11-13-ai-code-review-2025-practical-guide.md",
+      "date": "2026-11-13",
+      "excerpt": "Learn how AI code review tools analyze pull requests, catch bugs, and speed up delivery. A practical guide to integrating automated review into your dev workflow.",
+      "content": "blog.html?post=ai-code-review-2025-practical-guide",
+      "readTime": "8 min read",
+      "tags": [
+        "ai-code-review",
+        "llm",
+        "pull-requests",
+        "developer-tools",
+        "code-quality",
+        "automation"
+      ],
+      "category": "Developer",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2247
+    },
+    {
       "id": "digital-twins-practical-guide",
       "title": "Digital Twins in 2025: A Practical Guide to Building Virtual Replicas",
       "slug": "digital-twins-practical-guide",
@@ -3303,6 +3326,12 @@
   ],
   "categories": [],
   "tags": [
+    "ai-code-review",
+    "llm",
+    "pull-requests",
+    "developer-tools",
+    "code-quality",
+    "automation",
     "digital-twins",
     "iot",
     "simulation",
@@ -3373,7 +3402,6 @@
     "mlops",
     "quality-engineering",
     "prompt-engineering",
-    "developer-tools",
     "finops",
     "cloud-costs",
     "cost-optimization",
@@ -3386,7 +3414,6 @@
     "llm-tools",
     "json-rpc",
     "ai-agents",
-    "llm",
     "production",
     "orchestration",
     "guardrails",
@@ -3692,7 +3719,6 @@
     "SonarQube",
     "Web Testing",
     "ci-cd",
-    "automation",
     "cloud",
     "Data Structures",
     "Algorithms",
@@ -3778,15 +3804,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 147,
-    "publishedPosts": 147,
+    "totalPosts": 148,
+    "publishedPosts": 148,
     "draftPosts": 0,
-    "featuredPosts": 147,
+    "featuredPosts": 148,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 473
+    "tagsCount": 476
   },
   "settings": {
     "postsPerPage": 12,
@@ -3797,5 +3823,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-11-12T10:02:08.570Z"
+  "generatedAt": "2026-11-13T10:02:08.657Z"
 }
