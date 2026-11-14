@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "visual-regression-testing-guide-2025",
+      "title": "Visual Regression Testing in 2025: A Practical Guide for Testers",
+      "slug": "visual-regression-testing-guide-2025",
+      "file": "tester/2026-11-14-visual-regression-testing-guide-2025.md",
+      "date": "2026-11-14",
+      "excerpt": "Learn how visual regression testing catches UI bugs that functional tests miss. Tools, workflows, and best practices for testers in 2025.",
+      "content": "blog.html?post=visual-regression-testing-guide-2025",
+      "readTime": "9 min read",
+      "tags": [
+        "visual-regression-testing",
+        "ui-testing",
+        "screenshot-testing",
+        "qa",
+        "test-automation",
+        "frontend-testing"
+      ],
+      "category": "Tester",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2458
+    },
+    {
       "id": "ai-code-review-2025-practical-guide",
       "title": "AI Code Review in 2025: A Practical Guide to Automated Pull Request Feedback",
       "slug": "ai-code-review-2025-practical-guide",
@@ -3326,6 +3349,12 @@
   ],
   "categories": [],
   "tags": [
+    "visual-regression-testing",
+    "ui-testing",
+    "screenshot-testing",
+    "qa",
+    "test-automation",
+    "frontend-testing",
     "ai-code-review",
     "llm",
     "pull-requests",
@@ -3346,10 +3375,8 @@
     "devsecops",
     "accessibility-testing",
     "wcag",
-    "qa",
     "screen-reader",
     "inclusive-design",
-    "test-automation",
     "Mobile Testing",
     "Appium",
     "Maestro",
@@ -3804,15 +3831,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 148,
-    "publishedPosts": 148,
+    "totalPosts": 149,
+    "publishedPosts": 149,
     "draftPosts": 0,
-    "featuredPosts": 148,
+    "featuredPosts": 149,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 476
+    "tagsCount": 480
   },
   "settings": {
     "postsPerPage": 12,
@@ -3823,5 +3850,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-11-13T10:02:08.657Z"
+  "generatedAt": "2026-11-14T10:02:17.470Z"
 }
