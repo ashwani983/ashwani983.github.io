@@ -24,6 +24,29 @@
       "_wordCount": 1346
     },
     {
+      "id": "incident-management-blameless-postmortems-sre-playbook",
+      "title": "Incident Management and Blameless Postmortems - An SRE Playbook for On-Call, Severity Levels and Learning from Failure",
+      "slug": "incident-management-blameless-postmortems-sre-playbook",
+      "file": "devops/2026-11-15-incident-management-blameless-postmortems-sre-playbook.md",
+      "date": "2026-11-15",
+      "excerpt": "A practical guide to incident management, on-call rotations, severity levels and blameless postmortems that turn failures into reliability gains.",
+      "content": "blog.html?post=incident-management-blameless-postmortems-sre-playbook",
+      "readTime": "15 min read",
+      "tags": [
+        "Incident Management",
+        "SRE",
+        "DevOps",
+        "Postmortems",
+        "On-Call",
+        "Reliability"
+      ],
+      "category": "DevOps",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 3104
+    },
+    {
       "id": "visual-regression-testing-guide-2025",
       "title": "Visual Regression Testing in 2025: A Practical Guide for Testers",
       "slug": "visual-regression-testing-guide-2025",
@@ -3378,6 +3401,12 @@
     "devops",
     "reliability",
     "testing",
+    "Incident Management",
+    "SRE",
+    "DevOps",
+    "Postmortems",
+    "On-Call",
+    "Reliability",
     "visual-regression-testing",
     "ui-testing",
     "screenshot-testing",
@@ -3493,7 +3522,6 @@
     "Linux",
     "KVM",
     "QEMU",
-    "DevOps",
     "Kubernetes",
     "Gateway API",
     "Ingress",
@@ -3572,7 +3600,6 @@
     "Email Deliverability",
     "DORA Metrics",
     "Software Delivery",
-    "SRE",
     "CI/CD",
     "Engineering Productivity",
     "Test Impact Analysis",
@@ -3628,7 +3655,6 @@
     "eBPF",
     "Synthetic Monitoring",
     "Observability",
-    "Reliability",
     "Temporal",
     "Durable Execution",
     "Post-Quantum Cryptography",
@@ -3858,15 +3884,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 150,
-    "publishedPosts": 150,
+    "totalPosts": 151,
+    "publishedPosts": 151,
     "draftPosts": 0,
-    "featuredPosts": 150,
+    "featuredPosts": 151,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 484
+    "tagsCount": 487
   },
   "settings": {
     "postsPerPage": 12,
@@ -3877,5 +3903,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-11-15T10:02:01.947Z"
+  "generatedAt": "2026-11-15T23:00:24.997Z"
 }
