@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "chaos-engineering-guide-2025",
+      "title": "Chaos Engineering in 2025: A Practical Guide to Building Resilient Systems",
+      "slug": "chaos-engineering-guide-2025",
+      "file": "devops/2026-11-15-chaos-engineering-guide-2025.md",
+      "date": "2026-11-15",
+      "excerpt": "Learn how to implement chaos engineering in 2025: key principles, tools like Litmus and Chaos Mesh, and a step-by-step guide to building resilient systems.",
+      "content": "blog.html?post=chaos-engineering-guide-2025",
+      "readTime": "5 min read",
+      "tags": [
+        "chaos-engineering",
+        "resilience",
+        "sre",
+        "devops",
+        "reliability",
+        "testing"
+      ],
+      "category": "DevOps",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 1346
+    },
+    {
       "id": "visual-regression-testing-guide-2025",
       "title": "Visual Regression Testing in 2025: A Practical Guide for Testers",
       "slug": "visual-regression-testing-guide-2025",
@@ -3349,6 +3372,12 @@
   ],
   "categories": [],
   "tags": [
+    "chaos-engineering",
+    "resilience",
+    "sre",
+    "devops",
+    "reliability",
+    "testing",
     "visual-regression-testing",
     "ui-testing",
     "screenshot-testing",
@@ -3399,8 +3428,6 @@
     "opentelemetry",
     "telemetry",
     "monitoring",
-    "sre",
-    "devops",
     "ai-testing",
     "self-healing-tests",
     "machine-learning",
@@ -3831,15 +3858,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 149,
-    "publishedPosts": 149,
+    "totalPosts": 150,
+    "publishedPosts": 150,
     "draftPosts": 0,
-    "featuredPosts": 149,
+    "featuredPosts": 150,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 480
+    "tagsCount": 484
   },
   "settings": {
     "postsPerPage": 12,
@@ -3850,5 +3877,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-11-14T10:02:17.470Z"
+  "generatedAt": "2026-11-15T10:02:01.947Z"
 }
