@@ -135,17 +135,6 @@
     --spacing-2xl: 3rem;
   }
 
-  /* Card-style vertical snapping between sections */
-  html {
-    scroll-snap-type: y proximity;
-  }
-
-  main > section {
-    scroll-snap-align: start;
-    scroll-margin-top: 60px;
-    scroll-snap-stop: always;
-  }
-
   .container {
     padding: 0 var(--spacing-sm);
   }
