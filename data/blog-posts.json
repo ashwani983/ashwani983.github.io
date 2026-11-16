@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "post-quantum-cryptography-guide-2026",
+      "title": "Post-Quantum Cryptography in 2026: A Practical Guide to Future-Proofing Your Security",
+      "slug": "post-quantum-cryptography-guide-2026",
+      "file": "others/2026-11-16-post-quantum-cryptography-guide-2026.md",
+      "date": "2026-11-16",
+      "excerpt": "Learn how to migrate to NIST post-quantum algorithms (ML-KEM, ML-DSA) in 2026: crypto agility, hybrid TLS, and a step-by-step readiness plan.",
+      "content": "blog.html?post=post-quantum-cryptography-guide-2026",
+      "readTime": "8 min read",
+      "tags": [
+        "post-quantum-cryptography",
+        "quantum-safe",
+        "nist",
+        "cryptography",
+        "crypto-agility",
+        "security-migration"
+      ],
+      "category": "Others",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2180
+    },
+    {
       "id": "chaos-engineering-guide-2025",
       "title": "Chaos Engineering in 2025: A Practical Guide to Building Resilient Systems",
       "slug": "chaos-engineering-guide-2025",
@@ -3395,6 +3418,12 @@
   ],
   "categories": [],
   "tags": [
+    "post-quantum-cryptography",
+    "quantum-safe",
+    "nist",
+    "cryptography",
+    "crypto-agility",
+    "security-migration",
     "chaos-engineering",
     "resilience",
     "sre",
@@ -3884,15 +3913,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 151,
-    "publishedPosts": 151,
+    "totalPosts": 152,
+    "publishedPosts": 152,
     "draftPosts": 0,
-    "featuredPosts": 151,
+    "featuredPosts": 152,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 487
+    "tagsCount": 493
   },
   "settings": {
     "postsPerPage": 12,
@@ -3903,5 +3932,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-11-15T23:00:24.997Z"
+  "generatedAt": "2026-11-16T10:01:45.885Z"
 }
