@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "on-device-ai-deploying-small-language-models",
+      "title": "On-Device AI in 2026: A Developer's Guide to Deploying Small Language Models",
+      "slug": "on-device-ai-deploying-small-language-models",
+      "file": "developer/2026-11-17-on-device-ai-deploying-small-language-models.md",
+      "date": "2026-11-17",
+      "excerpt": "Learn how to deploy small language models on-device in 2026: runtimes, quantization, hardware acceleration, hybrid architecture, and real-world patterns.",
+      "content": "blog.html?post=on-device-ai-deploying-small-language-models",
+      "readTime": "11 min read",
+      "tags": [
+        "on-device-ai",
+        "small-language-models",
+        "llm-inference",
+        "quantization",
+        "edge-ai",
+        "mlops"
+      ],
+      "category": "Developer",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2559
+    },
+    {
       "id": "post-quantum-cryptography-guide-2026",
       "title": "Post-Quantum Cryptography in 2026: A Practical Guide to Future-Proofing Your Security",
       "slug": "post-quantum-cryptography-guide-2026",
@@ -3418,6 +3441,12 @@
   ],
   "categories": [],
   "tags": [
+    "on-device-ai",
+    "small-language-models",
+    "llm-inference",
+    "quantization",
+    "edge-ai",
+    "mlops",
     "post-quantum-cryptography",
     "quantum-safe",
     "nist",
@@ -3511,7 +3540,6 @@
     "privacy-testing",
     "data-generation",
     "llm-evals",
-    "mlops",
     "quality-engineering",
     "prompt-engineering",
     "finops",
@@ -3913,15 +3941,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 152,
-    "publishedPosts": 152,
+    "totalPosts": 153,
+    "publishedPosts": 153,
     "draftPosts": 0,
-    "featuredPosts": 152,
+    "featuredPosts": 153,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 493
+    "tagsCount": 498
   },
   "settings": {
     "postsPerPage": 12,
@@ -3932,5 +3960,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-11-16T10:01:45.885Z"
+  "generatedAt": "2026-11-17T10:02:15.452Z"
 }
