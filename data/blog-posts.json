@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "testing-ai-agents-2026",
+      "title": "Testing AI Agents in 2026: A Practical Guide for QA Engineers",
+      "slug": "testing-ai-agents-2026",
+      "file": "tester/2026-11-18-testing-ai-agents-2026.md",
+      "date": "2026-11-18",
+      "excerpt": "Learn how to test AI agents in 2026: component tests, evals, simulation, and adversarial red-teaming for reliable agentic systems.",
+      "content": "blog.html?post=testing-ai-agents-2026",
+      "readTime": "10 min read",
+      "tags": [
+        "ai-agents",
+        "agent-testing",
+        "qa",
+        "llm-testing",
+        "test-automation",
+        "eval"
+      ],
+      "category": "Tester",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2395
+    },
+    {
       "id": "on-device-ai-deploying-small-language-models",
       "title": "On-Device AI in 2026: A Developer's Guide to Deploying Small Language Models",
       "slug": "on-device-ai-deploying-small-language-models",
@@ -3441,6 +3464,12 @@
   ],
   "categories": [],
   "tags": [
+    "ai-agents",
+    "agent-testing",
+    "qa",
+    "llm-testing",
+    "test-automation",
+    "eval",
     "on-device-ai",
     "small-language-models",
     "llm-inference",
@@ -3468,8 +3497,6 @@
     "visual-regression-testing",
     "ui-testing",
     "screenshot-testing",
-    "qa",
-    "test-automation",
     "frontend-testing",
     "ai-code-review",
     "llm",
@@ -3518,7 +3545,6 @@
     "ai-testing",
     "self-healing-tests",
     "machine-learning",
-    "llm-testing",
     "webassembly",
     "wasm",
     "edge-computing",
@@ -3553,7 +3579,6 @@
     "ai-integration",
     "llm-tools",
     "json-rpc",
-    "ai-agents",
     "production",
     "orchestration",
     "guardrails",
@@ -3941,15 +3966,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 153,
-    "publishedPosts": 153,
+    "totalPosts": 154,
+    "publishedPosts": 154,
     "draftPosts": 0,
-    "featuredPosts": 153,
+    "featuredPosts": 154,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 498
+    "tagsCount": 500
   },
   "settings": {
     "postsPerPage": 12,
@@ -3960,5 +3985,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-11-17T10:02:15.452Z"
+  "generatedAt": "2026-11-18T10:02:21.081Z"
 }
