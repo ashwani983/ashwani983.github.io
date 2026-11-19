@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "software-supply-chain-security-2026",
+      "title": "Software Supply Chain Security in 2026: A Practical Guide to SLSA, SBOM, and Attestation",
+      "slug": "software-supply-chain-security-2026",
+      "file": "devops/2026-11-19-software-supply-chain-security-2026.md",
+      "date": "2026-11-19",
+      "excerpt": "Secure your software supply chain in 2026 with SBOMs, SLSA levels, Sigstore signing, and policy enforcement. Includes a real-world case study.",
+      "content": "blog.html?post=software-supply-chain-security-2026",
+      "readTime": "10 min read",
+      "tags": [
+        "supply-chain-security",
+        "slsa",
+        "sbom",
+        "devsecops",
+        "ci-cd",
+        "attestation"
+      ],
+      "category": "DevOps",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2629
+    },
+    {
       "id": "testing-ai-agents-2026",
       "title": "Testing AI Agents in 2026: A Practical Guide for QA Engineers",
       "slug": "testing-ai-agents-2026",
@@ -3464,6 +3487,12 @@
   ],
   "categories": [],
   "tags": [
+    "supply-chain-security",
+    "slsa",
+    "sbom",
+    "devsecops",
+    "ci-cd",
+    "attestation",
     "ai-agents",
     "agent-testing",
     "qa",
@@ -3515,7 +3544,6 @@
     "kyverno",
     "governance",
     "compliance",
-    "devsecops",
     "accessibility-testing",
     "wcag",
     "screen-reader",
@@ -3880,7 +3908,6 @@
     "Cloud Infrastructure",
     "SonarQube",
     "Web Testing",
-    "ci-cd",
     "cloud",
     "Data Structures",
     "Algorithms",
@@ -3966,15 +3993,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 154,
-    "publishedPosts": 154,
+    "totalPosts": 155,
+    "publishedPosts": 155,
     "draftPosts": 0,
-    "featuredPosts": 154,
+    "featuredPosts": 155,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 500
+    "tagsCount": 504
   },
   "settings": {
     "postsPerPage": 12,
@@ -3985,5 +4012,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-11-18T10:02:21.081Z"
+  "generatedAt": "2026-11-19T10:02:16.100Z"
 }
