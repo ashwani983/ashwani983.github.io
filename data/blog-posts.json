@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "ai-for-science-2026",
+      "title": "AI for Science in 2026: How Foundation Models Are Accelerating Discovery",
+      "slug": "ai-for-science-2026",
+      "file": "others/2026-11-20-ai-for-science-2026.md",
+      "date": "2026-11-20",
+      "excerpt": "Learn how foundation models are accelerating scientific discovery in 2026 — from protein folding to materials design — plus workflows, challenges, and tools.",
+      "content": "blog.html?post=ai-for-science-2026",
+      "readTime": "10 min read",
+      "tags": [
+        "ai-for-science",
+        "foundation-models",
+        "scientific-discovery",
+        "machine-learning",
+        "materials-design",
+        "protein-folding"
+      ],
+      "category": "Others",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2542
+    },
+    {
       "id": "software-supply-chain-security-2026",
       "title": "Software Supply Chain Security in 2026: A Practical Guide to SLSA, SBOM, and Attestation",
       "slug": "software-supply-chain-security-2026",
@@ -3487,6 +3510,12 @@
   ],
   "categories": [],
   "tags": [
+    "ai-for-science",
+    "foundation-models",
+    "scientific-discovery",
+    "machine-learning",
+    "materials-design",
+    "protein-folding",
     "supply-chain-security",
     "slsa",
     "sbom",
@@ -3572,7 +3601,6 @@
     "monitoring",
     "ai-testing",
     "self-healing-tests",
-    "machine-learning",
     "webassembly",
     "wasm",
     "edge-computing",
@@ -3993,15 +4021,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 155,
-    "publishedPosts": 155,
+    "totalPosts": 156,
+    "publishedPosts": 156,
     "draftPosts": 0,
-    "featuredPosts": 155,
+    "featuredPosts": 156,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 504
+    "tagsCount": 509
   },
   "settings": {
     "postsPerPage": 12,
@@ -4012,5 +4040,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-11-19T10:02:16.100Z"
+  "generatedAt": "2026-11-20T10:02:24.320Z"
 }
