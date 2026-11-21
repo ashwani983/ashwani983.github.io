@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "diffusion-llms-developer-guide",
+      "title": "Diffusion LLMs in 2026: A Developer's Guide to Parallel Token Generation",
+      "slug": "diffusion-llms-developer-guide",
+      "file": "developer/2026-11-21-diffusion-llms-developer-guide.md",
+      "date": "2026-11-21",
+      "excerpt": "Learn how diffusion LLMs work, why they beat autoregressive models on speed and cost, and how to build structured AI apps with parallel token generation in 2026.",
+      "content": "blog.html?post=diffusion-llms-developer-guide",
+      "readTime": "10 min read",
+      "tags": [
+        "diffusion-llms",
+        "llm-inference",
+        "parallel-generation",
+        "structured-output",
+        "ai-development",
+        "generative-ai"
+      ],
+      "category": "Developer",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2660
+    },
+    {
       "id": "ai-for-science-2026",
       "title": "AI for Science in 2026: How Foundation Models Are Accelerating Discovery",
       "slug": "ai-for-science-2026",
@@ -3510,6 +3533,12 @@
   ],
   "categories": [],
   "tags": [
+    "diffusion-llms",
+    "llm-inference",
+    "parallel-generation",
+    "structured-output",
+    "ai-development",
+    "generative-ai",
     "ai-for-science",
     "foundation-models",
     "scientific-discovery",
@@ -3530,7 +3559,6 @@
     "eval",
     "on-device-ai",
     "small-language-models",
-    "llm-inference",
     "quantization",
     "edge-ai",
     "mlops",
@@ -4021,15 +4049,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 156,
-    "publishedPosts": 156,
+    "totalPosts": 157,
+    "publishedPosts": 157,
     "draftPosts": 0,
-    "featuredPosts": 156,
+    "featuredPosts": 157,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 509
+    "tagsCount": 514
   },
   "settings": {
     "postsPerPage": 12,
@@ -4040,5 +4068,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-11-20T10:02:24.320Z"
+  "generatedAt": "2026-11-21T10:02:14.449Z"
 }
