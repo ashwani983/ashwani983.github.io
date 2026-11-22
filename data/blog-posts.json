@@ -1,6 +1,28 @@
 {
   "posts": [
     {
+      "id": "mutation-testing-guide-2026",
+      "title": "Mutation Testing in 2026: A Practical Guide to Measuring Test Suite Effectiveness",
+      "slug": "mutation-testing-guide-2026",
+      "file": "tester/2026-11-22-mutation-testing-guide-2026.md",
+      "date": "2026-11-22",
+      "excerpt": "Learn how mutation testing measures your test suite's true effectiveness in 2026. A practical guide to tools, workflows, and CI integration for QA engineers.",
+      "content": "blog.html?post=mutation-testing-guide-2026",
+      "readTime": "10 min read",
+      "tags": [
+        "mutation-testing",
+        "test-quality",
+        "qa",
+        "test-automation",
+        "code-coverage"
+      ],
+      "category": "Tester",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2508
+    },
+    {
       "id": "diffusion-llms-developer-guide",
       "title": "Diffusion LLMs in 2026: A Developer's Guide to Parallel Token Generation",
       "slug": "diffusion-llms-developer-guide",
@@ -3533,6 +3555,11 @@
   ],
   "categories": [],
   "tags": [
+    "mutation-testing",
+    "test-quality",
+    "qa",
+    "test-automation",
+    "code-coverage",
     "diffusion-llms",
     "llm-inference",
     "parallel-generation",
@@ -3553,9 +3580,7 @@
     "attestation",
     "ai-agents",
     "agent-testing",
-    "qa",
     "llm-testing",
-    "test-automation",
     "eval",
     "on-device-ai",
     "small-language-models",
@@ -4049,15 +4074,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 157,
-    "publishedPosts": 157,
+    "totalPosts": 158,
+    "publishedPosts": 158,
     "draftPosts": 0,
-    "featuredPosts": 157,
+    "featuredPosts": 158,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 514
+    "tagsCount": 517
   },
   "settings": {
     "postsPerPage": 12,
@@ -4068,5 +4093,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-11-21T10:02:14.449Z"
+  "generatedAt": "2026-11-22T10:02:14.782Z"
 }
