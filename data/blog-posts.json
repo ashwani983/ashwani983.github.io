@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "ephemeral-environments-2026-practical-guide",
+      "title": "Ephemeral Environments in 2026: A Practical Guide to Short-Lived Preview Infrastructure",
+      "slug": "ephemeral-environments-2026-practical-guide",
+      "file": "devops/2026-11-23-ephemeral-environments-2026-practical-guide.md",
+      "date": "2026-11-23",
+      "excerpt": "How ephemeral environments create short-lived preview infrastructure per PR, accelerating testing, cutting costs, and boosting developer experience in 2026.",
+      "content": "blog.html?post=ephemeral-environments-2026-practical-guide",
+      "readTime": "8 min read",
+      "tags": [
+        "ephemeral-environments",
+        "preview-environments",
+        "devops",
+        "kubernetes",
+        "ci-cd",
+        "developer-experience"
+      ],
+      "category": "DevOps",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2037
+    },
+    {
       "id": "mutation-testing-guide-2026",
       "title": "Mutation Testing in 2026: A Practical Guide to Measuring Test Suite Effectiveness",
       "slug": "mutation-testing-guide-2026",
@@ -3555,6 +3578,12 @@
   ],
   "categories": [],
   "tags": [
+    "ephemeral-environments",
+    "preview-environments",
+    "devops",
+    "kubernetes",
+    "ci-cd",
+    "developer-experience",
     "mutation-testing",
     "test-quality",
     "qa",
@@ -3576,7 +3605,6 @@
     "slsa",
     "sbom",
     "devsecops",
-    "ci-cd",
     "attestation",
     "ai-agents",
     "agent-testing",
@@ -3596,7 +3624,6 @@
     "chaos-engineering",
     "resilience",
     "sre",
-    "devops",
     "reliability",
     "testing",
     "Incident Management",
@@ -3667,8 +3694,6 @@
     "model-risk",
     "platform-engineering",
     "idp",
-    "developer-experience",
-    "kubernetes",
     "golden-paths",
     "synthetic-data",
     "test-data-management",
@@ -4074,15 +4099,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 158,
-    "publishedPosts": 158,
+    "totalPosts": 159,
+    "publishedPosts": 159,
     "draftPosts": 0,
-    "featuredPosts": 158,
+    "featuredPosts": 159,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 517
+    "tagsCount": 519
   },
   "settings": {
     "postsPerPage": 12,
@@ -4093,5 +4118,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-11-22T10:02:14.782Z"
+  "generatedAt": "2026-11-23T10:02:47.117Z"
 }
