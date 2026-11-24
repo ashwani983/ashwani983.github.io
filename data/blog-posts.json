@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "neuromorphic-computing-2026-brain-inspired-ai-hardware",
+      "title": "Neuromorphic Computing in 2026: A Practical Guide to Brain-Inspired AI Hardware",
+      "slug": "neuromorphic-computing-2026-brain-inspired-ai-hardware",
+      "file": "others/2026-11-24-neuromorphic-computing-2026-brain-inspired-ai-hardware.md",
+      "date": "2026-11-24",
+      "excerpt": "Explore how neuromorphic chips mimic the brain to slash AI energy use. Architecture, use cases, and adoption guidance for 2026.",
+      "content": "blog.html?post=neuromorphic-computing-2026-brain-inspired-ai-hardware",
+      "readTime": "10 min read",
+      "tags": [
+        "neuromorphic-computing",
+        "brain-inspired-computing",
+        "ai-hardware",
+        "edge-ai",
+        "low-power-ai",
+        "spiking-neural-networks"
+      ],
+      "category": "Others",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2493
+    },
+    {
       "id": "ephemeral-environments-2026-practical-guide",
       "title": "Ephemeral Environments in 2026: A Practical Guide to Short-Lived Preview Infrastructure",
       "slug": "ephemeral-environments-2026-practical-guide",
@@ -3578,6 +3601,12 @@
   ],
   "categories": [],
   "tags": [
+    "neuromorphic-computing",
+    "brain-inspired-computing",
+    "ai-hardware",
+    "edge-ai",
+    "low-power-ai",
+    "spiking-neural-networks",
     "ephemeral-environments",
     "preview-environments",
     "devops",
@@ -3613,7 +3642,6 @@
     "on-device-ai",
     "small-language-models",
     "quantization",
-    "edge-ai",
     "mlops",
     "post-quantum-cryptography",
     "quantum-safe",
@@ -4099,15 +4127,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 159,
-    "publishedPosts": 159,
+    "totalPosts": 160,
+    "publishedPosts": 160,
     "draftPosts": 0,
-    "featuredPosts": 159,
+    "featuredPosts": 160,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 519
+    "tagsCount": 524
   },
   "settings": {
     "postsPerPage": 12,
@@ -4118,5 +4146,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-11-23T10:02:47.117Z"
+  "generatedAt": "2026-11-24T10:02:09.955Z"
 }
