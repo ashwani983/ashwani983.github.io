@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "llm-security-prompt-injection-2026",
+      "title": "LLM Security in 2026: A Developer's Guide to Defending Against Prompt Injection",
+      "slug": "llm-security-prompt-injection-2026",
+      "file": "developer/2026-11-25-llm-security-prompt-injection-2026.md",
+      "date": "2026-11-25",
+      "excerpt": "Learn how to defend your LLM apps against prompt injection in 2026. Covers attack vectors, defense layers, agent security, and practical guardrails.",
+      "content": "blog.html?post=llm-security-prompt-injection-2026",
+      "readTime": "7 min read",
+      "tags": [
+        "llm-security",
+        "prompt-injection",
+        "ai-security",
+        "guardrails",
+        "agent-security",
+        "secure-coding"
+      ],
+      "category": "Developer",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 1887
+    },
+    {
       "id": "neuromorphic-computing-2026-brain-inspired-ai-hardware",
       "title": "Neuromorphic Computing in 2026: A Practical Guide to Brain-Inspired AI Hardware",
       "slug": "neuromorphic-computing-2026-brain-inspired-ai-hardware",
@@ -3601,6 +3624,12 @@
   ],
   "categories": [],
   "tags": [
+    "llm-security",
+    "prompt-injection",
+    "ai-security",
+    "guardrails",
+    "agent-security",
+    "secure-coding",
     "neuromorphic-computing",
     "brain-inspired-computing",
     "ai-hardware",
@@ -3743,7 +3772,6 @@
     "json-rpc",
     "production",
     "orchestration",
-    "guardrails",
     "contract-testing",
     "microservices",
     "api-testing",
@@ -4127,15 +4155,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 160,
-    "publishedPosts": 160,
+    "totalPosts": 161,
+    "publishedPosts": 161,
     "draftPosts": 0,
-    "featuredPosts": 160,
+    "featuredPosts": 161,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 524
+    "tagsCount": 529
   },
   "settings": {
     "postsPerPage": 12,
@@ -4146,5 +4174,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-11-24T10:02:09.955Z"
+  "generatedAt": "2026-11-25T10:02:18.521Z"
 }
