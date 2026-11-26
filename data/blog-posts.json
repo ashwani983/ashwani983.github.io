@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "ai-performance-testing-guide-2026",
+      "title": "Performance Testing for AI Applications in 2026: A Practical Guide for Testers",
+      "slug": "ai-performance-testing-guide-2026",
+      "file": "tester/2026-11-26-ai-performance-testing-guide-2026.md",
+      "date": "2026-11-26",
+      "excerpt": "Learn to performance test AI-powered apps in 2026: TTFT, token throughput, load testing LLM endpoints, cost budgets, and streaming-aware tools.",
+      "content": "blog.html?post=ai-performance-testing-guide-2026",
+      "readTime": "7 min read",
+      "tags": [
+        "performance-testing",
+        "ai-testing",
+        "llm-latency",
+        "load-testing",
+        "qa",
+        "cost-testing"
+      ],
+      "category": "Tester",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 1840
+    },
+    {
       "id": "llm-security-prompt-injection-2026",
       "title": "LLM Security in 2026: A Developer's Guide to Defending Against Prompt Injection",
       "slug": "llm-security-prompt-injection-2026",
@@ -3624,6 +3647,12 @@
   ],
   "categories": [],
   "tags": [
+    "performance-testing",
+    "ai-testing",
+    "llm-latency",
+    "load-testing",
+    "qa",
+    "cost-testing",
     "llm-security",
     "prompt-injection",
     "ai-security",
@@ -3644,7 +3673,6 @@
     "developer-experience",
     "mutation-testing",
     "test-quality",
-    "qa",
     "test-automation",
     "code-coverage",
     "diffusion-llms",
@@ -3736,7 +3764,6 @@
     "opentelemetry",
     "telemetry",
     "monitoring",
-    "ai-testing",
     "self-healing-tests",
     "webassembly",
     "wasm",
@@ -4155,15 +4182,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 161,
-    "publishedPosts": 161,
+    "totalPosts": 162,
+    "publishedPosts": 162,
     "draftPosts": 0,
-    "featuredPosts": 161,
+    "featuredPosts": 162,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 529
+    "tagsCount": 533
   },
   "settings": {
     "postsPerPage": 12,
@@ -4174,5 +4201,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-11-25T10:02:18.521Z"
+  "generatedAt": "2026-11-26T10:02:16.353Z"
 }
