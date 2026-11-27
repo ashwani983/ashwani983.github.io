@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "ai-agents-for-devops-2026",
+      "title": "AI Agents for DevOps in 2026: Automating Incident Response and Self-Healing Infrastructure",
+      "slug": "ai-agents-for-devops-2026",
+      "file": "devops/2026-11-27-ai-agents-for-devops-2026.md",
+      "date": "2026-11-27",
+      "excerpt": "Learn how AI agents transform DevOps in 2026: autonomous incident response, self-healing infrastructure, guardrails, and best practices for safe adoption.",
+      "content": "blog.html?post=ai-agents-for-devops-2026",
+      "readTime": "9 min read",
+      "tags": [
+        "ai-agents",
+        "devops",
+        "incident-response",
+        "self-healing",
+        "sre",
+        "automation"
+      ],
+      "category": "DevOps",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2222
+    },
+    {
       "id": "ai-performance-testing-guide-2026",
       "title": "Performance Testing for AI Applications in 2026: A Practical Guide for Testers",
       "slug": "ai-performance-testing-guide-2026",
@@ -3647,6 +3670,12 @@
   ],
   "categories": [],
   "tags": [
+    "ai-agents",
+    "devops",
+    "incident-response",
+    "self-healing",
+    "sre",
+    "automation",
     "performance-testing",
     "ai-testing",
     "llm-latency",
@@ -3667,7 +3696,6 @@
     "spiking-neural-networks",
     "ephemeral-environments",
     "preview-environments",
-    "devops",
     "kubernetes",
     "ci-cd",
     "developer-experience",
@@ -3692,7 +3720,6 @@
     "sbom",
     "devsecops",
     "attestation",
-    "ai-agents",
     "agent-testing",
     "llm-testing",
     "eval",
@@ -3708,7 +3735,6 @@
     "security-migration",
     "chaos-engineering",
     "resilience",
-    "sre",
     "reliability",
     "testing",
     "Incident Management",
@@ -3726,7 +3752,6 @@
     "pull-requests",
     "developer-tools",
     "code-quality",
-    "automation",
     "digital-twins",
     "iot",
     "simulation",
@@ -4182,15 +4207,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 162,
-    "publishedPosts": 162,
+    "totalPosts": 163,
+    "publishedPosts": 163,
     "draftPosts": 0,
-    "featuredPosts": 162,
+    "featuredPosts": 163,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 533
+    "tagsCount": 535
   },
   "settings": {
     "postsPerPage": 12,
@@ -4201,5 +4226,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-11-26T10:02:16.353Z"
+  "generatedAt": "2026-11-27T10:02:10.265Z"
 }
