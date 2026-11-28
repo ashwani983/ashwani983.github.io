@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "humanoid-robots-2026-embodied-ai-guide",
+      "title": "Humanoid Robots in 2026: A Practical Guide to Embodied AI and General-Purpose Automation",
+      "slug": "humanoid-robots-2026-embodied-ai-guide",
+      "file": "others/2026-11-28-humanoid-robots-2026-embodied-ai-guide.md",
+      "date": "2026-11-28",
+      "excerpt": "From VLA foundation models to factory floors: explore how humanoid robots are maturing in 2026, the tech stack behind them, and what to watch next.",
+      "content": "blog.html?post=humanoid-robots-2026-embodied-ai-guide",
+      "readTime": "9 min read",
+      "tags": [
+        "humanoid-robots",
+        "embodied-ai",
+        "robotics",
+        "vla-models",
+        "ai-hardware",
+        "automation"
+      ],
+      "category": "Others",
+      "image": null,
+      "published": true,
+      "source": "native",
+      "_wordCount": 2227
+    },
+    {
       "id": "ai-agents-for-devops-2026",
       "title": "AI Agents for DevOps in 2026: Automating Incident Response and Self-Healing Infrastructure",
       "slug": "ai-agents-for-devops-2026",
@@ -3670,12 +3693,17 @@
   ],
   "categories": [],
   "tags": [
+    "humanoid-robots",
+    "embodied-ai",
+    "robotics",
+    "vla-models",
+    "ai-hardware",
+    "automation",
     "ai-agents",
     "devops",
     "incident-response",
     "self-healing",
     "sre",
-    "automation",
     "performance-testing",
     "ai-testing",
     "llm-latency",
@@ -3690,7 +3718,6 @@
     "secure-coding",
     "neuromorphic-computing",
     "brain-inspired-computing",
-    "ai-hardware",
     "edge-ai",
     "low-power-ai",
     "spiking-neural-networks",
@@ -4207,15 +4234,15 @@
     "website"
   ],
   "stats": {
-    "totalPosts": 163,
-    "publishedPosts": 163,
+    "totalPosts": 164,
+    "publishedPosts": 164,
     "draftPosts": 0,
-    "featuredPosts": 163,
+    "featuredPosts": 164,
     "totalViews": 0,
     "totalLikes": 0,
     "totalComments": 0,
     "categoriesCount": 4,
-    "tagsCount": 535
+    "tagsCount": 539
   },
   "settings": {
     "postsPerPage": 12,
@@ -4226,5 +4253,5 @@
     "enableCategoryFiltering": true,
     "defaultSortOrder": "date-desc"
   },
-  "generatedAt": "2026-11-27T10:02:10.265Z"
+  "generatedAt": "2026-11-28T10:02:25.084Z"
 }
